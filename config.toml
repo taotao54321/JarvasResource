@@ -1,0 +1,6 @@
+base_url = "https://taotao54321.github.io/JarvasResource"
+
+[markdown]
+highlight_code = true
+
+[extra]
