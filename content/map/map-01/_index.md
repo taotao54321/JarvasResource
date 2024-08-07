@@ -11,10 +11,10 @@ title = "エウロン西地方"
 </defs>
 <use href="#svg-asset-bg" x="0" y="0"></use>
 <a href="#event-41-89">
-<use href="#svg-asset-event" x="328" y="712"><title>(41, 89): イベント 0xFD</title></use>
+<use href="#svg-asset-event" x="328" y="712"><title>(41, 89): イベント 0xFD: ハーモニカを使うと風の粉を入手</title></use>
 </a>
 <a href="#event-57-245">
-<use href="#svg-asset-event" x="456" y="1960"><title>(57, 245): イベント 0xEB</title></use>
+<use href="#svg-asset-event" x="456" y="1960"><title>(57, 245): イベント 0xEB: 手形の落とし物</title></use>
 </a>
 <a href="#event-85-91">
 <use href="#svg-asset-event" x="680" y="728"><title>(85, 91): イベント 0x7C: 石ワープ ((109, 119) へ)</title></use>
@@ -85,9 +85,11 @@ title = "エウロン西地方"
 
 ## イベント
 
-### (41, 89): イベント 0xFD:  {#event-41-89}
+### (41, 89): イベント 0xFD: ハーモニカを使うと風の粉を入手 {#event-41-89}
 
-### (57, 245): イベント 0xEB:  {#event-57-245}
+### (57, 245): イベント 0xEB: 手形の落とし物 {#event-57-245}
+
+手形所持数が 0 の状態で探索すると手形を 1 枚入手。
 
 ### (85, 91): イベント 0x7C: 石ワープ ([(109, 119)](#dst-109-119) へ) {#event-85-91}
 
