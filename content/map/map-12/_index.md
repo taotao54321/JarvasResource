@@ -215,10 +215,10 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 <use href="#svg-asset-destination" x="1160" y="1168"><title>(145, 146): ワープ先 0x05</title></use>
 </a>
 <a href="#dst-165-242">
-<use href="#svg-asset-destination" x="1320" y="1936"><title>(165, 242): ワープ先 0x07</title></use>
+<use href="#svg-asset-destination" x="1320" y="1936"><title>(165, 242): ワープ先 0x07: ザイドタウンの町の入口</title></use>
 </a>
 <a href="#dst-217-242">
-<use href="#svg-asset-destination" x="1736" y="1936"><title>(217, 242): ワープ先 0x09</title></use>
+<use href="#svg-asset-destination" x="1736" y="1936"><title>(217, 242): ワープ先 0x09: ラモンの町の入口</title></use>
 </a>
 <a href="#dst-53-242">
 <use href="#svg-asset-destination" x="424" y="1936"><title>(53, 242): ワープ先 0x0B</title></use>
@@ -530,7 +530,7 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 
 ### (155, 126): ワープ先 0x50:  {#dst-155-126}
 
-### (165, 242): ワープ先 0x07:  {#dst-165-242}
+### (165, 242): ワープ先 0x07: ザイドタウンの町の入口 {#dst-165-242}
 
 ### (169, 66): ワープ先 0x03:  {#dst-169-66}
 
@@ -546,7 +546,7 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 
 ### (217, 178): ワープ先 0x15:  {#dst-217-178}
 
-### (217, 242): ワープ先 0x09:  {#dst-217-242}
+### (217, 242): ワープ先 0x09: ラモンの町の入口 {#dst-217-242}
 
 ### (233, 30): ワープ先 0x5F:  {#dst-233-30}
 

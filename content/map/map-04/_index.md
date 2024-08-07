@@ -29,10 +29,10 @@ title = "ラタニア北地方"
 <use href="#svg-asset-event" x="1480" y="688"><title>(185, 86): イベント 0x7D: 石ワープ ((220, 98) へ)</title></use>
 </a>
 <a href="#event-202-191">
-<use href="#svg-asset-event" x="1616" y="1528"><title>(202, 191): イベント 0x07</title></use>
+<use href="#svg-asset-event" x="1616" y="1528"><title>(202, 191): イベント 0x07: ザイドタウンの町の入口へ</title></use>
 </a>
 <a href="#event-218-143">
-<use href="#svg-asset-event" x="1744" y="1144"><title>(218, 143): イベント 0x09</title></use>
+<use href="#svg-asset-event" x="1744" y="1144"><title>(218, 143): イベント 0x09: ラモンの町の入口へ</title></use>
 </a>
 <a href="#event-237-26">
 <use href="#svg-asset-event" x="1896" y="208"><title>(237, 26): イベント 0x8B</title></use>
@@ -96,9 +96,9 @@ title = "ラタニア北地方"
 
 通常プレイでは到達不能と思われる。
 
-### (202, 191): イベント 0x07:  {#event-202-191}
+### (202, 191): イベント 0x07: [ザイドタウンの町の入口](@/map/map-12/_index.md#dst-165-242)へ {#event-202-191}
 
-### (218, 143): イベント 0x09:  {#event-218-143}
+### (218, 143): イベント 0x09: [ラモンの町の入口](@/map/map-12/_index.md#dst-217-242)へ {#event-218-143}
 
 ### (237, 26): イベント 0x8B:  {#event-237-26}
 
