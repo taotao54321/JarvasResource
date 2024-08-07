@@ -2,6 +2,8 @@
 title = "ユース地方"
 +++
 
+北東の島はバフィン島。
+
 <!-- SVG {{{ -->
 <svg width="1536" height="1536" viewbox="0 0 2048 2048">
 <defs>
@@ -17,28 +19,28 @@ title = "ユース地方"
 <use href="#svg-asset-event" x="656" y="888"><title>(82, 111): イベント 0xB6: ユース城入口 (サイドビュー A (20, 21) へ)</title></use>
 </a>
 <a href="#event-86-159">
-<use href="#svg-asset-event" x="688" y="1272"><title>(86, 159): イベント 0xBD</title></use>
+<use href="#svg-asset-event" x="688" y="1272"><title>(86, 159): イベント 0xBD: ユース城門 (ユース地方 (85, 142) へ)</title></use>
 </a>
 <a href="#event-90-248">
-<use href="#svg-asset-event" x="720" y="1984"><title>(90, 248): イベント 0xA0</title></use>
+<use href="#svg-asset-event" x="720" y="1984"><title>(90, 248): イベント 0xA0: 関所 (ラタニア北地方 (85, 20) へ)</title></use>
 </a>
 <a href="#event-121-213">
-<use href="#svg-asset-event" x="968" y="1704"><title>(121, 213): イベント 0xEB</title></use>
+<use href="#svg-asset-event" x="968" y="1704"><title>(121, 213): イベント 0xEB: 手形の落とし物</title></use>
 </a>
 <a href="#event-152-17">
 <use href="#svg-asset-event" x="1216" y="136"><title>(152, 17): イベント 0xF0: 壺を入手</title></use>
 </a>
 <a href="#event-153-138">
-<use href="#svg-asset-event" x="1224" y="1104"><title>(153, 138): イベント 0xEA</title></use>
+<use href="#svg-asset-event" x="1224" y="1104"><title>(153, 138): イベント 0xEA: 探索するとベルトを入手</title></use>
 </a>
 <a href="#event-214-39">
-<use href="#svg-asset-event" x="1712" y="312"><title>(214, 39): イベント 0x56</title></use>
+<use href="#svg-asset-event" x="1712" y="312"><title>(214, 39): イベント 0x56: バフィン島の船小屋 ((186, 61) へ)</title></use>
 </a>
 <a href="#event-214-95">
-<use href="#svg-asset-event" x="1712" y="760"><title>(214, 95): イベント 0x01</title></use>
+<use href="#svg-asset-event" x="1712" y="760"><title>(214, 95): イベント 0x01: ブルガの町の入口へ</title></use>
 </a>
 <a href="#event-218-35">
-<use href="#svg-asset-event" x="1744" y="280"><title>(218, 35): イベント 0x79</title></use>
+<use href="#svg-asset-event" x="1744" y="280"><title>(218, 35): イベント 0x79: 石ワープ ((233, 135) へ)</title></use>
 </a>
 <a href="#dst-213-98">
 <use href="#svg-asset-destination" x="1704" y="784"><title>(213, 98): ワープ先 0x02</title></use>
@@ -47,7 +49,7 @@ title = "ユース地方"
 <use href="#svg-asset-destination" x="1384" y="1648"><title>(173, 206): ワープ先 0x55</title></use>
 </a>
 <a href="#dst-233-135">
-<use href="#svg-asset-destination" x="1864" y="1080"><title>(233, 135): ワープ先 0x79</title></use>
+<use href="#svg-asset-destination" x="1864" y="1080"><title>(233, 135): ワープ先 0x79: (218, 35) の石ワープ先</title></use>
 </a>
 <a href="#dst-148-216">
 <use href="#svg-asset-destination" x="1184" y="1728"><title>(148, 216): ワープ先 0x8B</title></use>
@@ -62,7 +64,7 @@ title = "ユース地方"
 <use href="#svg-asset-destination" x="712" y="1944"><title>(89, 243): ワープ先 0xA1</title></use>
 </a>
 <a href="#dst-85-142">
-<use href="#svg-asset-destination" x="680" y="1136"><title>(85, 142): ワープ先 0xBD</title></use>
+<use href="#svg-asset-destination" x="680" y="1136"><title>(85, 142): ワープ先 0xBD: ユース城門を抜けた先</title></use>
 </a>
 <a href="#dst-89-173">
 <use href="#svg-asset-destination" x="712" y="1384"><title>(89, 173): ワープ先 0xC6</title></use>
@@ -74,7 +76,7 @@ title = "ユース地方"
 <use href="#svg-asset-destination" x="952" y="712"><title>(119, 89): ワープ先 0xCE</title></use>
 </a>
 <a href="#dst-186-61">
-<use href="#svg-asset-destination" x="1488" y="488"><title>(186, 61): ワープ先 0xD8</title></use>
+<use href="#svg-asset-destination" x="1488" y="488"><title>(186, 61): ワープ先 0xD8: バフィン島の船の行き先</title></use>
 </a>
 <a href="#dst-221-50">
 <use href="#svg-asset-destination" x="1768" y="400"><title>(221, 50): ワープ先 0xE2</title></use>
@@ -89,21 +91,27 @@ title = "ユース地方"
 
 ### (82, 111): イベント 0xB6: ユース城入口 ([サイドビュー A (20, 21)](@/map/map-14/_index.md#dst-20-21) へ) {#event-82-111}
 
-### (86, 159): イベント 0xBD:  {#event-86-159}
+志願兵と傭兵の兵力の和が 300 以上ならば入れる。
 
-### (90, 248): イベント 0xA0:  {#event-90-248}
+### (86, 159): イベント 0xBD: ユース城門 ([(85, 142)](#dst-85-142) へ) {#event-86-159}
 
-### (121, 213): イベント 0xEB:  {#event-121-213}
+まだユースを占領しておらず、かつ傭兵の兵力が 500 以上ならば入れる。
+
+### (90, 248): イベント 0xA0: 関所 ([ラタニア北地方 (85, 20)](@/map/map-04/_index.md#dst-85-20) へ) {#event-90-248}
+
+### (121, 213): イベント 0xEB: 手形の落とし物 {#event-121-213}
+
+手形所持数が 0 の状態で探索すると手形を 1 枚入手。
 
 ### (152, 17): イベント 0xF0: 壺を入手 {#event-152-17}
 
-### (153, 138): イベント 0xEA:  {#event-153-138}
+### (153, 138): イベント 0xEA: 探索するとベルトを入手 {#event-153-138}
 
-### (214, 39): イベント 0x56:  {#event-214-39}
+### (214, 39): イベント 0x56: バフィン島の船小屋 ([(186, 61)](#dst-186-61) へ) {#event-214-39}
 
-### (214, 95): イベント 0x01:  {#event-214-95}
+### (214, 95): イベント 0x01: [ブルガの町の入口](@/map/map-12/_index.md#dst-57-82)へ {#event-214-95}
 
-### (218, 35): イベント 0x79:  {#event-218-35}
+### (218, 35): イベント 0x79: 石ワープ ([(233, 135)](#dst-233-135) へ) {#event-218-35}
 
 
 ## ワープ先
@@ -114,7 +122,7 @@ title = "ユース地方"
 
 ### (39, 43): ワープ先 0x9B:  {#dst-39-43}
 
-### (85, 142): ワープ先 0xBD:  {#dst-85-142}
+### (85, 142): ワープ先 0xBD: [ユース城門](#event-86-159)を抜けた先 {#dst-85-142}
 
 ### (89, 173): ワープ先 0xC6:  {#dst-89-173}
 
@@ -126,12 +134,10 @@ title = "ユース地方"
 
 ### (173, 206): ワープ先 0x55:  {#dst-173-206}
 
-### (186, 61): ワープ先 0xD8:  {#dst-186-61}
+### (186, 61): ワープ先 0xD8: [バフィン島の船](#event-214-39)の行き先 {#dst-186-61}
 
 ### (213, 98): ワープ先 0x02:  {#dst-213-98}
 
 ### (221, 50): ワープ先 0xE2:  {#dst-221-50}
 
-### (233, 135): ワープ先 0x79:  {#dst-233-135}
-
-
+### (233, 135): ワープ先 0x79: [(218, 35)](#event-218-35) の石ワープ先 {#dst-233-135}
