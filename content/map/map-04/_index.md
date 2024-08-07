@@ -11,7 +11,7 @@ title = "ラタニア北地方"
 </defs>
 <use href="#svg-asset-bg" x="0" y="0"></use>
 <a href="#event-58-248">
-<use href="#svg-asset-event" x="464" y="1984"><title>(58, 248): イベント 0xAA</title></use>
+<use href="#svg-asset-event" x="464" y="1984"><title>(58, 248): イベント 0xAA: 関所 (ラタニア南地方 (53, 20) へ)</title></use>
 </a>
 <a href="#event-86-15">
 <use href="#svg-asset-event" x="688" y="120"><title>(86, 15): イベント 0xA1</title></use>
@@ -76,7 +76,9 @@ title = "ラタニア北地方"
 
 ## イベント
 
-### (58, 248): イベント 0xAA:  {#event-58-248}
+### (58, 248): イベント 0xAA: 関所 ([ラタニア南地方](@/map/map-08/_index.md) [(53, 20)](@/map/map-08/_index.md#dst-53-20) へ) {#event-58-248}
+
+通行料として金 100 を没収される (足りない場合は金が 0 になる)。
 
 ### (86, 15): イベント 0xA1:  {#event-86-15}
 
@@ -103,9 +105,9 @@ title = "ラタニア北地方"
 
 ### (57, 243): ワープ先 0xAB:  {#dst-57-243}
 
-### (85, 20): ワープ先 0xA0: ユース地方への関所手前 {#dst-85-20}
+### (85, 20): ワープ先 0xA0: [ユース地方](@/map/map-00/_index.md)への関所手前 {#dst-85-20}
 
-ワープ元: [ユース地方 (90, 248)](@/map/map-00/_index.md#event-90-248) の関所。
+ワープ元: [ユース地方](@/map/map-00/_index.md) [(90, 248)](@/map/map-00/_index.md#event-90-248) の関所。
 
 ### (166, 165): ワープ先 0xE8:  {#dst-166-165}
 
