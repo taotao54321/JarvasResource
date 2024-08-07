@@ -44,7 +44,7 @@ title = "ボルネー島"
 <use href="#svg-asset-destination" x="352" y="1168"><title>(44, 146): ワープ先 0x81</title></use>
 </a>
 <a href="#dst-220-182">
-<use href="#svg-asset-destination" x="1760" y="1456"><title>(220, 182): ワープ先 0x83</title></use>
+<use href="#svg-asset-destination" x="1760" y="1456"><title>(220, 182): ワープ先 0x83: オシーランド地方 (218, 39) の石ワープ先</title></use>
 </a>
 <a href="#dst-74-58">
 <use href="#svg-asset-destination" x="592" y="464"><title>(74, 58): ワープ先 0xE9</title></use>
@@ -85,7 +85,9 @@ title = "ボルネー島"
 
 ### (201, 98): ワープ先 0x12:  {#dst-201-98}
 
-### (220, 182): ワープ先 0x83:  {#dst-220-182}
+### (220, 182): ワープ先 0x83: [オシーランド地方](@/map/map-11/_index.md) [(218, 39)](@/map/map-11/_index.md#event-218-39) の石ワープ先 {#dst-220-182}
+
+ワープ元は通常プレイでは到達不能と思われる。
 
 ### (228, 158): ワープ先 0x80:  {#dst-228-158}
 

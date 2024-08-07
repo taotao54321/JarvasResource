@@ -35,7 +35,7 @@ title = "ラタニア南地方"
 <use href="#svg-asset-destination" x="224" y="1344"><title>(28, 168): ワープ先 0x8E: (57, 236) の骨ワープ先</title></use>
 </a>
 <a href="#dst-20-238">
-<use href="#svg-asset-destination" x="160" y="1904"><title>(20, 238): ワープ先 0x9C</title></use>
+<use href="#svg-asset-destination" x="160" y="1904"><title>(20, 238): ワープ先 0x9C: オシーランド地方 (231, 246) の切り株ワープ先</title></use>
 </a>
 <a href="#dst-53-20">
 <use href="#svg-asset-destination" x="424" y="160"><title>(53, 20): ワープ先 0xAA: ラタニア北地方への関所手前</title></use>
@@ -74,7 +74,7 @@ title = "ラタニア南地方"
 
 ## ワープ先
 
-### (20, 238): ワープ先 0x9C:  {#dst-20-238}
+### (20, 238): ワープ先 0x9C: [オシーランド地方](@/map/map-11/_index.md) [(231, 246)](@/map/map-11/_index.md#event-231-246) の切り株ワープ先 {#dst-20-238}
 
 ### (28, 168): ワープ先 0x8E: [(57, 236)](event-57-236) の骨ワープ先 {#dst-28-168}
 

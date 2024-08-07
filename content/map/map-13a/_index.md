@@ -74,7 +74,7 @@ title = "町セット B (ステラ+バンス+リカルド)"
 <use href="#svg-asset-destination" x="520" y="912"><title>(65, 114): ワープ先 0x11</title></use>
 </a>
 <a href="#dst-197-48">
-<use href="#svg-asset-destination" x="1576" y="384"><title>(197, 48): ワープ先 0x17</title></use>
+<use href="#svg-asset-destination" x="1576" y="384"><title>(197, 48): ワープ先 0x17: バンスの町入口</title></use>
 </a>
 <a href="#dst-235-34">
 <use href="#svg-asset-destination" x="1880" y="272"><title>(235, 34): ワープ先 0x38</title></use>
@@ -164,7 +164,9 @@ title = "町セット B (ステラ+バンス+リカルド)"
 
 ### (197, 18): ワープ先 0x69:  {#dst-197-18}
 
-### (197, 48): ワープ先 0x17:  {#dst-197-48}
+### (197, 48): ワープ先 0x17: バンスの町入口 {#dst-197-48}
+
+ワープ元: [オシーランド地方](@/map/map-11/_index.md) [(22, 143)](@/map/map-11/_index.md#event-22-143)。
 
 ### (203, 34): ワープ先 0x3C:  {#dst-203-34}
 
