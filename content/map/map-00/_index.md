@@ -43,7 +43,7 @@ title = "ユース地方"
 <use href="#svg-asset-event" x="1744" y="280"><title>(218, 35): イベント 0x79: 石ワープ ((233, 135) へ)</title></use>
 </a>
 <a href="#dst-0-1">
-<use href="#svg-asset-destination" x="0" y="8"><title>(0, 1): ワープ先 0xB2, 0xB4</title></use>
+<use href="#svg-asset-destination" x="0" y="8"><title>(0, 1): ワープ先 0xB2, 0xB4: 海上</title></use>
 </a>
 <a href="#dst-213-98">
 <use href="#svg-asset-destination" x="1704" y="784"><title>(213, 98): ワープ先 0x02</title></use>
