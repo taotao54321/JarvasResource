@@ -61,7 +61,7 @@ title = "ユース地方"
 <use href="#svg-asset-destination" x="312" y="344"><title>(39, 43): ワープ先 0x9B</title></use>
 </a>
 <a href="#dst-89-243">
-<use href="#svg-asset-destination" x="712" y="1944"><title>(89, 243): ワープ先 0xA1</title></use>
+<use href="#svg-asset-destination" x="712" y="1944"><title>(89, 243): ワープ先 0xA1: ラタニア北地方への関所手前</title></use>
 </a>
 <a href="#dst-85-142">
 <use href="#svg-asset-destination" x="680" y="1136"><title>(85, 142): ワープ先 0xBD: ユース城門を抜けた先</title></use>
@@ -126,7 +126,9 @@ title = "ユース地方"
 
 ### (89, 173): ワープ先 0xC6:  {#dst-89-173}
 
-### (89, 243): ワープ先 0xA1:  {#dst-89-243}
+### (89, 243): ワープ先 0xA1: [ラタニア北地方](@/map/map-04/_index.md)への関所手前 {#dst-89-243}
+
+ワープ元: [ラタニア北地方](@/map/map-04/_index.md) [(86, 15)](@/map/map-04/_index.md#event-86-15) の関所。
 
 ### (119, 89): ワープ先 0xCE:  {#dst-119-89}
 

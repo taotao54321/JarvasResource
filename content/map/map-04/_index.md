@@ -14,7 +14,7 @@ title = "ラタニア北地方"
 <use href="#svg-asset-event" x="464" y="1984"><title>(58, 248): イベント 0xAA: 関所 (ラタニア南地方 (53, 20) へ)</title></use>
 </a>
 <a href="#event-86-15">
-<use href="#svg-asset-event" x="688" y="120"><title>(86, 15): イベント 0xA1</title></use>
+<use href="#svg-asset-event" x="688" y="120"><title>(86, 15): イベント 0xA1: 関所 (ユース地方 (89, 243) へ)</title></use>
 </a>
 <a href="#event-93-245">
 <use href="#svg-asset-event" x="744" y="1960"><title>(93, 245): イベント 0xEB</title></use>
@@ -80,7 +80,7 @@ title = "ラタニア北地方"
 
 通行料として金 100 を没収される (足りない場合は金が 0 になる)。
 
-### (86, 15): イベント 0xA1:  {#event-86-15}
+### (86, 15): イベント 0xA1: 関所 ([ユース地方](@/map/map-00/_index.md) [(89, 243)](@/map/map-00/_index.md#dst-89-243) へ) {#event-86-15}
 
 ### (93, 245): イベント 0xEB:  {#event-93-245}
 
