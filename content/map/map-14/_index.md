@@ -17,7 +17,7 @@ title = "サイドビュー A"
 <use href="#svg-asset-event" x="168" y="1976"><title>(21, 247): イベント 0x6B</title></use>
 </a>
 <a href="#event-67-119">
-<use href="#svg-asset-event" x="536" y="952"><title>(67, 119): イベント 0x5B</title></use>
+<use href="#svg-asset-event" x="536" y="952"><title>(67, 119): イベント 0x5B: リカントス城の第 2 フロア出口: リカントス城のボスフロアへワープ</title></use>
 </a>
 <a href="#event-72-183">
 <use href="#svg-asset-event" x="576" y="1464"><title>(72, 183): イベント 0x68</title></use>
@@ -41,13 +41,13 @@ title = "サイドビュー A"
 <use href="#svg-asset-event" x="1184" y="952"><title>(148, 119): イベント 0x5D</title></use>
 </a>
 <a href="#event-195-23">
-<use href="#svg-asset-event" x="1560" y="184"><title>(195, 23): イベント 0x58</title></use>
+<use href="#svg-asset-event" x="1560" y="184"><title>(195, 23): イベント 0x58: ユース城の第 1 フロア出口: ユース城のボスフロアへワープ</title></use>
 </a>
 <a href="#event-195-55">
-<use href="#svg-asset-event" x="1560" y="440"><title>(195, 55): イベント 0x59</title></use>
+<use href="#svg-asset-event" x="1560" y="440"><title>(195, 55): イベント 0x59: ラタニア城の第 1 フロア出口: ラタニア城のボスフロアへワープ</title></use>
 </a>
 <a href="#event-227-87">
-<use href="#svg-asset-event" x="1816" y="696"><title>(227, 87): イベント 0x5A</title></use>
+<use href="#svg-asset-event" x="1816" y="696"><title>(227, 87): イベント 0x5A: リカントス城の第 1 フロア出口: リカントス城の第 2 フロアへワープ</title></use>
 </a>
 <a href="#event-233-119">
 <use href="#svg-asset-event" x="1864" y="952"><title>(233, 119): イベント 0x5F</title></use>
@@ -56,16 +56,16 @@ title = "サイドビュー A"
 <use href="#svg-asset-event" x="1864" y="1208"><title>(233, 151): イベント 0x67</title></use>
 </a>
 <a href="#dst-236-21">
-<use href="#svg-asset-destination" x="1888" y="168"><title>(236, 21): ワープ先 0x58</title></use>
+<use href="#svg-asset-destination" x="1888" y="168"><title>(236, 21): ワープ先 0x58: ユース城のボスフロア</title></use>
 </a>
 <a href="#dst-236-53">
-<use href="#svg-asset-destination" x="1888" y="424"><title>(236, 53): ワープ先 0x59</title></use>
+<use href="#svg-asset-destination" x="1888" y="424"><title>(236, 53): ワープ先 0x59: ラタニア城のボスフロア</title></use>
 </a>
 <a href="#dst-20-117">
-<use href="#svg-asset-destination" x="160" y="936"><title>(20, 117): ワープ先 0x5A</title></use>
+<use href="#svg-asset-destination" x="160" y="936"><title>(20, 117): ワープ先 0x5A: リカントス城の第 2 フロア</title></use>
 </a>
 <a href="#dst-108-117">
-<use href="#svg-asset-destination" x="864" y="936"><title>(108, 117): ワープ先 0x5B</title></use>
+<use href="#svg-asset-destination" x="864" y="936"><title>(108, 117): ワープ先 0x5B: リカントス城のボスフロア</title></use>
 </a>
 <a href="#dst-153-117">
 <use href="#svg-asset-destination" x="1224" y="936"><title>(153, 117): ワープ先 0x5C</title></use>
@@ -86,13 +86,13 @@ title = "サイドビュー A"
 <use href="#svg-asset-destination" x="1824" y="1192"><title>(228, 149): ワープ先 0x66</title></use>
 </a>
 <a href="#dst-20-21">
-<use href="#svg-asset-destination" x="160" y="168"><title>(20, 21): ワープ先 0xB6: ユース城 第 1 の部屋</title></use>
+<use href="#svg-asset-destination" x="160" y="168"><title>(20, 21): ワープ先 0xB6: ユース城の第 1 フロア</title></use>
 </a>
 <a href="#dst-20-85">
-<use href="#svg-asset-destination" x="160" y="680"><title>(20, 85): ワープ先 0xB9: リカントス城 第 1 の部屋</title></use>
+<use href="#svg-asset-destination" x="160" y="680"><title>(20, 85): ワープ先 0xB9: リカントス城の第 1 フロア</title></use>
 </a>
 <a href="#dst-20-53">
-<use href="#svg-asset-destination" x="160" y="424"><title>(20, 53): ワープ先 0xBA: ラタニア城 第 1 の部屋</title></use>
+<use href="#svg-asset-destination" x="160" y="424"><title>(20, 53): ワープ先 0xBA: ラタニア城の第 1 フロア</title></use>
 </a>
 <a href="#dst-68-181">
 <use href="#svg-asset-destination" x="544" y="1448"><title>(68, 181): ワープ先 0xBE</title></use>
@@ -125,7 +125,7 @@ title = "サイドビュー A"
 
 ### (21, 247): イベント 0x6B:  {#event-21-247}
 
-### (67, 119): イベント 0x5B:  {#event-67-119}
+### (67, 119): イベント 0x5B: リカントス城の第 2 フロア出口: [リカントス城のボスフロア](#dst-108-117)へワープ {#event-67-119}
 
 ### (72, 183): イベント 0x68:  {#event-72-183}
 
@@ -141,11 +141,11 @@ title = "サイドビュー A"
 
 ### (148, 119): イベント 0x5D:  {#event-148-119}
 
-### (195, 23): イベント 0x58:  {#event-195-23}
+### (195, 23): イベント 0x58: ユース城の第 1 フロア出口: [ユース城のボスフロア](#dst-236-21)へワープ {#event-195-23}
 
-### (195, 55): イベント 0x59:  {#event-195-55}
+### (195, 55): イベント 0x59: ラタニア城の第 1 フロア出口: [ラタニア城のボスフロア](#dst-236-53)へワープ {#event-195-55}
 
-### (227, 87): イベント 0x5A:  {#event-227-87}
+### (227, 87): イベント 0x5A: リカントス城の第 1 フロア出口: [リカントス城の第 2 フロア](#dst-20-117)へワープ {#event-227-87}
 
 ### (233, 119): イベント 0x5F:  {#event-233-119}
 
@@ -154,19 +154,21 @@ title = "サイドビュー A"
 
 ## ワープ先
 
-### (20, 21): ワープ先 0xB6: ユース城 第 1 の部屋 {#dst-20-21}
+### (20, 21): ワープ先 0xB6: ユース城の第 1 フロア {#dst-20-21}
 
 ワープ元: [ユース地方](@/map/map-00/_index.md) [(82, 111)](@/map/map-00/_index.md#event-82-111) のユース城入口。
 
-### (20, 53): ワープ先 0xBA: ラタニア城 第 1 の部屋 {#dst-20-53}
+### (20, 53): ワープ先 0xBA: ラタニア城の第 1 フロア {#dst-20-53}
 
 ワープ元: [ラタニア南地方](@/map/map-08/_index.md) [(146, 79)](@/map/map-08/_index.md#event-146-79) のラタニア城入口。
 
-### (20, 85): ワープ先 0xB9: リカントス城 第 1 の部屋 {#dst-20-85}
+### (20, 85): ワープ先 0xB9: リカントス城の第 1 フロア {#dst-20-85}
 
 ワープ元: [リカントス地方](@/map/map-05/_index.md) [(194, 63)](@/map/map-05/_index.md#event-194-63) のリカントス城入口。
 
-### (20, 117): ワープ先 0x5A:  {#dst-20-117}
+### (20, 117): ワープ先 0x5A: リカントス城の第 2 フロア {#dst-20-117}
+
+ワープ元: [リカントス城の第 1 フロア出口](#event-227-87)。
 
 ### (26, 149): ワープ先 0x60:  {#dst-26-149}
 
@@ -178,7 +180,9 @@ title = "サイドビュー A"
 
 ### (100, 213): ワープ先 0xC0:  {#dst-100-213}
 
-### (108, 117): ワープ先 0x5B:  {#dst-108-117}
+### (108, 117): ワープ先 0x5B: リカントス城のボスフロア {#dst-108-117}
+
+ワープ元: [リカントス城の第 2 フロア出口](#event-67-119)。
 
 ### (119, 181): ワープ先 0xBF:  {#dst-119-181}
 
@@ -196,9 +200,10 @@ title = "サイドビュー A"
 
 ### (234, 181): ワープ先 0xD5:  {#dst-234-181}
 
-### (236, 21): ワープ先 0x58:  {#dst-236-21}
+### (236, 21): ワープ先 0x58: ユース城のボスフロア {#dst-236-21}
 
-### (236, 53): ワープ先 0x59:  {#dst-236-53}
+ワープ元: [ユース城の第 1 フロア出口](#event-195-23)。
 
+### (236, 53): ワープ先 0x59: ラタニア城のボスフロア {#dst-236-53}
 
-
+ワープ元: [ラタニア城の第 1 フロア出口](#event-195-55)。

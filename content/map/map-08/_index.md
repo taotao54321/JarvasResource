@@ -23,7 +23,7 @@ title = "ラタニア南地方"
 <use href="#svg-asset-event" x="976" y="640"><title>(122, 80): イベント 0xEB: 手形の落とし物</title></use>
 </a>
 <a href="#event-146-79">
-<use href="#svg-asset-event" x="1168" y="632"><title>(146, 79): イベント 0xBA: ラタニア城入口 (ラタニア城の第 1 の部屋へ)</title></use>
+<use href="#svg-asset-event" x="1168" y="632"><title>(146, 79): イベント 0xBA: ラタニア城入口 (ラタニア城の第 1 フロアへ)</title></use>
 </a>
 <a href="#event-214-47">
 <use href="#svg-asset-event" x="1712" y="376"><title>(214, 47): イベント 0x13: アネイデアの町の入口へ</title></use>
@@ -65,7 +65,7 @@ title = "ラタニア南地方"
 
 手形所持数が 0 の状態で探索すると手形を 1 枚入手。
 
-### (146, 79): イベント 0xBA: ラタニア城入口 ([ラタニア城の第 1 の部屋](@/map/map-14/_index.md#dst-20-53) へ) {#event-146-79}
+### (146, 79): イベント 0xBA: ラタニア城入口 ([ラタニア城の第 1 フロア](@/map/map-14/_index.md#dst-20-53) へ) {#event-146-79}
 
 まだラタニアを占領しておらず、かつ志願兵、傭兵、グルカ兵、アマゾネスの合計が 1000 以上なら入れる。
 
