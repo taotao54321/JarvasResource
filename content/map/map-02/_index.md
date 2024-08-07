@@ -11,55 +11,55 @@ title = "エウロン東地方+キネラシア北西地方"
 </defs>
 <use href="#svg-asset-bg" x="0" y="0"></use>
 <a href="#event-16-153">
-<use href="#svg-asset-event" x="128" y="1224"><title>(16, 153): イベント 0xA3</title></use>
+<use href="#svg-asset-event" x="128" y="1224"><title>(16, 153): イベント 0xA3: 関所 (エウロン西地方 (243, 153) へ)</title></use>
 </a>
 <a href="#event-26-246">
-<use href="#svg-asset-event" x="208" y="1968"><title>(26, 246): イベント 0xA6</title></use>
+<use href="#svg-asset-event" x="208" y="1968"><title>(26, 246): イベント 0xA6: 関所 (キネラシア南地方 (21, 19) へ)</title></use>
 </a>
 <a href="#event-34-23">
-<use href="#svg-asset-event" x="272" y="184"><title>(34, 23): イベント 0x7B</title></use>
+<use href="#svg-asset-event" x="272" y="184"><title>(34, 23): イベント 0x7B: 石ワープ (エウロン西地方 (230, 140) へ)</title></use>
 </a>
 <a href="#event-66-111">
-<use href="#svg-asset-event" x="528" y="888"><title>(66, 111): イベント 0xB7</title></use>
+<use href="#svg-asset-event" x="528" y="888"><title>(66, 111): イベント 0xB7: エウロン城入口 (サイドビュー B (20, 117) へ)</title></use>
 </a>
 <a href="#event-78-8">
-<use href="#svg-asset-event" x="624" y="64"><title>(78, 8): イベント 0x7B</title></use>
+<use href="#svg-asset-event" x="624" y="64"><title>(78, 8): イベント 0x7B: 石ワープ (エウロン西地方 (230, 140) へ)</title></use>
 </a>
 <a href="#event-89-121">
-<use href="#svg-asset-event" x="712" y="968"><title>(89, 121): イベント 0xEB</title></use>
+<use href="#svg-asset-event" x="712" y="968"><title>(89, 121): イベント 0xEB: 手形の落とし物</title></use>
 </a>
 <a href="#event-133-171">
-<use href="#svg-asset-event" x="1064" y="1368"><title>(133, 171): イベント 0xF2</title></use>
+<use href="#svg-asset-event" x="1064" y="1368"><title>(133, 171): イベント 0xF2: 黒真珠を入手</title></use>
 </a>
 <a href="#event-135-201">
-<use href="#svg-asset-event" x="1080" y="1608"><title>(135, 201): イベント 0xA4</title></use>
+<use href="#svg-asset-event" x="1080" y="1608"><title>(135, 201): イベント 0xA4: 関所 (キネラシア北西地方 (164, 201) へ)</title></use>
 </a>
 <a href="#event-160-201">
-<use href="#svg-asset-event" x="1280" y="1608"><title>(160, 201): イベント 0xA5</title></use>
+<use href="#svg-asset-event" x="1280" y="1608"><title>(160, 201): イベント 0xA5: 関所 (エウロン東地方 (131, 201) へ)</title></use>
 </a>
 <a href="#event-185-185">
-<use href="#svg-asset-event" x="1480" y="1480"><title>(185, 185): イベント 0xEB</title></use>
+<use href="#svg-asset-event" x="1480" y="1480"><title>(185, 185): イベント 0xEB: 手形の落とし物</title></use>
 </a>
 <a href="#event-198-215">
-<use href="#svg-asset-event" x="1584" y="1720"><title>(198, 215): イベント 0x9A</title></use>
+<use href="#svg-asset-event" x="1584" y="1720"><title>(198, 215): イベント 0x9A: 切り株ワープ (キネラシア南地方 (209, 21) へ)</title></use>
 </a>
 <a href="#event-210-127">
-<use href="#svg-asset-event" x="1680" y="1016"><title>(210, 127): イベント 0xB8</title></use>
+<use href="#svg-asset-event" x="1680" y="1016"><title>(210, 127): イベント 0xB8: キネラシア城入口 (サイドビュー B (20, 181) へ)</title></use>
 </a>
 <a href="#event-213-44">
-<use href="#svg-asset-event" x="1704" y="352"><title>(213, 44): イベント 0x89</title></use>
+<use href="#svg-asset-event" x="1704" y="352"><title>(213, 44): イベント 0x89: 骨ワープ (キネラシア北東地方 (34, 82) へ)</title></use>
 </a>
 <a href="#event-247-234">
-<use href="#svg-asset-event" x="1976" y="1872"><title>(247, 234): イベント 0xA8</title></use>
+<use href="#svg-asset-event" x="1976" y="1872"><title>(247, 234): イベント 0xA8: 関所 (キネラシア北東地方 (18, 233) へ)</title></use>
 </a>
 <a href="#dst-20-153">
 <use href="#svg-asset-destination" x="160" y="1224"><title>(20, 153): ワープ先 0xA2</title></use>
 </a>
 <a href="#dst-164-201">
-<use href="#svg-asset-destination" x="1312" y="1608"><title>(164, 201): ワープ先 0xA4</title></use>
+<use href="#svg-asset-destination" x="1312" y="1608"><title>(164, 201): ワープ先 0xA4: エウロン東地方への関所手前</title></use>
 </a>
 <a href="#dst-131-201">
-<use href="#svg-asset-destination" x="1048" y="1608"><title>(131, 201): ワープ先 0xA5</title></use>
+<use href="#svg-asset-destination" x="1048" y="1608"><title>(131, 201): ワープ先 0xA5: キネラシア北西地方への関所手前</title></use>
 </a>
 <a href="#dst-25-243">
 <use href="#svg-asset-destination" x="200" y="1944"><title>(25, 243): ワープ先 0xA7: キネラシア南地方への関所手前</title></use>
@@ -79,33 +79,59 @@ title = "エウロン東地方+キネラシア北西地方"
 
 ## イベント
 
-### (16, 153): イベント 0xA3:  {#event-16-153}
+### (16, 153): イベント 0xA3: 関所 ([エウロン西地方](@/map/map-01/_index.md) [(243, 153)](@/map/map-01/_index.md#dst-243-153) へ) {#event-16-153}
 
-### (26, 246): イベント 0xA6:  {#event-26-246}
+### (26, 246): イベント 0xA6: 関所 ([キネラシア南地方](@/map/map-06/_index.md) [(21, 19)](@/map/map-06/_index.md#dst-21-19) へ) {#event-26-246}
 
-### (34, 23): イベント 0x7B:  {#event-34-23}
+### (34, 23): イベント 0x7B: 石ワープ ([エウロン西地方](@/map/map-01/_index.md) [(230, 140)](@/map/map-01/_index.md#dst-230-140) へ) {#event-34-23}
 
-### (66, 111): イベント 0xB7:  {#event-66-111}
+### (66, 111): イベント 0xB7: エウロン城入口 ([サイドビュー B](@/map/map-15/_index.md) [(20, 117)](@/map/map-15/_index.md#dst-20-117) へ) {#event-66-111}
 
-### (78, 8): イベント 0x7B:  {#event-78-8}
+以下の全ての条件を満たしていれば入れる:
 
-### (89, 121): イベント 0xEB:  {#event-89-121}
+* まだエウロンを占領していない。
+* 将軍 30 以上。
+* 魔道士と参謀の合計が 500 以上。
 
-### (133, 171): イベント 0xF2:  {#event-133-171}
+### (78, 8): イベント 0x7B: 石ワープ ([エウロン西地方](@/map/map-01/_index.md) [(230, 140)](@/map/map-01/_index.md#dst-230-140) へ) {#event-78-8}
 
-### (135, 201): イベント 0xA4:  {#event-135-201}
+通常プレイでは到達不能と思われる。
 
-### (160, 201): イベント 0xA5:  {#event-160-201}
 
-### (185, 185): イベント 0xEB:  {#event-185-185}
+### (89, 121): イベント 0xEB: 手形の落とし物 {#event-89-121}
 
-### (198, 215): イベント 0x9A:  {#event-198-215}
+手形所持数が 0 の状態で探索すると手形を 1 枚入手。
 
-### (210, 127): イベント 0xB8:  {#event-210-127}
+### (133, 171): イベント 0xF2: 黒真珠を入手 {#event-133-171}
 
-### (213, 44): イベント 0x89:  {#event-213-44}
+### (135, 201): イベント 0xA4: 関所 (キネラシア北西地方 [(164, 201)](#dst-164-201) へ) {#event-135-201}
 
-### (247, 234): イベント 0xA8:  {#event-247-234}
+### (160, 201): イベント 0xA5: 関所 (エウロン東地方 [(131, 201)](#dst-131-201) へ) {#event-160-201}
+
+通行料として金 100 を没収される (足りない場合は金が 0 になる)。
+
+### (185, 185): イベント 0xEB: 手形の落とし物 {#event-185-185}
+
+手形所持数が 0 の状態で探索すると手形を 1 枚入手。
+
+### (198, 215): イベント 0x9A: 切り株ワープ ([キネラシア南地方](@/map/map-06/_index.md) [(209, 21)](@/map/map-06/_index.md#dst-209-21) へ) {#event-198-215}
+
+外見は木だが、実際は切り株ワープ。
+
+### (210, 127): イベント 0xB8: キネラシア城入口 ([サイドビュー B](@/map/map-15/_index.md) [(20, 181)](@/map/map-15/_index.md#dst-20-181) へ) {#event-210-127}
+
+以下の全ての条件を満たしていれば入れる:
+
+* キネラシア以外の全地域を占領している。
+* 将軍 30 以上。
+* 隊長 50 以上。
+* 魔道士 100 以上。
+* 参謀 100 以上。
+* 志願兵、傭兵、グルカ兵、アマゾネスが全て 300 以上。
+
+### (213, 44): イベント 0x89: 骨ワープ ([キネラシア北東地方](@/map/map-03/_index.md) [(34, 82)](@/map/map-03/_index.md#dst-34-82) へ) {#event-213-44}
+
+### (247, 234): イベント 0xA8: 関所 ([キネラシア北東地方](@/map/map-03/_index.md) [(18, 233)](@/map/map-03/_index.md#dst-18-233) へ) {#event-247-234}
 
 
 ## ワープ先
@@ -118,9 +144,13 @@ title = "エウロン東地方+キネラシア北西地方"
 
 ### (68, 111): ワープ先 0xCB:  {#dst-68-111}
 
-### (131, 201): ワープ先 0xA5:  {#dst-131-201}
+### (131, 201): ワープ先 0xA5: キネラシア北西地方への関所手前 {#dst-131-201}
 
-### (164, 201): ワープ先 0xA4:  {#dst-164-201}
+ワープ元: キネラシア北西地方 [(160, 201)](#event-160-201) の関所。
+
+### (164, 201): ワープ先 0xA4: エウロン東地方への関所手前 {#dst-164-201}
+
+ワープ元: エウロン東地方 [(135, 201)](#event-135-201) の関所。
 
 ### (212, 127): ワープ先 0xCC:  {#dst-212-127}
 

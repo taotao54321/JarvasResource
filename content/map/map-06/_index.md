@@ -53,10 +53,10 @@ title = "キネラシア南地方"
 <use href="#svg-asset-destination" x="192" y="368"><title>(24, 46): ワープ先 0x85: (137, 42) の石ワープ先</title></use>
 </a>
 <a href="#dst-209-21">
-<use href="#svg-asset-destination" x="1672" y="168"><title>(209, 21): ワープ先 0x9A</title></use>
+<use href="#svg-asset-destination" x="1672" y="168"><title>(209, 21): ワープ先 0x9A: キネラシア北西地方 (198, 215) の切り株ワープ先</title></use>
 </a>
 <a href="#dst-21-19">
-<use href="#svg-asset-destination" x="168" y="152"><title>(21, 19): ワープ先 0xA6</title></use>
+<use href="#svg-asset-destination" x="168" y="152"><title>(21, 19): ワープ先 0xA6: エウロン東地方への関所手前</title></use>
 </a>
 <a href="#dst-20-25">
 <use href="#svg-asset-destination" x="160" y="200"><title>(20, 25): ワープ先 0xAC: リカントス地方への関所手前</title></use>
@@ -106,7 +106,9 @@ title = "キネラシア南地方"
 
 ワープ元: [リカントス地方](@/map/map-05/_index.md) [(247, 21)](@/map/map-05/_index.md#event-247-21) の関所。
 
-### (21, 19): ワープ先 0xA6:  {#dst-21-19}
+### (21, 19): ワープ先 0xA6: [エウロン東地方](@/map/map-02/_index.md)への関所手前 {#dst-21-19}
+
+ワープ元: [エウロン東地方](@/map/map-02/_index.md) [(26, 246)](@/map/map-02/_index.md#event-26-246) の関所。
 
 ### (24, 46): ワープ先 0x85: [(137, 42)](#event-137-42) の石ワープ先 {#dst-24-46}
 
@@ -118,7 +120,7 @@ title = "キネラシア南地方"
 
 ワープ元は通常プレイでは到達不能と思われる。
 
-### (209, 21): ワープ先 0x9A:  {#dst-209-21}
+### (209, 21): ワープ先 0x9A: [キネラシア北西地方](@/map/map-02/_index.md) [(198, 215)](@/map/map-02/_index.md#event-198-215) の切り株ワープ先 {#dst-209-21}
 
 ### (217, 66): ワープ先 0x0E:  {#dst-217-66}
 

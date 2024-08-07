@@ -53,7 +53,7 @@ title = "エウロン西地方"
 <use href="#svg-asset-destination" x="1712" y="480"><title>(214, 60): ワープ先 0x7A</title></use>
 </a>
 <a href="#dst-230-140">
-<use href="#svg-asset-destination" x="1840" y="1120"><title>(230, 140): ワープ先 0x7B</title></use>
+<use href="#svg-asset-destination" x="1840" y="1120"><title>(230, 140): ワープ先 0x7B: エウロン東地方 (34, 23) の石ワープ先</title></use>
 </a>
 <a href="#dst-109-119">
 <use href="#svg-asset-destination" x="872" y="952"><title>(109, 119): ワープ先 0x7C: (85, 91) の石ワープ先</title></use>
@@ -68,7 +68,7 @@ title = "エウロン西地方"
 <use href="#svg-asset-destination" x="1184" y="1264"><title>(148, 158): ワープ先 0x99</title></use>
 </a>
 <a href="#dst-243-153">
-<use href="#svg-asset-destination" x="1944" y="1224"><title>(243, 153): ワープ先 0xA3</title></use>
+<use href="#svg-asset-destination" x="1944" y="1224"><title>(243, 153): ワープ先 0xA3: エウロン東地方への関所手前</title></use>
 </a>
 <a href="#dst-73-50">
 <use href="#svg-asset-destination" x="584" y="400"><title>(73, 50): ワープ先 0xD9</title></use>
@@ -132,8 +132,10 @@ title = "エウロン西地方"
 
 ### (229, 93): ワープ先 0xE3:  {#dst-229-93}
 
-### (230, 140): ワープ先 0x7B:  {#dst-230-140}
+### (230, 140): ワープ先 0x7B: [エウロン東地方](@/map/map-02/_index.md) [(34, 23)](@/map/map-02/_index.md#event-34-23) の石ワープ先 {#dst-230-140}
 
-### (243, 153): ワープ先 0xA3:  {#dst-243-153}
+[エウロン東地方](@/map/map-02/_index.md) [(78, 8)](@/map/map-02/_index.md#event-78-8) の石ワープ先でもあるが、こちらは通常プレイでは到達不能と思われる。
 
+### (243, 153): ワープ先 0xA3: [エウロン東地方](@/map/map-02/_index.md)への関所手前 {#dst-243-153}
 
+ワープ元: [エウロン東地方](@/map/map-02/_index.md) [(16, 153)](@/map/map-02/_index.md#event-16-153) の関所。

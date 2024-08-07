@@ -41,13 +41,13 @@ title = "キネラシア北東地方"
 <use href="#svg-asset-destination" x="296" y="1808"><title>(37, 226): ワープ先 0x06</title></use>
 </a>
 <a href="#dst-34-82">
-<use href="#svg-asset-destination" x="272" y="656"><title>(34, 82): ワープ先 0x89</title></use>
+<use href="#svg-asset-destination" x="272" y="656"><title>(34, 82): ワープ先 0x89: キネラシア北西地方 (213, 44) の骨ワープ先</title></use>
 </a>
 <a href="#dst-200-87">
 <use href="#svg-asset-destination" x="1600" y="696"><title>(200, 87): ワープ先 0x92: ユース地方 (19, 191) の木ワープ先</title></use>
 </a>
 <a href="#dst-18-233">
-<use href="#svg-asset-destination" x="144" y="1864"><title>(18, 233): ワープ先 0xA8</title></use>
+<use href="#svg-asset-destination" x="144" y="1864"><title>(18, 233): ワープ先 0xA8: キネラシア北西地方への関所手前</title></use>
 </a>
 <a href="#dst-142-229">
 <use href="#svg-asset-destination" x="1136" y="1832"><title>(142, 229): ワープ先 0xDB</title></use>
@@ -82,9 +82,11 @@ title = "キネラシア北東地方"
 
 ## ワープ先
 
-### (18, 233): ワープ先 0xA8:  {#dst-18-233}
+### (18, 233): ワープ先 0xA8: [キネラシア北西地方](@/map/map-02/_index.md)への関所手前 {#dst-18-233}
 
-### (34, 82): ワープ先 0x89:  {#dst-34-82}
+ワープ元: [キネラシア北西地方](@/map/map-02/_index.md) [(247, 234)](@/map/map-02/_index.md#event-247-234) の関所。
+
+### (34, 82): ワープ先 0x89: [キネラシア北西地方](@/map/map-02/_index.md) [(213, 44)](@/map/map-02/_index.md#event-213-44) の骨ワープ先 {#dst-34-82}
 
 ### (37, 226): ワープ先 0x06:  {#dst-37-226}
 
