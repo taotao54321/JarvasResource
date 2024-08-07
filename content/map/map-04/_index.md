@@ -35,10 +35,10 @@ title = "ラタニア北地方"
 <use href="#svg-asset-event" x="1744" y="1144"><title>(218, 143): イベント 0x09: ラモンの町の入口へ</title></use>
 </a>
 <a href="#event-237-26">
-<use href="#svg-asset-event" x="1896" y="208"><title>(237, 26): イベント 0x8B</title></use>
+<use href="#svg-asset-event" x="1896" y="208"><title>(237, 26): イベント 0x8B: 骨ワープ (ユース地方 (148, 216) へ)</title></use>
 </a>
 <a href="#event-237-90">
-<use href="#svg-asset-event" x="1896" y="720"><title>(237, 90): イベント 0x8D</title></use>
+<use href="#svg-asset-event" x="1896" y="720"><title>(237, 90): イベント 0x8D: 骨ワープ ((240, 29) へ)</title></use>
 </a>
 <a href="#dst-201-194">
 <use href="#svg-asset-destination" x="1608" y="1552"><title>(201, 194): ワープ先 0x08</title></use>
@@ -50,7 +50,7 @@ title = "ラタニア北地方"
 <use href="#svg-asset-destination" x="1760" y="784"><title>(220, 98): ワープ先 0x7D: (185, 86) の石ワープ先</title></use>
 </a>
 <a href="#dst-240-29">
-<use href="#svg-asset-destination" x="1920" y="232"><title>(240, 29): ワープ先 0x8D</title></use>
+<use href="#svg-asset-destination" x="1920" y="232"><title>(240, 29): ワープ先 0x8D: (237, 90) の骨ワープ先</title></use>
 </a>
 <a href="#dst-85-20">
 <use href="#svg-asset-destination" x="680" y="160"><title>(85, 20): ワープ先 0xA0: ユース地方への関所手前</title></use>
@@ -100,9 +100,9 @@ title = "ラタニア北地方"
 
 ### (218, 143): イベント 0x09: [ラモンの町の入口](@/map/map-12/_index.md#dst-217-242)へ {#event-218-143}
 
-### (237, 26): イベント 0x8B:  {#event-237-26}
+### (237, 26): イベント 0x8B: 骨ワープ ([ユース地方](@/map/map-00/_index.md) [(148, 216)](@/map/map-00/_index.md#dst-148-216) へ) {#event-237-26}
 
-### (237, 90): イベント 0x8D:  {#event-237-90}
+### (237, 90): イベント 0x8D: 骨ワープ ([(240, 29)](#dst-240-29) へ) {#event-237-90}
 
 
 ## ワープ先
@@ -129,6 +129,6 @@ title = "ラタニア北地方"
 
 ワープ元は通常プレイでは到達不能と思われる。
 
-### (240, 29): ワープ先 0x8D:  {#dst-240-29}
+### (240, 29): ワープ先 0x8D: [(237, 90)](#event-237-90) の骨ワープ先 {#dst-240-29}
 
 

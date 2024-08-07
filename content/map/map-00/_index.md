@@ -52,7 +52,7 @@ title = "ユース地方"
 <use href="#svg-asset-destination" x="1864" y="1080"><title>(233, 135): ワープ先 0x79: (218, 35) の石ワープ先</title></use>
 </a>
 <a href="#dst-148-216">
-<use href="#svg-asset-destination" x="1184" y="1728"><title>(148, 216): ワープ先 0x8B</title></use>
+<use href="#svg-asset-destination" x="1184" y="1728"><title>(148, 216): ワープ先 0x8B: ラタニア北地方 (237, 26) の骨ワープ先</title></use>
 </a>
 <a href="#dst-20-155">
 <use href="#svg-asset-destination" x="160" y="1240"><title>(20, 155): ワープ先 0x94</title></use>
@@ -132,7 +132,7 @@ title = "ユース地方"
 
 ### (119, 89): ワープ先 0xCE:  {#dst-119-89}
 
-### (148, 216): ワープ先 0x8B:  {#dst-148-216}
+### (148, 216): ワープ先 0x8B: [ラタニア北地方](@/map/map-04/_index.md) [(237, 26)](@/map/map-04/_index.md#event-237-26) の骨ワープ先 {#dst-148-216}
 
 ### (173, 206): ワープ先 0x55:  {#dst-173-206}
 
