@@ -17,7 +17,7 @@ title = "タクテカ地方"
 <use href="#svg-asset-event" x="464" y="1080"><title>(58, 135): イベント 0x56: タクテカ西の船小屋 (リングワールド地方 (12, 97) へ)</title></use>
 </a>
 <a href="#event-130-175">
-<use href="#svg-asset-event" x="1040" y="1400"><title>(130, 175): イベント 0xBB: タクテカ城入口 (サイドビュー B (20, 21) へ)</title></use>
+<use href="#svg-asset-event" x="1040" y="1400"><title>(130, 175): イベント 0xBB: タクテカ城入口 (タクテカ城の第 1 の部屋へ)</title></use>
 </a>
 <a href="#event-198-15">
 <use href="#svg-asset-event" x="1584" y="120"><title>(198, 15): イベント 0xAF: 関所 (リカントス地方 (201, 243) へ)</title></use>
@@ -53,7 +53,7 @@ title = "タクテカ地方"
 
 ### (58, 135): イベント 0x56: タクテカ西の船小屋 ([リングワールド地方](@/map/map-10/_index.md) [(12, 97)](@/map/map-10/_index.md#dst-12-97) へ) {#event-58-135}
 
-### (130, 175): イベント 0xBB: タクテカ城入口 ([サイドビュー B](@/map/map-15/_index.md) [(20, 21)](@/map/map-15/_index.md#dst-20-21) へ) {#event-130-175}
+### (130, 175): イベント 0xBB: タクテカ城入口 ([タクテカ城の第 1 の部屋](@/map/map-15/_index.md#dst-20-21) へ) {#event-130-175}
 
 まだタクテカを占領していない状態でハーモニカを使うと入れる。
 

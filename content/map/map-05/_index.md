@@ -2,6 +2,8 @@
 title = "リカントス地方"
 +++
 
+* 南西の島: ヘレナ島
+
 <!-- SVG {{{ -->
 <svg width="1536" height="1536" viewbox="0 0 2048 2048">
 <defs>
@@ -20,7 +22,7 @@ title = "リカントス地方"
 <use href="#svg-asset-event" x="1360" y="1528"><title>(170, 191): イベント 0x0B: パタンの町の入口へ</title></use>
 </a>
 <a href="#event-194-63">
-<use href="#svg-asset-event" x="1552" y="504"><title>(194, 63): イベント 0xB9: リカントス城入口 (サイドビュー A (20, 85) へ)</title></use>
+<use href="#svg-asset-event" x="1552" y="504"><title>(194, 63): イベント 0xB9: リカントス城入口 (リカントス城の第 1 の部屋へ)</title></use>
 </a>
 <a href="#event-202-248">
 <use href="#svg-asset-event" x="1616" y="1984"><title>(202, 248): イベント 0xAE: 関所 (タクテカ地方 (197, 20) へ)</title></use>
@@ -65,7 +67,7 @@ title = "リカントス地方"
 <use href="#svg-asset-destination" x="1376" y="1768"><title>(172, 221): ワープ先 0xE4</title></use>
 </a>
 <a href="#dst-106-191">
-<use href="#svg-asset-destination" x="848" y="1528"><title>(106, 191): ワープ先 0xE5</title></use>
+<use href="#svg-asset-destination" x="848" y="1528"><title>(106, 191): ワープ先 0xE5: パタンの町の船小屋の行き先</title></use>
 </a>
 </svg>
 <!-- }}} -->
@@ -79,7 +81,7 @@ title = "リカントス地方"
 
 ### (170, 191): イベント 0x0B: [パタンの町の入口](@/map/map-12/_index.md#dst-53-242)へ {#event-170-191}
 
-### (194, 63): イベント 0xB9: リカントス城入口 ([サイドビュー A](@/map/map-14/_index.md) [(20, 85)](@/map/map-14/_index.md#dst-20-85) へ) {#event-194-63}
+### (194, 63): イベント 0xB9: リカントス城入口 ([リカントス城の第 1 の部屋](@/map/map-14/_index.md#dst-20-85) へ) {#event-194-63}
 
 まだリカントスを占領しておらず、かつグルカ兵とアマゾネスがともに 400 以上なら入れる。
 
@@ -100,7 +102,7 @@ title = "リカントス地方"
 
 ### (72, 14): ワープ先 0x88: [エウロン西地方](@/map/map-01/_index.md) [(139, 222)](@/map/map-01/_index.md#event-139-222) の骨ワープ先 {#dst-72-14}
 
-### (106, 191): ワープ先 0xE5:  {#dst-106-191}
+### (106, 191): ワープ先 0xE5: [パタンの町の船小屋](@/map/map-12/_index.md#event-12-231)の行き先 {#dst-106-191}
 
 ### (152, 92): ワープ先 0x6C:  {#dst-152-92}
 

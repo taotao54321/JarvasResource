@@ -16,7 +16,7 @@ title = "ユース地方"
 <use href="#svg-asset-event" x="152" y="1528"><title>(19, 191): イベント 0x92: 木ワープ (キネラシア北東地方 (200, 87) へ)</title></use>
 </a>
 <a href="#event-82-111">
-<use href="#svg-asset-event" x="656" y="888"><title>(82, 111): イベント 0xB6: ユース城入口 (サイドビュー A (20, 21) へ)</title></use>
+<use href="#svg-asset-event" x="656" y="888"><title>(82, 111): イベント 0xB6: ユース城入口 (ユース城の第 1 の部屋へ)</title></use>
 </a>
 <a href="#event-86-159">
 <use href="#svg-asset-event" x="688" y="1272"><title>(86, 159): イベント 0xBD: ユース城門 (ユース地方 (85, 142) へ)</title></use>
@@ -92,7 +92,7 @@ title = "ユース地方"
 
 ### (19, 191): イベント 0x92: 木ワープ ([キネラシア北東地方](@/map/map-03/_index.md) [(200, 87)](@/map/map-03/_index.md#dst-200-87) へ) {#event-19-191}
 
-### (82, 111): イベント 0xB6: ユース城入口 ([サイドビュー A](@/map/map-14/_index.md) [(20, 21)](@/map/map-14/_index.md#dst-20-21) へ) {#event-82-111}
+### (82, 111): イベント 0xB6: ユース城入口 ([ユース城の第 1 の部屋](@/map/map-14/_index.md#dst-20-21) へ) {#event-82-111}
 
 志願兵と傭兵の合計が 300 以上ならば入れる。
 

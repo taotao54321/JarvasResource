@@ -65,7 +65,7 @@ title = "サイドビュー B"
 <use href="#svg-asset-destination" x="1888" y="1960"><title>(236, 245): ワープ先 0x75</title></use>
 </a>
 <a href="#dst-20-245">
-<use href="#svg-asset-destination" x="160" y="1960"><title>(20, 245): ワープ先 0xB5</title></use>
+<use href="#svg-asset-destination" x="160" y="1960"><title>(20, 245): ワープ先 0xB5: キネラシア城 第 3 の部屋</title></use>
 </a>
 <a href="#dst-20-117">
 <use href="#svg-asset-destination" x="160" y="936"><title>(20, 117): ワープ先 0xB7: エウロン城 第 1 の部屋</title></use>
@@ -122,9 +122,11 @@ title = "サイドビュー B"
 
 ### (20, 213): ワープ先 0x73:  {#dst-20-213}
 
-### (20, 245): ワープ先 0x74:  {#dst-20-245}
+### (20, 245): ワープ先 0x74:  {#dst-20-245-0x74}
 
-### (20, 245): ワープ先 0xB5:  {#dst-20-245}
+### (20, 245): ワープ先 0xB5: キネラシア城 第 3 の部屋 {#dst-20-245-0xB5}
+
+ワープ元: [パタンの町の十字岩](@/map/map-12/_index.md#event-20-202) (星のかけらを持って探索)
 
 ### (20, 53): ワープ先 0x6D:  {#dst-20-53}
 
