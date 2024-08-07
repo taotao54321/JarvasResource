@@ -86,13 +86,13 @@ title = "サイドビュー A"
 <use href="#svg-asset-destination" x="1824" y="1192"><title>(228, 149): ワープ先 0x66</title></use>
 </a>
 <a href="#dst-20-21">
-<use href="#svg-asset-destination" x="160" y="168"><title>(20, 21): ワープ先 0xB6: ユース城第 1 の部屋</title></use>
+<use href="#svg-asset-destination" x="160" y="168"><title>(20, 21): ワープ先 0xB6: ユース城 第 1 の部屋</title></use>
 </a>
 <a href="#dst-20-85">
 <use href="#svg-asset-destination" x="160" y="680"><title>(20, 85): ワープ先 0xB9</title></use>
 </a>
 <a href="#dst-20-53">
-<use href="#svg-asset-destination" x="160" y="424"><title>(20, 53): ワープ先 0xBA</title></use>
+<use href="#svg-asset-destination" x="160" y="424"><title>(20, 53): ワープ先 0xBA: ラタニア城 第 1 の部屋</title></use>
 </a>
 <a href="#dst-68-181">
 <use href="#svg-asset-destination" x="544" y="1448"><title>(68, 181): ワープ先 0xBE</title></use>
@@ -154,11 +154,13 @@ title = "サイドビュー A"
 
 ## ワープ先
 
-### (20, 21): ワープ先 0xB6: ユース城第 1 の部屋 {#dst-20-21}
+### (20, 21): ワープ先 0xB6: ユース城 第 1 の部屋 {#dst-20-21}
 
 ワープ元: [ユース地方](@/map/map-00/_index.md) [(82, 111)](@/map/map-00/_index.md#event-82-111) のユース城入口。
 
-### (20, 53): ワープ先 0xBA:  {#dst-20-53}
+### (20, 53): ワープ先 0xBA: ラタニア城 第 1 の部屋 {#dst-20-53}
+
+ワープ元: [ラタニア南地方](@/map/map-08/_index.md) [(146, 79)](@/map/map-08/_index.md#event-146-79) のラタニア城入口。
 
 ### (20, 85): ワープ先 0xB9:  {#dst-20-85}
 

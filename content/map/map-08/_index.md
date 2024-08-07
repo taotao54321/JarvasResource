@@ -11,28 +11,28 @@ title = "ラタニア南地方"
 </defs>
 <use href="#svg-asset-bg" x="0" y="0"></use>
 <a href="#event-33-188">
-<use href="#svg-asset-event" x="264" y="1504"><title>(33, 188): イベント 0xFB</title></use>
+<use href="#svg-asset-event" x="264" y="1504"><title>(33, 188): イベント 0xFB: ベルトを使うとなくしたハートを入手</title></use>
 </a>
 <a href="#event-54-15">
-<use href="#svg-asset-event" x="432" y="120"><title>(54, 15): イベント 0xAB</title></use>
+<use href="#svg-asset-event" x="432" y="120"><title>(54, 15): イベント 0xAB: 関所 (ラタニア北地方 (57, 243) へ)</title></use>
 </a>
 <a href="#event-57-236">
-<use href="#svg-asset-event" x="456" y="1888"><title>(57, 236): イベント 0x8E</title></use>
+<use href="#svg-asset-event" x="456" y="1888"><title>(57, 236): イベント 0x8E: 骨ワープ ((28, 168) へ)</title></use>
 </a>
 <a href="#event-122-80">
-<use href="#svg-asset-event" x="976" y="640"><title>(122, 80): イベント 0xEB</title></use>
+<use href="#svg-asset-event" x="976" y="640"><title>(122, 80): イベント 0xEB: 手形の落とし物</title></use>
 </a>
 <a href="#event-146-79">
-<use href="#svg-asset-event" x="1168" y="632"><title>(146, 79): イベント 0xBA</title></use>
+<use href="#svg-asset-event" x="1168" y="632"><title>(146, 79): イベント 0xBA: ラタニア城入口 (サイドビュー A (20, 53) へ)</title></use>
 </a>
 <a href="#event-214-47">
-<use href="#svg-asset-event" x="1712" y="376"><title>(214, 47): イベント 0x13</title></use>
+<use href="#svg-asset-event" x="1712" y="376"><title>(214, 47): イベント 0x13: アネイデアの町の入口へ</title></use>
 </a>
 <a href="#dst-213-50">
 <use href="#svg-asset-destination" x="1704" y="400"><title>(213, 50): ワープ先 0x14</title></use>
 </a>
 <a href="#dst-28-168">
-<use href="#svg-asset-destination" x="224" y="1344"><title>(28, 168): ワープ先 0x8E</title></use>
+<use href="#svg-asset-destination" x="224" y="1344"><title>(28, 168): ワープ先 0x8E: (57, 236) の骨ワープ先</title></use>
 </a>
 <a href="#dst-20-238">
 <use href="#svg-asset-destination" x="160" y="1904"><title>(20, 238): ワープ先 0x9C</title></use>
@@ -55,24 +55,28 @@ title = "ラタニア南地方"
 
 ## イベント
 
-### (33, 188): イベント 0xFB:  {#event-33-188}
+### (33, 188): イベント 0xFB: ベルトを使うとなくしたハートを入手 {#event-33-188}
 
-### (54, 15): イベント 0xAB:  {#event-54-15}
+### (54, 15): イベント 0xAB: 関所 ([ラタニア北地方](@/map/map-04/_index.md) [(57, 243)](@/map/map-04/_index.md#dst-57-243) へ) {#event-54-15}
 
-### (57, 236): イベント 0x8E:  {#event-57-236}
+### (57, 236): イベント 0x8E: 骨ワープ ([(28, 168)](#dst-28-168) へ) {#event-57-236}
 
-### (122, 80): イベント 0xEB:  {#event-122-80}
+### (122, 80): イベント 0xEB: 手形の落とし物 {#event-122-80}
 
-### (146, 79): イベント 0xBA:  {#event-146-79}
+手形所持数が 0 の状態で探索すると手形を 1 枚入手。
 
-### (214, 47): イベント 0x13:  {#event-214-47}
+### (146, 79): イベント 0xBA: ラタニア城入口 ([サイドビュー A](@/map/map-14/_index.md) [(20, 53)](@/map/map-14/_index.md#dst-20-53) へ) {#event-146-79}
+
+まだラタニアを占領しておらず、かつ志願兵、傭兵、グルカ兵、アマゾネスの合計兵力が 1000 以上なら入れる。
+
+### (214, 47): イベント 0x13: [アネイデアの町の入口](@/map/map-12/_index.md#dst-41-144)へ {#event-214-47}
 
 
 ## ワープ先
 
 ### (20, 238): ワープ先 0x9C:  {#dst-20-238}
 
-### (28, 168): ワープ先 0x8E:  {#dst-28-168}
+### (28, 168): ワープ先 0x8E: [(57, 236)](event-57-236) の骨ワープ先 {#dst-28-168}
 
 ### (53, 20): ワープ先 0xAA: [ラタニア北地方](@/map/map-04/_index.md)への関所手前 {#dst-53-20}
 

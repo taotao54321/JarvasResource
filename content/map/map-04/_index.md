@@ -56,7 +56,7 @@ title = "ラタニア北地方"
 <use href="#svg-asset-destination" x="680" y="160"><title>(85, 20): ワープ先 0xA0: ユース地方への関所手前</title></use>
 </a>
 <a href="#dst-57-243">
-<use href="#svg-asset-destination" x="456" y="1944"><title>(57, 243): ワープ先 0xAB</title></use>
+<use href="#svg-asset-destination" x="456" y="1944"><title>(57, 243): ワープ先 0xAB: ラタニア南地方への関所手前</title></use>
 </a>
 <a href="#dst-19-169">
 <use href="#svg-asset-destination" x="152" y="1352"><title>(19, 169): ワープ先 0xCF</title></use>
@@ -109,7 +109,9 @@ title = "ラタニア北地方"
 
 ### (19, 169): ワープ先 0xCF:  {#dst-19-169}
 
-### (57, 243): ワープ先 0xAB:  {#dst-57-243}
+### (57, 243): ワープ先 0xAB: [ラタニア南地方](@/map/map-08/_index.md)への関所手前 {#dst-57-243}
+
+ワープ元: [ラタニア南地方](@/map/map-08/_index.md) [(54, 15)](@/map/map-08/_index.md#event-54-15) の関所。
 
 ### (85, 20): ワープ先 0xA0: [ユース地方](@/map/map-00/_index.md)への関所手前 {#dst-85-20}
 
