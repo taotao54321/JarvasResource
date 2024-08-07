@@ -17,7 +17,7 @@ title = "オシーランド地方"
 <use href="#svg-asset-event" x="168" y="304"><title>(21, 38): イベント 0x82: 石ワープ ((149, 59) へ)</title></use>
 </a>
 <a href="#event-22-143">
-<use href="#svg-asset-event" x="176" y="1144"><title>(22, 143): イベント 0x17: バンスの町入口へ</title></use>
+<use href="#svg-asset-event" x="176" y="1144"><title>(22, 143): イベント 0x17: バンスの町の入口へ</title></use>
 </a>
 <a href="#event-41-238">
 <use href="#svg-asset-event" x="328" y="1904"><title>(41, 238): イベント 0x9D: 切り株ワープ ((174, 112) へ)</title></use>
@@ -71,7 +71,7 @@ title = "オシーランド地方"
 <use href="#svg-asset-destination" x="960" y="1408"><title>(120, 176): ワープ先 0x8F: (137, 236) の骨ワープ先</title></use>
 </a>
 <a href="#dst-44-21">
-<use href="#svg-asset-destination" x="352" y="168"><title>(44, 21): ワープ先 0x96</title></use>
+<use href="#svg-asset-destination" x="352" y="168"><title>(44, 21): ワープ先 0x96: ボルネー島 (139, 202) の木ワープ先</title></use>
 </a>
 <a href="#dst-174-112">
 <use href="#svg-asset-destination" x="1392" y="896"><title>(174, 112): ワープ先 0x9D: (41, 238) の切り株ワープ先</title></use>
@@ -96,7 +96,7 @@ title = "オシーランド地方"
 
 ### (21, 38): イベント 0x82: 石ワープ ([(149, 59)](#dst-149-59) へ) {#event-21-38}
 
-### (22, 143): イベント 0x17: [バンスの町入口](@/map/map-13a/_index.md#dst-197-48)へ {#event-22-143}
+### (22, 143): イベント 0x17: [バンスの町の入口](@/map/map-13a/_index.md#dst-197-48)へ {#event-22-143}
 
 ### (41, 238): イベント 0x9D: 切り株ワープ ([(174, 112)](#dst-174-112) へ) {#event-41-238}
 
@@ -131,7 +131,7 @@ title = "オシーランド地方"
 
 ### (21, 146): ワープ先 0x18:  {#dst-21-146}
 
-### (44, 21): ワープ先 0x96:  {#dst-44-21}
+### (44, 21): ワープ先 0x96: [ボルネー島](@/map/map-07/_index.md) [(139, 202)](@/map/map-07/_index.md#event-139-202) の木ワープ先 {#dst-44-21}
 
 ### (44, 245): ワープ先 0xB1: オシーランド城の島 {#dst-44-245}
 

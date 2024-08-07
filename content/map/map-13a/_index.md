@@ -71,10 +71,10 @@ title = "町セット B (ステラ+バンス+リカルド)"
 <use href="#svg-asset-destination" x="1480" y="912"><title>(185, 114): ワープ先 0x0D</title></use>
 </a>
 <a href="#dst-65-114">
-<use href="#svg-asset-destination" x="520" y="912"><title>(65, 114): ワープ先 0x11</title></use>
+<use href="#svg-asset-destination" x="520" y="912"><title>(65, 114): ワープ先 0x11: ステラの町の入口</title></use>
 </a>
 <a href="#dst-197-48">
-<use href="#svg-asset-destination" x="1576" y="384"><title>(197, 48): ワープ先 0x17: バンスの町入口</title></use>
+<use href="#svg-asset-destination" x="1576" y="384"><title>(197, 48): ワープ先 0x17: バンスの町の入口</title></use>
 </a>
 <a href="#dst-235-34">
 <use href="#svg-asset-destination" x="1880" y="272"><title>(235, 34): ワープ先 0x38</title></use>
@@ -150,7 +150,9 @@ title = "町セット B (ステラ+バンス+リカルド)"
 
 ## ワープ先
 
-### (65, 114): ワープ先 0x11:  {#dst-65-114}
+### (65, 114): ワープ先 0x11: ステラの町の入口 {#dst-65-114}
+
+ワープ元: [ボルネー島](@/map/map-07/_index.md) [(202, 95)](@/map/map-07/_index.md#event-202-95)。
 
 ### (71, 106): ワープ先 0x40:  {#dst-71-106}
 
@@ -164,7 +166,7 @@ title = "町セット B (ステラ+バンス+リカルド)"
 
 ### (197, 18): ワープ先 0x69:  {#dst-197-18}
 
-### (197, 48): ワープ先 0x17: バンスの町入口 {#dst-197-48}
+### (197, 48): ワープ先 0x17: バンスの町の入口 {#dst-197-48}
 
 ワープ元: [オシーランド地方](@/map/map-11/_index.md) [(22, 143)](@/map/map-11/_index.md#event-22-143)。
 

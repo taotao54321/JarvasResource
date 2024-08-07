@@ -11,25 +11,25 @@ title = "ボルネー島"
 </defs>
 <use href="#svg-asset-bg" x="0" y="0"></use>
 <a href="#event-26-95">
-<use href="#svg-asset-event" x="208" y="760"><title>(26, 95): イベント 0x0F</title></use>
+<use href="#svg-asset-event" x="208" y="760"><title>(26, 95): イベント 0x0F: ラモッサの町の入口へ</title></use>
 </a>
 <a href="#event-29-234">
-<use href="#svg-asset-event" x="232" y="1872"><title>(29, 234): イベント 0xFE</title></use>
+<use href="#svg-asset-event" x="232" y="1872"><title>(29, 234): イベント 0xFE: ハーモニカを使うと金のリボンを入手</title></use>
 </a>
 <a href="#event-45-178">
-<use href="#svg-asset-event" x="360" y="1424"><title>(45, 178): イベント 0x81</title></use>
+<use href="#svg-asset-event" x="360" y="1424"><title>(45, 178): イベント 0x81: 石ワープ ((44, 146) へ)</title></use>
 </a>
 <a href="#event-69-77">
-<use href="#svg-asset-event" x="552" y="616"><title>(69, 77): イベント 0xF7</title></use>
+<use href="#svg-asset-event" x="552" y="616"><title>(69, 77): イベント 0xF7: ダイヤを入手</title></use>
 </a>
 <a href="#event-117-78">
-<use href="#svg-asset-event" x="936" y="624"><title>(117, 78): イベント 0x80</title></use>
+<use href="#svg-asset-event" x="936" y="624"><title>(117, 78): イベント 0x80: 石ワープ ((228, 158) へ)</title></use>
 </a>
 <a href="#event-139-202">
-<use href="#svg-asset-event" x="1112" y="1616"><title>(139, 202): イベント 0x96</title></use>
+<use href="#svg-asset-event" x="1112" y="1616"><title>(139, 202): イベント 0x96: 木ワープ (オシーランド地方 (44, 21) へ)</title></use>
 </a>
 <a href="#event-202-95">
-<use href="#svg-asset-event" x="1616" y="760"><title>(202, 95): イベント 0x11</title></use>
+<use href="#svg-asset-event" x="1616" y="760"><title>(202, 95): イベント 0x11: ステラの町の入口へ</title></use>
 </a>
 <a href="#dst-25-98">
 <use href="#svg-asset-destination" x="200" y="784"><title>(25, 98): ワープ先 0x10</title></use>
@@ -38,10 +38,10 @@ title = "ボルネー島"
 <use href="#svg-asset-destination" x="1608" y="784"><title>(201, 98): ワープ先 0x12</title></use>
 </a>
 <a href="#dst-228-158">
-<use href="#svg-asset-destination" x="1824" y="1264"><title>(228, 158): ワープ先 0x80</title></use>
+<use href="#svg-asset-destination" x="1824" y="1264"><title>(228, 158): ワープ先 0x80: (117, 78) の石ワープ先</title></use>
 </a>
 <a href="#dst-44-146">
-<use href="#svg-asset-destination" x="352" y="1168"><title>(44, 146): ワープ先 0x81</title></use>
+<use href="#svg-asset-destination" x="352" y="1168"><title>(44, 146): ワープ先 0x81: (45, 178) の石ワープ先</title></use>
 </a>
 <a href="#dst-220-182">
 <use href="#svg-asset-destination" x="1760" y="1456"><title>(220, 182): ワープ先 0x83: オシーランド地方 (218, 39) の石ワープ先</title></use>
@@ -58,19 +58,23 @@ title = "ボルネー島"
 
 ## イベント
 
-### (26, 95): イベント 0x0F:  {#event-26-95}
+### (26, 95): イベント 0x0F: [ラモッサの町の入口](@/map/map-12/_index.md#dst-117-242)へ {#event-26-95}
 
-### (29, 234): イベント 0xFE:  {#event-29-234}
+### (29, 234): イベント 0xFE: ハーモニカを使うと金のリボンを入手 {#event-29-234}
 
-### (45, 178): イベント 0x81:  {#event-45-178}
+### (45, 178): イベント 0x81: 石ワープ ([(44, 146)](#dst-44-146) へ) {#event-45-178}
 
-### (69, 77): イベント 0xF7:  {#event-69-77}
+通常プレイでは到達不能と思われる。
 
-### (117, 78): イベント 0x80:  {#event-117-78}
+### (69, 77): イベント 0xF7: ダイヤを入手 {#event-69-77}
 
-### (139, 202): イベント 0x96:  {#event-139-202}
+### (117, 78): イベント 0x80: 石ワープ ([(228, 158)](#dst-228-158) へ) {#event-117-78}
 
-### (202, 95): イベント 0x11:  {#event-202-95}
+通常プレイでは到達不能と思われる。
+
+### (139, 202): イベント 0x96: 木ワープ ([オシーランド地方](@/map/map-11/_index.md) [(44, 21)](@/map/map-11/_index.md#dst-44-21) へ) {#event-139-202}
+
+### (202, 95): イベント 0x11: [ステラの町の入口](@/map/map-13a/_index.md#dst-65-114)へ {#event-202-95}
 
 
 ## ワープ先
@@ -79,7 +83,9 @@ title = "ボルネー島"
 
 ### (36, 242): ワープ先 0xEA:  {#dst-36-242}
 
-### (44, 146): ワープ先 0x81:  {#dst-44-146}
+### (44, 146): ワープ先 0x81: [(45, 178)](#event-45-178) の石ワープ先 {#dst-44-146}
+
+ワープ元は通常プレイでは到達不能と思われる。
 
 ### (74, 58): ワープ先 0xE9:  {#dst-74-58}
 
@@ -89,6 +95,6 @@ title = "ボルネー島"
 
 ワープ元は通常プレイでは到達不能と思われる。
 
-### (228, 158): ワープ先 0x80:  {#dst-228-158}
+### (228, 158): ワープ先 0x80: [(117, 78)](#event-117-78) の石ワープ先 {#dst-228-158}
 
-
+ワープ元は通常プレイでは到達不能と思われる。
