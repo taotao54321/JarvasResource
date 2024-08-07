@@ -26,7 +26,7 @@ title = "ラタニア北地方"
 <use href="#svg-asset-event" x="1288" y="592"><title>(161, 74): イベント 0x7C: 石ワープ (エウロン西地方 (109, 119) へ)</title></use>
 </a>
 <a href="#event-185-86">
-<use href="#svg-asset-event" x="1480" y="688"><title>(185, 86): イベント 0x7D</title></use>
+<use href="#svg-asset-event" x="1480" y="688"><title>(185, 86): イベント 0x7D: 石ワープ ((220, 98) へ)</title></use>
 </a>
 <a href="#event-202-191">
 <use href="#svg-asset-event" x="1616" y="1528"><title>(202, 191): イベント 0x07</title></use>
@@ -47,7 +47,7 @@ title = "ラタニア北地方"
 <use href="#svg-asset-destination" x="1736" y="1168"><title>(217, 146): ワープ先 0x0A</title></use>
 </a>
 <a href="#dst-220-98">
-<use href="#svg-asset-destination" x="1760" y="784"><title>(220, 98): ワープ先 0x7D</title></use>
+<use href="#svg-asset-destination" x="1760" y="784"><title>(220, 98): ワープ先 0x7D: (185, 86) の石ワープ先</title></use>
 </a>
 <a href="#dst-240-29">
 <use href="#svg-asset-destination" x="1920" y="232"><title>(240, 29): ワープ先 0x8D</title></use>
@@ -92,7 +92,9 @@ title = "ラタニア北地方"
 
 通常プレイでは到達不能と思われる。
 
-### (185, 86): イベント 0x7D:  {#event-185-86}
+### (185, 86): イベント 0x7D: 石ワープ ([(220, 98)](#dst-220-98) へ) {#event-185-86}
+
+通常プレイでは到達不能と思われる。
 
 ### (202, 191): イベント 0x07:  {#event-202-191}
 
@@ -123,7 +125,9 @@ title = "ラタニア北地方"
 
 ### (217, 146): ワープ先 0x0A:  {#dst-217-146}
 
-### (220, 98): ワープ先 0x7D:  {#dst-220-98}
+### (220, 98): ワープ先 0x7D: [(185, 86)](#event-185-86) の石ワープ先 {#dst-220-98}
+
+ワープ元は通常プレイでは到達不能と思われる。
 
 ### (240, 29): ワープ先 0x8D:  {#dst-240-29}
 
