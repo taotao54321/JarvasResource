@@ -58,10 +58,10 @@ title = "ユース地方"
 <use href="#svg-asset-destination" x="1184" y="1728"><title>(148, 216): ワープ先 0x8B: ラタニア北地方 (237, 26) の骨ワープ先</title></use>
 </a>
 <a href="#dst-20-155">
-<use href="#svg-asset-destination" x="160" y="1240"><title>(20, 155): ワープ先 0x94</title></use>
+<use href="#svg-asset-destination" x="160" y="1240"><title>(20, 155): ワープ先 0x94: キネラシア北東地方 (157, 153) の木ワープ先</title></use>
 </a>
 <a href="#dst-39-43">
-<use href="#svg-asset-destination" x="312" y="344"><title>(39, 43): ワープ先 0x9B</title></use>
+<use href="#svg-asset-destination" x="312" y="344"><title>(39, 43): ワープ先 0x9B: キネラシア北東地方 (202, 47) の切り株ワープ先</title></use>
 </a>
 <a href="#dst-89-243">
 <use href="#svg-asset-destination" x="712" y="1944"><title>(89, 243): ワープ先 0xA1: ラタニア北地方への関所手前</title></use>
@@ -128,11 +128,11 @@ title = "ユース地方"
 これはおそらくワープ先の設定漏れと思われる。
 ここにワープした場合、画面外を歩くことはできるが、イベントリストが空なので特に何も起こらない模様。
 
-### (20, 155): ワープ先 0x94:  {#dst-20-155}
+### (20, 155): ワープ先 0x94: [キネラシア北東地方](@/map/map-03/_index.md) [(157, 153)](@/map/map-03/_index.md#event-157-153) の木ワープ先 {#dst-20-155}
 
 ### (25, 233): ワープ先 0xCD:  {#dst-25-233}
 
-### (39, 43): ワープ先 0x9B:  {#dst-39-43}
+### (39, 43): ワープ先 0x9B: [キネラシア北東地方](@/map/map-03/_index.md) [(202, 47)](@/map/map-03/_index.md#event-202-47) の切り株ワープ先 {#dst-39-43}
 
 ### (85, 142): ワープ先 0xBD: [ユース城門](#event-86-159)を抜けた先 {#dst-85-142}
 

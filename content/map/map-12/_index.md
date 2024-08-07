@@ -212,7 +212,7 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 <use href="#svg-asset-destination" x="1352" y="528"><title>(169, 66): ワープ先 0x03: アドニスの町の入口</title></use>
 </a>
 <a href="#dst-145-146">
-<use href="#svg-asset-destination" x="1160" y="1168"><title>(145, 146): ワープ先 0x05</title></use>
+<use href="#svg-asset-destination" x="1160" y="1168"><title>(145, 146): ワープ先 0x05: ペイチンの町の入口</title></use>
 </a>
 <a href="#dst-165-242">
 <use href="#svg-asset-destination" x="1320" y="1936"><title>(165, 242): ワープ先 0x07: ザイドタウンの町の入口</title></use>
@@ -532,7 +532,9 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 
 ### (139, 138): ワープ先 0x52:  {#dst-139-138}
 
-### (145, 146): ワープ先 0x05:  {#dst-145-146}
+### (145, 146): ワープ先 0x05: ペイチンの町の入口 {#dst-145-146}
+
+ワープ元: [キネラシア北東地方](@/map/map-03/_index.md) [(38, 223)](@/map/map-03/_index.md#event-38-223)。
 
 ### (147, 98): ワープ先 0x4C:  {#dst-147-98}
 

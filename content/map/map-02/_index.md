@@ -65,7 +65,7 @@ title = "エウロン東地方+キネラシア北西地方"
 <use href="#svg-asset-destination" x="200" y="1944"><title>(25, 243): ワープ先 0xA7: キネラシア南地方への関所手前</title></use>
 </a>
 <a href="#dst-240-232">
-<use href="#svg-asset-destination" x="1920" y="1856"><title>(240, 232): ワープ先 0xA9</title></use>
+<use href="#svg-asset-destination" x="1920" y="1856"><title>(240, 232): ワープ先 0xA9: キネラシア北東地方への関所手前</title></use>
 </a>
 <a href="#dst-68-111">
 <use href="#svg-asset-destination" x="544" y="888"><title>(68, 111): ワープ先 0xCB</title></use>
@@ -156,6 +156,6 @@ title = "エウロン東地方+キネラシア北西地方"
 
 ### (212, 127): ワープ先 0xCC:  {#dst-212-127}
 
-### (240, 232): ワープ先 0xA9:  {#dst-240-232}
+### (240, 232): ワープ先 0xA9: [キネラシア北東地方](@/map/map-03/_index.md)への関所手前 {#dst-240-232}
 
-
+ワープ元: [キネラシア北東地方](@/map/map-03/_index.md) [(16, 233)](@/map/map-03/_index.md#event-16-233) の関所。
