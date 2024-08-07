@@ -74,7 +74,7 @@ title = "サイドビュー C"
 <use href="#svg-asset-destination" x="160" y="1448"><title>(20, 181): ワープ先 0xB8</title></use>
 </a>
 <a href="#dst-20-21">
-<use href="#svg-asset-destination" x="160" y="168"><title>(20, 21): ワープ先 0xBB</title></use>
+<use href="#svg-asset-destination" x="160" y="168"><title>(20, 21): ワープ先 0xBB: タクテカ城 第 1 の部屋</title></use>
 </a>
 <a href="#dst-148-53">
 <use href="#svg-asset-destination" x="1184" y="424"><title>(148, 53): ワープ先 0xBC</title></use>
@@ -112,7 +112,9 @@ title = "サイドビュー C"
 
 ### (20, 181): ワープ先 0xB8:  {#dst-20-181}
 
-### (20, 21): ワープ先 0xBB:  {#dst-20-21}
+### (20, 21): ワープ先 0xBB: タクテカ城 第 1 の部屋 {#dst-20-21}
+
+ワープ元: [タクテカ地方](@/map/map-09/_index.md) [(130, 175)](@/map/map-09/_index.md#event-130-175) のタクテカ城入口。
 
 ### (20, 213): ワープ先 0x73:  {#dst-20-213}
 

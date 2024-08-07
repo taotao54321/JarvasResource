@@ -2,6 +2,8 @@
 title = "リングワールド地方"
 +++
 
+* 北西の島: マダガス島
+
 <!-- SVG {{{ -->
 <svg width="1536" height="1536" viewbox="0 0 2048 2048">
 <defs>
@@ -32,7 +34,7 @@ title = "リングワールド地方"
 <use href="#svg-asset-destination" x="1320" y="1296"><title>(165, 162): ワープ先 0x16</title></use>
 </a>
 <a href="#dst-12-97">
-<use href="#svg-asset-destination" x="96" y="776"><title>(12, 97): ワープ先 0xDE</title></use>
+<use href="#svg-asset-destination" x="96" y="776"><title>(12, 97): ワープ先 0xDE: タクテカ地方の西の船小屋の行き先</title></use>
 </a>
 <a href="#dst-94-105">
 <use href="#svg-asset-destination" x="752" y="840"><title>(94, 105): ワープ先 0xDF</title></use>
@@ -58,7 +60,7 @@ title = "リングワールド地方"
 
 ## ワープ先
 
-### (12, 97): ワープ先 0xDE:  {#dst-12-97}
+### (12, 97): ワープ先 0xDE: [タクテカ地方](@/map/map-09/_index.md)の[西の船小屋](@/map/map-09/_index.md#event-58-135)の行き先 {#dst-12-97}
 
 ### (94, 105): ワープ先 0xDF:  {#dst-94-105}
 

@@ -2,7 +2,7 @@
 title = "ユース地方"
 +++
 
-北東の島はバフィン島。
+* 北東の島: バフィン島
 
 <!-- SVG {{{ -->
 <svg width="1536" height="1536" viewbox="0 0 2048 2048">
@@ -76,7 +76,7 @@ title = "ユース地方"
 <use href="#svg-asset-destination" x="952" y="712"><title>(119, 89): ワープ先 0xCE</title></use>
 </a>
 <a href="#dst-186-61">
-<use href="#svg-asset-destination" x="1488" y="488"><title>(186, 61): ワープ先 0xD8: バフィン島の船の行き先</title></use>
+<use href="#svg-asset-destination" x="1488" y="488"><title>(186, 61): ワープ先 0xD8: バフィン島の船小屋の行き先</title></use>
 </a>
 <a href="#dst-221-50">
 <use href="#svg-asset-destination" x="1768" y="400"><title>(221, 50): ワープ先 0xE2</title></use>
@@ -136,7 +136,7 @@ title = "ユース地方"
 
 ### (173, 206): ワープ先 0x55:  {#dst-173-206}
 
-### (186, 61): ワープ先 0xD8: [バフィン島の船](#event-214-39)の行き先 {#dst-186-61}
+### (186, 61): ワープ先 0xD8: [バフィン島の船小屋](#event-214-39)の行き先 {#dst-186-61}
 
 ### (213, 98): ワープ先 0x02:  {#dst-213-98}
 
