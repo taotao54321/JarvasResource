@@ -5,7 +5,7 @@ title = "サイドビュー A"
 <!-- SVG {{{ -->
 <svg width="1536" height="1536" viewbox="0 0 2048 2048">
 <defs>
-<image id="svg-asset-bg" width="2048" height="2048" href="map-14a.webp" />
+<image id="svg-asset-bg" width="2048" height="2048" href="map-14.webp" />
 <image id="svg-asset-event" width="16" height="16" href="icon-event.png" />
 <image id="svg-asset-destination" width="16" height="16" href="icon-destination.png" />
 </defs>

@@ -19,6 +19,5 @@ title = "マップ"
 | 12   | [町 (ブルガ+アドニス+アネイデア+ペイチン+パントーン+パタン+ラモッサ+ザイドタウン+ラモン)](@/map/map-12/_index.md) |
 | 13-A | [町 (ステラ+バンス+リカルド)](@/map/map-13a/_index.md)                                                            |
 | 13-B | [各種店](@/map/map-13b/_index.md)                                                                                 |
-| 14-A | [サイドビュー A](@/map/map-14a/_index.md)                                                                         |
-| 14-B | [サイドビュー B](@/map/map-14b/_index.md)                                                                         |
-| 15   | [サイドビュー C](@/map/map-15/_index.md)                                                                          |
+| 14   | [サイドビュー A](@/map/map-14/_index.md)                                                                          |
+| 15   | [サイドビュー B](@/map/map-15/_index.md)                                                                          |
