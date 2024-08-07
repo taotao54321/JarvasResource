@@ -11,46 +11,46 @@ title = "キネラシア南地方"
 </defs>
 <use href="#svg-asset-bg" x="0" y="0"></use>
 <a href="#event-16-25">
-<use href="#svg-asset-event" x="128" y="200"><title>(16, 25): イベント 0xAD</title></use>
+<use href="#svg-asset-event" x="128" y="200"><title>(16, 25): イベント 0xAD: 関所 (リカントス地方 (243, 21) へ)</title></use>
 </a>
 <a href="#event-17-148">
-<use href="#svg-asset-event" x="136" y="1184"><title>(17, 148): イベント 0xF6</title></use>
+<use href="#svg-asset-event" x="136" y="1184"><title>(17, 148): イベント 0xF6: 金貨を入手</title></use>
 </a>
 <a href="#event-18-99">
-<use href="#svg-asset-event" x="144" y="792"><title>(18, 99): イベント 0x95</title></use>
+<use href="#svg-asset-event" x="144" y="792"><title>(18, 99): イベント 0x95: 木ワープ (リカントス地方 (225, 89) へ)</title></use>
 </a>
 <a href="#event-21-14">
-<use href="#svg-asset-event" x="168" y="112"><title>(21, 14): イベント 0xA7</title></use>
+<use href="#svg-asset-event" x="168" y="112"><title>(21, 14): イベント 0xA7: 関所 (エウロン東地方 (25, 243) へ)</title></use>
 </a>
 <a href="#event-36-30">
-<use href="#svg-asset-event" x="288" y="240"><title>(36, 30): イベント 0xEB</title></use>
+<use href="#svg-asset-event" x="288" y="240"><title>(36, 30): イベント 0xEB: 手形の落とし物</title></use>
 </a>
 <a href="#event-52-105">
-<use href="#svg-asset-event" x="416" y="840"><title>(52, 105): イベント 0x7F</title></use>
+<use href="#svg-asset-event" x="416" y="840"><title>(52, 105): イベント 0x7F: 石ワープ ((92, 26) へ)</title></use>
 </a>
 <a href="#event-137-42">
-<use href="#svg-asset-event" x="1096" y="336"><title>(137, 42): イベント 0x85</title></use>
+<use href="#svg-asset-event" x="1096" y="336"><title>(137, 42): イベント 0x85: 石ワープ ((24, 46) へ)</title></use>
 </a>
 <a href="#event-181-78">
-<use href="#svg-asset-event" x="1448" y="624"><title>(181, 78): イベント 0xFF</title></use>
+<use href="#svg-asset-event" x="1448" y="624"><title>(181, 78): イベント 0xFF: ハーモニカを使うと星のかけらを入手</title></use>
 </a>
 <a href="#event-193-122">
-<use href="#svg-asset-event" x="1544" y="976"><title>(193, 122): イベント 0x7E</title></use>
+<use href="#svg-asset-event" x="1544" y="976"><title>(193, 122): イベント 0x7E: 石ワープ ((172, 98) へ)</title></use>
 </a>
 <a href="#event-218-63">
-<use href="#svg-asset-event" x="1744" y="504"><title>(218, 63): イベント 0x0D</title></use>
+<use href="#svg-asset-event" x="1744" y="504"><title>(218, 63): イベント 0x0D: リカルドの町の入口へ</title></use>
 </a>
 <a href="#dst-217-66">
 <use href="#svg-asset-destination" x="1736" y="528"><title>(217, 66): ワープ先 0x0E</title></use>
 </a>
 <a href="#dst-172-98">
-<use href="#svg-asset-destination" x="1376" y="784"><title>(172, 98): ワープ先 0x7E</title></use>
+<use href="#svg-asset-destination" x="1376" y="784"><title>(172, 98): ワープ先 0x7E: (193, 122) の石ワープ先</title></use>
 </a>
 <a href="#dst-92-26">
-<use href="#svg-asset-destination" x="736" y="208"><title>(92, 26): ワープ先 0x7F</title></use>
+<use href="#svg-asset-destination" x="736" y="208"><title>(92, 26): ワープ先 0x7F: (52, 105) の石ワープ先</title></use>
 </a>
 <a href="#dst-24-46">
-<use href="#svg-asset-destination" x="192" y="368"><title>(24, 46): ワープ先 0x85</title></use>
+<use href="#svg-asset-destination" x="192" y="368"><title>(24, 46): ワープ先 0x85: (137, 42) の石ワープ先</title></use>
 </a>
 <a href="#dst-209-21">
 <use href="#svg-asset-destination" x="1672" y="168"><title>(209, 21): ワープ先 0x9A</title></use>
@@ -73,25 +73,31 @@ title = "キネラシア南地方"
 
 ## イベント
 
-### (16, 25): イベント 0xAD:  {#event-16-25}
+### (16, 25): イベント 0xAD: 関所 ([リカントス地方](@/map/map-05/_index.md) [(243, 21)](@/map/map-05/_index.md#dst-243-21) へ) {#event-16-25}
 
-### (17, 148): イベント 0xF6:  {#event-17-148}
+### (17, 148): イベント 0xF6: 金貨を入手 {#event-17-148}
 
-### (18, 99): イベント 0x95:  {#event-18-99}
+### (18, 99): イベント 0x95: 木ワープ ([リカントス地方](@/map/map-05/_index.md) [(225, 89)](@/map/map-05/_index.md#dst-225-89) へ) {#event-18-99}
 
-### (21, 14): イベント 0xA7:  {#event-21-14}
+### (21, 14): イベント 0xA7: 関所 ([エウロン東地方](@/map/map-02/_index.md) [(25, 243)](@/map/map-02/_index.md#dst-25-243) へ) {#event-21-14}
 
-### (36, 30): イベント 0xEB:  {#event-36-30}
+通行料として金 100 を没収される (足りない場合は金が 0 になる)。
 
-### (52, 105): イベント 0x7F:  {#event-52-105}
+### (36, 30): イベント 0xEB: 手形の落とし物 {#event-36-30}
 
-### (137, 42): イベント 0x85:  {#event-137-42}
+手形所持数が 0 の状態で探索すると手形を 1 枚入手。
 
-### (181, 78): イベント 0xFF:  {#event-181-78}
+### (52, 105): イベント 0x7F: 石ワープ ([(92, 26)](#dst-92-26) へ) {#event-52-105}
 
-### (193, 122): イベント 0x7E:  {#event-193-122}
+### (137, 42): イベント 0x85: 石ワープ ([(24, 46)](#dst-24-46) へ) {#event-137-42}
 
-### (218, 63): イベント 0x0D:  {#event-218-63}
+### (181, 78): イベント 0xFF: ハーモニカを使うと星のかけらを入手 {#event-181-78}
+
+### (193, 122): イベント 0x7E: 石ワープ ([(172, 98)](#dst-172-98) へ) {#event-193-122}
+
+通常プレイでは到達不能と思われる。
+
+### (218, 63): イベント 0x0D: [リカルドの町の入口](@/map/map-13a/_index.md#dst-185-114)へ {#event-218-63}
 
 
 ## ワープ先
@@ -102,13 +108,15 @@ title = "キネラシア南地方"
 
 ### (21, 19): ワープ先 0xA6:  {#dst-21-19}
 
-### (24, 46): ワープ先 0x85:  {#dst-24-46}
+### (24, 46): ワープ先 0x85: [(137, 42)](#event-137-42) の石ワープ先 {#dst-24-46}
 
 ### (70, 114): ワープ先 0xEB:  {#dst-70-114}
 
-### (92, 26): ワープ先 0x7F:  {#dst-92-26}
+### (92, 26): ワープ先 0x7F: [(52, 105)](#event-52-105) の石ワープ先 {#dst-92-26}
 
-### (172, 98): ワープ先 0x7E:  {#dst-172-98}
+### (172, 98): ワープ先 0x7E: [(193, 122)](#event-193-122) の石ワープ先 {#dst-172-98}
+
+ワープ元は通常プレイでは到達不能と思われる。
 
 ### (209, 21): ワープ先 0x9A:  {#dst-209-21}
 

@@ -50,10 +50,10 @@ title = "リカントス地方"
 <use href="#svg-asset-destination" x="1408" y="1008"><title>(176, 126): ワープ先 0x8C: (101, 206) の骨ワープ先</title></use>
 </a>
 <a href="#dst-225-89">
-<use href="#svg-asset-destination" x="1800" y="712"><title>(225, 89): ワープ先 0x95</title></use>
+<use href="#svg-asset-destination" x="1800" y="712"><title>(225, 89): ワープ先 0x95: キネラシア南地方 (18, 99) の木ワープ先</title></use>
 </a>
 <a href="#dst-243-21">
-<use href="#svg-asset-destination" x="1944" y="168"><title>(243, 21): ワープ先 0xAD</title></use>
+<use href="#svg-asset-destination" x="1944" y="168"><title>(243, 21): ワープ先 0xAD: キネラシア南地方への関所手前</title></use>
 </a>
 <a href="#dst-201-243">
 <use href="#svg-asset-destination" x="1608" y="1944"><title>(201, 243): ワープ先 0xAF: タクテカ地方への関所手前</title></use>
@@ -116,8 +116,8 @@ title = "リカントス地方"
 
 ワープ元: [タクテカ地方](@/map/map-09/_index.md) [(198, 15)](@/map/map-09/_index.md#event-198-15) の関所。
 
-### (225, 89): ワープ先 0x95:  {#dst-225-89}
+### (225, 89): ワープ先 0x95: [キネラシア南地方](@/map/map-06/_index.md) [(18, 99)](@/map/map-06/_index.md#event-18-99) の木ワープ先 {#dst-225-89}
 
-### (243, 21): ワープ先 0xAD:  {#dst-243-21}
+### (243, 21): ワープ先 0xAD: [キネラシア南地方](@/map/map-06/_index.md)への関所手前 {#dst-243-21}
 
-
+ワープ元: [キネラシア南地方](@/map/map-06/_index.md) [(16, 25)](@/map/map-06/_index.md#event-16-25) の関所。

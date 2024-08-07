@@ -68,7 +68,7 @@ title = "町セット B (ステラ+バンス+リカルド)"
 <use href="#svg-asset-event" x="1936" y="840"><title>(242, 105): イベント 0xEE</title></use>
 </a>
 <a href="#dst-185-114">
-<use href="#svg-asset-destination" x="1480" y="912"><title>(185, 114): ワープ先 0x0D</title></use>
+<use href="#svg-asset-destination" x="1480" y="912"><title>(185, 114): ワープ先 0x0D: リカルドの町の入口</title></use>
 </a>
 <a href="#dst-65-114">
 <use href="#svg-asset-destination" x="520" y="912"><title>(65, 114): ワープ先 0x11: ステラの町の入口</title></use>
@@ -158,7 +158,9 @@ title = "町セット B (ステラ+バンス+リカルド)"
 
 ### (103, 90): ワープ先 0x3E:  {#dst-103-90}
 
-### (185, 114): ワープ先 0x0D:  {#dst-185-114}
+### (185, 114): ワープ先 0x0D: リカルドの町の入口 {#dst-185-114}
+
+ワープ元: [キネラシア南地方](@/map/map-06/_index.md) [(218, 63)](@/map/map-06/_index.md#event-218-63)。
 
 ### (187, 34): ワープ先 0x3A:  {#dst-187-34}
 
