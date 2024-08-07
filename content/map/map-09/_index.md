@@ -32,7 +32,7 @@ title = "タクテカ地方"
 <use href="#svg-asset-event" x="1872" y="312"><title>(234, 39): イベント 0x56</title></use>
 </a>
 <a href="#dst-197-20">
-<use href="#svg-asset-destination" x="1576" y="160"><title>(197, 20): ワープ先 0xAE</title></use>
+<use href="#svg-asset-destination" x="1576" y="160"><title>(197, 20): ワープ先 0xAE: リカントス地方への関所手前</title></use>
 </a>
 <a href="#dst-132-175">
 <use href="#svg-asset-destination" x="1056" y="1400"><title>(132, 175): ワープ先 0xC9</title></use>
@@ -68,7 +68,9 @@ title = "タクテカ地方"
 
 ### (132, 175): ワープ先 0xC9:  {#dst-132-175}
 
-### (197, 20): ワープ先 0xAE:  {#dst-197-20}
+### (197, 20): ワープ先 0xAE: [リカントス地方](@/map/map-05/_index.md)への関所手前 {#dst-197-20}
+
+ワープ元: [リカントス地方](@/map/map-05/_index.md) [(202, 248)](@/map/map-05/_index.md#event-202-248) の関所。
 
 ### (200, 39): ワープ先 0xD3:  {#dst-200-39}
 

@@ -11,31 +11,31 @@ title = "リカントス地方"
 </defs>
 <use href="#svg-asset-bg" x="0" y="0"></use>
 <a href="#event-93-195">
-<use href="#svg-asset-event" x="744" y="1560"><title>(93, 195): イベント 0xE6</title></use>
+<use href="#svg-asset-event" x="744" y="1560"><title>(93, 195): イベント 0xE6: 探索するとハーモニカを入手</title></use>
 </a>
 <a href="#event-101-206">
-<use href="#svg-asset-event" x="808" y="1648"><title>(101, 206): イベント 0x8C</title></use>
+<use href="#svg-asset-event" x="808" y="1648"><title>(101, 206): イベント 0x8C: 骨ワープ ((176, 126) へ)</title></use>
 </a>
 <a href="#event-170-191">
-<use href="#svg-asset-event" x="1360" y="1528"><title>(170, 191): イベント 0x0B</title></use>
+<use href="#svg-asset-event" x="1360" y="1528"><title>(170, 191): イベント 0x0B: パタンの町の入口へ</title></use>
 </a>
 <a href="#event-194-63">
-<use href="#svg-asset-event" x="1552" y="504"><title>(194, 63): イベント 0xB9</title></use>
+<use href="#svg-asset-event" x="1552" y="504"><title>(194, 63): イベント 0xB9: リカントス城入口 (サイドビュー A (20, 85) へ)</title></use>
 </a>
 <a href="#event-202-248">
-<use href="#svg-asset-event" x="1616" y="1984"><title>(202, 248): イベント 0xAE</title></use>
+<use href="#svg-asset-event" x="1616" y="1984"><title>(202, 248): イベント 0xAE: 関所 (タクテカ地方 (197, 20) へ)</title></use>
 </a>
 <a href="#event-197-189">
-<use href="#svg-asset-event" x="1576" y="1512"><title>(197, 189): イベント 0xEB</title></use>
+<use href="#svg-asset-event" x="1576" y="1512"><title>(197, 189): イベント 0xEB: 手形の落とし物</title></use>
 </a>
 <a href="#event-205-24">
-<use href="#svg-asset-event" x="1640" y="192"><title>(205, 24): イベント 0xF5</title></use>
+<use href="#svg-asset-event" x="1640" y="192"><title>(205, 24): イベント 0xF5: ひかりごけを入手</title></use>
 </a>
 <a href="#event-245-153">
-<use href="#svg-asset-event" x="1960" y="1224"><title>(245, 153): イベント 0xE7</title></use>
+<use href="#svg-asset-event" x="1960" y="1224"><title>(245, 153): イベント 0xE7: 探索すると曼荼羅を入手</title></use>
 </a>
 <a href="#event-247-21">
-<use href="#svg-asset-event" x="1976" y="168"><title>(247, 21): イベント 0xAC</title></use>
+<use href="#svg-asset-event" x="1976" y="168"><title>(247, 21): イベント 0xAC: 関所 (キネラシア南地方 (20, 25) へ)</title></use>
 </a>
 <a href="#dst-169-194">
 <use href="#svg-asset-destination" x="1352" y="1552"><title>(169, 194): ワープ先 0x0C</title></use>
@@ -47,7 +47,7 @@ title = "リカントス地方"
 <use href="#svg-asset-destination" x="576" y="112"><title>(72, 14): ワープ先 0x88</title></use>
 </a>
 <a href="#dst-176-126">
-<use href="#svg-asset-destination" x="1408" y="1008"><title>(176, 126): ワープ先 0x8C</title></use>
+<use href="#svg-asset-destination" x="1408" y="1008"><title>(176, 126): ワープ先 0x8C: (101, 206) の骨ワープ先</title></use>
 </a>
 <a href="#dst-225-89">
 <use href="#svg-asset-destination" x="1800" y="712"><title>(225, 89): ワープ先 0x95</title></use>
@@ -73,23 +73,27 @@ title = "リカントス地方"
 
 ## イベント
 
-### (93, 195): イベント 0xE6:  {#event-93-195}
+### (93, 195): イベント 0xE6: 探索するとハーモニカを入手 {#event-93-195}
 
-### (101, 206): イベント 0x8C:  {#event-101-206}
+### (101, 206): イベント 0x8C: 骨ワープ ([(176, 126)](#dst-176-126) へ) {#event-101-206}
 
-### (170, 191): イベント 0x0B:  {#event-170-191}
+### (170, 191): イベント 0x0B: [パタンの町の入口](@/map/map-12/_index.md#dst-53-242)へ {#event-170-191}
 
-### (194, 63): イベント 0xB9:  {#event-194-63}
+### (194, 63): イベント 0xB9: リカントス城入口 ([サイドビュー A](@/map/map-14/_index.md) [(20, 85)](@/map/map-14/_index.md#dst-20-85) へ) {#event-194-63}
 
-### (202, 248): イベント 0xAE:  {#event-202-248}
+まだリカントスを占領しておらず、かつグルカ兵とアマゾネスの兵力がともに 400 以上なら入れる。
 
-### (197, 189): イベント 0xEB:  {#event-197-189}
+### (202, 248): イベント 0xAE: 関所 ([タクテカ地方](@/map/map-09/_index.md) [(197, 20)](@/map/map-09/_index.md#dst-197-20) へ) {#event-202-248}
 
-### (205, 24): イベント 0xF5:  {#event-205-24}
+### (197, 189): イベント 0xEB: 手形の落とし物 {#event-197-189}
 
-### (245, 153): イベント 0xE7:  {#event-245-153}
+手形所持数が 0 の状態で探索すると手形を 1 枚入手。
 
-### (247, 21): イベント 0xAC:  {#event-247-21}
+### (205, 24): イベント 0xF5: ひかりごけを入手 {#event-205-24}
+
+### (245, 153): イベント 0xE7: 探索すると曼荼羅を入手 {#event-245-153}
+
+### (247, 21): イベント 0xAC: 関所 ([キネラシア南地方](@/map/map-06/_index.md) [(20, 25)](@/map/map-06/_index.md#dst-20-25) へ) {#event-247-21}
 
 
 ## ワープ先
@@ -104,7 +108,7 @@ title = "リカントス地方"
 
 ### (172, 221): ワープ先 0xE4:  {#dst-172-221}
 
-### (176, 126): ワープ先 0x8C:  {#dst-176-126}
+### (176, 126): ワープ先 0x8C: [(101, 206)](#event-101-206) の骨ワープ先 {#dst-176-126}
 
 ### (195, 63): ワープ先 0xC8:  {#dst-195-63}
 

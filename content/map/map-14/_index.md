@@ -89,7 +89,7 @@ title = "サイドビュー A"
 <use href="#svg-asset-destination" x="160" y="168"><title>(20, 21): ワープ先 0xB6: ユース城 第 1 の部屋</title></use>
 </a>
 <a href="#dst-20-85">
-<use href="#svg-asset-destination" x="160" y="680"><title>(20, 85): ワープ先 0xB9</title></use>
+<use href="#svg-asset-destination" x="160" y="680"><title>(20, 85): ワープ先 0xB9: リカントス城 第 1 の部屋</title></use>
 </a>
 <a href="#dst-20-53">
 <use href="#svg-asset-destination" x="160" y="424"><title>(20, 53): ワープ先 0xBA: ラタニア城 第 1 の部屋</title></use>
@@ -162,7 +162,9 @@ title = "サイドビュー A"
 
 ワープ元: [ラタニア南地方](@/map/map-08/_index.md) [(146, 79)](@/map/map-08/_index.md#event-146-79) のラタニア城入口。
 
-### (20, 85): ワープ先 0xB9:  {#dst-20-85}
+### (20, 85): ワープ先 0xB9: リカントス城 第 1 の部屋 {#dst-20-85}
+
+ワープ元: [リカントス地方](@/map/map-05/_index.md) [(194, 63)](@/map/map-05/_index.md#event-194-63) のリカントス城入口。
 
 ### (20, 117): ワープ先 0x5A:  {#dst-20-117}
 
