@@ -42,6 +42,9 @@ title = "ユース地方"
 <a href="#event-218-35">
 <use href="#svg-asset-event" x="1744" y="280"><title>(218, 35): イベント 0x79: 石ワープ ((233, 135) へ)</title></use>
 </a>
+<a href="#dst-0-1">
+<use href="#svg-asset-destination" x="0" y="8"><title>(0, 1): ワープ先 0xB2, 0xB4</title></use>
+</a>
 <a href="#dst-213-98">
 <use href="#svg-asset-destination" x="1704" y="784"><title>(213, 98): ワープ先 0x02</title></use>
 </a>
@@ -115,6 +118,15 @@ title = "ユース地方"
 
 
 ## ワープ先
+
+### (0, 1): ワープ先 0xB2, 0xB4: 海上 {#dst-0-1}
+
+ワープ元:
+
+* [リングワールド地方](@/map/map-10/_index.md) [(154, 159)](@/map/map-10/_index.md#event-154-159) (風の粉を持って曼荼羅を使う)
+
+これはおそらくワープ先の設定漏れと思われる。
+ここにワープした場合、画面外を歩くことはできるが、イベントリストが空なので特に何も起こらない模様。
 
 ### (20, 155): ワープ先 0x94:  {#dst-20-155}
 

@@ -2,6 +2,8 @@
 title = "オシーランド地方"
 +++
 
+* 北西の島: ジャバ島
+
 <!-- SVG {{{ -->
 <svg width="1536" height="1536" viewbox="0 0 2048 2048">
 <defs>
@@ -80,7 +82,7 @@ title = "オシーランド地方"
 <use href="#svg-asset-destination" x="416" y="1784"><title>(52, 223): ワープ先 0xCA</title></use>
 </a>
 <a href="#dst-17-29">
-<use href="#svg-asset-destination" x="136" y="232"><title>(17, 29): ワープ先 0xE0</title></use>
+<use href="#svg-asset-destination" x="136" y="232"><title>(17, 29): ワープ先 0xE0: リングワールド地方の東の船小屋の行き先</title></use>
 </a>
 <a href="#dst-246-197">
 <use href="#svg-asset-destination" x="1968" y="1576"><title>(246, 197): ワープ先 0xE1</title></use>
@@ -122,7 +124,7 @@ title = "オシーランド地方"
 
 ## ワープ先
 
-### (17, 29): ワープ先 0xE0:  {#dst-17-29}
+### (17, 29): ワープ先 0xE0: [リングワールド地方](@/map/map-10/_index.md)の[東の船小屋](@/map/map-10/_index.md#event-234-135)の行き先 {#dst-17-29}
 
 ### (21, 146): ワープ先 0x18:  {#dst-21-146}
 

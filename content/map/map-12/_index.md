@@ -230,7 +230,7 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 <use href="#svg-asset-destination" x="328" y="1152"><title>(41, 144): ワープ先 0x13: アネイデアの町の入口</title></use>
 </a>
 <a href="#dst-217-178">
-<use href="#svg-asset-destination" x="1736" y="1424"><title>(217, 178): ワープ先 0x15</title></use>
+<use href="#svg-asset-destination" x="1736" y="1424"><title>(217, 178): ワープ先 0x15: パントーンの町の入口</title></use>
 </a>
 <a href="#dst-51-74">
 <use href="#svg-asset-destination" x="408" y="592"><title>(51, 74): ワープ先 0x1A</title></use>
@@ -552,7 +552,9 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 
 ### (211, 142): ワープ先 0x36:  {#dst-211-142}
 
-### (217, 178): ワープ先 0x15:  {#dst-217-178}
+### (217, 178): ワープ先 0x15: パントーンの町の入口 {#dst-217-178}
+
+ワープ元: [リングワールド地方](@/map/map-10/_index.md) [(166, 159)](@/map/map-10/_index.md#event-166-159)。
 
 ### (217, 242): ワープ先 0x09: ラモンの町の入口 {#dst-217-242}
 
