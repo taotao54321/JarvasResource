@@ -17,7 +17,7 @@ title = "エウロン西地方"
 <use href="#svg-asset-event" x="456" y="1960"><title>(57, 245): イベント 0xEB</title></use>
 </a>
 <a href="#event-85-91">
-<use href="#svg-asset-event" x="680" y="728"><title>(85, 91): イベント 0x7C</title></use>
+<use href="#svg-asset-event" x="680" y="728"><title>(85, 91): イベント 0x7C: 石ワープ ((109, 119) へ)</title></use>
 </a>
 <a href="#event-90-23">
 <use href="#svg-asset-event" x="720" y="184"><title>(90, 23): イベント 0x56</title></use>
@@ -56,7 +56,7 @@ title = "エウロン西地方"
 <use href="#svg-asset-destination" x="1840" y="1120"><title>(230, 140): ワープ先 0x7B</title></use>
 </a>
 <a href="#dst-109-119">
-<use href="#svg-asset-destination" x="872" y="952"><title>(109, 119): ワープ先 0x7C</title></use>
+<use href="#svg-asset-destination" x="872" y="952"><title>(109, 119): ワープ先 0x7C: (85, 91) の石ワープ先</title></use>
 </a>
 <a href="#dst-90-94">
 <use href="#svg-asset-destination" x="720" y="752"><title>(90, 94): ワープ先 0x87</title></use>
@@ -89,7 +89,7 @@ title = "エウロン西地方"
 
 ### (57, 245): イベント 0xEB:  {#event-57-245}
 
-### (85, 91): イベント 0x7C:  {#event-85-91}
+### (85, 91): イベント 0x7C: 石ワープ ([(109, 119)](#dst-109-119) へ) {#event-85-91}
 
 ### (90, 23): イベント 0x56:  {#event-90-23}
 
@@ -118,7 +118,9 @@ title = "エウロン西地方"
 
 ### (90, 94): ワープ先 0x87:  {#dst-90-94}
 
-### (109, 119): ワープ先 0x7C:  {#dst-109-119}
+### (109, 119): ワープ先 0x7C: [(85, 91)](#event-85-91) の石ワープ先 {#dst-109-119}
+
+[ラタニア北地方](@/map/map-04/_index.md) [(161, 74)](@/map/map-04/_index.md#event-161-74) の石ワープ先でもあるが、こちらは通常プレイでは到達不能と思われる。
 
 ### (148, 158): ワープ先 0x99:  {#dst-148-158}
 

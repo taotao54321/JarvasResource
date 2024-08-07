@@ -17,13 +17,13 @@ title = "ラタニア北地方"
 <use href="#svg-asset-event" x="688" y="120"><title>(86, 15): イベント 0xA1: 関所 (ユース地方 (89, 243) へ)</title></use>
 </a>
 <a href="#event-93-245">
-<use href="#svg-asset-event" x="744" y="1960"><title>(93, 245): イベント 0xEB</title></use>
+<use href="#svg-asset-event" x="744" y="1960"><title>(93, 245): イベント 0xEB: 手形の落とし物</title></use>
 </a>
 <a href="#event-137-237">
-<use href="#svg-asset-event" x="1096" y="1896"><title>(137, 237): イベント 0xF4</title></use>
+<use href="#svg-asset-event" x="1096" y="1896"><title>(137, 237): イベント 0xF4: どくろばなを入手</title></use>
 </a>
 <a href="#event-161-74">
-<use href="#svg-asset-event" x="1288" y="592"><title>(161, 74): イベント 0x7C</title></use>
+<use href="#svg-asset-event" x="1288" y="592"><title>(161, 74): イベント 0x7C: 石ワープ (エウロン西地方 (109, 119) へ)</title></use>
 </a>
 <a href="#event-185-86">
 <use href="#svg-asset-event" x="1480" y="688"><title>(185, 86): イベント 0x7D</title></use>
@@ -82,11 +82,15 @@ title = "ラタニア北地方"
 
 ### (86, 15): イベント 0xA1: 関所 ([ユース地方](@/map/map-00/_index.md) [(89, 243)](@/map/map-00/_index.md#dst-89-243) へ) {#event-86-15}
 
-### (93, 245): イベント 0xEB:  {#event-93-245}
+### (93, 245): イベント 0xEB: 手形の落とし物 {#event-93-245}
 
-### (137, 237): イベント 0xF4:  {#event-137-237}
+手形所持数が 0 の状態で探索すると手形を 1 枚入手。
 
-### (161, 74): イベント 0x7C:  {#event-161-74}
+### (137, 237): イベント 0xF4: どくろばなを入手 {#event-137-237}
+
+### (161, 74): イベント 0x7C: 石ワープ ([エウロン西地方](@/map/map-01/_index.md) [(109, 119)](@/map/map-01/_index.md#dst-109-119) へ) {#event-161-74}
+
+通常プレイでは到達不能と思われる。
 
 ### (185, 86): イベント 0x7D:  {#event-185-86}
 
