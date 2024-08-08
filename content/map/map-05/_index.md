@@ -43,7 +43,7 @@ title = "リカントス地方"
 <use href="#svg-asset-destination" x="1352" y="1552"><title>(169, 194): ワープ先 0x0C</title></use>
 </a>
 <a href="#dst-152-92">
-<use href="#svg-asset-destination" x="1216" y="736"><title>(152, 92): ワープ先 0x6C</title></use>
+<use href="#svg-asset-destination" x="1216" y="736"><title>(152, 92): ワープ先 0x6C: パタンの町の洞窟出口からのワープ先</title></use>
 </a>
 <a href="#dst-72-14">
 <use href="#svg-asset-destination" x="576" y="112"><title>(72, 14): ワープ先 0x88: エウロン西地方 (139, 222) の骨ワープ先</title></use>
@@ -104,7 +104,7 @@ title = "リカントス地方"
 
 ### (106, 191): ワープ先 0xE5: [パタンの町の船小屋](@/map/map-12/_index.md#event-12-231)の行き先 {#dst-106-191}
 
-### (152, 92): ワープ先 0x6C:  {#dst-152-92}
+### (152, 92): ワープ先 0x6C: [パタンの町の洞窟出口](@/map/map-14/_index.md#event-131-247)からのワープ先 {#dst-152-92}
 
 ### (169, 194): ワープ先 0x0C:  {#dst-169-194}
 

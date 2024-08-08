@@ -47,7 +47,7 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 <use href="#svg-asset-event" x="336" y="1192"><title>(42, 149): イベント 0x14</title></use>
 </a>
 <a href="#event-42-167">
-<use href="#svg-asset-event" x="336" y="1336"><title>(42, 167): イベント 0xC1</title></use>
+<use href="#svg-asset-event" x="336" y="1336"><title>(42, 167): イベント 0xC1: パタンの町の洞窟への扉</title></use>
 </a>
 <a href="#event-44-215">
 <use href="#svg-asset-event" x="352" y="1720"><title>(44, 215): イベント 0x2D</title></use>
@@ -335,7 +335,7 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 <use href="#svg-asset-destination" x="1896" y="1616"><title>(237, 202): ワープ先 0x68: ラモンの町の洞窟への扉手前</title></use>
 </a>
 <a href="#dst-41-170">
-<use href="#svg-asset-destination" x="328" y="1360"><title>(41, 170): ワープ先 0x6B</title></use>
+<use href="#svg-asset-destination" x="328" y="1360"><title>(41, 170): ワープ先 0x6B: パタンの町の洞窟への扉手前</title></use>
 </a>
 <a href="#dst-21-221">
 <use href="#svg-asset-destination" x="168" y="1768"><title>(21, 221): ワープ先 0xC3</title></use>
@@ -364,7 +364,9 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 
 ### (42, 149): イベント 0x14:  {#event-42-149}
 
-### (42, 167): イベント 0xC1:  {#event-42-167}
+### (42, 167): イベント 0xC1: [パタンの町の洞窟](@/map/map-14/_index.md#dst-26-245)への扉 {#event-42-167}
+
+[パタンの町の墓](#event-19-173)で曼荼羅を使うと開く。
 
 ### (44, 215): イベント 0x2D:  {#event-44-215}
 
@@ -493,7 +495,9 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 
 ワープ元: [ラタニア南地方](@/map/map-08/_index.md) [(214, 47)](@/map/map-08/_index.md#event-214-47)。
 
-### (41, 170): ワープ先 0x6B:  {#dst-41-170}
+### (41, 170): ワープ先 0x6B: パタンの町の洞窟への扉手前 {#dst-41-170}
+
+ワープ元: [パタンの町の洞窟 (21, 247)](@/map/map-14/_index.md#event-21-247)。
 
 ### (43, 218): ワープ先 0x2E:  {#dst-43-218}
 

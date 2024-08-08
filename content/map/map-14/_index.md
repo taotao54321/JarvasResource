@@ -14,7 +14,7 @@ title = "サイドビュー A"
 <use href="#svg-asset-event" x="168" y="1208"><title>(21, 151): イベント 0x61: アドニスの町のクエスト屋への通路: アドニスの町 (210, 43) へ</title></use>
 </a>
 <a href="#event-21-247">
-<use href="#svg-asset-event" x="168" y="1976"><title>(21, 247): イベント 0x6B</title></use>
+<use href="#svg-asset-event" x="168" y="1976"><title>(21, 247): イベント 0x6B: パタンの町の洞窟: パタンの町 (41, 170) へ</title></use>
 </a>
 <a href="#event-67-119">
 <use href="#svg-asset-event" x="536" y="952"><title>(67, 119): イベント 0x5B: リカントス城の第 2 フロア出口: リカントス城のボスフロアへ</title></use>
@@ -32,7 +32,7 @@ title = "サイドビュー A"
 <use href="#svg-asset-event" x="920" y="1464"><title>(115, 183): イベント 0x69: バンスの町の洞窟: バンスの町 (197, 18) へ</title></use>
 </a>
 <a href="#event-131-247">
-<use href="#svg-asset-event" x="1048" y="1976"><title>(131, 247): イベント 0x6C</title></use>
+<use href="#svg-asset-event" x="1048" y="1976"><title>(131, 247): イベント 0x6C: パタンの町の洞窟出口: リカントス地方 (152, 92) へ</title></use>
 </a>
 <a href="#event-147-151">
 <use href="#svg-asset-event" x="1176" y="1208"><title>(147, 151): イベント 0x65: アドニスの町の近接武器屋への通路: アドニスの町 (124, 25) へ</title></use>
@@ -104,7 +104,7 @@ title = "サイドビュー A"
 <use href="#svg-asset-destination" x="800" y="1704"><title>(100, 213): ワープ先 0xC0: リカルドの町の洞窟</title></use>
 </a>
 <a href="#dst-26-245">
-<use href="#svg-asset-destination" x="208" y="1960"><title>(26, 245): ワープ先 0xC1</title></use>
+<use href="#svg-asset-destination" x="208" y="1960"><title>(26, 245): ワープ先 0xC1: パタンの町の洞窟</title></use>
 </a>
 <a href="#dst-202-181">
 <use href="#svg-asset-destination" x="1616" y="1448"><title>(202, 181): ワープ先 0xD4</title></use>
@@ -147,9 +147,9 @@ title = "サイドビュー A"
 
 ### (104, 215): イベント 0x6A: リカルドの町の洞窟: [リカルドの町 (189, 74)](@/map/map-13a/_index.md#dst-189-74) へ {#event-104-215}
 
-### (21, 247): イベント 0x6B:  {#event-21-247}
+### (21, 247): イベント 0x6B: パタンの町の洞窟: [パタンの町 (41, 170)](@/map/map-12/_index.md#dst-41-170) へ {#event-21-247}
 
-### (131, 247): イベント 0x6C:  {#event-131-247}
+### (131, 247): イベント 0x6C: パタンの町の洞窟出口: [リカントス地方](@/map/map-05/_index.md) [(152, 92)](@/map/map-05/_index.md#dst-152-92) へ {#event-131-247}
 
 
 ## ワープ先
@@ -218,7 +218,9 @@ title = "サイドビュー A"
 
 ワープ元: [リカルドの町の洞窟への扉](@/map/map-13a/_index.md#event-190-71)。
 
-### (26, 245): ワープ先 0xC1:  {#dst-26-245}
+### (26, 245): ワープ先 0xC1: パタンの町の洞窟 {#dst-26-245}
+
+ワープ元: [パタンの町の洞窟への扉](@/map/map-12/_index.md#event-42-167)。
 
 ### (202, 181): ワープ先 0xD4:  {#dst-202-181}
 
