@@ -14,7 +14,7 @@ title = "店セット"
 <use href="#svg-asset-event" x="128" y="1152"><title>(16, 144): イベント 0xC6</title></use>
 </a>
 <a href="#event-16-150">
-<use href="#svg-asset-event" x="128" y="1200"><title>(16, 150): イベント 0x1A</title></use>
+<use href="#svg-asset-event" x="128" y="1200"><title>(16, 150): イベント 0x1A: ブルガの町の近接武器屋: ブルガの町 (51, 74) へ</title></use>
 </a>
 <a href="#event-16-176">
 <use href="#svg-asset-event" x="128" y="1408"><title>(16, 176): イベント 0xCE</title></use>
@@ -116,7 +116,7 @@ title = "店セット"
 <use href="#svg-asset-event" x="1152" y="1152"><title>(144, 144): イベント 0xCA</title></use>
 </a>
 <a href="#event-144-150">
-<use href="#svg-asset-event" x="1152" y="1200"><title>(144, 150): イベント 0x1C</title></use>
+<use href="#svg-asset-event" x="1152" y="1200"><title>(144, 150): イベント 0x1C: ブルガの町の防具屋: ブルガの町 (67, 74) へ</title></use>
 </a>
 <a href="#event-144-176">
 <use href="#svg-asset-event" x="1152" y="1408"><title>(144, 176): イベント 0xD2</title></use>
@@ -209,10 +209,10 @@ title = "店セット"
 <use href="#svg-asset-event" x="1920" y="1968"><title>(240, 246): イベント 0x3E</title></use>
 </a>
 <a href="#dst-15-147">
-<use href="#svg-asset-destination" x="120" y="1176"><title>(15, 147): ワープ先 0x19</title></use>
+<use href="#svg-asset-destination" x="120" y="1176"><title>(15, 147): ワープ先 0x19: ブルガの町の近接武器屋</title></use>
 </a>
 <a href="#dst-143-147">
-<use href="#svg-asset-destination" x="1144" y="1176"><title>(143, 147): ワープ先 0x1B</title></use>
+<use href="#svg-asset-destination" x="1144" y="1176"><title>(143, 147): ワープ先 0x1B: ブルガの町の防具屋</title></use>
 </a>
 <a href="#dst-15-179">
 <use href="#svg-asset-destination" x="120" y="1432"><title>(15, 179): ワープ先 0x1D</title></use>
@@ -312,7 +312,7 @@ title = "店セット"
 
 ### (16, 144): イベント 0xC6:  {#event-16-144}
 
-### (16, 150): イベント 0x1A:  {#event-16-150}
+### (16, 150): イベント 0x1A: ブルガの町の近接武器屋: [ブルガの町 (51, 74)](@/map/map-12/_index.md#dst-51-74) へ {#event-16-150}
 
 ### (16, 176): イベント 0xCE:  {#event-16-176}
 
@@ -380,7 +380,7 @@ title = "店セット"
 
 ### (144, 144): イベント 0xCA:  {#event-144-144}
 
-### (144, 150): イベント 0x1C:  {#event-144-150}
+### (144, 150): イベント 0x1C: ブルガの町の防具屋: [ブルガの町 (67, 74)](@/map/map-12/_index.md#dst-67-74) へ {#event-144-150}
 
 ### (144, 176): イベント 0xD2:  {#event-144-176}
 
@@ -445,7 +445,9 @@ title = "店セット"
 
 ## ワープ先
 
-### (15, 147): ワープ先 0x19:  {#dst-15-147}
+### (15, 147): ワープ先 0x19: ブルガの町の近接武器屋 {#dst-15-147}
+
+ワープ元: [ブルガの町 (52, 71)](@/map/map-12/_index.md#event-52-71)。
 
 ### (15, 179): ワープ先 0x1D:  {#dst-15-179}
 
@@ -477,7 +479,9 @@ title = "店セット"
 
 ### (111, 243): ワープ先 0x43:  {#dst-111-243}
 
-### (143, 147): ワープ先 0x1B:  {#dst-143-147}
+### (143, 147): ワープ先 0x1B: ブルガの町の防具屋 {#dst-143-147}
+
+ワープ元: [ブルガの町 (68, 71)](@/map/map-12/_index.md#event-68-71)。
 
 ### (143, 179): ワープ先 0x29:  {#dst-143-179}
 

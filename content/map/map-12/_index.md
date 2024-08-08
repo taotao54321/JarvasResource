@@ -53,7 +53,7 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 <use href="#svg-asset-event" x="352" y="1720"><title>(44, 215): イベント 0x2D</title></use>
 </a>
 <a href="#event-52-71">
-<use href="#svg-asset-event" x="416" y="568"><title>(52, 71): イベント 0x19</title></use>
+<use href="#svg-asset-event" x="416" y="568"><title>(52, 71): イベント 0x19: ブルガの町の近接武器屋入口</title></use>
 </a>
 <a href="#event-52-215">
 <use href="#svg-asset-event" x="416" y="1720"><title>(52, 215): イベント 0x57</title></use>
@@ -77,7 +77,7 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 <use href="#svg-asset-event" x="480" y="1752"><title>(60, 219): イベント 0x2F</title></use>
 </a>
 <a href="#event-68-71">
-<use href="#svg-asset-event" x="544" y="568"><title>(68, 71): イベント 0x1B</title></use>
+<use href="#svg-asset-event" x="544" y="568"><title>(68, 71): イベント 0x1B: ブルガの町の防具屋入口</title></use>
 </a>
 <a href="#event-68-135">
 <use href="#svg-asset-event" x="544" y="1080"><title>(68, 135): イベント 0x29</title></use>
@@ -242,10 +242,10 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 <use href="#svg-asset-destination" x="1736" y="1424"><title>(217, 178): ワープ先 0x15: パントーンの町の入口</title></use>
 </a>
 <a href="#dst-51-74">
-<use href="#svg-asset-destination" x="408" y="592"><title>(51, 74): ワープ先 0x1A</title></use>
+<use href="#svg-asset-destination" x="408" y="592"><title>(51, 74): ワープ先 0x1A: ブルガの町の近接武器屋手前</title></use>
 </a>
 <a href="#dst-67-74">
-<use href="#svg-asset-destination" x="536" y="592"><title>(67, 74): ワープ先 0x1C</title></use>
+<use href="#svg-asset-destination" x="536" y="592"><title>(67, 74): ワープ先 0x1C: ブルガの町の防具屋手前</title></use>
 </a>
 <a href="#dst-71-58">
 <use href="#svg-asset-destination" x="568" y="464"><title>(71, 58): ワープ先 0x1E</title></use>
@@ -370,7 +370,7 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 
 ### (44, 215): イベント 0x2D:  {#event-44-215}
 
-### (52, 71): イベント 0x19:  {#event-52-71}
+### (52, 71): イベント 0x19: [ブルガの町の近接武器屋](@/map/map-13b/_index.md#dst-15-147)入口 {#event-52-71}
 
 ### (52, 215): イベント 0x57:  {#event-52-215}
 
@@ -386,7 +386,7 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 
 ### (60, 219): イベント 0x2F:  {#event-60-219}
 
-### (68, 71): イベント 0x1B:  {#event-68-71}
+### (68, 71): イベント 0x1B: [ブルガの町の防具屋](@/map/map-13b/_index.md#dst-143-147)入口 {#event-68-71}
 
 ### (68, 135): イベント 0x29:  {#event-68-135}
 
@@ -501,7 +501,9 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 
 ### (43, 218): ワープ先 0x2E:  {#dst-43-218}
 
-### (51, 74): ワープ先 0x1A:  {#dst-51-74}
+### (51, 74): ワープ先 0x1A: [ブルガの町の近接武器屋](@/map/map-13b/_index.md#dst-15-147)手前 {#dst-51-74}
+
+ワープ元: [ブルガの町の近接武器屋 (16, 150)](@/map/map-13b/_index.md#event-16-150)。
 
 ### (53, 242): ワープ先 0x0B: パタンの町の入口 {#dst-53-242}
 
@@ -519,7 +521,9 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 
 ### (67, 138): ワープ先 0x2A:  {#dst-67-138}
 
-### (67, 74): ワープ先 0x1C:  {#dst-67-74}
+### (67, 74): ワープ先 0x1C: [ブルガの町の防具屋](@/map/map-13b/_index.md#dst-143-147)手前 {#dst-67-74}
+
+ワープ元: [ブルガの町の防具屋 (144, 150)](@/map/map-13b/_index.md#event-144-150)。
 
 ### (71, 58): ワープ先 0x1E:  {#dst-71-58}
 
