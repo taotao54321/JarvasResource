@@ -95,10 +95,10 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 <use href="#svg-asset-event" x="672" y="984"><title>(84, 123): イベント 0x27: アネイデアの町のクエスト屋入口</title></use>
 </a>
 <a href="#event-92-191">
-<use href="#svg-asset-event" x="736" y="1528"><title>(92, 191): イベント 0x54</title></use>
+<use href="#svg-asset-event" x="736" y="1528"><title>(92, 191): イベント 0x54: ラモッサの町の初心の館入口</title></use>
 </a>
 <a href="#event-104-231">
-<use href="#svg-asset-event" x="832" y="1848"><title>(104, 231): イベント 0x57</title></use>
+<use href="#svg-asset-event" x="832" y="1848"><title>(104, 231): イベント 0x57: ラモッサの町の惑いの宿入口</title></use>
 </a>
 <a href="#event-114-40">
 <use href="#svg-asset-event" x="912" y="320"><title>(114, 40): イベント 0x5C: アドニスの町の船小屋への通路入口側への階段</title></use>
@@ -116,7 +116,7 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 <use href="#svg-asset-event" x="944" y="1960"><title>(118, 245): イベント 0x10: ラモッサの町: キネラシア辺境 (25, 98) へ</title></use>
 </a>
 <a href="#event-124-175">
-<use href="#svg-asset-event" x="992" y="1400"><title>(124, 175): イベント 0x41</title></use>
+<use href="#svg-asset-event" x="992" y="1400"><title>(124, 175): イベント 0x41: ラモッサの町のギルド入口</title></use>
 </a>
 <a href="#event-124-235">
 <use href="#svg-asset-event" x="992" y="1880"><title>(124, 235): イベント 0x56: ラモッサの町の船小屋 (キネラシア南地方 (224, 130) へ)</title></use>
@@ -287,7 +287,7 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 <use href="#svg-asset-destination" x="1688" y="1136"><title>(211, 142): ワープ先 0x36: パントーンの町の薬屋手前</title></use>
 </a>
 <a href="#dst-123-178">
-<use href="#svg-asset-destination" x="984" y="1424"><title>(123, 178): ワープ先 0x42</title></use>
+<use href="#svg-asset-destination" x="984" y="1424"><title>(123, 178): ワープ先 0x42: ラモッサの町のギルド手前</title></use>
 </a>
 <a href="#dst-115-26">
 <use href="#svg-asset-destination" x="920" y="208"><title>(115, 26): ワープ先 0x46: アドニスの町のギルド手前</title></use>
@@ -444,15 +444,15 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 
 [パタンの町の墓](#event-19-173)で曼荼羅を使うと開く。
 
-### (92, 191): イベント 0x54:  {#event-92-191}
-
-### (104, 231): イベント 0x57:  {#event-104-231}
-
 ### (118, 245): イベント 0x10: ラモッサの町: [キネラシア辺境](@/map/map-07/_index.md) [(25, 98)](@/map/map-07/_index.md#dst-25-98) へ {#event-118-245}
 
-### (124, 175): イベント 0x41:  {#event-124-175}
-
 ### (124, 235): イベント 0x56: ラモッサの町の船小屋 ([キネラシア南地方](@/map/map-06/_index.md) [(224, 130)](@/map/map-06/_index.md#dst-224-130) へ) {#event-124-235}
+
+### (104, 231): イベント 0x57: ラモッサの町の[惑いの宿](@/map/map-13b/_index.md#dst-239-147)入口 {#event-104-231}
+
+### (92, 191): イベント 0x54: ラモッサの町の[初心の館](@/map/map-13b/_index.md#dst-111-211)入口 {#event-92-191}
+
+### (124, 175): イベント 0x41: [ラモッサの町のギルド](@/map/map-13b/_index.md#dst-239-179)入口 {#event-124-175}
 
 ### (157, 237): イベント 0xEC: ザイドタウンの町の墓: 探索すると[ラモンの町の洞窟への扉](#event-238-199)が開く {#event-157-237}
 
@@ -633,7 +633,9 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 
 ワープ元: [キネラシア辺境](@/map/map-07/_index.md) [(26, 95)](@/map/map-07/_index.md#event-26-95)。
 
-### (123, 178): ワープ先 0x42:  {#dst-123-178}
+### (123, 178): ワープ先 0x42: [ラモッサの町のギルド](@/map/map-13b/_index.md#dst-239-179)手前 {#dst-123-178}
+
+ワープ元: [ラモッサの町のギルド (240, 182)](@/map/map-13b/_index.md#event-240-182)。
 
 ### (165, 242): ワープ先 0x07: ザイドタウンの町の入口 {#dst-165-242}
 

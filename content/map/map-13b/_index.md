@@ -194,7 +194,7 @@ title = "店セット"
 <use href="#svg-asset-event" x="1920" y="1408"><title>(240, 176): イベント 0xD5</title></use>
 </a>
 <a href="#event-240-182">
-<use href="#svg-asset-event" x="1920" y="1456"><title>(240, 182): イベント 0x42</title></use>
+<use href="#svg-asset-event" x="1920" y="1456"><title>(240, 182): イベント 0x42: ラモッサの町のギルド: ラモッサの町 (123, 178) へ</title></use>
 </a>
 <a href="#event-240-208">
 <use href="#svg-asset-event" x="1920" y="1664"><title>(240, 208): イベント 0xDD</title></use>
@@ -269,7 +269,7 @@ title = "店セット"
 <use href="#svg-asset-destination" x="632" y="1176"><title>(79, 147): ワープ先 0x3F</title></use>
 </a>
 <a href="#dst-239-179">
-<use href="#svg-asset-destination" x="1912" y="1432"><title>(239, 179): ワープ先 0x41</title></use>
+<use href="#svg-asset-destination" x="1912" y="1432"><title>(239, 179): ワープ先 0x41: ラモッサの町のギルド</title></use>
 </a>
 <a href="#dst-111-243">
 <use href="#svg-asset-destination" x="888" y="1944"><title>(111, 243): ワープ先 0x43</title></use>
@@ -432,7 +432,7 @@ title = "店セット"
 
 ### (240, 176): イベント 0xD5:  {#event-240-176}
 
-### (240, 182): イベント 0x42:  {#event-240-182}
+### (240, 182): イベント 0x42: ラモッサの町のギルド: [ラモッサの町 (123, 178)](@/map/map-12/_index.md#dst-123-178) へ {#event-240-182}
 
 ### (240, 208): イベント 0xDD:  {#event-240-208}
 
@@ -543,7 +543,9 @@ title = "店セット"
 
 ### (239, 147): ワープ先 0x57: 惑いの宿 {#dst-239-147}
 
-### (239, 179): ワープ先 0x41:  {#dst-239-179}
+### (239, 179): ワープ先 0x41: ラモッサの町のギルド {#dst-239-179}
+
+ワープ元: [ラモッサの町 (124, 175)](@/map/map-12/_index.md#event-124-175)。
 
 ### (239, 211): ワープ先 0x21: ブルガの町のクエスト屋 {#dst-239-211}
 
