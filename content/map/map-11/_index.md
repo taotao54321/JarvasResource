@@ -80,7 +80,7 @@ title = "オシーランド地方"
 <use href="#svg-asset-destination" x="352" y="1960"><title>(44, 245): ワープ先 0xB1: オシーランド城の島</title></use>
 </a>
 <a href="#dst-52-223">
-<use href="#svg-asset-destination" x="416" y="1784"><title>(52, 223): ワープ先 0xCA</title></use>
+<use href="#svg-asset-destination" x="416" y="1784"><title>(52, 223): ワープ先 0xCA: オシーランド城占領後の脱出先</title></use>
 </a>
 <a href="#dst-17-29">
 <use href="#svg-asset-destination" x="136" y="232"><title>(17, 29): ワープ先 0xE0: リングワールド地方の東の船小屋の行き先</title></use>
@@ -146,7 +146,7 @@ title = "オシーランド地方"
 
 [(182, 106)](#event-182-106) で海の涙を持って曼荼羅を使うとここへワープ。
 
-### (52, 223): ワープ先 0xCA:  {#dst-52-223}
+### (52, 223): ワープ先 0xCA: オシーランド城占領後の脱出先 {#dst-52-223}
 
 ### (120, 176): ワープ先 0x8F: [(137, 236)](#event-137-236) の骨ワープ先 {#dst-120-176}
 

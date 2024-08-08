@@ -41,7 +41,7 @@ title = "ラタニア南地方"
 <use href="#svg-asset-destination" x="424" y="160"><title>(53, 20): ワープ先 0xAA: ラタニア北地方への関所手前</title></use>
 </a>
 <a href="#dst-148-79">
-<use href="#svg-asset-destination" x="1184" y="632"><title>(148, 79): ワープ先 0xC7</title></use>
+<use href="#svg-asset-destination" x="1184" y="632"><title>(148, 79): ワープ先 0xC7: ラタニア城占領後の脱出先</title></use>
 </a>
 <a href="#dst-81-61">
 <use href="#svg-asset-destination" x="648" y="488"><title>(81, 61): ワープ先 0xD1: 惑いの宿出口の行き先候補</title></use>
@@ -82,7 +82,7 @@ title = "ラタニア南地方"
 
 ### (81, 61): ワープ先 0xD1: [惑いの宿出口](@/map/map-13b/_index.md#event-240-150)の行き先候補 {#dst-81-61}
 
-### (148, 79): ワープ先 0xC7:  {#dst-148-79}
+### (148, 79): ワープ先 0xC7: ラタニア城占領後の脱出先 {#dst-148-79}
 
 ### (167, 59): ワープ先 0xD2: [惑いの宿出口](@/map/map-13b/_index.md#event-240-150)の行き先候補 {#dst-167-59}
 

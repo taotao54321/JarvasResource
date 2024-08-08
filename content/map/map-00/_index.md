@@ -70,7 +70,7 @@ title = "ユース地方"
 <use href="#svg-asset-destination" x="680" y="1136"><title>(85, 142): ワープ先 0xBD: ユース城門を抜けた先</title></use>
 </a>
 <a href="#dst-89-173">
-<use href="#svg-asset-destination" x="712" y="1384"><title>(89, 173): ワープ先 0xC6</title></use>
+<use href="#svg-asset-destination" x="712" y="1384"><title>(89, 173): ワープ先 0xC6: ユース城占領後の脱出先</title></use>
 </a>
 <a href="#dst-25-233">
 <use href="#svg-asset-destination" x="200" y="1864"><title>(25, 233): ワープ先 0xCD: 惑いの宿出口の行き先候補</title></use>
@@ -137,7 +137,7 @@ title = "ユース地方"
 
 ### (85, 142): ワープ先 0xBD: [ユース城門](#event-86-159)を抜けた先 {#dst-85-142}
 
-### (89, 173): ワープ先 0xC6:  {#dst-89-173}
+### (89, 173): ワープ先 0xC6: ユース城占領後の脱出先 {#dst-89-173}
 
 ### (89, 243): ワープ先 0xA1: [ラタニア北地方](@/map/map-04/_index.md)への関所手前 {#dst-89-243}
 

@@ -35,7 +35,7 @@ title = "タクテカ地方"
 <use href="#svg-asset-destination" x="1576" y="160"><title>(197, 20): ワープ先 0xAE: リカントス地方への関所手前</title></use>
 </a>
 <a href="#dst-132-175">
-<use href="#svg-asset-destination" x="1056" y="1400"><title>(132, 175): ワープ先 0xC9</title></use>
+<use href="#svg-asset-destination" x="1056" y="1400"><title>(132, 175): ワープ先 0xC9: タクテカ城占領後の脱出先</title></use>
 </a>
 <a href="#dst-200-39">
 <use href="#svg-asset-destination" x="1600" y="312"><title>(200, 39): ワープ先 0xD3: 惑いの宿出口の行き先候補</title></use>
@@ -70,7 +70,7 @@ title = "タクテカ地方"
 
 ## ワープ先
 
-### (132, 175): ワープ先 0xC9:  {#dst-132-175}
+### (132, 175): ワープ先 0xC9: タクテカ城占領後の脱出先 {#dst-132-175}
 
 ### (197, 20): ワープ先 0xAE: [リカントス地方](@/map/map-05/_index.md)への関所手前 {#dst-197-20}
 

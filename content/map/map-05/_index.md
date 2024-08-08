@@ -61,7 +61,7 @@ title = "リカントス地方"
 <use href="#svg-asset-destination" x="1608" y="1944"><title>(201, 243): ワープ先 0xAF: タクテカ地方への関所手前</title></use>
 </a>
 <a href="#dst-195-63">
-<use href="#svg-asset-destination" x="1560" y="504"><title>(195, 63): ワープ先 0xC8</title></use>
+<use href="#svg-asset-destination" x="1560" y="504"><title>(195, 63): ワープ先 0xC8: リカントス城占領後の脱出先</title></use>
 </a>
 <a href="#dst-172-221">
 <use href="#svg-asset-destination" x="1376" y="1768"><title>(172, 221): ワープ先 0xE4: アネイデアの町の船小屋の行き先</title></use>
@@ -114,7 +114,7 @@ title = "リカントス地方"
 
 ### (176, 126): ワープ先 0x8C: [(101, 206)](#event-101-206) の骨ワープ先 {#dst-176-126}
 
-### (195, 63): ワープ先 0xC8:  {#dst-195-63}
+### (195, 63): ワープ先 0xC8: リカントス城占領後の脱出先 {#dst-195-63}
 
 ### (201, 243): ワープ先 0xAF: [タクテカ地方](@/map/map-09/_index.md)への関所手前 {#dst-201-243}
 
