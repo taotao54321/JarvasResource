@@ -35,7 +35,7 @@ title = "町セット B (ステラ+バンス+リカルド)"
 <use href="#svg-asset-event" x="1248" y="248"><title>(156, 31): イベント 0x56: バンスの町の船小屋 (ボルネー島 (36, 242) へ)</title></use>
 </a>
 <a href="#event-180-87">
-<use href="#svg-asset-event" x="1440" y="696"><title>(180, 87): イベント 0x56</title></use>
+<use href="#svg-asset-event" x="1440" y="696"><title>(180, 87): イベント 0x56: リカルドの町の船小屋 (キネラシア南地方 エチオ島 (70, 114) へ)</title></use>
 </a>
 <a href="#event-180-103">
 <use href="#svg-asset-event" x="1440" y="824"><title>(180, 103): イベント 0x54</title></use>
@@ -125,7 +125,7 @@ title = "町セット B (ステラ+バンス+リカルド)"
 
 ### (156, 31): イベント 0x56: バンスの町の船小屋 ([ボルネー島](@/map/map-07/_index.md) [(36, 242)](@/map/map-07/_index.md#dst-36-242) へ) {#event-156-31}
 
-### (180, 87): イベント 0x56:  {#event-180-87}
+### (180, 87): イベント 0x56: リカルドの町の船小屋 ([キネラシア南地方](@/map/map-06/_index.md) エチオ島 [(70, 114)](@/map/map-06/_index.md#dst-70-114) へ) {#event-180-87}
 
 ### (180, 103): イベント 0x54:  {#event-180-103}
 

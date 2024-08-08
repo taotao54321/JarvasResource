@@ -2,6 +2,8 @@
 title = "キネラシア南地方"
 +++
 
+* 南西の島: エチオ島
+
 <!-- SVG {{{ -->
 <svg width="1536" height="1536" viewbox="0 0 2048 2048">
 <defs>
@@ -65,7 +67,7 @@ title = "キネラシア南地方"
 <use href="#svg-asset-destination" x="1792" y="1040"><title>(224, 130): ワープ先 0xE6: ラモッサの町の船小屋の行き先</title></use>
 </a>
 <a href="#dst-70-114">
-<use href="#svg-asset-destination" x="560" y="912"><title>(70, 114): ワープ先 0xEB</title></use>
+<use href="#svg-asset-destination" x="560" y="912"><title>(70, 114): ワープ先 0xEB: リカルドの町の船小屋の行き先</title></use>
 </a>
 </svg>
 <!-- }}} -->
@@ -112,7 +114,7 @@ title = "キネラシア南地方"
 
 ### (24, 46): ワープ先 0x85: [(137, 42)](#event-137-42) の石ワープ先 {#dst-24-46}
 
-### (70, 114): ワープ先 0xEB:  {#dst-70-114}
+### (70, 114): ワープ先 0xEB: [リカルドの町の船小屋](@/map/map-13a/_index.md#event-180-87)の行き先 {#dst-70-114}
 
 ### (92, 26): ワープ先 0x7F: [(52, 105)](#event-52-105) の石ワープ先 {#dst-92-26}
 
