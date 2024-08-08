@@ -173,7 +173,7 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 <use href="#svg-asset-event" x="1544" y="424"><title>(193, 53): イベント 0x66: アドニスの町の近接武器屋への通路入口側への階段</title></use>
 </a>
 <a href="#event-204-159">
-<use href="#svg-asset-event" x="1632" y="1272"><title>(204, 159): イベント 0x33</title></use>
+<use href="#svg-asset-event" x="1632" y="1272"><title>(204, 159): イベント 0x33: パントーンの町の占い屋入口</title></use>
 </a>
 <a href="#event-207-227">
 <use href="#svg-asset-event" x="1656" y="1816"><title>(207, 227): イベント 0xB4: ラモンの町の墓: 風の粉を持って曼荼羅を使うとユース地方海上 (0, 1) へワープ</title></use>
@@ -182,7 +182,7 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 <use href="#svg-asset-event" x="1672" y="384"><title>(209, 48): イベント 0x60: アドニスの町のクエスト屋への通路入口側への階段</title></use>
 </a>
 <a href="#event-212-139">
-<use href="#svg-asset-event" x="1696" y="1112"><title>(212, 139): イベント 0x35</title></use>
+<use href="#svg-asset-event" x="1696" y="1112"><title>(212, 139): イベント 0x35: パントーンの町の薬屋入口</title></use>
 </a>
 <a href="#event-218-181">
 <use href="#svg-asset-event" x="1744" y="1448"><title>(218, 181): イベント 0x16: パントーンの町: リングワールド地方 (165, 162) へ</title></use>
@@ -194,7 +194,7 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 <use href="#svg-asset-event" x="1760" y="1656"><title>(220, 207): イベント 0x56: ラモンの町の船小屋 (ラタニア北地方 (166, 165) へ)</title></use>
 </a>
 <a href="#event-228-167">
-<use href="#svg-asset-event" x="1824" y="1336"><title>(228, 167): イベント 0x54</title></use>
+<use href="#svg-asset-event" x="1824" y="1336"><title>(228, 167): イベント 0x54: パントーンの町の初心の館入口</title></use>
 </a>
 <a href="#event-228-231">
 <use href="#svg-asset-event" x="1824" y="1848"><title>(228, 231): イベント 0x54</title></use>
@@ -281,10 +281,10 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 <use href="#svg-asset-destination" x="216" y="1872"><title>(27, 234): ワープ先 0x32</title></use>
 </a>
 <a href="#dst-203-162">
-<use href="#svg-asset-destination" x="1624" y="1296"><title>(203, 162): ワープ先 0x34</title></use>
+<use href="#svg-asset-destination" x="1624" y="1296"><title>(203, 162): ワープ先 0x34: パントーンの町の占い屋手前</title></use>
 </a>
 <a href="#dst-211-142">
-<use href="#svg-asset-destination" x="1688" y="1136"><title>(211, 142): ワープ先 0x36</title></use>
+<use href="#svg-asset-destination" x="1688" y="1136"><title>(211, 142): ワープ先 0x36: パントーンの町の薬屋手前</title></use>
 </a>
 <a href="#dst-123-178">
 <use href="#svg-asset-destination" x="984" y="1424"><title>(123, 178): ワープ先 0x42</title></use>
@@ -458,13 +458,13 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 
 ### (180, 207): イベント 0x54:  {#event-180-207}
 
-### (204, 159): イベント 0x33:  {#event-204-159}
+### (204, 159): イベント 0x33: [パントーンの町の占い屋](@/map/map-13b/_index.md#dst-207-211)入口 {#event-204-159}
 
 ### (207, 227): イベント 0xB4: ラモンの町の墓: 風の粉を持って曼荼羅を使うと[ユース地方](@/map/map-00/_index.md)海上 [(0, 1)](@/map/map-00/_index.md#dst-0-1) へワープ {#event-207-227}
 
 これはおそらくワープ先の設定漏れと思われる。
 
-### (212, 139): イベント 0x35:  {#event-212-139}
+### (212, 139): イベント 0x35: [パントーンの町の薬屋](@/map/map-13b/_index.md#dst-47-179)入口 {#event-212-139}
 
 ### (218, 181): イベント 0x16: パントーンの町: [リングワールド地方](@/map/map-10/_index.md) [(165, 162)](@/map/map-10/_index.md#dst-165-162) へ {#event-218-181}
 
@@ -472,7 +472,7 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 
 ### (220, 207): イベント 0x56: ラモンの町の船小屋 ([ラタニア北地方](@/map/map-04/_index.md) [(166, 165)](@/map/map-04/_index.md#dst-166-165) へ) {#event-220-207}
 
-### (228, 167): イベント 0x54:  {#event-228-167}
+### (228, 167): イベント 0x54: パントーンの町の[初心の館](@/map/map-13b/_index.md#dst-111-211)入口 {#event-228-167}
 
 ### (228, 231): イベント 0x54:  {#event-228-231}
 
@@ -619,9 +619,13 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 
 ### (171, 222): ワープ先 0x24:  {#dst-171-222}
 
-### (203, 162): ワープ先 0x34:  {#dst-203-162}
+### (203, 162): ワープ先 0x34: [パントーンの町の占い屋](@/map/map-13b/_index.md#dst-207-211)手前 {#dst-203-162}
 
-### (211, 142): ワープ先 0x36:  {#dst-211-142}
+ワープ元: [パントーンの町の占い屋 (208, 214)](@/map/map-13b/_index.md#event-208-214)。
+
+### (211, 142): ワープ先 0x36: [パントーンの町の薬屋](@/map/map-13b/_index.md#dst-47-179)手前 {#dst-211-142}
+
+ワープ元: [パントーンの町の薬屋 (48, 182)](@/map/map-13b/_index.md#event-48-182)。
 
 ### (217, 178): ワープ先 0x15: パントーンの町の入口 {#dst-217-178}
 

@@ -176,7 +176,7 @@ title = "店セット"
 <use href="#svg-asset-event" x="1664" y="1664"><title>(208, 208): イベント 0xDC</title></use>
 </a>
 <a href="#event-208-214">
-<use href="#svg-asset-event" x="1664" y="1712"><title>(208, 214): イベント 0x34</title></use>
+<use href="#svg-asset-event" x="1664" y="1712"><title>(208, 214): イベント 0x34: パントーンの町の占い屋: パントーンの町 (203, 162) へ</title></use>
 </a>
 <a href="#event-208-240">
 <use href="#svg-asset-event" x="1664" y="1920"><title>(208, 240): イベント 0xE4</title></use>
@@ -248,10 +248,10 @@ title = "店セット"
 <use href="#svg-asset-destination" x="376" y="1176"><title>(47, 147): ワープ先 0x31</title></use>
 </a>
 <a href="#dst-207-211">
-<use href="#svg-asset-destination" x="1656" y="1688"><title>(207, 211): ワープ先 0x33</title></use>
+<use href="#svg-asset-destination" x="1656" y="1688"><title>(207, 211): ワープ先 0x33: パントーンの町の占い屋</title></use>
 </a>
 <a href="#dst-47-179">
-<use href="#svg-asset-destination" x="376" y="1432"><title>(47, 179): ワープ先 0x35</title></use>
+<use href="#svg-asset-destination" x="376" y="1432"><title>(47, 179): ワープ先 0x35: パントーンの町の薬屋</title></use>
 </a>
 <a href="#dst-207-179">
 <use href="#svg-asset-destination" x="1656" y="1432"><title>(207, 179): ワープ先 0x37</title></use>
@@ -420,7 +420,7 @@ title = "店セット"
 
 ### (208, 208): イベント 0xDC:  {#event-208-208}
 
-### (208, 214): イベント 0x34:  {#event-208-214}
+### (208, 214): イベント 0x34: パントーンの町の占い屋: [パントーンの町 (203, 162)](@/map/map-12/_index.md#dst-203-162) へ {#event-208-214}
 
 ### (208, 240): イベント 0xE4:  {#event-208-240}
 
@@ -463,7 +463,9 @@ title = "店セット"
 
 ### (47, 147): ワープ先 0x31:  {#dst-47-147}
 
-### (47, 179): ワープ先 0x35:  {#dst-47-179}
+### (47, 179): ワープ先 0x35: パントーンの町の薬屋 {#dst-47-179}
+
+ワープ元: [パントーンの町 (212, 139)](@/map/map-12/_index.md#event-212-139)。
 
 ### (47, 211): ワープ先 0x4B: ペイチンの町のギルド {#dst-47-211}
 
@@ -525,7 +527,9 @@ title = "店セット"
 
 ### (207, 179): ワープ先 0x37:  {#dst-207-179}
 
-### (207, 211): ワープ先 0x33:  {#dst-207-211}
+### (207, 211): ワープ先 0x33: パントーンの町の占い屋 {#dst-207-211}
+
+ワープ元: [パントーンの町 (204, 159)](@/map/map-12/_index.md#event-204-159)。
 
 ### (207, 243): ワープ先 0x23:  {#dst-207-243}
 
