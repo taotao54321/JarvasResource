@@ -50,7 +50,7 @@ title = "エウロン西地方"
 <use href="#svg-asset-event" x="1976" y="1224"><title>(247, 153): イベント 0xA2: 関所 (エウロン東地方 (20, 153) へ)</title></use>
 </a>
 <a href="#dst-181-162">
-<use href="#svg-asset-destination" x="1448" y="1296"><title>(181, 162): ワープ先 0x04</title></use>
+<use href="#svg-asset-destination" x="1448" y="1296"><title>(181, 162): ワープ先 0x04: アドニスの町手前</title></use>
 </a>
 <a href="#dst-214-60">
 <use href="#svg-asset-destination" x="1712" y="480"><title>(214, 60): ワープ先 0x7A</title></use>
@@ -131,7 +131,9 @@ title = "エウロン西地方"
 
 ### (154, 224): ワープ先 0x93: [(151, 195)](#event-151-195) の木ワープ先 {#dst-154-224}
 
-### (181, 162): ワープ先 0x04:  {#dst-181-162}
+### (181, 162): ワープ先 0x04: [アドニスの町](@/map/map-12/_index.md#dst-169-66)手前 {#dst-181-162}
+
+ワープ元: [アドニスの町 (170, 69)](@/map/map-12/_index.md#event-170-69)。
 
 ### (214, 60): ワープ先 0x7A:  {#dst-214-60}
 
