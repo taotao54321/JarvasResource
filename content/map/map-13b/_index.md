@@ -44,7 +44,7 @@ title = "店セット"
 <use href="#svg-asset-event" x="384" y="1152"><title>(48, 144): イベント 0xC7</title></use>
 </a>
 <a href="#event-48-150">
-<use href="#svg-asset-event" x="384" y="1200"><title>(48, 150): イベント 0x32</title></use>
+<use href="#svg-asset-event" x="384" y="1200"><title>(48, 150): イベント 0x32: パタンの町の近接武器屋: パタンの町 (27, 234) へ</title></use>
 </a>
 <a href="#event-48-176">
 <use href="#svg-asset-event" x="384" y="1408"><title>(48, 176): イベント 0xCF</title></use>
@@ -332,7 +332,7 @@ title = "店セット"
 
 ### (48, 144): イベント 0xC7:  {#event-48-144}
 
-### (48, 150): イベント 0x32:  {#event-48-150}
+### (48, 150): イベント 0x32: パタンの町の近接武器屋: [パタンの町 (27, 234)](@/map/map-12/_index.md#dst-27-234) へ {#event-48-150}
 
 ### (48, 176): イベント 0xCF:  {#event-48-176}
 
