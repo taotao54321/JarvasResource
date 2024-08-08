@@ -44,7 +44,7 @@ title = "町セット B (ステラ+バンス+リカルド)"
 <use href="#svg-asset-event" x="1488" y="936"><title>(186, 117): イベント 0x0E: リカルドの町: キネラシア南地方 (217, 66) へ</title></use>
 </a>
 <a href="#event-188-31">
-<use href="#svg-asset-event" x="1504" y="248"><title>(188, 31): イベント 0x39</title></use>
+<use href="#svg-asset-event" x="1504" y="248"><title>(188, 31): イベント 0x39: バンスの町のクエスト屋入口</title></use>
 </a>
 <a href="#event-190-71">
 <use href="#svg-asset-event" x="1520" y="568"><title>(190, 71): イベント 0xC0: リカルドの町の洞窟への扉</title></use>
@@ -56,10 +56,10 @@ title = "町セット B (ステラ+バンス+リカルド)"
 <use href="#svg-asset-event" x="1584" y="424"><title>(198, 53): イベント 0x18: バンスの町: オシーランド地方 (21, 146) へ</title></use>
 </a>
 <a href="#event-204-31">
-<use href="#svg-asset-event" x="1632" y="248"><title>(204, 31): イベント 0x3B</title></use>
+<use href="#svg-asset-event" x="1632" y="248"><title>(204, 31): イベント 0x3B: バンスの町の防具屋入口</title></use>
 </a>
 <a href="#event-236-31">
-<use href="#svg-asset-event" x="1888" y="248"><title>(236, 31): イベント 0x37</title></use>
+<use href="#svg-asset-event" x="1888" y="248"><title>(236, 31): イベント 0x37: バンスの町のギルド入口</title></use>
 </a>
 <a href="#event-240-95">
 <use href="#svg-asset-event" x="1920" y="760"><title>(240, 95): イベント 0x43</title></use>
@@ -77,13 +77,13 @@ title = "町セット B (ステラ+バンス+リカルド)"
 <use href="#svg-asset-destination" x="1576" y="384"><title>(197, 48): ワープ先 0x17: バンスの町の入口</title></use>
 </a>
 <a href="#dst-235-34">
-<use href="#svg-asset-destination" x="1880" y="272"><title>(235, 34): ワープ先 0x38</title></use>
+<use href="#svg-asset-destination" x="1880" y="272"><title>(235, 34): ワープ先 0x38: バンスの町のギルド手前</title></use>
 </a>
 <a href="#dst-187-34">
-<use href="#svg-asset-destination" x="1496" y="272"><title>(187, 34): ワープ先 0x3A</title></use>
+<use href="#svg-asset-destination" x="1496" y="272"><title>(187, 34): ワープ先 0x3A: バンスの町のクエスト屋手前</title></use>
 </a>
 <a href="#dst-203-34">
-<use href="#svg-asset-destination" x="1624" y="272"><title>(203, 34): ワープ先 0x3C</title></use>
+<use href="#svg-asset-destination" x="1624" y="272"><title>(203, 34): ワープ先 0x3C: バンスの町の防具屋手前</title></use>
 </a>
 <a href="#dst-103-90">
 <use href="#svg-asset-destination" x="824" y="720"><title>(103, 90): ワープ先 0x3E: ステラの町の遠隔武器屋手前</title></use>
@@ -131,7 +131,7 @@ title = "町セット B (ステラ+バンス+リカルド)"
 
 ### (186, 117): イベント 0x0E: リカルドの町: [キネラシア南地方](@/map/map-06/_index.md) [(217, 66)](@/map/map-06/_index.md#dst-217-66) へ {#event-186-117}
 
-### (188, 31): イベント 0x39:  {#event-188-31}
+### (188, 31): イベント 0x39: [バンスの町のクエスト屋](@/map/map-13b/_index.md#dst-79-243)入口 {#event-188-31}
 
 ### (190, 71): イベント 0xC0: [リカルドの町の洞窟](@/map/map-14/_index.md#dst-100-213)への扉 {#event-190-71}
 
@@ -143,9 +143,9 @@ title = "町セット B (ステラ+バンス+リカルド)"
 
 ### (198, 53): イベント 0x18: バンスの町: [オシーランド地方](@/map/map-11/_index.md) [(21, 146)](@/map/map-11/_index.md#dst-21-146) へ {#event-198-53}
 
-### (204, 31): イベント 0x3B:  {#event-204-31}
+### (204, 31): イベント 0x3B: [バンスの町の防具屋](@/map/map-13b/_index.md#dst-175-147)入口 {#event-204-31}
 
-### (236, 31): イベント 0x37:  {#event-236-31}
+### (236, 31): イベント 0x37: [バンスの町のギルド](@/map/map-13b/_index.md#dst-207-179)入口 {#event-236-31}
 
 ### (240, 95): イベント 0x43:  {#event-240-95}
 
@@ -170,7 +170,9 @@ title = "町セット B (ステラ+バンス+リカルド)"
 
 ワープ元: [キネラシア南地方](@/map/map-06/_index.md) [(218, 63)](@/map/map-06/_index.md#event-218-63)。
 
-### (187, 34): ワープ先 0x3A:  {#dst-187-34}
+### (187, 34): ワープ先 0x3A: [バンスの町のクエスト屋](@/map/map-13b/_index.md#dst-79-243)手前 {#dst-187-34}
+
+ワープ元: [バンスの町のクエスト屋 (80, 246)](@/map/map-13b/_index.md#event-80-246)。
 
 ### (189, 74): ワープ先 0x6A: リカルドの町の洞窟への扉手前 {#dst-189-74}
 
@@ -184,9 +186,13 @@ title = "町セット B (ステラ+バンス+リカルド)"
 
 ワープ元: [オシーランド地方](@/map/map-11/_index.md) [(22, 143)](@/map/map-11/_index.md#event-22-143)。
 
-### (203, 34): ワープ先 0x3C:  {#dst-203-34}
+### (203, 34): ワープ先 0x3C: [バンスの町の防具屋](@/map/map-13b/_index.md#dst-175-147)手前 {#dst-203-34}
 
-### (235, 34): ワープ先 0x38:  {#dst-235-34}
+ワープ元: [バンスの町の防具屋 (176, 150)](@/map/map-13b/_index.md#event-176-150)。
+
+### (235, 34): ワープ先 0x38: [バンスの町のギルド](@/map/map-13b/_index.md#dst-207-179)手前 {#dst-235-34}
+
+ワープ元: [バンスの町のギルド (208, 182)](@/map/map-13b/_index.md#event-208-182)。
 
 ### (239, 98): ワープ先 0x44:  {#dst-239-98}
 

@@ -83,7 +83,7 @@ title = "店セット"
 <use href="#svg-asset-event" x="640" y="1920"><title>(80, 240): イベント 0xE0</title></use>
 </a>
 <a href="#event-80-246">
-<use href="#svg-asset-event" x="640" y="1968"><title>(80, 246): イベント 0x3A</title></use>
+<use href="#svg-asset-event" x="640" y="1968"><title>(80, 246): イベント 0x3A: バンスの町のクエスト屋: バンスの町 (187, 34) へ</title></use>
 </a>
 <a href="#event-112-144">
 <use href="#svg-asset-event" x="896" y="1152"><title>(112, 144): イベント 0xC9</title></use>
@@ -140,7 +140,7 @@ title = "店セット"
 <use href="#svg-asset-event" x="1408" y="1152"><title>(176, 144): イベント 0xCB</title></use>
 </a>
 <a href="#event-176-150">
-<use href="#svg-asset-event" x="1408" y="1200"><title>(176, 150): イベント 0x3C</title></use>
+<use href="#svg-asset-event" x="1408" y="1200"><title>(176, 150): イベント 0x3C: バンスの町の防具屋: バンスの町 (203, 34) へ</title></use>
 </a>
 <a href="#event-176-176">
 <use href="#svg-asset-event" x="1408" y="1408"><title>(176, 176): イベント 0xD3</title></use>
@@ -170,7 +170,7 @@ title = "店セット"
 <use href="#svg-asset-event" x="1664" y="1408"><title>(208, 176): イベント 0xD4</title></use>
 </a>
 <a href="#event-208-182">
-<use href="#svg-asset-event" x="1664" y="1456"><title>(208, 182): イベント 0x38</title></use>
+<use href="#svg-asset-event" x="1664" y="1456"><title>(208, 182): イベント 0x38: バンスの町のギルド: バンスの町 (235, 34) へ</title></use>
 </a>
 <a href="#event-208-208">
 <use href="#svg-asset-event" x="1664" y="1664"><title>(208, 208): イベント 0xDC</title></use>
@@ -254,13 +254,13 @@ title = "店セット"
 <use href="#svg-asset-destination" x="376" y="1432"><title>(47, 179): ワープ先 0x35: パントーンの町の薬屋</title></use>
 </a>
 <a href="#dst-207-179">
-<use href="#svg-asset-destination" x="1656" y="1432"><title>(207, 179): ワープ先 0x37</title></use>
+<use href="#svg-asset-destination" x="1656" y="1432"><title>(207, 179): ワープ先 0x37: バンスの町のギルド</title></use>
 </a>
 <a href="#dst-79-243">
-<use href="#svg-asset-destination" x="632" y="1944"><title>(79, 243): ワープ先 0x39</title></use>
+<use href="#svg-asset-destination" x="632" y="1944"><title>(79, 243): ワープ先 0x39: バンスの町のクエスト屋</title></use>
 </a>
 <a href="#dst-175-147">
-<use href="#svg-asset-destination" x="1400" y="1176"><title>(175, 147): ワープ先 0x3B</title></use>
+<use href="#svg-asset-destination" x="1400" y="1176"><title>(175, 147): ワープ先 0x3B: バンスの町の防具屋</title></use>
 </a>
 <a href="#dst-239-243">
 <use href="#svg-asset-destination" x="1912" y="1944"><title>(239, 243): ワープ先 0x3D: ステラの町の遠隔武器屋</title></use>
@@ -358,7 +358,7 @@ title = "店セット"
 
 ### (80, 240): イベント 0xE0:  {#event-80-240}
 
-### (80, 246): イベント 0x3A:  {#event-80-246}
+### (80, 246): イベント 0x3A: バンスの町のクエスト屋: [バンスの町 (187, 34)](@/map/map-13a/_index.md#dst-187-34) へ {#event-80-246}
 
 ### (112, 144): イベント 0xC9:  {#event-112-144}
 
@@ -396,7 +396,7 @@ title = "店セット"
 
 ### (176, 144): イベント 0xCB:  {#event-176-144}
 
-### (176, 150): イベント 0x3C:  {#event-176-150}
+### (176, 150): イベント 0x3C: バンスの町の防具屋: [バンスの町 (203, 34)](@/map/map-13a/_index.md#dst-203-34) へ {#event-176-150}
 
 ### (176, 176): イベント 0xD3:  {#event-176-176}
 
@@ -416,7 +416,7 @@ title = "店セット"
 
 ### (208, 176): イベント 0xD4:  {#event-208-176}
 
-### (208, 182): イベント 0x38:  {#event-208-182}
+### (208, 182): イベント 0x38: バンスの町のギルド: [バンスの町 (235, 34)](@/map/map-13a/_index.md#dst-235-34) へ {#event-208-182}
 
 ### (208, 208): イベント 0xDC:  {#event-208-208}
 
@@ -487,7 +487,9 @@ title = "店セット"
 
 ### (79, 211): ワープ先 0x56:  {#dst-79-211}
 
-### (79, 243): ワープ先 0x39:  {#dst-79-243}
+### (79, 243): ワープ先 0x39: バンスの町のクエスト屋 {#dst-79-243}
+
+ワープ元: [バンスの町 (188, 31)](@/map/map-13a/_index.md#event-188-31)。
 
 ### (111, 147): ワープ先 0x49: アドニスの町の近接武器屋 {#dst-111-147}
 
@@ -517,7 +519,9 @@ title = "店セット"
 
 ワープ元: [アドニスの町 (116, 59)](@/map/map-12/_index.md#event-116-59)。
 
-### (175, 147): ワープ先 0x3B:  {#dst-175-147}
+### (175, 147): ワープ先 0x3B: バンスの町の防具屋 {#dst-175-147}
+
+ワープ元: [バンスの町 (204, 31)](@/map/map-13a/_index.md#event-204-31)。
 
 ### (175, 179): ワープ先 0x2F: パタンの町のギルド {#dst-175-179}
 
@@ -535,7 +539,9 @@ title = "店セット"
 
 ワープ元: [ペイチンの町 (156, 123)](@/map/map-12/_index.md#event-156-123)。
 
-### (207, 179): ワープ先 0x37:  {#dst-207-179}
+### (207, 179): ワープ先 0x37: バンスの町のギルド {#dst-207-179}
+
+ワープ元: [バンスの町 (236, 31)](@/map/map-13a/_index.md#event-236-31)。
 
 ### (207, 211): ワープ先 0x33: パントーンの町の占い屋 {#dst-207-211}
 
