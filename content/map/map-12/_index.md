@@ -68,7 +68,7 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 <use href="#svg-asset-event" x="448" y="440"><title>(56, 55): イベント 0x21</title></use>
 </a>
 <a href="#event-56-111">
-<use href="#svg-asset-event" x="448" y="888"><title>(56, 111): イベント 0x56</title></use>
+<use href="#svg-asset-event" x="448" y="888"><title>(56, 111): イベント 0x56: アネイデアの町の船小屋 (リカントス地方 (172, 221) へ)</title></use>
 </a>
 <a href="#event-58-85">
 <use href="#svg-asset-event" x="464" y="680"><title>(58, 85): イベント 0x02</title></use>
@@ -119,7 +119,7 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 <use href="#svg-asset-event" x="992" y="1400"><title>(124, 175): イベント 0x41</title></use>
 </a>
 <a href="#event-124-235">
-<use href="#svg-asset-event" x="992" y="1880"><title>(124, 235): イベント 0x56</title></use>
+<use href="#svg-asset-event" x="992" y="1880"><title>(124, 235): イベント 0x56: ラモッサの町の船小屋 (キネラシア南地方 (224, 130) へ)</title></use>
 </a>
 <a href="#event-127-26">
 <use href="#svg-asset-event" x="1016" y="208"><title>(127, 26): イベント 0x64: アドニスの町の近接武器屋への通路出口側への階段</title></use>
@@ -380,7 +380,7 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 
 ### (56, 55): イベント 0x21:  {#event-56-55}
 
-### (56, 111): イベント 0x56:  {#event-56-111}
+### (56, 111): イベント 0x56: アネイデアの町の船小屋 ([リカントス地方](@/map/map-05/_index.md) [(172, 221)](@/map/map-05/_index.md#dst-172-221) へ) {#event-56-111}
 
 ### (58, 85): イベント 0x02:  {#event-58-85}
 
@@ -414,7 +414,7 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 
 ### (124, 175): イベント 0x41:  {#event-124-175}
 
-### (124, 235): イベント 0x56:  {#event-124-235}
+### (124, 235): イベント 0x56: ラモッサの町の船小屋 ([キネラシア南地方](@/map/map-06/_index.md) [(224, 130)](@/map/map-06/_index.md#dst-224-130) へ) {#event-124-235}
 
 ### (127, 26): イベント 0x64: [アドニスの町の近接武器屋への通路出口側](@/map/map-14/_index.md#dst-164-149)への階段 {#event-127-26}
 

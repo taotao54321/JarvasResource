@@ -62,7 +62,7 @@ title = "キネラシア南地方"
 <use href="#svg-asset-destination" x="160" y="200"><title>(20, 25): ワープ先 0xAC: リカントス地方への関所手前</title></use>
 </a>
 <a href="#dst-224-130">
-<use href="#svg-asset-destination" x="1792" y="1040"><title>(224, 130): ワープ先 0xE6</title></use>
+<use href="#svg-asset-destination" x="1792" y="1040"><title>(224, 130): ワープ先 0xE6: ラモッサの町の船小屋の行き先</title></use>
 </a>
 <a href="#dst-70-114">
 <use href="#svg-asset-destination" x="560" y="912"><title>(70, 114): ワープ先 0xEB</title></use>
@@ -124,6 +124,6 @@ title = "キネラシア南地方"
 
 ### (217, 66): ワープ先 0x0E:  {#dst-217-66}
 
-### (224, 130): ワープ先 0xE6:  {#dst-224-130}
+### (224, 130): ワープ先 0xE6: [ラモッサの町の船小屋](@/map/map-12/_index.md#event-124-235)の行き先 {#dst-224-130}
 
 

@@ -64,7 +64,7 @@ title = "リカントス地方"
 <use href="#svg-asset-destination" x="1560" y="504"><title>(195, 63): ワープ先 0xC8</title></use>
 </a>
 <a href="#dst-172-221">
-<use href="#svg-asset-destination" x="1376" y="1768"><title>(172, 221): ワープ先 0xE4</title></use>
+<use href="#svg-asset-destination" x="1376" y="1768"><title>(172, 221): ワープ先 0xE4: アネイデアの町の船小屋の行き先</title></use>
 </a>
 <a href="#dst-106-191">
 <use href="#svg-asset-destination" x="848" y="1528"><title>(106, 191): ワープ先 0xE5: パタンの町の船小屋の行き先</title></use>
@@ -108,7 +108,7 @@ title = "リカントス地方"
 
 ### (169, 194): ワープ先 0x0C:  {#dst-169-194}
 
-### (172, 221): ワープ先 0xE4:  {#dst-172-221}
+### (172, 221): ワープ先 0xE4: [アネイデアの町の船小屋](@/map/map-12/_index.md#event-56-111)の行き先 {#dst-172-221}
 
 ### (176, 126): ワープ先 0x8C: [(101, 206)](#event-101-206) の骨ワープ先 {#dst-176-126}
 
