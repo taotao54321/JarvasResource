@@ -107,13 +107,13 @@ title = "サイドビュー A"
 <use href="#svg-asset-destination" x="208" y="1960"><title>(26, 245): ワープ先 0xC1: パタンの町の洞窟</title></use>
 </a>
 <a href="#dst-202-181">
-<use href="#svg-asset-destination" x="1616" y="1448"><title>(202, 181): ワープ先 0xD4</title></use>
+<use href="#svg-asset-destination" x="1616" y="1448"><title>(202, 181): ワープ先 0xD4: 剣術士のバトル部屋</title></use>
 </a>
 <a href="#dst-234-181">
-<use href="#svg-asset-destination" x="1872" y="1448"><title>(234, 181): ワープ先 0xD5</title></use>
+<use href="#svg-asset-destination" x="1872" y="1448"><title>(234, 181): ワープ先 0xD5: 格闘士のバトル部屋</title></use>
 </a>
 <a href="#dst-138-213">
-<use href="#svg-asset-destination" x="1104" y="1704"><title>(138, 213): ワープ先 0xD6</title></use>
+<use href="#svg-asset-destination" x="1104" y="1704"><title>(138, 213): ワープ先 0xD6: 魔術師のバトル部屋</title></use>
 </a>
 </svg>
 <!-- }}} -->
@@ -222,8 +222,8 @@ title = "サイドビュー A"
 
 ワープ元: [パタンの町の洞窟への扉](@/map/map-12/_index.md#event-42-167)。
 
-### (202, 181): ワープ先 0xD4:  {#dst-202-181}
+### (202, 181): ワープ先 0xD4: 剣術士のバトル部屋 {#dst-202-181}
 
-### (234, 181): ワープ先 0xD5:  {#dst-234-181}
+### (234, 181): ワープ先 0xD5: 格闘士のバトル部屋 {#dst-234-181}
 
-### (138, 213): ワープ先 0xD6:  {#dst-138-213}
+### (138, 213): ワープ先 0xD6: 魔術師のバトル部屋 {#dst-138-213}
