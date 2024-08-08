@@ -49,7 +49,7 @@ title = "ユース地方"
 <use href="#svg-asset-destination" x="1704" y="784"><title>(213, 98): ワープ先 0x02: ブルガの町手前</title></use>
 </a>
 <a href="#dst-173-206">
-<use href="#svg-asset-destination" x="1384" y="1648"><title>(173, 206): ワープ先 0x55</title></use>
+<use href="#svg-asset-destination" x="1384" y="1648"><title>(173, 206): ワープ先 0x55: ゲーム開始地点</title></use>
 </a>
 <a href="#dst-233-135">
 <use href="#svg-asset-destination" x="1864" y="1080"><title>(233, 135): ワープ先 0x79: (218, 35) の石ワープ先</title></use>
@@ -147,7 +147,14 @@ title = "ユース地方"
 
 ### (148, 216): ワープ先 0x8B: [ラタニア北地方](@/map/map-04/_index.md) [(237, 26)](@/map/map-04/_index.md#event-237-26) の骨ワープ先 {#dst-148-216}
 
-### (173, 206): ワープ先 0x55:  {#dst-173-206}
+### (173, 206): ワープ先 0x55: ゲーム開始地点 {#dst-173-206}
+
+以下のケースでここへワープする:
+
+* ニューゲーム開始時
+* [初心の館出口](@/map/map-13b/_index.md#event-112-214)に入ったとき
+* 魔法「でほると」を使ったとき
+* 2 コン技 (UUDDABAB) を発動したとき
 
 ### (186, 61): ワープ先 0xD8: [バフィン島の船小屋](#event-214-39)の行き先 {#dst-186-61}
 
