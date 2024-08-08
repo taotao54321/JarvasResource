@@ -191,7 +191,7 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 <use href="#svg-asset-event" x="1744" y="1960"><title>(218, 245): イベント 0x0A</title></use>
 </a>
 <a href="#event-220-207">
-<use href="#svg-asset-event" x="1760" y="1656"><title>(220, 207): イベント 0x56</title></use>
+<use href="#svg-asset-event" x="1760" y="1656"><title>(220, 207): イベント 0x56: ラモンの町の船小屋 (ラタニア北地方 (166, 165) へ)</title></use>
 </a>
 <a href="#event-228-167">
 <use href="#svg-asset-event" x="1824" y="1336"><title>(228, 167): イベント 0x54</title></use>
@@ -462,7 +462,7 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 
 ### (218, 245): イベント 0x0A:  {#event-218-245}
 
-### (220, 207): イベント 0x56:  {#event-220-207}
+### (220, 207): イベント 0x56: ラモンの町の船小屋 ([ラタニア北地方](@/map/map-04/_index.md) [(166, 165)](@/map/map-04/_index.md#dst-166-165) へ) {#event-220-207}
 
 ### (228, 167): イベント 0x54:  {#event-228-167}
 

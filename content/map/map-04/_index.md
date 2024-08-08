@@ -70,7 +70,7 @@ title = "ラタニア北地方"
 <use href="#svg-asset-destination" x="1536" y="1168"><title>(192, 146): ワープ先 0xE7: ザイドタウンの町の船小屋の行き先</title></use>
 </a>
 <a href="#dst-166-165">
-<use href="#svg-asset-destination" x="1328" y="1320"><title>(166, 165): ワープ先 0xE8</title></use>
+<use href="#svg-asset-destination" x="1328" y="1320"><title>(166, 165): ワープ先 0xE8: ラモンの町の船小屋の行き先</title></use>
 </a>
 </svg>
 <!-- }}} -->
@@ -119,7 +119,7 @@ title = "ラタニア北地方"
 
 ワープ元: [ユース地方](@/map/map-00/_index.md) [(90, 248)](@/map/map-00/_index.md#event-90-248) の関所。
 
-### (166, 165): ワープ先 0xE8:  {#dst-166-165}
+### (166, 165): ワープ先 0xE8: [ラモンの町の船小屋](@/map/map-12/_index.md#event-220-207)の行き先 {#dst-166-165}
 
 ### (188, 124): ワープ先 0xD0:  {#dst-188-124}
 
