@@ -17,7 +17,7 @@ title = "町セット B (ステラ+バンス+リカルド)"
 <use href="#svg-asset-event" x="576" y="824"><title>(72, 103): イベント 0x3F</title></use>
 </a>
 <a href="#event-84-87">
-<use href="#svg-asset-event" x="672" y="696"><title>(84, 87): イベント 0x56</title></use>
+<use href="#svg-asset-event" x="672" y="696"><title>(84, 87): イベント 0x56: ステラの町の船小屋 (キネラシア辺境 (74, 58) へ)</title></use>
 </a>
 <a href="#event-88-23">
 <use href="#svg-asset-event" x="704" y="184"><title>(88, 23): イベント 0x57</title></use>
@@ -113,7 +113,7 @@ title = "町セット B (ステラ+バンス+リカルド)"
 
 ### (72, 103): イベント 0x3F:  {#event-72-103}
 
-### (84, 87): イベント 0x56:  {#event-84-87}
+### (84, 87): イベント 0x56: ステラの町の船小屋 ([キネラシア辺境](@/map/map-07/_index.md) [(74, 58)](@/map/map-07/_index.md#dst-74-58) へ) {#event-84-87}
 
 ### (88, 23): イベント 0x57:  {#event-88-23}
 

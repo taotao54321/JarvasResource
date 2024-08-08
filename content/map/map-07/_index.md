@@ -1,6 +1,8 @@
 +++
-title = "ボルネー島"
+title = "キネラシア辺境+ボルネー島"
 +++
+
+北西部がキネラシア辺境、南東部がボルネー島。
 
 <!-- SVG {{{ -->
 <svg width="1536" height="1536" viewbox="0 0 2048 2048">
@@ -47,7 +49,7 @@ title = "ボルネー島"
 <use href="#svg-asset-destination" x="1760" y="1456"><title>(220, 182): ワープ先 0x83: オシーランド地方 (218, 39) の石ワープ先</title></use>
 </a>
 <a href="#dst-74-58">
-<use href="#svg-asset-destination" x="592" y="464"><title>(74, 58): ワープ先 0xE9</title></use>
+<use href="#svg-asset-destination" x="592" y="464"><title>(74, 58): ワープ先 0xE9: ステラの町の船小屋の行き先</title></use>
 </a>
 <a href="#dst-36-242">
 <use href="#svg-asset-destination" x="288" y="1936"><title>(36, 242): ワープ先 0xEA</title></use>
@@ -87,7 +89,7 @@ title = "ボルネー島"
 
 ワープ元は通常プレイでは到達不能と思われる。
 
-### (74, 58): ワープ先 0xE9:  {#dst-74-58}
+### (74, 58): ワープ先 0xE9: [ステラの町の船小屋](@/map/map-13a/_index.md#event-84-87)の行き先 {#dst-74-58}
 
 ### (201, 98): ワープ先 0x12:  {#dst-201-98}
 
