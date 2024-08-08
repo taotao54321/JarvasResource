@@ -11,7 +11,7 @@ title = "サイドビュー A"
 </defs>
 <use href="#svg-asset-bg" x="0" y="0"></use>
 <a href="#event-21-151">
-<use href="#svg-asset-event" x="168" y="1208"><title>(21, 151): イベント 0x61</title></use>
+<use href="#svg-asset-event" x="168" y="1208"><title>(21, 151): イベント 0x61: アドニスの町のクエスト屋への通路: アドニスの町 (210, 43) へ</title></use>
 </a>
 <a href="#event-21-247">
 <use href="#svg-asset-event" x="168" y="1976"><title>(21, 247): イベント 0x6B</title></use>
@@ -26,7 +26,7 @@ title = "サイドビュー A"
 <use href="#svg-asset-event" x="832" y="1720"><title>(104, 215): イベント 0x6A</title></use>
 </a>
 <a href="#event-105-151">
-<use href="#svg-asset-event" x="840" y="1208"><title>(105, 151): イベント 0x63</title></use>
+<use href="#svg-asset-event" x="840" y="1208"><title>(105, 151): イベント 0x63: アドニスの町のクエスト屋への通路: アドニスの町 (121, 49) へ</title></use>
 </a>
 <a href="#event-115-183">
 <use href="#svg-asset-event" x="920" y="1464"><title>(115, 183): イベント 0x69</title></use>
@@ -35,10 +35,10 @@ title = "サイドビュー A"
 <use href="#svg-asset-event" x="1048" y="1976"><title>(131, 247): イベント 0x6C</title></use>
 </a>
 <a href="#event-147-151">
-<use href="#svg-asset-event" x="1176" y="1208"><title>(147, 151): イベント 0x65</title></use>
+<use href="#svg-asset-event" x="1176" y="1208"><title>(147, 151): イベント 0x65: アドニスの町の近接武器屋への通路: アドニスの町 (124, 25) へ</title></use>
 </a>
 <a href="#event-148-119">
-<use href="#svg-asset-event" x="1184" y="952"><title>(148, 119): イベント 0x5D</title></use>
+<use href="#svg-asset-event" x="1184" y="952"><title>(148, 119): イベント 0x5D: アドニスの町の船小屋への通路: アドニスの町 (112, 37) へ</title></use>
 </a>
 <a href="#event-195-23">
 <use href="#svg-asset-event" x="1560" y="184"><title>(195, 23): イベント 0x58: ユース城の第 1 フロア出口: ユース城のボスフロアへ</title></use>
@@ -50,10 +50,10 @@ title = "サイドビュー A"
 <use href="#svg-asset-event" x="1816" y="696"><title>(227, 87): イベント 0x5A: リカントス城の第 1 フロア出口: リカントス城の第 2 フロアへ</title></use>
 </a>
 <a href="#event-233-119">
-<use href="#svg-asset-event" x="1864" y="952"><title>(233, 119): イベント 0x5F</title></use>
+<use href="#svg-asset-event" x="1864" y="952"><title>(233, 119): イベント 0x5F: アドニスの町の船小屋への通路: アドニスの町 (233, 30) へ</title></use>
 </a>
 <a href="#event-233-151">
-<use href="#svg-asset-event" x="1864" y="1208"><title>(233, 151): イベント 0x67</title></use>
+<use href="#svg-asset-event" x="1864" y="1208"><title>(233, 151): イベント 0x67: アドニスの町の近接武器屋への通路: アドニスの町 (198, 54) へ</title></use>
 </a>
 <a href="#dst-236-21">
 <use href="#svg-asset-destination" x="1888" y="168"><title>(236, 21): ワープ先 0x58: ユース城のボスフロア</title></use>
@@ -68,22 +68,22 @@ title = "サイドビュー A"
 <use href="#svg-asset-destination" x="864" y="936"><title>(108, 117): ワープ先 0x5B: リカントス城のボスフロア</title></use>
 </a>
 <a href="#dst-153-117">
-<use href="#svg-asset-destination" x="1224" y="936"><title>(153, 117): ワープ先 0x5C</title></use>
+<use href="#svg-asset-destination" x="1224" y="936"><title>(153, 117): ワープ先 0x5C: アドニスの町の船小屋への通路: 入口側</title></use>
 </a>
 <a href="#dst-220-117">
-<use href="#svg-asset-destination" x="1760" y="936"><title>(220, 117): ワープ先 0x5E</title></use>
+<use href="#svg-asset-destination" x="1760" y="936"><title>(220, 117): ワープ先 0x5E: アドニスの町の船小屋への通路: 出口側</title></use>
 </a>
 <a href="#dst-26-149">
-<use href="#svg-asset-destination" x="208" y="1192"><title>(26, 149): ワープ先 0x60</title></use>
+<use href="#svg-asset-destination" x="208" y="1192"><title>(26, 149): ワープ先 0x60: アドニスの町のクエスト屋への通路: 入口側</title></use>
 </a>
 <a href="#dst-100-149">
-<use href="#svg-asset-destination" x="800" y="1192"><title>(100, 149): ワープ先 0x62</title></use>
+<use href="#svg-asset-destination" x="800" y="1192"><title>(100, 149): ワープ先 0x62: アドニスの町のクエスト屋への通路: 出口側</title></use>
 </a>
 <a href="#dst-164-149">
-<use href="#svg-asset-destination" x="1312" y="1192"><title>(164, 149): ワープ先 0x64</title></use>
+<use href="#svg-asset-destination" x="1312" y="1192"><title>(164, 149): ワープ先 0x64: アドニスの町の近接武器屋への通路: 出口側</title></use>
 </a>
 <a href="#dst-228-149">
-<use href="#svg-asset-destination" x="1824" y="1192"><title>(228, 149): ワープ先 0x66</title></use>
+<use href="#svg-asset-destination" x="1824" y="1192"><title>(228, 149): ワープ先 0x66: アドニスの町の近接武器屋への通路: 入口側</title></use>
 </a>
 <a href="#dst-20-21">
 <use href="#svg-asset-destination" x="160" y="168"><title>(20, 21): ワープ先 0xB6: ユース城の第 1 フロア</title></use>
@@ -129,17 +129,17 @@ title = "サイドビュー A"
 
 ### (67, 119): イベント 0x5B: リカントス城の第 2 フロア出口: [リカントス城のボスフロア](#dst-108-117)へ {#event-67-119}
 
-### (148, 119): イベント 0x5D:  {#event-148-119}
+### (148, 119): イベント 0x5D: アドニスの町の船小屋への通路: [アドニスの町 (112, 37)](@/map/map-12/_index.md#dst-112-37) へ {#event-148-119}
 
-### (233, 119): イベント 0x5F:  {#event-233-119}
+### (233, 119): イベント 0x5F: アドニスの町の船小屋への通路: [アドニスの町 (233, 30)](@/map/map-12/_index.md#dst-233-30) へ {#event-233-119}
 
-### (21, 151): イベント 0x61:  {#event-21-151}
+### (21, 151): イベント 0x61: アドニスの町のクエスト屋への通路: [アドニスの町 (210, 43)](@/map/map-12/_index.md#dst-210-43) へ {#event-21-151}
 
-### (105, 151): イベント 0x63:  {#event-105-151}
+### (105, 151): イベント 0x63: アドニスの町のクエスト屋への通路: [アドニスの町 (121, 49)](@/map/map-12/_index.md#dst-121-49) へ {#event-105-151}
 
-### (147, 151): イベント 0x65:  {#event-147-151}
+### (147, 151): イベント 0x65: アドニスの町の近接武器屋への通路: [アドニスの町 (124, 25)](@/map/map-12/_index.md#dst-124-25) へ {#event-147-151}
 
-### (233, 151): イベント 0x67:  {#event-233-151}
+### (233, 151): イベント 0x67: アドニスの町の近接武器屋への通路: [アドニスの町 (198, 54)](@/map/map-12/_index.md#dst-198-54) へ {#event-233-151}
 
 ### (72, 183): イベント 0x68:  {#event-72-183}
 
@@ -182,17 +182,29 @@ title = "サイドビュー A"
 
 ワープ元: [リカントス城の第 2 フロア出口](#event-67-119)。
 
-### (153, 117): ワープ先 0x5C:  {#dst-153-117}
+### (153, 117): ワープ先 0x5C: アドニスの町の船小屋への通路: 入口側 {#dst-153-117}
 
-### (220, 117): ワープ先 0x5E:  {#dst-220-117}
+ワープ元: [アドニスの町 (114, 40) の階段](@/map/map-12/_index.md#event-114-40)。
 
-### (26, 149): ワープ先 0x60:  {#dst-26-149}
+### (220, 117): ワープ先 0x5E: アドニスの町の船小屋への通路: 出口側 {#dst-220-117}
 
-### (100, 149): ワープ先 0x62:  {#dst-100-149}
+ワープ元: [アドニスの町 (239, 30) の階段](@/map/map-12/_index.md#event-239-30)。
 
-### (164, 149): ワープ先 0x64:  {#dst-164-149}
+### (26, 149): ワープ先 0x60: アドニスの町のクエスト屋への通路: 入口側 {#dst-26-149}
 
-### (228, 149): ワープ先 0x66:  {#dst-228-149}
+ワープ元: [アドニスの町 (209, 48) の階段](@/map/map-12/_index.md#event-209-48)。
+
+### (100, 149): ワープ先 0x62: アドニスの町のクエスト屋への通路: 出口側 {#dst-100-149}
+
+ワープ元: [アドニスの町 (117, 49) の階段](@/map/map-12/_index.md#event-117-49)。
+
+### (228, 149): ワープ先 0x66: アドニスの町の近接武器屋への通路: 入口側 {#dst-228-149}
+
+ワープ元: [アドニスの町 (193, 53) の階段](@/map/map-12/_index.md#event-193-53)。
+
+### (164, 149): ワープ先 0x64: アドニスの町の近接武器屋への通路: 出口側 {#dst-164-149}
+
+ワープ元: [アドニスの町 (127, 26) の階段](@/map/map-12/_index.md#event-127-26)。
 
 ### (68, 181): ワープ先 0xBE:  {#dst-68-181}
 
