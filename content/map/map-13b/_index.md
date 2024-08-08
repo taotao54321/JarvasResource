@@ -182,7 +182,7 @@ title = "店セット"
 <use href="#svg-asset-event" x="1664" y="1920"><title>(208, 240): イベント 0xE4</title></use>
 </a>
 <a href="#event-208-246">
-<use href="#svg-asset-event" x="1664" y="1968"><title>(208, 246): イベント 0x24</title></use>
+<use href="#svg-asset-event" x="1664" y="1968"><title>(208, 246): イベント 0x24: ザイドタウンの町の遠隔武器屋: ザイドタウンの町 (171, 222) へ</title></use>
 </a>
 <a href="#event-240-144">
 <use href="#svg-asset-event" x="1920" y="1152"><title>(240, 144): イベント 0xCD</title></use>
@@ -224,7 +224,7 @@ title = "店セット"
 <use href="#svg-asset-destination" x="1912" y="1688"><title>(239, 211): ワープ先 0x21: ブルガの町のクエスト屋</title></use>
 </a>
 <a href="#dst-207-243">
-<use href="#svg-asset-destination" x="1656" y="1944"><title>(207, 243): ワープ先 0x23</title></use>
+<use href="#svg-asset-destination" x="1656" y="1944"><title>(207, 243): ワープ先 0x23: ザイドタウンの町の遠隔武器屋</title></use>
 </a>
 <a href="#dst-175-211">
 <use href="#svg-asset-destination" x="1400" y="1688"><title>(175, 211): ワープ先 0x25: アネイデアの町の占い屋</title></use>
@@ -424,7 +424,7 @@ title = "店セット"
 
 ### (208, 240): イベント 0xE4:  {#event-208-240}
 
-### (208, 246): イベント 0x24:  {#event-208-246}
+### (208, 246): イベント 0x24: ザイドタウンの町の遠隔武器屋: [ザイドタウンの町 (171, 222)](@/map/map-12/_index.md#dst-171-222) へ {#event-208-246}
 
 ### (240, 144): イベント 0xCD:  {#event-240-144}
 
@@ -539,7 +539,9 @@ title = "店セット"
 
 ワープ元: [パントーンの町 (204, 159)](@/map/map-12/_index.md#event-204-159)。
 
-### (207, 243): ワープ先 0x23:  {#dst-207-243}
+### (207, 243): ワープ先 0x23: ザイドタウンの町の遠隔武器屋 {#dst-207-243}
+
+ワープ元: [ザイドタウンの町 (172, 219)](@/map/map-12/_index.md#event-172-219)。
 
 ### (239, 147): ワープ先 0x57: 惑いの宿 {#dst-239-147}
 
