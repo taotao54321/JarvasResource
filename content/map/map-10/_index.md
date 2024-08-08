@@ -31,7 +31,7 @@ title = "リングワールド地方"
 <use href="#svg-asset-event" x="1872" y="1080"><title>(234, 135): イベント 0x56: リングワールド東の船小屋 (オシーランド地方 ジャバ島 (17, 29) へ)</title></use>
 </a>
 <a href="#dst-165-162">
-<use href="#svg-asset-destination" x="1320" y="1296"><title>(165, 162): ワープ先 0x16</title></use>
+<use href="#svg-asset-destination" x="1320" y="1296"><title>(165, 162): ワープ先 0x16: パントーンの町手前</title></use>
 </a>
 <a href="#dst-12-97">
 <use href="#svg-asset-destination" x="96" y="776"><title>(12, 97): ワープ先 0xDE: タクテカ地方の西の船小屋の行き先</title></use>
@@ -66,6 +66,6 @@ title = "リングワールド地方"
 
 ### (94, 105): ワープ先 0xDF: [マダガス島の船小屋](#event-58-71)の行き先 {#dst-94-105}
 
-### (165, 162): ワープ先 0x16:  {#dst-165-162}
+### (165, 162): ワープ先 0x16: [パントーンの町](@/map/map-12/_index.md#dst-217-178)手前 {#dst-165-162}
 
-
+ワープ元: [パントーンの町 (218, 181)](@/map/map-12/_index.md#event-218-181)。

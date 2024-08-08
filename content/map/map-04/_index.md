@@ -43,10 +43,10 @@ title = "ラタニア北地方"
 <use href="#svg-asset-event" x="1896" y="720"><title>(237, 90): イベント 0x8D: 骨ワープ ((240, 29) へ)</title></use>
 </a>
 <a href="#dst-201-194">
-<use href="#svg-asset-destination" x="1608" y="1552"><title>(201, 194): ワープ先 0x08</title></use>
+<use href="#svg-asset-destination" x="1608" y="1552"><title>(201, 194): ワープ先 0x08: ザイドタウンの町手前</title></use>
 </a>
 <a href="#dst-217-146">
-<use href="#svg-asset-destination" x="1736" y="1168"><title>(217, 146): ワープ先 0x0A</title></use>
+<use href="#svg-asset-destination" x="1736" y="1168"><title>(217, 146): ワープ先 0x0A: ラモンの町手前</title></use>
 </a>
 <a href="#dst-220-98">
 <use href="#svg-asset-destination" x="1760" y="784"><title>(220, 98): ワープ先 0x7D: (185, 86) の石ワープ先</title></use>
@@ -125,9 +125,13 @@ title = "ラタニア北地方"
 
 ### (192, 146): ワープ先 0xE7: [ザイドタウンの町の船小屋](@/map/map-12/_index.md#event-180-179)の行き先 {#dst-192-146}
 
-### (201, 194): ワープ先 0x08:  {#dst-201-194}
+### (201, 194): ワープ先 0x08: [ザイドタウンの町](@/map/map-12/_index.md#dst-165-242)手前 {#dst-201-194}
 
-### (217, 146): ワープ先 0x0A:  {#dst-217-146}
+ワープ元: [ザイドタウンの町 (166, 245)](@/map/map-12/_index.md#event-166-245)。
+
+### (217, 146): ワープ先 0x0A: [ラモンの町](@/map/map-12/_index.md#dst-217-242)手前 {#dst-217-146}
+
+ワープ元: [ラモンの町 (218, 245)](@/map/map-12/_index.md#event-218-245)。
 
 ### (220, 98): ワープ先 0x7D: [(185, 86)](#event-185-86) の石ワープ先 {#dst-220-98}
 

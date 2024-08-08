@@ -34,7 +34,7 @@ title = "キネラシア辺境+ボルネー島"
 <use href="#svg-asset-event" x="1616" y="760"><title>(202, 95): イベント 0x11: ステラの町の入口へ</title></use>
 </a>
 <a href="#dst-25-98">
-<use href="#svg-asset-destination" x="200" y="784"><title>(25, 98): ワープ先 0x10</title></use>
+<use href="#svg-asset-destination" x="200" y="784"><title>(25, 98): ワープ先 0x10: ラモッサの町手前</title></use>
 </a>
 <a href="#dst-201-98">
 <use href="#svg-asset-destination" x="1608" y="784"><title>(201, 98): ワープ先 0x12</title></use>
@@ -81,7 +81,9 @@ title = "キネラシア辺境+ボルネー島"
 
 ## ワープ先
 
-### (25, 98): ワープ先 0x10:  {#dst-25-98}
+### (25, 98): ワープ先 0x10: [ラモッサの町](@/map/map-12/_index.md#dst-117-242)手前 {#dst-25-98}
+
+ワープ元: [ラモッサの町 (118, 245)](@/map/map-12/_index.md#event-118-245)。
 
 ### (36, 242): ワープ先 0xEA: [バンスの町の船小屋](@/map/map-13a/_index.md#event-156-31)の行き先 {#dst-36-242}
 

@@ -29,7 +29,7 @@ title = "ラタニア南地方"
 <use href="#svg-asset-event" x="1712" y="376"><title>(214, 47): イベント 0x13: アネイデアの町の入口へ</title></use>
 </a>
 <a href="#dst-213-50">
-<use href="#svg-asset-destination" x="1704" y="400"><title>(213, 50): ワープ先 0x14</title></use>
+<use href="#svg-asset-destination" x="1704" y="400"><title>(213, 50): ワープ先 0x14: アネイデアの町手前</title></use>
 </a>
 <a href="#dst-28-168">
 <use href="#svg-asset-destination" x="224" y="1344"><title>(28, 168): ワープ先 0x8E: (57, 236) の骨ワープ先</title></use>
@@ -86,6 +86,6 @@ title = "ラタニア南地方"
 
 ### (167, 59): ワープ先 0xD2:  {#dst-167-59}
 
-### (213, 50): ワープ先 0x14:  {#dst-213-50}
+### (213, 50): ワープ先 0x14: [アネイデアの町](@/map/map-12/_index.md#dst-41-144)手前 {#dst-213-50}
 
-
+ワープ元: [アネイデアの町 (42, 149)](@/map/map-12/_index.md#event-42-149)。

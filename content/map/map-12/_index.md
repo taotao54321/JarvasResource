@@ -44,7 +44,7 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 <use href="#svg-asset-event" x="320" y="1464"><title>(40, 183): イベント 0x2B</title></use>
 </a>
 <a href="#event-42-149">
-<use href="#svg-asset-event" x="336" y="1192"><title>(42, 149): イベント 0x14</title></use>
+<use href="#svg-asset-event" x="336" y="1192"><title>(42, 149): イベント 0x14: アネイデアの町: ラタニア南地方 (213, 50) へ</title></use>
 </a>
 <a href="#event-42-167">
 <use href="#svg-asset-event" x="336" y="1336"><title>(42, 167): イベント 0xC1: パタンの町の洞窟への扉</title></use>
@@ -59,7 +59,7 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 <use href="#svg-asset-event" x="416" y="1720"><title>(52, 215): イベント 0x57</title></use>
 </a>
 <a href="#event-54-245">
-<use href="#svg-asset-event" x="432" y="1960"><title>(54, 245): イベント 0x0C</title></use>
+<use href="#svg-asset-event" x="432" y="1960"><title>(54, 245): イベント 0x0C: パタンの町: リカントス地方 (169, 194) へ</title></use>
 </a>
 <a href="#event-56-27">
 <use href="#svg-asset-event" x="448" y="216"><title>(56, 27): イベント 0x1F</title></use>
@@ -113,7 +113,7 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 <use href="#svg-asset-event" x="936" y="392"><title>(117, 49): イベント 0x62: アドニスの町のクエスト屋への通路出口側への階段</title></use>
 </a>
 <a href="#event-118-245">
-<use href="#svg-asset-event" x="944" y="1960"><title>(118, 245): イベント 0x10</title></use>
+<use href="#svg-asset-event" x="944" y="1960"><title>(118, 245): イベント 0x10: ラモッサの町: キネラシア辺境 (25, 98) へ</title></use>
 </a>
 <a href="#event-124-175">
 <use href="#svg-asset-event" x="992" y="1400"><title>(124, 175): イベント 0x41</title></use>
@@ -134,7 +134,7 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 <use href="#svg-asset-event" x="1120" y="1080"><title>(140, 135): イベント 0x51</title></use>
 </a>
 <a href="#event-146-149">
-<use href="#svg-asset-event" x="1168" y="1192"><title>(146, 149): イベント 0x06</title></use>
+<use href="#svg-asset-event" x="1168" y="1192"><title>(146, 149): イベント 0x06: ペイチンの町: キネラシア北東地方 (37, 226) へ</title></use>
 </a>
 <a href="#event-148-95">
 <use href="#svg-asset-event" x="1184" y="760"><title>(148, 95): イベント 0x4B</title></use>
@@ -152,7 +152,7 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 <use href="#svg-asset-event" x="1256" y="1896"><title>(157, 237): イベント 0xEC: ザイドタウンの町の墓: 探索するとラモンの町の洞窟への扉が開く</title></use>
 </a>
 <a href="#event-166-245">
-<use href="#svg-asset-event" x="1328" y="1960"><title>(166, 245): イベント 0x08</title></use>
+<use href="#svg-asset-event" x="1328" y="1960"><title>(166, 245): イベント 0x08: ザイドタウンの町: ラタニア北地方 (201, 194) へ</title></use>
 </a>
 <a href="#event-168-191">
 <use href="#svg-asset-event" x="1344" y="1528"><title>(168, 191): イベント 0x54</title></use>
@@ -185,10 +185,10 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 <use href="#svg-asset-event" x="1696" y="1112"><title>(212, 139): イベント 0x35</title></use>
 </a>
 <a href="#event-218-181">
-<use href="#svg-asset-event" x="1744" y="1448"><title>(218, 181): イベント 0x16</title></use>
+<use href="#svg-asset-event" x="1744" y="1448"><title>(218, 181): イベント 0x16: パントーンの町: リングワールド地方 (165, 162) へ</title></use>
 </a>
 <a href="#event-218-245">
-<use href="#svg-asset-event" x="1744" y="1960"><title>(218, 245): イベント 0x0A</title></use>
+<use href="#svg-asset-event" x="1744" y="1960"><title>(218, 245): イベント 0x0A: ラモンの町: ラタニア北地方 イスパ島 (217, 146) へ</title></use>
 </a>
 <a href="#event-220-207">
 <use href="#svg-asset-event" x="1760" y="1656"><title>(220, 207): イベント 0x56: ラモンの町の船小屋 (ラタニア北地方 (166, 165) へ)</title></use>
@@ -362,7 +362,7 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 
 ### (40, 183): イベント 0x2B:  {#event-40-183}
 
-### (42, 149): イベント 0x14:  {#event-42-149}
+### (42, 149): イベント 0x14: アネイデアの町: [ラタニア南地方](@/map/map-08/_index.md) [(213, 50)](@/map/map-08/_index.md#dst-213-50) へ {#event-42-149}
 
 ### (42, 167): イベント 0xC1: [パタンの町の洞窟](@/map/map-14/_index.md#dst-26-245)への扉 {#event-42-167}
 
@@ -374,7 +374,7 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 
 ### (52, 215): イベント 0x57:  {#event-52-215}
 
-### (54, 245): イベント 0x0C:  {#event-54-245}
+### (54, 245): イベント 0x0C: パタンの町: [リカントス地方](@/map/map-05/_index.md) [(169, 194)](@/map/map-05/_index.md#dst-169-194) へ {#event-54-245}
 
 ### (56, 27): イベント 0x1F:  {#event-56-27}
 
@@ -410,7 +410,7 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 
 ### (117, 49): イベント 0x62: [アドニスの町のクエスト屋への通路出口側](@/map/map-14/_index.md#dst-100-149)への階段 {#event-117-49}
 
-### (118, 245): イベント 0x10:  {#event-118-245}
+### (118, 245): イベント 0x10: ラモッサの町: [キネラシア辺境](@/map/map-07/_index.md) [(25, 98)](@/map/map-07/_index.md#dst-25-98) へ {#event-118-245}
 
 ### (124, 175): イベント 0x41:  {#event-124-175}
 
@@ -424,7 +424,7 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 
 ### (140, 135): イベント 0x51:  {#event-140-135}
 
-### (146, 149): イベント 0x06:  {#event-146-149}
+### (146, 149): イベント 0x06: ペイチンの町: [キネラシア北東地方](@/map/map-03/_index.md) [(37, 226)](@/map/map-03/_index.md#dst-37-226) へ {#event-146-149}
 
 ### (148, 95): イベント 0x4B:  {#event-148-95}
 
@@ -436,7 +436,7 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 
 ### (157, 237): イベント 0xEC: ザイドタウンの町の墓: 探索すると[ラモンの町の洞窟への扉](#event-238-199)が開く {#event-157-237}
 
-### (166, 245): イベント 0x08:  {#event-166-245}
+### (166, 245): イベント 0x08: ザイドタウンの町: [ラタニア北地方](@/map/map-04/_index.md) [(201, 194)](@/map/map-04/_index.md#dst-201-194) へ {#event-166-245}
 
 ### (168, 191): イベント 0x54:  {#event-168-191}
 
@@ -458,9 +458,9 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 
 ### (212, 139): イベント 0x35:  {#event-212-139}
 
-### (218, 181): イベント 0x16:  {#event-218-181}
+### (218, 181): イベント 0x16: パントーンの町: [リングワールド地方](@/map/map-10/_index.md) [(165, 162)](@/map/map-10/_index.md#dst-165-162) へ {#event-218-181}
 
-### (218, 245): イベント 0x0A:  {#event-218-245}
+### (218, 245): イベント 0x0A: ラモンの町: [ラタニア北地方](@/map/map-04/_index.md) イスパ島 [(217, 146)](@/map/map-04/_index.md#dst-217-146) へ {#event-218-245}
 
 ### (220, 207): イベント 0x56: ラモンの町の船小屋 ([ラタニア北地方](@/map/map-04/_index.md) [(166, 165)](@/map/map-04/_index.md#dst-166-165) へ) {#event-220-207}
 

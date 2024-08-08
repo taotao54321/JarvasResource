@@ -41,7 +41,7 @@ title = "キネラシア北東地方"
 <use href="#svg-asset-event" x="1864" y="1632"><title>(233, 204): イベント 0x8A: 骨ワープ (オシーランド地方 (140, 236) へ)</title></use>
 </a>
 <a href="#dst-37-226">
-<use href="#svg-asset-destination" x="296" y="1808"><title>(37, 226): ワープ先 0x06</title></use>
+<use href="#svg-asset-destination" x="296" y="1808"><title>(37, 226): ワープ先 0x06: ペイチンの町手前</title></use>
 </a>
 <a href="#dst-34-82">
 <use href="#svg-asset-destination" x="272" y="656"><title>(34, 82): ワープ先 0x89: キネラシア北西地方 (213, 44) の骨ワープ先</title></use>
@@ -97,7 +97,9 @@ title = "キネラシア北東地方"
 
 ### (34, 82): ワープ先 0x89: [キネラシア北西地方](@/map/map-02/_index.md) [(213, 44)](@/map/map-02/_index.md#event-213-44) の骨ワープ先 {#dst-34-82}
 
-### (37, 226): ワープ先 0x06:  {#dst-37-226}
+### (37, 226): ワープ先 0x06: [ペイチンの町](@/map/map-12/_index.md#dst-145-146)手前 {#dst-37-226}
+
+ワープ元: [ペイチンの町 (146, 149)](@/map/map-12/_index.md#event-146-149)。
 
 ### (142, 229): ワープ先 0xDB: [キネラシア北東地方の船小屋](#event-122-183)の行き先 {#dst-142-229}
 

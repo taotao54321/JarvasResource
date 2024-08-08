@@ -40,7 +40,7 @@ title = "リカントス地方"
 <use href="#svg-asset-event" x="1976" y="168"><title>(247, 21): イベント 0xAC: 関所 (キネラシア南地方 (20, 25) へ)</title></use>
 </a>
 <a href="#dst-169-194">
-<use href="#svg-asset-destination" x="1352" y="1552"><title>(169, 194): ワープ先 0x0C</title></use>
+<use href="#svg-asset-destination" x="1352" y="1552"><title>(169, 194): ワープ先 0x0C: パタンの町手前</title></use>
 </a>
 <a href="#dst-152-92">
 <use href="#svg-asset-destination" x="1216" y="736"><title>(152, 92): ワープ先 0x6C: パタンの町の洞窟出口からのワープ先</title></use>
@@ -106,7 +106,9 @@ title = "リカントス地方"
 
 ### (152, 92): ワープ先 0x6C: [パタンの町の洞窟出口](@/map/map-14/_index.md#event-131-247)からのワープ先 {#dst-152-92}
 
-### (169, 194): ワープ先 0x0C:  {#dst-169-194}
+### (169, 194): ワープ先 0x0C: [パタンの町](@/map/map-12/_index.md#dst-53-242)手前 {#dst-169-194}
+
+ワープ元: [パタンの町 (54, 245)](@/map/map-12/_index.md#event-54-245)。
 
 ### (172, 221): ワープ先 0xE4: [アネイデアの町の船小屋](@/map/map-12/_index.md#event-56-111)の行き先 {#dst-172-221}
 
