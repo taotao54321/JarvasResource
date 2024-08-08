@@ -52,7 +52,7 @@ title = "キネラシア辺境+ボルネー島"
 <use href="#svg-asset-destination" x="592" y="464"><title>(74, 58): ワープ先 0xE9: ステラの町の船小屋の行き先</title></use>
 </a>
 <a href="#dst-36-242">
-<use href="#svg-asset-destination" x="288" y="1936"><title>(36, 242): ワープ先 0xEA</title></use>
+<use href="#svg-asset-destination" x="288" y="1936"><title>(36, 242): ワープ先 0xEA: バンスの町の船小屋の行き先</title></use>
 </a>
 </svg>
 <!-- }}} -->
@@ -83,7 +83,7 @@ title = "キネラシア辺境+ボルネー島"
 
 ### (25, 98): ワープ先 0x10:  {#dst-25-98}
 
-### (36, 242): ワープ先 0xEA:  {#dst-36-242}
+### (36, 242): ワープ先 0xEA: [バンスの町の船小屋](@/map/map-13a/_index.md#event-156-31)の行き先 {#dst-36-242}
 
 ### (44, 146): ワープ先 0x81: [(45, 178)](#event-45-178) の石ワープ先 {#dst-44-146}
 
