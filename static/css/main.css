@@ -42,3 +42,18 @@ h1:target, h2:target, h3:target, h4:target, h5:target, h6:target {
 .xxx {
     color: #FF0000;
 }
+
+text.caption-24 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+text.caption-32 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+text.caption-48 {
+    font-size: 48px;
+    font-weight: bold;
+}
