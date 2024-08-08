@@ -38,7 +38,7 @@ title = "町セット B (ステラ+バンス+リカルド)"
 <use href="#svg-asset-event" x="1440" y="696"><title>(180, 87): イベント 0x56: リカルドの町の船小屋 (キネラシア南地方 エチオ島 (70, 114) へ)</title></use>
 </a>
 <a href="#event-180-103">
-<use href="#svg-asset-event" x="1440" y="824"><title>(180, 103): イベント 0x54</title></use>
+<use href="#svg-asset-event" x="1440" y="824"><title>(180, 103): イベント 0x54: リカルドの町の初心の館入口</title></use>
 </a>
 <a href="#event-186-117">
 <use href="#svg-asset-event" x="1488" y="936"><title>(186, 117): イベント 0x0E: リカルドの町: キネラシア南地方 (217, 66) へ</title></use>
@@ -62,7 +62,7 @@ title = "町セット B (ステラ+バンス+リカルド)"
 <use href="#svg-asset-event" x="1888" y="248"><title>(236, 31): イベント 0x37: バンスの町のギルド入口</title></use>
 </a>
 <a href="#event-240-95">
-<use href="#svg-asset-event" x="1920" y="760"><title>(240, 95): イベント 0x43</title></use>
+<use href="#svg-asset-event" x="1920" y="760"><title>(240, 95): イベント 0x43: リカルドの町のクエスト屋入口</title></use>
 </a>
 <a href="#event-242-105">
 <use href="#svg-asset-event" x="1936" y="840"><title>(242, 105): イベント 0xEE: リカルドの町の木: 探索するとリカルドの町の洞窟への扉が開く</title></use>
@@ -92,7 +92,7 @@ title = "町セット B (ステラ+バンス+リカルド)"
 <use href="#svg-asset-destination" x="568" y="848"><title>(71, 106): ワープ先 0x40: ステラの町の近接武器屋手前</title></use>
 </a>
 <a href="#dst-239-98">
-<use href="#svg-asset-destination" x="1912" y="784"><title>(239, 98): ワープ先 0x44</title></use>
+<use href="#svg-asset-destination" x="1912" y="784"><title>(239, 98): ワープ先 0x44: リカルドの町のクエスト屋手前</title></use>
 </a>
 <a href="#dst-197-18">
 <use href="#svg-asset-destination" x="1576" y="144"><title>(197, 18): ワープ先 0x69: バンスの町の洞窟への扉手前</title></use>
@@ -101,7 +101,7 @@ title = "町セット B (ステラ+バンス+リカルド)"
 <use href="#svg-asset-destination" x="1512" y="592"><title>(189, 74): ワープ先 0x6A: リカルドの町の洞窟への扉手前</title></use>
 </a>
 <a href="#dst-240-86">
-<use href="#svg-asset-destination" x="1920" y="688"><title>(240, 86): ワープ先 0xC4</title></use>
+<use href="#svg-asset-destination" x="1920" y="688"><title>(240, 86): ワープ先 0xC4: リカルドの町のクエスト屋裏 (ハマり)</title></use>
 </a>
 </svg>
 <!-- }}} -->
@@ -139,7 +139,7 @@ title = "町セット B (ステラ+バンス+リカルド)"
 
 ### (180, 87): イベント 0x56: リカルドの町の船小屋 ([キネラシア南地方](@/map/map-06/_index.md) エチオ島 [(70, 114)](@/map/map-06/_index.md#dst-70-114) へ) {#event-180-87}
 
-### (180, 103): イベント 0x54:  {#event-180-103}
+### (180, 103): イベント 0x54: リカルドの町の[初心の館](@/map/map-13b/_index.md#dst-111-211)入口 {#event-180-103}
 
 ### (186, 117): イベント 0x0E: リカルドの町: [キネラシア南地方](@/map/map-06/_index.md) [(217, 66)](@/map/map-06/_index.md#dst-217-66) へ {#event-186-117}
 
@@ -147,7 +147,7 @@ title = "町セット B (ステラ+バンス+リカルド)"
 
 [リカルドの町 (242, 105) の木](#event-242-105)を探索すると開く。
 
-### (240, 95): イベント 0x43:  {#event-240-95}
+### (240, 95): イベント 0x43: [リカルドの町のクエスト屋](@/map/map-13b/_index.md#dst-111-243)入口 {#event-240-95}
 
 ### (242, 105): イベント 0xEE: リカルドの町の木: 探索すると[リカルドの町の洞窟への扉](#event-190-71)が開く {#event-242-105}
 
@@ -194,8 +194,12 @@ title = "町セット B (ステラ+バンス+リカルド)"
 
 ワープ元: [リカルドの町の洞窟 (104, 215)](@/map/map-14/_index.md#event-104-215)。
 
-### (239, 98): ワープ先 0x44:  {#dst-239-98}
+### (239, 98): ワープ先 0x44: [リカルドの町のクエスト屋](@/map/map-13b/_index.md#dst-111-243)手前 {#dst-239-98}
 
-### (240, 86): ワープ先 0xC4:  {#dst-240-86}
+ワープ元: [リカルドの町のクエスト屋 (112, 246)](@/map/map-13b/_index.md#event-112-246)。
 
+### (240, 86): ワープ先 0xC4: [リカルドの町のクエスト屋](@/map/map-13b/_index.md#dst-111-243)裏 (ハマり) {#dst-240-86}
 
+ワープ元: [リカルドの町のクエスト屋 (112, 231)](@/map/map-13b/_index.md#event-112-231) (要: 悪魔の角)。
+
+この地点は障害物に囲まれており、一切のイベントがない。よって 2 コン技などで抜け出す他ない。

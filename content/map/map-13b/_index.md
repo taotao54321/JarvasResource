@@ -104,13 +104,13 @@ title = "店セット"
 <use href="#svg-asset-event" x="896" y="1712"><title>(112, 214): イベント 0x55</title></use>
 </a>
 <a href="#event-112-231">
-<use href="#svg-asset-event" x="896" y="1848"><title>(112, 231): イベント 0xC4</title></use>
+<use href="#svg-asset-event" x="896" y="1848"><title>(112, 231): イベント 0xC4: 悪魔の角を持っていればリカルドの町 (240, 86) へ (そしてハマる)</title></use>
 </a>
 <a href="#event-112-240">
 <use href="#svg-asset-event" x="896" y="1920"><title>(112, 240): イベント 0xE1</title></use>
 </a>
 <a href="#event-112-246">
-<use href="#svg-asset-event" x="896" y="1968"><title>(112, 246): イベント 0x44</title></use>
+<use href="#svg-asset-event" x="896" y="1968"><title>(112, 246): イベント 0x44: リカルドの町のクエスト屋: リカルドの町 (239, 98) へ</title></use>
 </a>
 <a href="#event-144-144">
 <use href="#svg-asset-event" x="1152" y="1152"><title>(144, 144): イベント 0xCA</title></use>
@@ -272,7 +272,7 @@ title = "店セット"
 <use href="#svg-asset-destination" x="1912" y="1432"><title>(239, 179): ワープ先 0x41: ラモッサの町のギルド</title></use>
 </a>
 <a href="#dst-111-243">
-<use href="#svg-asset-destination" x="888" y="1944"><title>(111, 243): ワープ先 0x43</title></use>
+<use href="#svg-asset-destination" x="888" y="1944"><title>(111, 243): ワープ先 0x43: リカルドの町のクエスト屋</title></use>
 </a>
 <a href="#dst-15-211">
 <use href="#svg-asset-destination" x="120" y="1688"><title>(15, 211): ワープ先 0x45: アドニスの町のギルド</title></use>
@@ -372,11 +372,13 @@ title = "店セット"
 
 ### (112, 214): イベント 0x55:  {#event-112-214}
 
-### (112, 231): イベント 0xC4:  {#event-112-231}
+### (112, 231): イベント 0xC4: リカルドの町のクエスト屋: 悪魔の角を持っていれば[リカルドの町 (240, 86)](@/map/map-13a/_index.md#dst-240-86) へ (そしてハマる) {#event-112-231}
+
+扉を抜けた先は障害物に囲まれており、一切のイベントがない。よって 2 コン技などで抜け出す他ない。
 
 ### (112, 240): イベント 0xE1:  {#event-112-240}
 
-### (112, 246): イベント 0x44:  {#event-112-246}
+### (112, 246): イベント 0x44: リカルドの町のクエスト屋: [リカルドの町 (239, 98)](@/map/map-13a/_index.md#dst-239-98) へ {#event-112-246}
 
 ### (144, 144): イベント 0xCA:  {#event-144-144}
 
@@ -501,7 +503,9 @@ title = "店セット"
 
 ### (111, 211): ワープ先 0x54: 初心の館 {#dst-111-211}
 
-### (111, 243): ワープ先 0x43:  {#dst-111-243}
+### (111, 243): ワープ先 0x43: リカルドの町のクエスト屋 {#dst-111-243}
+
+ワープ元: [リカルドの町 (240, 95)](@/map/map-13a/_index.md#event-240-95)。
 
 ### (143, 147): ワープ先 0x1B: ブルガの町の防具屋 {#dst-143-147}
 
