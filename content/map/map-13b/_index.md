@@ -11,19 +11,19 @@ title = "店セット"
 </defs>
 <use href="#svg-asset-bg" x="0" y="0"></use>
 <a href="#event-16-144">
-<use href="#svg-asset-event" x="128" y="1152"><title>(16, 144): イベント 0xC6</title></use>
+<use href="#svg-asset-event" x="128" y="1152"><title>(16, 144): イベント 0xC6: ブルガの町の近接武器屋での対話</title></use>
 </a>
 <a href="#event-16-150">
 <use href="#svg-asset-event" x="128" y="1200"><title>(16, 150): イベント 0x1A: ブルガの町の近接武器屋: ブルガの町 (51, 74) へ</title></use>
 </a>
 <a href="#event-16-176">
-<use href="#svg-asset-event" x="128" y="1408"><title>(16, 176): イベント 0xCE</title></use>
+<use href="#svg-asset-event" x="128" y="1408"><title>(16, 176): イベント 0xCE: ブルガの町の薬屋での対話</title></use>
 </a>
 <a href="#event-16-182">
 <use href="#svg-asset-event" x="128" y="1456"><title>(16, 182): イベント 0x1E: ブルガの町の薬屋: ブルガの町 (71, 58) へ</title></use>
 </a>
 <a href="#event-16-208">
-<use href="#svg-asset-event" x="128" y="1664"><title>(16, 208): イベント 0xD6</title></use>
+<use href="#svg-asset-event" x="128" y="1664"><title>(16, 208): イベント 0xD6: アドニスの町のギルドでの対話</title></use>
 </a>
 <a href="#event-16-214">
 <use href="#svg-asset-event" x="128" y="1712"><title>(16, 214): イベント 0x46: アドニスの町のギルド: アドニスの町 (115, 26) へ</title></use>
@@ -32,7 +32,7 @@ title = "店セット"
 <use href="#svg-asset-event" x="128" y="1848"><title>(16, 231): イベント 0x53: アネイデアの町のクエスト屋裏口: アネイデアの町 (85, 114) へ</title></use>
 </a>
 <a href="#event-16-240">
-<use href="#svg-asset-event" x="128" y="1920"><title>(16, 240): イベント 0xDE</title></use>
+<use href="#svg-asset-event" x="128" y="1920"><title>(16, 240): イベント 0xDE: アネイデアの町のクエスト屋での対話</title></use>
 </a>
 <a href="#event-16-246">
 <use href="#svg-asset-event" x="128" y="1968"><title>(16, 246): イベント 0x28: アネイデアの町のクエスト屋: アネイデアの町 (83, 126) へ</title></use>
@@ -197,7 +197,7 @@ title = "店セット"
 <use href="#svg-asset-event" x="1920" y="1456"><title>(240, 182): イベント 0x42: ラモッサの町のギルド: ラモッサの町 (123, 178) へ</title></use>
 </a>
 <a href="#event-240-208">
-<use href="#svg-asset-event" x="1920" y="1664"><title>(240, 208): イベント 0xDD</title></use>
+<use href="#svg-asset-event" x="1920" y="1664"><title>(240, 208): イベント 0xDD: ブルガの町のクエスト屋での対話</title></use>
 </a>
 <a href="#event-240-214">
 <use href="#svg-asset-event" x="1920" y="1712"><title>(240, 214): イベント 0x22: ブルガの町のクエスト屋: ブルガの町 (54, 58) へ</title></use>
@@ -310,21 +310,32 @@ title = "店セット"
 
 ## イベント
 
-### (16, 144): イベント 0xC6:  {#event-16-144}
+### (16, 144): イベント 0xC6: ブルガの町の近接武器屋での対話 {#event-16-144}
+
+| 商品         | 買値 |
+| --           | --:  |
+| たんけん     | 30   |
+| こんぼう     | 50   |
+| てつのやり   | 80   |
+| てつのおの   | 200  |
+| くさりのむち | 330  |
+| てつのけん   | 600  |
 
 ### (16, 150): イベント 0x1A: ブルガの町の近接武器屋: [ブルガの町 (51, 74)](@/map/map-12/_index.md#dst-51-74) へ {#event-16-150}
 
-### (16, 176): イベント 0xCE:  {#event-16-176}
+### (16, 176): イベント 0xCE: ブルガの町の薬屋での対話 {#event-16-176}
 
 ### (16, 182): イベント 0x1E: ブルガの町の薬屋: [ブルガの町 (71, 58)](@/map/map-12/_index.md#dst-71-58) へ {#event-16-182}
 
-### (16, 208): イベント 0xD6:  {#event-16-208}
+### (16, 208): イベント 0xD6: アドニスの町のギルドでの対話 {#event-16-208}
 
 ### (16, 214): イベント 0x46: アドニスの町のギルド: [アドニスの町 (115, 26)](@/map/map-12/_index.md#dst-115-26) へ {#event-16-214}
 
 ### (16, 231): イベント 0x53: アネイデアの町のクエスト屋裏口: [アネイデアの町 (85, 114)](@/map/map-12/_index.md#dst-85-114) へ {#event-16-231}
 
-### (16, 240): イベント 0xDE:  {#event-16-240}
+### (16, 240): イベント 0xDE: アネイデアの町のクエスト屋での対話 {#event-16-240}
+
+モンスター 50 体討伐クエスト。報酬は 250。
 
 ### (16, 246): イベント 0x28: アネイデアの町のクエスト屋: [アネイデアの町 (83, 126)](@/map/map-12/_index.md#dst-83-126) へ {#event-16-246}
 
@@ -450,7 +461,14 @@ title = "店セット"
 
 ### (240, 182): イベント 0x42: ラモッサの町のギルド: [ラモッサの町 (123, 178)](@/map/map-12/_index.md#dst-123-178) へ {#event-240-182}
 
-### (240, 208): イベント 0xDD:  {#event-240-208}
+### (240, 208): イベント 0xDD: ブルガの町のクエスト屋での対話 {#event-240-208}
+
+アイテム探索クエスト。報酬は一律 200。
+
+| アイテム | 入手法 |
+| -- | -- |
+| 壺 | [ユース地方](@/map/map-00/_index.md) [(152, 17)](@/map/map-00/_index.md#event-152-17) で拾う |
+| どくろばな | [ラタニア北地方](@/map/map-04/_index.md) [(137, 237)](@/map/map-04/_index.md#event-137-237) で拾う |
 
 ### (240, 214): イベント 0x22: ブルガの町のクエスト屋: [ブルガの町 (54, 58)](@/map/map-12/_index.md#dst-54-58) へ {#event-240-214}
 
