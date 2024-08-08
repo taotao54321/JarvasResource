@@ -38,7 +38,7 @@ title = "店セット"
 <use href="#svg-asset-event" x="128" y="1968"><title>(16, 246): イベント 0x28: アネイデアの町のクエスト屋: アネイデアの町 (83, 126) へ</title></use>
 </a>
 <a href="#event-48-135">
-<use href="#svg-asset-event" x="384" y="1080"><title>(48, 135): イベント 0xC3</title></use>
+<use href="#svg-asset-event" x="384" y="1080"><title>(48, 135): イベント 0xC3: パタンの町の近接武器屋裏口: パタンの町 (21, 221) へ</title></use>
 </a>
 <a href="#event-48-144">
 <use href="#svg-asset-event" x="384" y="1152"><title>(48, 144): イベント 0xC7</title></use>
@@ -62,7 +62,7 @@ title = "店セット"
 <use href="#svg-asset-event" x="384" y="1920"><title>(48, 240): イベント 0xDF</title></use>
 </a>
 <a href="#event-48-246">
-<use href="#svg-asset-event" x="384" y="1968"><title>(48, 246): イベント 0x2E</title></use>
+<use href="#svg-asset-event" x="384" y="1968"><title>(48, 246): イベント 0x2E: パタンの町のクエスト屋: パタンの町 (43, 218) へ</title></use>
 </a>
 <a href="#event-80-144">
 <use href="#svg-asset-event" x="640" y="1152"><title>(80, 144): イベント 0xC8</title></use>
@@ -128,7 +128,7 @@ title = "店セット"
 <use href="#svg-asset-event" x="1152" y="1664"><title>(144, 208): イベント 0xDA</title></use>
 </a>
 <a href="#event-144-214">
-<use href="#svg-asset-event" x="1152" y="1712"><title>(144, 214): イベント 0x2C</title></use>
+<use href="#svg-asset-event" x="1152" y="1712"><title>(144, 214): イベント 0x2C: パタンの町の長老の家: パタンの町 (39, 186) へ</title></use>
 </a>
 <a href="#event-144-240">
 <use href="#svg-asset-event" x="1152" y="1920"><title>(144, 240): イベント 0xE2</title></use>
@@ -146,7 +146,7 @@ title = "店セット"
 <use href="#svg-asset-event" x="1408" y="1408"><title>(176, 176): イベント 0xD3</title></use>
 </a>
 <a href="#event-176-182">
-<use href="#svg-asset-event" x="1408" y="1456"><title>(176, 182): イベント 0x30</title></use>
+<use href="#svg-asset-event" x="1408" y="1456"><title>(176, 182): イベント 0x30: パタンの町のギルド: パタンの町 (59, 222) へ</title></use>
 </a>
 <a href="#event-176-208">
 <use href="#svg-asset-event" x="1408" y="1664"><title>(176, 208): イベント 0xDB</title></use>
@@ -236,16 +236,16 @@ title = "店セット"
 <use href="#svg-asset-destination" x="1144" y="1432"><title>(143, 179): ワープ先 0x29: アネイデアの町のギルド</title></use>
 </a>
 <a href="#dst-143-211">
-<use href="#svg-asset-destination" x="1144" y="1688"><title>(143, 211): ワープ先 0x2B</title></use>
+<use href="#svg-asset-destination" x="1144" y="1688"><title>(143, 211): ワープ先 0x2B: パタンの町の長老の家</title></use>
 </a>
 <a href="#dst-47-243">
-<use href="#svg-asset-destination" x="376" y="1944"><title>(47, 243): ワープ先 0x2D</title></use>
+<use href="#svg-asset-destination" x="376" y="1944"><title>(47, 243): ワープ先 0x2D: パタンの町のクエスト屋</title></use>
 </a>
 <a href="#dst-175-179">
-<use href="#svg-asset-destination" x="1400" y="1432"><title>(175, 179): ワープ先 0x2F</title></use>
+<use href="#svg-asset-destination" x="1400" y="1432"><title>(175, 179): ワープ先 0x2F: パタンの町のギルド</title></use>
 </a>
 <a href="#dst-47-147">
-<use href="#svg-asset-destination" x="376" y="1176"><title>(47, 147): ワープ先 0x31</title></use>
+<use href="#svg-asset-destination" x="376" y="1176"><title>(47, 147): ワープ先 0x31: パタンの町の近接武器屋</title></use>
 </a>
 <a href="#dst-207-211">
 <use href="#svg-asset-destination" x="1656" y="1688"><title>(207, 211): ワープ先 0x33: パントーンの町の占い屋</title></use>
@@ -328,7 +328,7 @@ title = "店セット"
 
 ### (16, 246): イベント 0x28: アネイデアの町のクエスト屋: [アネイデアの町 (83, 126)](@/map/map-12/_index.md#dst-83-126) へ {#event-16-246}
 
-### (48, 135): イベント 0xC3:  {#event-48-135}
+### (48, 135): イベント 0xC3: パタンの町の近接武器屋裏口: [パタンの町 (21, 221)](@/map/map-12/_index.md#dst-21-221) へ {#event-48-135}
 
 ### (48, 144): イベント 0xC7:  {#event-48-144}
 
@@ -344,7 +344,7 @@ title = "店セット"
 
 ### (48, 240): イベント 0xDF:  {#event-48-240}
 
-### (48, 246): イベント 0x2E:  {#event-48-246}
+### (48, 246): イベント 0x2E: パタンの町のクエスト屋: [パタンの町 (43, 218)](@/map/map-12/_index.md#dst-43-218) へ {#event-48-246}
 
 ### (80, 144): イベント 0xC8:  {#event-80-144}
 
@@ -388,7 +388,7 @@ title = "店セット"
 
 ### (144, 208): イベント 0xDA:  {#event-144-208}
 
-### (144, 214): イベント 0x2C:  {#event-144-214}
+### (144, 214): イベント 0x2C: パタンの町の長老の家: [パタンの町 (39, 186)](@/map/map-12/_index.md#dst-39-186) へ {#event-144-214}
 
 ### (144, 240): イベント 0xE2:  {#event-144-240}
 
@@ -400,7 +400,7 @@ title = "店セット"
 
 ### (176, 176): イベント 0xD3:  {#event-176-176}
 
-### (176, 182): イベント 0x30:  {#event-176-182}
+### (176, 182): イベント 0x30: パタンの町のギルド: [パタンの町 (59, 222)](@/map/map-12/_index.md#dst-59-222) へ {#event-176-182}
 
 ### (176, 208): イベント 0xDB:  {#event-176-208}
 
@@ -461,7 +461,9 @@ title = "店セット"
 
 ワープ元: [アネイデアの町 (84, 123)](@/map/map-12/_index.md#event-84-123)。
 
-### (47, 147): ワープ先 0x31:  {#dst-47-147}
+### (47, 147): ワープ先 0x31: パタンの町の近接武器屋 {#dst-47-147}
+
+ワープ元: [パタンの町 (28, 231)](@/map/map-12/_index.md#event-28-231)。
 
 ### (47, 179): ワープ先 0x35: パントーンの町の薬屋 {#dst-47-179}
 
@@ -471,7 +473,9 @@ title = "店セット"
 
 ワープ元: [ペイチンの町 (148, 95)](@/map/map-12/_index.md#event-148-95)。
 
-### (47, 243): ワープ先 0x2D:  {#dst-47-243}
+### (47, 243): ワープ先 0x2D: パタンの町のクエスト屋 {#dst-47-243}
+
+ワープ元: [パタンの町 (44, 215)](@/map/map-12/_index.md#event-44-215)。
 
 ### (79, 147): ワープ先 0x3F:  {#dst-79-147}
 
@@ -503,7 +507,9 @@ title = "店セット"
 
 ワープ元: [アネイデアの町 (68, 135)](@/map/map-12/_index.md#event-68-135)。
 
-### (143, 211): ワープ先 0x2B:  {#dst-143-211}
+### (143, 211): ワープ先 0x2B: パタンの町の長老の家 {#dst-143-211}
+
+ワープ元: [パタンの町 (40, 183)](@/map/map-12/_index.md#event-40-183)。
 
 ### (143, 243): ワープ先 0x47: アドニスの町のクエスト屋 {#dst-143-243}
 
@@ -511,7 +517,9 @@ title = "店セット"
 
 ### (175, 147): ワープ先 0x3B:  {#dst-175-147}
 
-### (175, 179): ワープ先 0x2F:  {#dst-175-179}
+### (175, 179): ワープ先 0x2F: パタンの町のギルド {#dst-175-179}
+
+ワープ元: [パタンの町 (60, 219)](@/map/map-12/_index.md#event-60-219)。
 
 ### (175, 211): ワープ先 0x25: アネイデアの町の占い屋 {#dst-175-211}
 

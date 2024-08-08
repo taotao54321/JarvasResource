@@ -29,10 +29,10 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 <use href="#svg-asset-event" x="160" y="1616"><title>(20, 202): イベント 0xB5: パタンの町の十字岩: 星のかけらを持って探索するとキネラシア城の第 2 フロアへワープ</title></use>
 </a>
 <a href="#event-20-231">
-<use href="#svg-asset-event" x="160" y="1848"><title>(20, 231): イベント 0x57</title></use>
+<use href="#svg-asset-event" x="160" y="1848"><title>(20, 231): イベント 0x57: パタンの町の惑いの宿入口</title></use>
 </a>
 <a href="#event-28-231">
-<use href="#svg-asset-event" x="224" y="1848"><title>(28, 231): イベント 0x31</title></use>
+<use href="#svg-asset-event" x="224" y="1848"><title>(28, 231): イベント 0x31: パタンの町の近接武器屋入口</title></use>
 </a>
 <a href="#event-36-215">
 <use href="#svg-asset-event" x="288" y="1720"><title>(36, 215): イベント 0x54</title></use>
@@ -41,7 +41,7 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 <use href="#svg-asset-event" x="320" y="984"><title>(40, 123): イベント 0x25: アネイデアの町の占い屋入口</title></use>
 </a>
 <a href="#event-40-183">
-<use href="#svg-asset-event" x="320" y="1464"><title>(40, 183): イベント 0x2B</title></use>
+<use href="#svg-asset-event" x="320" y="1464"><title>(40, 183): イベント 0x2B: パタンの町の長老の家入口</title></use>
 </a>
 <a href="#event-42-149">
 <use href="#svg-asset-event" x="336" y="1192"><title>(42, 149): イベント 0x14: アネイデアの町: ラタニア南地方 (213, 50) へ</title></use>
@@ -50,13 +50,13 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 <use href="#svg-asset-event" x="336" y="1336"><title>(42, 167): イベント 0xC1: パタンの町の洞窟への扉</title></use>
 </a>
 <a href="#event-44-215">
-<use href="#svg-asset-event" x="352" y="1720"><title>(44, 215): イベント 0x2D</title></use>
+<use href="#svg-asset-event" x="352" y="1720"><title>(44, 215): イベント 0x2D: パタンの町のクエスト屋入口</title></use>
 </a>
 <a href="#event-52-71">
 <use href="#svg-asset-event" x="416" y="568"><title>(52, 71): イベント 0x19: ブルガの町の近接武器屋入口</title></use>
 </a>
 <a href="#event-52-215">
-<use href="#svg-asset-event" x="416" y="1720"><title>(52, 215): イベント 0x57</title></use>
+<use href="#svg-asset-event" x="416" y="1720"><title>(52, 215): イベント 0x57: パタンの町の惑いの宿入口</title></use>
 </a>
 <a href="#event-54-245">
 <use href="#svg-asset-event" x="432" y="1960"><title>(54, 245): イベント 0x0C: パタンの町: リカントス地方 (169, 194) へ</title></use>
@@ -74,7 +74,7 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 <use href="#svg-asset-event" x="464" y="680"><title>(58, 85): イベント 0x02: ブルガの町: ユース地方 (213, 98) へ</title></use>
 </a>
 <a href="#event-60-219">
-<use href="#svg-asset-event" x="480" y="1752"><title>(60, 219): イベント 0x2F</title></use>
+<use href="#svg-asset-event" x="480" y="1752"><title>(60, 219): イベント 0x2F: パタンの町のギルド入口</title></use>
 </a>
 <a href="#event-68-71">
 <use href="#svg-asset-event" x="544" y="568"><title>(68, 71): イベント 0x1B: ブルガの町の防具屋入口</title></use>
@@ -83,7 +83,7 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 <use href="#svg-asset-event" x="544" y="1080"><title>(68, 135): イベント 0x29: アネイデアの町のギルド入口</title></use>
 </a>
 <a href="#event-68-219">
-<use href="#svg-asset-event" x="544" y="1752"><title>(68, 219): イベント 0x54</title></use>
+<use href="#svg-asset-event" x="544" y="1752"><title>(68, 219): イベント 0x54: パタンの町の初心の館入口</title></use>
 </a>
 <a href="#event-72-27">
 <use href="#svg-asset-event" x="576" y="216"><title>(72, 27): イベント 0x56: ブルガの町の船小屋 (ユース地方 バフィン島 (221, 50) へ)</title></use>
@@ -269,13 +269,13 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 <use href="#svg-asset-destination" x="536" y="1104"><title>(67, 138): ワープ先 0x2A: アネイデアの町のギルド手前</title></use>
 </a>
 <a href="#dst-39-186">
-<use href="#svg-asset-destination" x="312" y="1488"><title>(39, 186): ワープ先 0x2C</title></use>
+<use href="#svg-asset-destination" x="312" y="1488"><title>(39, 186): ワープ先 0x2C: パタンの町の長老の家手前</title></use>
 </a>
 <a href="#dst-43-218">
-<use href="#svg-asset-destination" x="344" y="1744"><title>(43, 218): ワープ先 0x2E</title></use>
+<use href="#svg-asset-destination" x="344" y="1744"><title>(43, 218): ワープ先 0x2E: パタンの町のクエスト屋手前</title></use>
 </a>
 <a href="#dst-59-222">
-<use href="#svg-asset-destination" x="472" y="1776"><title>(59, 222): ワープ先 0x30</title></use>
+<use href="#svg-asset-destination" x="472" y="1776"><title>(59, 222): ワープ先 0x30: パタンの町のギルド手前</title></use>
 </a>
 <a href="#dst-27-234">
 <use href="#svg-asset-destination" x="216" y="1872"><title>(27, 234): ワープ先 0x32</title></use>
@@ -338,7 +338,7 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 <use href="#svg-asset-destination" x="328" y="1360"><title>(41, 170): ワープ先 0x6B: パタンの町の洞窟への扉手前</title></use>
 </a>
 <a href="#dst-21-221">
-<use href="#svg-asset-destination" x="168" y="1768"><title>(21, 221): ワープ先 0xC3</title></use>
+<use href="#svg-asset-destination" x="168" y="1768"><title>(21, 221): ワープ先 0xC3: パタンの町の近接武器屋裏</title></use>
 </a>
 </svg>
 <!-- }}} -->
@@ -422,27 +422,27 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 
 ### (20, 202): イベント 0xB5: パタンの町の十字岩: 星のかけらを持って探索すると[キネラシア城の第 3 フロア](@/map/map-15/_index.md#dst-20-245)へワープ {#event-20-202}
 
-### (20, 231): イベント 0x57:  {#event-20-231}
+### (20, 231): イベント 0x57: パタンの町の[惑いの宿](@/map/map-13b/_index.md#dst-239-147)入口 {#event-20-231}
 
-### (28, 231): イベント 0x31:  {#event-28-231}
+### (28, 231): イベント 0x31: [パタンの町の近接武器屋](@/map/map-13b/_index.md#dst-47-147)入口 {#event-28-231}
 
 ### (36, 215): イベント 0x54:  {#event-36-215}
 
-### (40, 183): イベント 0x2B:  {#event-40-183}
+### (40, 183): イベント 0x2B: [パタンの町の長老の家](@/map/map-13b/_index.md#dst-143-211)入口 {#event-40-183}
 
 ### (42, 167): イベント 0xC1: [パタンの町の洞窟](@/map/map-14/_index.md#dst-26-245)への扉 {#event-42-167}
 
 [パタンの町の墓](#event-19-173)で曼荼羅を使うと開く。
 
-### (44, 215): イベント 0x2D:  {#event-44-215}
+### (44, 215): イベント 0x2D: [パタンの町のクエスト屋](@/map/map-13b/_index.md#dst-47-243)入口 {#event-44-215}
 
-### (52, 215): イベント 0x57:  {#event-52-215}
+### (52, 215): イベント 0x57: パタンの町の[惑いの宿](@/map/map-13b/_index.md#dst-239-147)入口 {#event-52-215}
 
 ### (54, 245): イベント 0x0C: パタンの町: [リカントス地方](@/map/map-05/_index.md) [(169, 194)](@/map/map-05/_index.md#dst-169-194) へ {#event-54-245}
 
-### (60, 219): イベント 0x2F:  {#event-60-219}
+### (60, 219): イベント 0x2F: [パタンの町のギルド](@/map/map-13b/_index.md#dst-175-179)入口 {#event-60-219}
 
-### (68, 219): イベント 0x54:  {#event-68-219}
+### (68, 219): イベント 0x54: パタンの町の[初心の館](@/map/map-13b/_index.md#dst-111-211)入口 {#event-68-219}
 
 ### (92, 191): イベント 0x54:  {#event-92-191}
 
@@ -601,23 +601,31 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 
 ワープ元: [パントーンの町の薬屋 (48, 182)](@/map/map-13b/_index.md#event-48-182)。
 
-### (21, 221): ワープ先 0xC3:  {#dst-21-221}
+### (21, 221): ワープ先 0xC3: [パタンの町の近接武器屋](@/map/map-13b/_index.md#dst-47-147)裏 {#dst-21-221}
+
+ワープ元: [パタンの町の近接武器屋 (48, 135)](@/map/map-13b/_index.md#event-48-135)
 
 ### (27, 234): ワープ先 0x32:  {#dst-27-234}
 
-### (39, 186): ワープ先 0x2C:  {#dst-39-186}
+### (39, 186): ワープ先 0x2C: [パタンの町の長老の家](@/map/map-13b/_index.md#dst-143-211)手前 {#dst-39-186}
+
+ワープ元: [パタンの町の長老の家 (144, 214)](@/map/map-13b/_index.md#event-144-214)。
 
 ### (41, 170): ワープ先 0x6B: パタンの町の洞窟への扉手前 {#dst-41-170}
 
 ワープ元: [パタンの町の洞窟 (21, 247)](@/map/map-14/_index.md#event-21-247)。
 
-### (43, 218): ワープ先 0x2E:  {#dst-43-218}
+### (43, 218): ワープ先 0x2E: [パタンの町のクエスト屋](@/map/map-13b/_index.md#dst-47-243)手前 {#dst-43-218}
+
+ワープ元: [パタンの町のクエスト屋 (48, 246)](@/map/map-13b/_index.md#event-48-246)。
 
 ### (53, 242): ワープ先 0x0B: パタンの町の入口 {#dst-53-242}
 
 ワープ元: [リカントス地方](@/map/map-05/_index.md) [(170, 191)](@/map/map-05/_index.md#event-170-191)。
 
-### (59, 222): ワープ先 0x30:  {#dst-59-222}
+### (59, 222): ワープ先 0x30: [パタンの町のギルド](@/map/map-13b/_index.md#dst-175-179)手前 {#dst-59-222}
+
+ワープ元: [パタンの町のギルド (176, 182)](@/map/map-13b/_index.md#event-176-182)。
 
 ### (117, 242): ワープ先 0x0F: ラモッサの町の入口 {#dst-117-242}
 
