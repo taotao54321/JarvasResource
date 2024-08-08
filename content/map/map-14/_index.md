@@ -29,7 +29,7 @@ title = "サイドビュー A"
 <use href="#svg-asset-event" x="840" y="1208"><title>(105, 151): イベント 0x63: アドニスの町のクエスト屋への通路: アドニスの町 (121, 49) へ</title></use>
 </a>
 <a href="#event-115-183">
-<use href="#svg-asset-event" x="920" y="1464"><title>(115, 183): イベント 0x69</title></use>
+<use href="#svg-asset-event" x="920" y="1464"><title>(115, 183): イベント 0x69: バンスの町の洞窟: バンスの町 (197, 18) へ</title></use>
 </a>
 <a href="#event-131-247">
 <use href="#svg-asset-event" x="1048" y="1976"><title>(131, 247): イベント 0x6C</title></use>
@@ -98,7 +98,7 @@ title = "サイドビュー A"
 <use href="#svg-asset-destination" x="544" y="1448"><title>(68, 181): ワープ先 0xBE: ラモンの町の洞窟</title></use>
 </a>
 <a href="#dst-119-181">
-<use href="#svg-asset-destination" x="952" y="1448"><title>(119, 181): ワープ先 0xBF</title></use>
+<use href="#svg-asset-destination" x="952" y="1448"><title>(119, 181): ワープ先 0xBF: バンスの町の洞窟</title></use>
 </a>
 <a href="#dst-100-213">
 <use href="#svg-asset-destination" x="800" y="1704"><title>(100, 213): ワープ先 0xC0</title></use>
@@ -143,7 +143,7 @@ title = "サイドビュー A"
 
 ### (72, 183): イベント 0x68: ラモンの町の洞窟: [ラモンの町 (237, 202)](@/map/map-12/_index.md#dst-237-202) へ {#event-72-183}
 
-### (115, 183): イベント 0x69:  {#event-115-183}
+### (115, 183): イベント 0x69: バンスの町の洞窟: [バンスの町 (197, 18)](@/map/map-13a/_index.md#dst-197-18) へ {#event-115-183}
 
 ### (104, 215): イベント 0x6A:  {#event-104-215}
 
@@ -210,7 +210,9 @@ title = "サイドビュー A"
 
 ワープ元: [ラモンの町の洞窟への扉](@/map/map-12/_index.md#event-238-199)。
 
-### (119, 181): ワープ先 0xBF:  {#dst-119-181}
+### (119, 181): ワープ先 0xBF: バンスの町の洞窟 {#dst-119-181}
+
+ワープ元: [バンスの町の洞窟への扉](@/map/map-13a/_index.md#event-198-15)。
 
 ### (100, 213): ワープ先 0xC0:  {#dst-100-213}
 

@@ -50,7 +50,7 @@ title = "町セット B (ステラ+バンス+リカルド)"
 <use href="#svg-asset-event" x="1520" y="568"><title>(190, 71): イベント 0xC0</title></use>
 </a>
 <a href="#event-198-15">
-<use href="#svg-asset-event" x="1584" y="120"><title>(198, 15): イベント 0xBF</title></use>
+<use href="#svg-asset-event" x="1584" y="120"><title>(198, 15): イベント 0xBF: バンスの町の洞窟への扉</title></use>
 </a>
 <a href="#event-198-53">
 <use href="#svg-asset-event" x="1584" y="424"><title>(198, 53): イベント 0x18</title></use>
@@ -95,7 +95,7 @@ title = "町セット B (ステラ+バンス+リカルド)"
 <use href="#svg-asset-destination" x="1912" y="784"><title>(239, 98): ワープ先 0x44</title></use>
 </a>
 <a href="#dst-197-18">
-<use href="#svg-asset-destination" x="1576" y="144"><title>(197, 18): ワープ先 0x69</title></use>
+<use href="#svg-asset-destination" x="1576" y="144"><title>(197, 18): ワープ先 0x69: バンスの町の洞窟への扉手前</title></use>
 </a>
 <a href="#dst-189-74">
 <use href="#svg-asset-destination" x="1512" y="592"><title>(189, 74): ワープ先 0x6A</title></use>
@@ -135,7 +135,9 @@ title = "町セット B (ステラ+バンス+リカルド)"
 
 ### (190, 71): イベント 0xC0:  {#event-190-71}
 
-### (198, 15): イベント 0xBF:  {#event-198-15}
+### (198, 15): イベント 0xBF: [バンスの町の洞窟](@/map/map-14/_index.md#dst-119-181)への扉 {#event-198-15}
+
+[オシーランド地方](@/map/map-11/_index.md) [(134, 246)](@/map/map-11/_index.md#event-134-246) で探索すると開く。
 
 ### (198, 53): イベント 0x18:  {#event-198-53}
 
@@ -166,7 +168,9 @@ title = "町セット B (ステラ+バンス+リカルド)"
 
 ### (189, 74): ワープ先 0x6A:  {#dst-189-74}
 
-### (197, 18): ワープ先 0x69:  {#dst-197-18}
+### (197, 18): ワープ先 0x69: バンスの町の洞窟への扉手前 {#dst-197-18}
+
+ワープ元: [バンスの町の洞窟 (115, 183)](@/map/map-14/_index.md#event-115-183)。
 
 ### (197, 48): ワープ先 0x17: バンスの町の入口 {#dst-197-48}
 
