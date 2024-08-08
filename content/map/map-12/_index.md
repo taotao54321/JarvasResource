@@ -38,7 +38,7 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 <use href="#svg-asset-event" x="288" y="1720"><title>(36, 215): イベント 0x54</title></use>
 </a>
 <a href="#event-40-123">
-<use href="#svg-asset-event" x="320" y="984"><title>(40, 123): イベント 0x25</title></use>
+<use href="#svg-asset-event" x="320" y="984"><title>(40, 123): イベント 0x25: アネイデアの町の占い屋入口</title></use>
 </a>
 <a href="#event-40-183">
 <use href="#svg-asset-event" x="320" y="1464"><title>(40, 183): イベント 0x2B</title></use>
@@ -80,7 +80,7 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 <use href="#svg-asset-event" x="544" y="568"><title>(68, 71): イベント 0x1B: ブルガの町の防具屋入口</title></use>
 </a>
 <a href="#event-68-135">
-<use href="#svg-asset-event" x="544" y="1080"><title>(68, 135): イベント 0x29</title></use>
+<use href="#svg-asset-event" x="544" y="1080"><title>(68, 135): イベント 0x29: アネイデアの町のギルド入口</title></use>
 </a>
 <a href="#event-68-219">
 <use href="#svg-asset-event" x="544" y="1752"><title>(68, 219): イベント 0x54</title></use>
@@ -92,7 +92,7 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 <use href="#svg-asset-event" x="576" y="440"><title>(72, 55): イベント 0x1D: ブルガの町の薬屋入口</title></use>
 </a>
 <a href="#event-84-123">
-<use href="#svg-asset-event" x="672" y="984"><title>(84, 123): イベント 0x27</title></use>
+<use href="#svg-asset-event" x="672" y="984"><title>(84, 123): イベント 0x27: アネイデアの町のクエスト屋入口</title></use>
 </a>
 <a href="#event-92-191">
 <use href="#svg-asset-event" x="736" y="1528"><title>(92, 191): イベント 0x54</title></use>
@@ -260,13 +260,13 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 <use href="#svg-asset-destination" x="1368" y="1776"><title>(171, 222): ワープ先 0x24</title></use>
 </a>
 <a href="#dst-39-126">
-<use href="#svg-asset-destination" x="312" y="1008"><title>(39, 126): ワープ先 0x26</title></use>
+<use href="#svg-asset-destination" x="312" y="1008"><title>(39, 126): ワープ先 0x26: アネイデアの町の占い屋手前</title></use>
 </a>
 <a href="#dst-83-126">
-<use href="#svg-asset-destination" x="664" y="1008"><title>(83, 126): ワープ先 0x28</title></use>
+<use href="#svg-asset-destination" x="664" y="1008"><title>(83, 126): ワープ先 0x28: アネイデアの町のクエスト屋手前</title></use>
 </a>
 <a href="#dst-67-138">
-<use href="#svg-asset-destination" x="536" y="1104"><title>(67, 138): ワープ先 0x2A</title></use>
+<use href="#svg-asset-destination" x="536" y="1104"><title>(67, 138): ワープ先 0x2A: アネイデアの町のギルド手前</title></use>
 </a>
 <a href="#dst-39-186">
 <use href="#svg-asset-destination" x="312" y="1488"><title>(39, 186): ワープ先 0x2C</title></use>
@@ -311,7 +311,7 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 <use href="#svg-asset-destination" x="1112" y="1104"><title>(139, 138): ワープ先 0x52</title></use>
 </a>
 <a href="#dst-85-114">
-<use href="#svg-asset-destination" x="680" y="912"><title>(85, 114): ワープ先 0x53</title></use>
+<use href="#svg-asset-destination" x="680" y="912"><title>(85, 114): ワープ先 0x53: アネイデアの町のクエスト屋裏</title></use>
 </a>
 <a href="#dst-112-37">
 <use href="#svg-asset-destination" x="896" y="296"><title>(112, 37): ワープ先 0x5D: アドニスの町の船小屋への通路入口手前</title></use>
@@ -372,7 +372,7 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 
 ### (36, 215): イベント 0x54:  {#event-36-215}
 
-### (40, 123): イベント 0x25:  {#event-40-123}
+### (40, 123): イベント 0x25: [アネイデアの町の占い屋](@/map/map-13b/_index.md#dst-175-211)入口 {#event-40-123}
 
 ### (40, 183): イベント 0x2B:  {#event-40-183}
 
@@ -392,11 +392,11 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 
 ### (60, 219): イベント 0x2F:  {#event-60-219}
 
-### (68, 135): イベント 0x29:  {#event-68-135}
+### (68, 135): イベント 0x29: [アネイデアの町のギルド](@/map/map-13b/_index.md#dst-143-179)入口 {#event-68-135}
 
 ### (68, 219): イベント 0x54:  {#event-68-219}
 
-### (84, 123): イベント 0x27:  {#event-84-123}
+### (84, 123): イベント 0x27: [アネイデアの町のクエスト屋](@/map/map-13b/_index.md#dst-15-243)入口 {#event-84-123}
 
 ### (92, 191): イベント 0x54:  {#event-92-191}
 
@@ -513,7 +513,9 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 
 ### (27, 234): ワープ先 0x32:  {#dst-27-234}
 
-### (39, 126): ワープ先 0x26:  {#dst-39-126}
+### (39, 126): ワープ先 0x26: [アネイデアの町の占い屋](@/map/map-13b/_index.md#dst-175-211)手前 {#dst-39-126}
+
+ワープ元: [アネイデアの町の占い屋 (176, 214)](@/map/map-13b/_index.md#event-176-214)。
 
 ### (39, 186): ワープ先 0x2C:  {#dst-39-186}
 
@@ -533,11 +535,17 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 
 ### (59, 222): ワープ先 0x30:  {#dst-59-222}
 
-### (67, 138): ワープ先 0x2A:  {#dst-67-138}
+### (67, 138): ワープ先 0x2A: [アネイデアの町のギルド](@/map/map-13b/_index.md#dst-143-179)手前 {#dst-67-138}
 
-### (83, 126): ワープ先 0x28:  {#dst-83-126}
+ワープ元: [アネイデアの町のギルド (144, 182)](@/map/map-13b/_index.md#event-144-182)。
 
-### (85, 114): ワープ先 0x53:  {#dst-85-114}
+### (83, 126): ワープ先 0x28: [アネイデアの町のクエスト屋](@/map/map-13b/_index.md#dst-15-243)手前 {#dst-83-126}
+
+ワープ元: [アネイデアの町のクエスト屋 (16, 246)](@/map/map-13b/_index.md#event-16-246)。
+
+### (85, 114): ワープ先 0x53: [アネイデアの町のクエスト屋](@/map/map-13b/_index.md#dst-15-243)裏 {#dst-85-114}
+
+ワープ元: [アネイデアの町のクエスト屋 (16, 231)](@/map/map-13b/_index.md#event-16-231)。
 
 ### (112, 37): ワープ先 0x5D: アドニスの町の船小屋への通路入口手前 {#dst-112-37}
 

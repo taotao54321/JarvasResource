@@ -29,13 +29,13 @@ title = "店セット"
 <use href="#svg-asset-event" x="128" y="1712"><title>(16, 214): イベント 0x46: アドニスの町のギルド: アドニスの町 (115, 26) へ</title></use>
 </a>
 <a href="#event-16-231">
-<use href="#svg-asset-event" x="128" y="1848"><title>(16, 231): イベント 0x53</title></use>
+<use href="#svg-asset-event" x="128" y="1848"><title>(16, 231): イベント 0x53: アネイデアの町のクエスト屋裏口: アネイデアの町 (85, 114) へ</title></use>
 </a>
 <a href="#event-16-240">
 <use href="#svg-asset-event" x="128" y="1920"><title>(16, 240): イベント 0xDE</title></use>
 </a>
 <a href="#event-16-246">
-<use href="#svg-asset-event" x="128" y="1968"><title>(16, 246): イベント 0x28</title></use>
+<use href="#svg-asset-event" x="128" y="1968"><title>(16, 246): イベント 0x28: アネイデアの町のクエスト屋: アネイデアの町 (83, 126) へ</title></use>
 </a>
 <a href="#event-48-135">
 <use href="#svg-asset-event" x="384" y="1080"><title>(48, 135): イベント 0xC3</title></use>
@@ -122,7 +122,7 @@ title = "店セット"
 <use href="#svg-asset-event" x="1152" y="1408"><title>(144, 176): イベント 0xD2</title></use>
 </a>
 <a href="#event-144-182">
-<use href="#svg-asset-event" x="1152" y="1456"><title>(144, 182): イベント 0x2A</title></use>
+<use href="#svg-asset-event" x="1152" y="1456"><title>(144, 182): イベント 0x2A: アネイデアの町のギルド: アネイデアの町 (67, 138) へ</title></use>
 </a>
 <a href="#event-144-208">
 <use href="#svg-asset-event" x="1152" y="1664"><title>(144, 208): イベント 0xDA</title></use>
@@ -152,7 +152,7 @@ title = "店セット"
 <use href="#svg-asset-event" x="1408" y="1664"><title>(176, 208): イベント 0xDB</title></use>
 </a>
 <a href="#event-176-214">
-<use href="#svg-asset-event" x="1408" y="1712"><title>(176, 214): イベント 0x26</title></use>
+<use href="#svg-asset-event" x="1408" y="1712"><title>(176, 214): イベント 0x26: アネイデアの町の占い屋: アネイデアの町 (39, 126) へ</title></use>
 </a>
 <a href="#event-176-240">
 <use href="#svg-asset-event" x="1408" y="1920"><title>(176, 240): イベント 0xE3</title></use>
@@ -227,13 +227,13 @@ title = "店セット"
 <use href="#svg-asset-destination" x="1656" y="1944"><title>(207, 243): ワープ先 0x23</title></use>
 </a>
 <a href="#dst-175-211">
-<use href="#svg-asset-destination" x="1400" y="1688"><title>(175, 211): ワープ先 0x25</title></use>
+<use href="#svg-asset-destination" x="1400" y="1688"><title>(175, 211): ワープ先 0x25: アネイデアの町の占い屋</title></use>
 </a>
 <a href="#dst-15-243">
-<use href="#svg-asset-destination" x="120" y="1944"><title>(15, 243): ワープ先 0x27</title></use>
+<use href="#svg-asset-destination" x="120" y="1944"><title>(15, 243): ワープ先 0x27: アネイデアの町のクエスト屋</title></use>
 </a>
 <a href="#dst-143-179">
-<use href="#svg-asset-destination" x="1144" y="1432"><title>(143, 179): ワープ先 0x29</title></use>
+<use href="#svg-asset-destination" x="1144" y="1432"><title>(143, 179): ワープ先 0x29: アネイデアの町のギルド</title></use>
 </a>
 <a href="#dst-143-211">
 <use href="#svg-asset-destination" x="1144" y="1688"><title>(143, 211): ワープ先 0x2B</title></use>
@@ -322,11 +322,11 @@ title = "店セット"
 
 ### (16, 214): イベント 0x46: アドニスの町のギルド: [アドニスの町 (115, 26)](@/map/map-12/_index.md#dst-115-26) へ {#event-16-214}
 
-### (16, 231): イベント 0x53:  {#event-16-231}
+### (16, 231): イベント 0x53: アネイデアの町のクエスト屋裏口: [アネイデアの町 (85, 114)](@/map/map-12/_index.md#dst-85-114) へ {#event-16-231}
 
 ### (16, 240): イベント 0xDE:  {#event-16-240}
 
-### (16, 246): イベント 0x28:  {#event-16-246}
+### (16, 246): イベント 0x28: アネイデアの町のクエスト屋: [アネイデアの町 (83, 126)](@/map/map-12/_index.md#dst-83-126) へ {#event-16-246}
 
 ### (48, 135): イベント 0xC3:  {#event-48-135}
 
@@ -384,7 +384,7 @@ title = "店セット"
 
 ### (144, 176): イベント 0xD2:  {#event-144-176}
 
-### (144, 182): イベント 0x2A:  {#event-144-182}
+### (144, 182): イベント 0x2A: アネイデアの町のギルド: [アネイデアの町 (67, 138)](@/map/map-12/_index.md#dst-67-138) へ {#event-144-182}
 
 ### (144, 208): イベント 0xDA:  {#event-144-208}
 
@@ -404,7 +404,7 @@ title = "店セット"
 
 ### (176, 208): イベント 0xDB:  {#event-176-208}
 
-### (176, 214): イベント 0x26:  {#event-176-214}
+### (176, 214): イベント 0x26: アネイデアの町の占い屋: [アネイデアの町 (39, 126)](@/map/map-12/_index.md#dst-39-126) へ {#event-176-214}
 
 ### (176, 240): イベント 0xE3:  {#event-176-240}
 
@@ -457,7 +457,9 @@ title = "店セット"
 
 ワープ元: [アドニスの町 (116, 23)](@/map/map-12/_index.md#event-116-23)。
 
-### (15, 243): ワープ先 0x27:  {#dst-15-243}
+### (15, 243): ワープ先 0x27: アネイデアの町のクエスト屋 {#dst-15-243}
+
+ワープ元: [アネイデアの町 (84, 123)](@/map/map-12/_index.md#event-84-123)。
 
 ### (47, 147): ワープ先 0x31:  {#dst-47-147}
 
@@ -491,7 +493,9 @@ title = "店セット"
 
 ワープ元: [ブルガの町 (68, 71)](@/map/map-12/_index.md#event-68-71)。
 
-### (143, 179): ワープ先 0x29:  {#dst-143-179}
+### (143, 179): ワープ先 0x29: アネイデアの町のギルド {#dst-143-179}
+
+ワープ元: [アネイデアの町 (68, 135)](@/map/map-12/_index.md#event-68-135)。
 
 ### (143, 211): ワープ先 0x2B:  {#dst-143-211}
 
@@ -503,7 +507,9 @@ title = "店セット"
 
 ### (175, 179): ワープ先 0x2F:  {#dst-175-179}
 
-### (175, 211): ワープ先 0x25:  {#dst-175-211}
+### (175, 211): ワープ先 0x25: アネイデアの町の占い屋 {#dst-175-211}
+
+ワープ元: [アネイデアの町 (40, 123)](@/map/map-12/_index.md#event-40-123)。
 
 ### (175, 243): ワープ先 0x4D:  {#dst-175-243}
 
