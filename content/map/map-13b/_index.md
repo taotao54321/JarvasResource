@@ -77,7 +77,7 @@ title = "店セット"
 <use href="#svg-asset-event" x="640" y="1456"><title>(80, 182): イベント 0x52: ペイチンの町の薬屋: ペイチンの町 (139, 138) へ</title></use>
 </a>
 <a href="#event-80-208">
-<use href="#svg-asset-event" x="640" y="1664"><title>(80, 208): イベント 0xD8</title></use>
+<use href="#svg-asset-event" x="640" y="1664"><title>(80, 208): イベント 0xD8: 船小屋での対話</title></use>
 </a>
 <a href="#event-80-240">
 <use href="#svg-asset-event" x="640" y="1920"><title>(80, 240): イベント 0xE0</title></use>
@@ -98,7 +98,7 @@ title = "店セット"
 <use href="#svg-asset-event" x="896" y="1456"><title>(112, 182): イベント 0x20: ブルガの町のギルド: ブルガの町 (55, 30) へ</title></use>
 </a>
 <a href="#event-112-208">
-<use href="#svg-asset-event" x="896" y="1664"><title>(112, 208): イベント 0xD9</title></use>
+<use href="#svg-asset-event" x="896" y="1664"><title>(112, 208): イベント 0xD9: 初心の館での対話</title></use>
 </a>
 <a href="#event-112-214">
 <use href="#svg-asset-event" x="896" y="1712"><title>(112, 214): イベント 0x55: 初心の館出口: ゲーム開始地点へワープ</title></use>
@@ -185,7 +185,7 @@ title = "店セット"
 <use href="#svg-asset-event" x="1664" y="1968"><title>(208, 246): イベント 0x24: ザイドタウンの町の遠隔武器屋: ザイドタウンの町 (171, 222) へ</title></use>
 </a>
 <a href="#event-240-144">
-<use href="#svg-asset-event" x="1920" y="1152"><title>(240, 144): イベント 0xCD</title></use>
+<use href="#svg-asset-event" x="1920" y="1152"><title>(240, 144): イベント 0xCD: 惑いの宿での対話</title></use>
 </a>
 <a href="#event-240-150">
 <use href="#svg-asset-event" x="1920" y="1200"><title>(240, 150): イベント 0xB0: 惑いの宿出口: 7 つのワープ先のいずれかへワープ</title></use>
@@ -354,7 +354,7 @@ title = "店セット"
 
 ### (80, 182): イベント 0x52: ペイチンの町の薬屋: [ペイチンの町 (139, 138)](@/map/map-12/_index.md#dst-139-138) へ {#event-80-182}
 
-### (80, 208): イベント 0xD8:  {#event-80-208}
+### (80, 208): イベント 0xD8: 船小屋での対話 {#event-80-208}
 
 ### (80, 240): イベント 0xE0:  {#event-80-240}
 
@@ -368,7 +368,7 @@ title = "店セット"
 
 ### (112, 182): イベント 0x20: ブルガの町のギルド: [ブルガの町 (55, 30)](@/map/map-12/_index.md#dst-55-30) へ {#event-112-182}
 
-### (112, 208): イベント 0xD9:  {#event-112-208}
+### (112, 208): イベント 0xD9: 初心の館での対話 {#event-112-208}
 
 ### (112, 214): イベント 0x55: 初心の館出口: [ゲーム開始地点](@/map/map-00/_index.md#dst-173-206)へワープ {#event-112-214}
 
@@ -428,7 +428,7 @@ title = "店セット"
 
 ### (208, 246): イベント 0x24: ザイドタウンの町の遠隔武器屋: [ザイドタウンの町 (171, 222)](@/map/map-12/_index.md#dst-171-222) へ {#event-208-246}
 
-### (240, 144): イベント 0xCD:  {#event-240-144}
+### (240, 144): イベント 0xCD: 惑いの宿での対話 {#event-240-144}
 
 ### (240, 150): イベント 0xB0: 惑いの宿出口: 7 つのワープ先のいずれかへワープ {#event-240-150}
 
