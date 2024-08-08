@@ -11,7 +11,7 @@ title = "町セット B (ステラ+バンス+リカルド)"
 </defs>
 <use href="#svg-asset-bg" x="0" y="0"></use>
 <a href="#event-66-117">
-<use href="#svg-asset-event" x="528" y="936"><title>(66, 117): イベント 0x12</title></use>
+<use href="#svg-asset-event" x="528" y="936"><title>(66, 117): イベント 0x12: ステラの町: ボルネー島 (201, 98) へ</title></use>
 </a>
 <a href="#event-72-103">
 <use href="#svg-asset-event" x="576" y="824"><title>(72, 103): イベント 0x3F</title></use>
@@ -41,7 +41,7 @@ title = "町セット B (ステラ+バンス+リカルド)"
 <use href="#svg-asset-event" x="1440" y="824"><title>(180, 103): イベント 0x54</title></use>
 </a>
 <a href="#event-186-117">
-<use href="#svg-asset-event" x="1488" y="936"><title>(186, 117): イベント 0x0E</title></use>
+<use href="#svg-asset-event" x="1488" y="936"><title>(186, 117): イベント 0x0E: リカルドの町: キネラシア南地方 (217, 66) へ</title></use>
 </a>
 <a href="#event-188-31">
 <use href="#svg-asset-event" x="1504" y="248"><title>(188, 31): イベント 0x39</title></use>
@@ -53,7 +53,7 @@ title = "町セット B (ステラ+バンス+リカルド)"
 <use href="#svg-asset-event" x="1584" y="120"><title>(198, 15): イベント 0xBF: バンスの町の洞窟への扉</title></use>
 </a>
 <a href="#event-198-53">
-<use href="#svg-asset-event" x="1584" y="424"><title>(198, 53): イベント 0x18</title></use>
+<use href="#svg-asset-event" x="1584" y="424"><title>(198, 53): イベント 0x18: バンスの町: オシーランド地方 (21, 146) へ</title></use>
 </a>
 <a href="#event-204-31">
 <use href="#svg-asset-event" x="1632" y="248"><title>(204, 31): イベント 0x3B</title></use>
@@ -109,7 +109,7 @@ title = "町セット B (ステラ+バンス+リカルド)"
 
 ## イベント
 
-### (66, 117): イベント 0x12:  {#event-66-117}
+### (66, 117): イベント 0x12: ステラの町: [ボルネー島](@/map/map-07/_index.md) [(201, 98)](@/map/map-07/_index.md#dst-201-98) へ {#event-66-117}
 
 ### (72, 103): イベント 0x3F:  {#event-72-103}
 
@@ -129,7 +129,7 @@ title = "町セット B (ステラ+バンス+リカルド)"
 
 ### (180, 103): イベント 0x54:  {#event-180-103}
 
-### (186, 117): イベント 0x0E:  {#event-186-117}
+### (186, 117): イベント 0x0E: リカルドの町: [キネラシア南地方](@/map/map-06/_index.md) [(217, 66)](@/map/map-06/_index.md#dst-217-66) へ {#event-186-117}
 
 ### (188, 31): イベント 0x39:  {#event-188-31}
 
@@ -141,7 +141,7 @@ title = "町セット B (ステラ+バンス+リカルド)"
 
 [オシーランド地方](@/map/map-11/_index.md) [(134, 246)](@/map/map-11/_index.md#event-134-246) で探索すると開く。
 
-### (198, 53): イベント 0x18:  {#event-198-53}
+### (198, 53): イベント 0x18: バンスの町: [オシーランド地方](@/map/map-11/_index.md) [(21, 146)](@/map/map-11/_index.md#dst-21-146) へ {#event-198-53}
 
 ### (204, 31): イベント 0x3B:  {#event-204-31}
 

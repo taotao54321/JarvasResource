@@ -56,7 +56,7 @@ title = "オシーランド地方"
 <use href="#svg-asset-event" x="1848" y="1968"><title>(231, 246): イベント 0x9C: 切り株ワープ (ラタニア南地方 (20, 238) へ)</title></use>
 </a>
 <a href="#dst-21-146">
-<use href="#svg-asset-destination" x="168" y="1168"><title>(21, 146): ワープ先 0x18</title></use>
+<use href="#svg-asset-destination" x="168" y="1168"><title>(21, 146): ワープ先 0x18: バンスの町手前</title></use>
 </a>
 <a href="#dst-149-59">
 <use href="#svg-asset-destination" x="1192" y="472"><title>(149, 59): ワープ先 0x82: (21, 38) の石ワープ先</title></use>
@@ -136,7 +136,9 @@ title = "オシーランド地方"
 
 ### (17, 29): ワープ先 0xE0: [リングワールド地方](@/map/map-10/_index.md)の[東の船小屋](@/map/map-10/_index.md#event-234-135)の行き先 {#dst-17-29}
 
-### (21, 146): ワープ先 0x18:  {#dst-21-146}
+### (21, 146): ワープ先 0x18: [バンスの町](@/map/map-13a/_index.md#dst-197-48)手前 {#dst-21-146}
+
+ワープ元: [バンスの町 (198, 53)](@/map/map-13a/_index.md#event-198-53)。
 
 ### (44, 21): ワープ先 0x96: [ボルネー島](@/map/map-07/_index.md) [(139, 202)](@/map/map-07/_index.md#event-139-202) の木ワープ先 {#dst-44-21}
 

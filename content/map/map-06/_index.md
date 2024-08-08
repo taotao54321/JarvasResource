@@ -43,7 +43,7 @@ title = "キネラシア南地方"
 <use href="#svg-asset-event" x="1744" y="504"><title>(218, 63): イベント 0x0D: リカルドの町の入口へ</title></use>
 </a>
 <a href="#dst-217-66">
-<use href="#svg-asset-destination" x="1736" y="528"><title>(217, 66): ワープ先 0x0E</title></use>
+<use href="#svg-asset-destination" x="1736" y="528"><title>(217, 66): ワープ先 0x0E: リカルドの町手前</title></use>
 </a>
 <a href="#dst-172-98">
 <use href="#svg-asset-destination" x="1376" y="784"><title>(172, 98): ワープ先 0x7E: (193, 122) の石ワープ先</title></use>
@@ -124,7 +124,9 @@ title = "キネラシア南地方"
 
 ### (209, 21): ワープ先 0x9A: [キネラシア北西地方](@/map/map-02/_index.md) [(198, 215)](@/map/map-02/_index.md#event-198-215) の切り株ワープ先 {#dst-209-21}
 
-### (217, 66): ワープ先 0x0E:  {#dst-217-66}
+### (217, 66): ワープ先 0x0E: [リカルドの町](@/map/map-13a/_index.md#dst-185-114)手前 {#dst-217-66}
+
+ワープ元: [リカルドの町 (186, 117)](@/map/map-13a/_index.md#event-186-117)。
 
 ### (224, 130): ワープ先 0xE6: [ラモッサの町の船小屋](@/map/map-12/_index.md#event-124-235)の行き先 {#dst-224-130}
 

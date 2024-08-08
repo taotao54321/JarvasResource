@@ -37,7 +37,7 @@ title = "キネラシア辺境+ボルネー島"
 <use href="#svg-asset-destination" x="200" y="784"><title>(25, 98): ワープ先 0x10: ラモッサの町手前</title></use>
 </a>
 <a href="#dst-201-98">
-<use href="#svg-asset-destination" x="1608" y="784"><title>(201, 98): ワープ先 0x12</title></use>
+<use href="#svg-asset-destination" x="1608" y="784"><title>(201, 98): ワープ先 0x12: ステラの町手前</title></use>
 </a>
 <a href="#dst-228-158">
 <use href="#svg-asset-destination" x="1824" y="1264"><title>(228, 158): ワープ先 0x80: (117, 78) の石ワープ先</title></use>
@@ -93,7 +93,9 @@ title = "キネラシア辺境+ボルネー島"
 
 ### (74, 58): ワープ先 0xE9: [ステラの町の船小屋](@/map/map-13a/_index.md#event-84-87)の行き先 {#dst-74-58}
 
-### (201, 98): ワープ先 0x12:  {#dst-201-98}
+### (201, 98): ワープ先 0x12: [ステラの町](@/map/map-13a/_index.md#dst-65-114)手前 {#dst-201-98}
+
+ワープ元: [ステラの町 (66, 117)](@/map/map-13a/_index.md#event-66-117)。
 
 ### (220, 182): ワープ先 0x83: [オシーランド地方](@/map/map-11/_index.md) [(218, 39)](@/map/map-11/_index.md#event-218-39) の石ワープ先 {#dst-220-182}
 
