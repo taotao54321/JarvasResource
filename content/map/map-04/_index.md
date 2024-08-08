@@ -2,6 +2,8 @@
 title = "ラタニア北地方"
 +++
 
+* 東の島: イスパ島
+
 <!-- SVG {{{ -->
 <svg width="1536" height="1536" viewbox="0 0 2048 2048">
 <defs>
@@ -65,7 +67,7 @@ title = "ラタニア北地方"
 <use href="#svg-asset-destination" x="1504" y="992"><title>(188, 124): ワープ先 0xD0</title></use>
 </a>
 <a href="#dst-192-146">
-<use href="#svg-asset-destination" x="1536" y="1168"><title>(192, 146): ワープ先 0xE7</title></use>
+<use href="#svg-asset-destination" x="1536" y="1168"><title>(192, 146): ワープ先 0xE7: ザイドタウンの町の船小屋の行き先</title></use>
 </a>
 <a href="#dst-166-165">
 <use href="#svg-asset-destination" x="1328" y="1320"><title>(166, 165): ワープ先 0xE8</title></use>
@@ -121,7 +123,7 @@ title = "ラタニア北地方"
 
 ### (188, 124): ワープ先 0xD0:  {#dst-188-124}
 
-### (192, 146): ワープ先 0xE7:  {#dst-192-146}
+### (192, 146): ワープ先 0xE7: [ザイドタウンの町の船小屋](@/map/map-12/_index.md#event-180-179)の行き先 {#dst-192-146}
 
 ### (201, 194): ワープ先 0x08:  {#dst-201-194}
 
