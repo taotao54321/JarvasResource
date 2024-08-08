@@ -125,28 +125,28 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 <use href="#svg-asset-event" x="1016" y="208"><title>(127, 26): イベント 0x64: アドニスの町の近接武器屋への通路出口側への階段</title></use>
 </a>
 <a href="#event-136-107">
-<use href="#svg-asset-event" x="1088" y="856"><title>(136, 107): イベント 0x4D</title></use>
+<use href="#svg-asset-event" x="1088" y="856"><title>(136, 107): イベント 0x4D: ペイチンの町のクエスト屋入口</title></use>
 </a>
 <a href="#event-140-123">
-<use href="#svg-asset-event" x="1120" y="984"><title>(140, 123): イベント 0x57</title></use>
+<use href="#svg-asset-event" x="1120" y="984"><title>(140, 123): イベント 0x57: ペイチンの町の惑いの宿入口</title></use>
 </a>
 <a href="#event-140-135">
-<use href="#svg-asset-event" x="1120" y="1080"><title>(140, 135): イベント 0x51</title></use>
+<use href="#svg-asset-event" x="1120" y="1080"><title>(140, 135): イベント 0x51: ペイチンの町の薬屋入口</title></use>
 </a>
 <a href="#event-146-149">
 <use href="#svg-asset-event" x="1168" y="1192"><title>(146, 149): イベント 0x06: ペイチンの町: キネラシア北東地方 (37, 226) へ</title></use>
 </a>
 <a href="#event-148-95">
-<use href="#svg-asset-event" x="1184" y="760"><title>(148, 95): イベント 0x4B</title></use>
+<use href="#svg-asset-event" x="1184" y="760"><title>(148, 95): イベント 0x4B: ペイチンの町のギルド入口</title></use>
 </a>
 <a href="#event-152-107">
-<use href="#svg-asset-event" x="1216" y="856"><title>(152, 107): イベント 0x54</title></use>
+<use href="#svg-asset-event" x="1216" y="856"><title>(152, 107): イベント 0x54: ペイチンの町の初心の館入口</title></use>
 </a>
 <a href="#event-152-135">
-<use href="#svg-asset-event" x="1216" y="1080"><title>(152, 135): イベント 0x57</title></use>
+<use href="#svg-asset-event" x="1216" y="1080"><title>(152, 135): イベント 0x57: ペイチンの町の惑いの宿入口</title></use>
 </a>
 <a href="#event-156-123">
-<use href="#svg-asset-event" x="1248" y="984"><title>(156, 123): イベント 0x4F</title></use>
+<use href="#svg-asset-event" x="1248" y="984"><title>(156, 123): イベント 0x4F: ペイチンの町の防具屋入口</title></use>
 </a>
 <a href="#event-157-237">
 <use href="#svg-asset-event" x="1256" y="1896"><title>(157, 237): イベント 0xEC: ザイドタウンの町の墓: 探索するとラモンの町の洞窟への扉が開く</title></use>
@@ -299,16 +299,16 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 <use href="#svg-asset-destination" x="1880" y="496"><title>(235, 62): ワープ先 0x4A: アドニスの町の近接武器屋手前</title></use>
 </a>
 <a href="#dst-147-98">
-<use href="#svg-asset-destination" x="1176" y="784"><title>(147, 98): ワープ先 0x4C</title></use>
+<use href="#svg-asset-destination" x="1176" y="784"><title>(147, 98): ワープ先 0x4C: ペイチンの町のギルド手前</title></use>
 </a>
 <a href="#dst-135-110">
-<use href="#svg-asset-destination" x="1080" y="880"><title>(135, 110): ワープ先 0x4E</title></use>
+<use href="#svg-asset-destination" x="1080" y="880"><title>(135, 110): ワープ先 0x4E: ペイチンの町のクエスト屋手前</title></use>
 </a>
 <a href="#dst-155-126">
-<use href="#svg-asset-destination" x="1240" y="1008"><title>(155, 126): ワープ先 0x50</title></use>
+<use href="#svg-asset-destination" x="1240" y="1008"><title>(155, 126): ワープ先 0x50: ペイチンの町の防具屋手前</title></use>
 </a>
 <a href="#dst-139-138">
-<use href="#svg-asset-destination" x="1112" y="1104"><title>(139, 138): ワープ先 0x52</title></use>
+<use href="#svg-asset-destination" x="1112" y="1104"><title>(139, 138): ワープ先 0x52: ペイチンの町の薬屋手前</title></use>
 </a>
 <a href="#dst-85-114">
 <use href="#svg-asset-destination" x="680" y="912"><title>(85, 114): ワープ先 0x53: アネイデアの町のクエスト屋裏</title></use>
@@ -430,21 +430,21 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 
 ### (124, 235): イベント 0x56: ラモッサの町の船小屋 ([キネラシア南地方](@/map/map-06/_index.md) [(224, 130)](@/map/map-06/_index.md#dst-224-130) へ) {#event-124-235}
 
-### (136, 107): イベント 0x4D:  {#event-136-107}
+### (136, 107): イベント 0x4D: [ペイチンの町のクエスト屋](@/map/map-13b/_index.md#dst-175-243)入口 {#event-136-107}
 
-### (140, 123): イベント 0x57:  {#event-140-123}
+### (140, 123): イベント 0x57: ペイチンの町の[惑いの宿](@/map/map-13b/_index.md#dst-239-147)入口 {#event-140-123}
 
-### (140, 135): イベント 0x51:  {#event-140-135}
+### (140, 135): イベント 0x51: [ペイチンの町の薬屋](@/map/map-13b/_index.md#dst-79-179)入口 {#event-140-135}
 
 ### (146, 149): イベント 0x06: ペイチンの町: [キネラシア北東地方](@/map/map-03/_index.md) [(37, 226)](@/map/map-03/_index.md#dst-37-226) へ {#event-146-149}
 
-### (148, 95): イベント 0x4B:  {#event-148-95}
+### (148, 95): イベント 0x4B: [ペイチンの町のギルド](@/map/map-13b/_index.md#dst-47-211)入口 {#event-148-95}
 
-### (152, 107): イベント 0x54:  {#event-152-107}
+### (152, 107): イベント 0x54: ペイチンの町の[初心の館](@/map/map-13b/_index.md#dst-111-211)入口 {#event-152-107}
 
-### (152, 135): イベント 0x57:  {#event-152-135}
+### (152, 135): イベント 0x57: ペイチンの町の[惑いの宿](@/map/map-13b/_index.md#dst-239-147)入口 {#event-152-135}
 
-### (156, 123): イベント 0x4F:  {#event-156-123}
+### (156, 123): イベント 0x4F: [ペイチンの町の防具屋](@/map/map-13b/_index.md#dst-207-147)入口 {#event-156-123}
 
 ### (157, 237): イベント 0xEC: ザイドタウンの町の墓: 探索すると[ラモンの町の洞窟への扉](#event-238-199)が開く {#event-157-237}
 
@@ -593,17 +593,25 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 
 ### (123, 178): ワープ先 0x42:  {#dst-123-178}
 
-### (135, 110): ワープ先 0x4E:  {#dst-135-110}
+### (135, 110): ワープ先 0x4E: [ペイチンの町のクエスト屋](@/map/map-13b/_index.md#dst-175-243)手前 {#dst-135-110}
 
-### (139, 138): ワープ先 0x52:  {#dst-139-138}
+ワープ元: [ペイチンの町のクエスト屋 (176, 246)](@/map/map-13b/_index.md#event-176-246)。
+
+### (139, 138): ワープ先 0x52: [ペイチンの町の薬屋](@/map/map-13b/_index.md#dst-79-179)手前 {#dst-139-138}
+
+ワープ元: [ペイチンの町の薬屋 (80, 182)](@/map/map-13b/_index.md#event-80-182)。
 
 ### (145, 146): ワープ先 0x05: ペイチンの町の入口 {#dst-145-146}
 
 ワープ元: [キネラシア北東地方](@/map/map-03/_index.md) [(38, 223)](@/map/map-03/_index.md#event-38-223)。
 
-### (147, 98): ワープ先 0x4C:  {#dst-147-98}
+### (147, 98): ワープ先 0x4C: [ペイチンの町のギルド](@/map/map-13b/_index.md#dst-47-211)手前 {#dst-147-98}
 
-### (155, 126): ワープ先 0x50:  {#dst-155-126}
+ワープ元: [ペイチンの町のギルド (48, 214)](@/map/map-13b/_index.md#event-48-214)。
+
+### (155, 126): ワープ先 0x50: [ペイチンの町の防具屋](@/map/map-13b/_index.md#dst-207-147)手前 {#dst-155-126}
+
+ワープ元: [ペイチンの町の防具屋 (208, 150)](@/map/map-13b/_index.md#event-208-150)。
 
 ### (165, 242): ワープ先 0x07: ザイドタウンの町の入口 {#dst-165-242}
 

@@ -56,7 +56,7 @@ title = "店セット"
 <use href="#svg-asset-event" x="384" y="1664"><title>(48, 208): イベント 0xD7</title></use>
 </a>
 <a href="#event-48-214">
-<use href="#svg-asset-event" x="384" y="1712"><title>(48, 214): イベント 0x4C</title></use>
+<use href="#svg-asset-event" x="384" y="1712"><title>(48, 214): イベント 0x4C: ペイチンの町のギルド: ペイチンの町 (147, 98) へ</title></use>
 </a>
 <a href="#event-48-240">
 <use href="#svg-asset-event" x="384" y="1920"><title>(48, 240): イベント 0xDF</title></use>
@@ -74,7 +74,7 @@ title = "店セット"
 <use href="#svg-asset-event" x="640" y="1408"><title>(80, 176): イベント 0xD0</title></use>
 </a>
 <a href="#event-80-182">
-<use href="#svg-asset-event" x="640" y="1456"><title>(80, 182): イベント 0x52</title></use>
+<use href="#svg-asset-event" x="640" y="1456"><title>(80, 182): イベント 0x52: ペイチンの町の薬屋: ペイチンの町 (139, 138) へ</title></use>
 </a>
 <a href="#event-80-208">
 <use href="#svg-asset-event" x="640" y="1664"><title>(80, 208): イベント 0xD8</title></use>
@@ -158,13 +158,13 @@ title = "店セット"
 <use href="#svg-asset-event" x="1408" y="1920"><title>(176, 240): イベント 0xE3</title></use>
 </a>
 <a href="#event-176-246">
-<use href="#svg-asset-event" x="1408" y="1968"><title>(176, 246): イベント 0x4E</title></use>
+<use href="#svg-asset-event" x="1408" y="1968"><title>(176, 246): イベント 0x4E: ペイチンの町のクエスト屋: ペイチンの町 (135, 110) へ</title></use>
 </a>
 <a href="#event-208-144">
 <use href="#svg-asset-event" x="1664" y="1152"><title>(208, 144): イベント 0xCC</title></use>
 </a>
 <a href="#event-208-150">
-<use href="#svg-asset-event" x="1664" y="1200"><title>(208, 150): イベント 0x50</title></use>
+<use href="#svg-asset-event" x="1664" y="1200"><title>(208, 150): イベント 0x50: ペイチンの町の防具屋: ペイチンの町 (155, 126) へ</title></use>
 </a>
 <a href="#event-208-176">
 <use href="#svg-asset-event" x="1664" y="1408"><title>(208, 176): イベント 0xD4</title></use>
@@ -284,25 +284,25 @@ title = "店セット"
 <use href="#svg-asset-destination" x="888" y="1176"><title>(111, 147): ワープ先 0x49: アドニスの町の近接武器屋</title></use>
 </a>
 <a href="#dst-47-211">
-<use href="#svg-asset-destination" x="376" y="1688"><title>(47, 211): ワープ先 0x4B</title></use>
+<use href="#svg-asset-destination" x="376" y="1688"><title>(47, 211): ワープ先 0x4B: ペイチンの町のギルド</title></use>
 </a>
 <a href="#dst-175-243">
-<use href="#svg-asset-destination" x="1400" y="1944"><title>(175, 243): ワープ先 0x4D</title></use>
+<use href="#svg-asset-destination" x="1400" y="1944"><title>(175, 243): ワープ先 0x4D: ペイチンの町のクエスト屋</title></use>
 </a>
 <a href="#dst-207-147">
-<use href="#svg-asset-destination" x="1656" y="1176"><title>(207, 147): ワープ先 0x4F</title></use>
+<use href="#svg-asset-destination" x="1656" y="1176"><title>(207, 147): ワープ先 0x4F: ペイチンの町の防具屋</title></use>
 </a>
 <a href="#dst-79-179">
-<use href="#svg-asset-destination" x="632" y="1432"><title>(79, 179): ワープ先 0x51</title></use>
+<use href="#svg-asset-destination" x="632" y="1432"><title>(79, 179): ワープ先 0x51: ペイチンの町の薬屋</title></use>
 </a>
 <a href="#dst-111-211">
-<use href="#svg-asset-destination" x="888" y="1688"><title>(111, 211): ワープ先 0x54</title></use>
+<use href="#svg-asset-destination" x="888" y="1688"><title>(111, 211): ワープ先 0x54: 初心の館</title></use>
 </a>
 <a href="#dst-79-211">
 <use href="#svg-asset-destination" x="632" y="1688"><title>(79, 211): ワープ先 0x56</title></use>
 </a>
 <a href="#dst-239-147">
-<use href="#svg-asset-destination" x="1912" y="1176"><title>(239, 147): ワープ先 0x57</title></use>
+<use href="#svg-asset-destination" x="1912" y="1176"><title>(239, 147): ワープ先 0x57: 惑いの宿</title></use>
 </a>
 </svg>
 <!-- }}} -->
@@ -340,7 +340,7 @@ title = "店セット"
 
 ### (48, 208): イベント 0xD7:  {#event-48-208}
 
-### (48, 214): イベント 0x4C:  {#event-48-214}
+### (48, 214): イベント 0x4C: ペイチンの町のギルド: [ペイチンの町 (147, 98)](@/map/map-12/_index.md#dst-147-98) へ {#event-48-214}
 
 ### (48, 240): イベント 0xDF:  {#event-48-240}
 
@@ -352,7 +352,7 @@ title = "店セット"
 
 ### (80, 176): イベント 0xD0:  {#event-80-176}
 
-### (80, 182): イベント 0x52:  {#event-80-182}
+### (80, 182): イベント 0x52: ペイチンの町の薬屋: [ペイチンの町 (139, 138)](@/map/map-12/_index.md#dst-139-138) へ {#event-80-182}
 
 ### (80, 208): イベント 0xD8:  {#event-80-208}
 
@@ -408,11 +408,11 @@ title = "店セット"
 
 ### (176, 240): イベント 0xE3:  {#event-176-240}
 
-### (176, 246): イベント 0x4E:  {#event-176-246}
+### (176, 246): イベント 0x4E: ペイチンの町のクエスト屋: [ペイチンの町 (135, 110)](@/map/map-12/_index.md#dst-135-110) へ {#event-176-246}
 
 ### (208, 144): イベント 0xCC:  {#event-208-144}
 
-### (208, 150): イベント 0x50:  {#event-208-150}
+### (208, 150): イベント 0x50: ペイチンの町の防具屋: [ペイチンの町 (155, 126)](@/map/map-12/_index.md#dst-155-126) へ {#event-208-150}
 
 ### (208, 176): イベント 0xD4:  {#event-208-176}
 
@@ -465,13 +465,17 @@ title = "店セット"
 
 ### (47, 179): ワープ先 0x35:  {#dst-47-179}
 
-### (47, 211): ワープ先 0x4B:  {#dst-47-211}
+### (47, 211): ワープ先 0x4B: ペイチンの町のギルド {#dst-47-211}
+
+ワープ元: [ペイチンの町 (148, 95)](@/map/map-12/_index.md#event-148-95)。
 
 ### (47, 243): ワープ先 0x2D:  {#dst-47-243}
 
 ### (79, 147): ワープ先 0x3F:  {#dst-79-147}
 
-### (79, 179): ワープ先 0x51:  {#dst-79-179}
+### (79, 179): ワープ先 0x51: ペイチンの町の薬屋 {#dst-79-179}
+
+ワープ元: [ペイチンの町 (140, 135)](@/map/map-12/_index.md#event-140-135)。
 
 ### (79, 211): ワープ先 0x56:  {#dst-79-211}
 
@@ -485,7 +489,7 @@ title = "店セット"
 
 ワープ元: [ブルガの町 (56, 27)](@/map/map-12/_index.md#event-56-27)。
 
-### (111, 211): ワープ先 0x54:  {#dst-111-211}
+### (111, 211): ワープ先 0x54: 初心の館 {#dst-111-211}
 
 ### (111, 243): ワープ先 0x43:  {#dst-111-243}
 
@@ -511,9 +515,13 @@ title = "店セット"
 
 ワープ元: [アネイデアの町 (40, 123)](@/map/map-12/_index.md#event-40-123)。
 
-### (175, 243): ワープ先 0x4D:  {#dst-175-243}
+### (175, 243): ワープ先 0x4D: ペイチンの町のクエスト屋 {#dst-175-243}
 
-### (207, 147): ワープ先 0x4F:  {#dst-207-147}
+ワープ元: [ペイチンの町 (136, 107)](@/map/map-12/_index.md#event-136-107)。
+
+### (207, 147): ワープ先 0x4F: ペイチンの町の防具屋 {#dst-207-147}
+
+ワープ元: [ペイチンの町 (156, 123)](@/map/map-12/_index.md#event-156-123)。
 
 ### (207, 179): ワープ先 0x37:  {#dst-207-179}
 
@@ -521,7 +529,7 @@ title = "店セット"
 
 ### (207, 243): ワープ先 0x23:  {#dst-207-243}
 
-### (239, 147): ワープ先 0x57:  {#dst-239-147}
+### (239, 147): ワープ先 0x57: 惑いの宿 {#dst-239-147}
 
 ### (239, 179): ワープ先 0x41:  {#dst-239-179}
 
