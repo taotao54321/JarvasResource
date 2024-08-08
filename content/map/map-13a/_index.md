@@ -47,7 +47,7 @@ title = "町セット B (ステラ+バンス+リカルド)"
 <use href="#svg-asset-event" x="1504" y="248"><title>(188, 31): イベント 0x39</title></use>
 </a>
 <a href="#event-190-71">
-<use href="#svg-asset-event" x="1520" y="568"><title>(190, 71): イベント 0xC0</title></use>
+<use href="#svg-asset-event" x="1520" y="568"><title>(190, 71): イベント 0xC0: リカルドの町の洞窟への扉</title></use>
 </a>
 <a href="#event-198-15">
 <use href="#svg-asset-event" x="1584" y="120"><title>(198, 15): イベント 0xBF: バンスの町の洞窟への扉</title></use>
@@ -65,7 +65,7 @@ title = "町セット B (ステラ+バンス+リカルド)"
 <use href="#svg-asset-event" x="1920" y="760"><title>(240, 95): イベント 0x43</title></use>
 </a>
 <a href="#event-242-105">
-<use href="#svg-asset-event" x="1936" y="840"><title>(242, 105): イベント 0xEE</title></use>
+<use href="#svg-asset-event" x="1936" y="840"><title>(242, 105): イベント 0xEE: リカルドの町の木: 探索するとリカルドの町の洞窟への扉が開く</title></use>
 </a>
 <a href="#dst-185-114">
 <use href="#svg-asset-destination" x="1480" y="912"><title>(185, 114): ワープ先 0x0D: リカルドの町の入口</title></use>
@@ -98,7 +98,7 @@ title = "町セット B (ステラ+バンス+リカルド)"
 <use href="#svg-asset-destination" x="1576" y="144"><title>(197, 18): ワープ先 0x69: バンスの町の洞窟への扉手前</title></use>
 </a>
 <a href="#dst-189-74">
-<use href="#svg-asset-destination" x="1512" y="592"><title>(189, 74): ワープ先 0x6A</title></use>
+<use href="#svg-asset-destination" x="1512" y="592"><title>(189, 74): ワープ先 0x6A: リカルドの町の洞窟への扉手前</title></use>
 </a>
 <a href="#dst-240-86">
 <use href="#svg-asset-destination" x="1920" y="688"><title>(240, 86): ワープ先 0xC4</title></use>
@@ -133,7 +133,9 @@ title = "町セット B (ステラ+バンス+リカルド)"
 
 ### (188, 31): イベント 0x39:  {#event-188-31}
 
-### (190, 71): イベント 0xC0:  {#event-190-71}
+### (190, 71): イベント 0xC0: [リカルドの町の洞窟](@/map/map-14/_index.md#dst-100-213)への扉 {#event-190-71}
+
+[リカルドの町 (242, 105) の木](#event-242-105)を探索すると開く。
 
 ### (198, 15): イベント 0xBF: [バンスの町の洞窟](@/map/map-14/_index.md#dst-119-181)への扉 {#event-198-15}
 
@@ -147,7 +149,7 @@ title = "町セット B (ステラ+バンス+リカルド)"
 
 ### (240, 95): イベント 0x43:  {#event-240-95}
 
-### (242, 105): イベント 0xEE:  {#event-242-105}
+### (242, 105): イベント 0xEE: リカルドの町の木: 探索すると[リカルドの町の洞窟への扉](#event-190-71)が開く {#event-242-105}
 
 
 ## ワープ先
@@ -166,7 +168,9 @@ title = "町セット B (ステラ+バンス+リカルド)"
 
 ### (187, 34): ワープ先 0x3A:  {#dst-187-34}
 
-### (189, 74): ワープ先 0x6A:  {#dst-189-74}
+### (189, 74): ワープ先 0x6A: リカルドの町の洞窟への扉手前 {#dst-189-74}
+
+ワープ元: [リカルドの町の洞窟 (104, 215)](@/map/map-14/_index.md#event-104-215)。
 
 ### (197, 18): ワープ先 0x69: バンスの町の洞窟への扉手前 {#dst-197-18}
 
