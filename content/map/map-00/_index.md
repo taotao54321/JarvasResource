@@ -82,7 +82,7 @@ title = "ユース地方"
 <use href="#svg-asset-destination" x="1488" y="488"><title>(186, 61): ワープ先 0xD8: バフィン島の船小屋の行き先</title></use>
 </a>
 <a href="#dst-221-50">
-<use href="#svg-asset-destination" x="1768" y="400"><title>(221, 50): ワープ先 0xE2</title></use>
+<use href="#svg-asset-destination" x="1768" y="400"><title>(221, 50): ワープ先 0xE2: ブルガの町の船小屋の行き先</title></use>
 </a>
 </svg>
 <!-- }}} -->
@@ -152,6 +152,6 @@ title = "ユース地方"
 
 ### (213, 98): ワープ先 0x02:  {#dst-213-98}
 
-### (221, 50): ワープ先 0xE2:  {#dst-221-50}
+### (221, 50): ワープ先 0xE2: [ブルガの町の船小屋](@/map/map-12/_index.md#event-72-27)の行き先 {#dst-221-50}
 
 ### (233, 135): ワープ先 0x79: [(218, 35)](#event-218-35) の石ワープ先 {#dst-233-135}

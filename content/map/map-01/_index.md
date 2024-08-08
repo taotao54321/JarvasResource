@@ -80,7 +80,7 @@ title = "エウロン西地方"
 <use href="#svg-asset-destination" x="704" y="1288"><title>(88, 161): ワープ先 0xDA: グリーン島の船小屋の行き先</title></use>
 </a>
 <a href="#dst-229-93">
-<use href="#svg-asset-destination" x="1832" y="744"><title>(229, 93): ワープ先 0xE3</title></use>
+<use href="#svg-asset-destination" x="1832" y="744"><title>(229, 93): ワープ先 0xE3: アドニスの町の船小屋の行き先</title></use>
 </a>
 </svg>
 <!-- }}} -->
@@ -135,7 +135,7 @@ title = "エウロン西地方"
 
 ### (214, 60): ワープ先 0x7A:  {#dst-214-60}
 
-### (229, 93): ワープ先 0xE3:  {#dst-229-93}
+### (229, 93): ワープ先 0xE3: [アドニスの町の船小屋](@/map/map-12/_index.md#event-236-23)の行き先 {#dst-229-93}
 
 ### (230, 140): ワープ先 0x7B: [エウロン東地方](@/map/map-02/_index.md) [(34, 23)](@/map/map-02/_index.md#event-34-23) の石ワープ先 {#dst-230-140}
 

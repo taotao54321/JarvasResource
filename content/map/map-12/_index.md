@@ -86,7 +86,7 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 <use href="#svg-asset-event" x="544" y="1752"><title>(68, 219): イベント 0x54</title></use>
 </a>
 <a href="#event-72-27">
-<use href="#svg-asset-event" x="576" y="216"><title>(72, 27): イベント 0x56</title></use>
+<use href="#svg-asset-event" x="576" y="216"><title>(72, 27): イベント 0x56: ブルガの町の船小屋 (ユース地方 バフィン島 (221, 50) へ)</title></use>
 </a>
 <a href="#event-72-55">
 <use href="#svg-asset-event" x="576" y="440"><title>(72, 55): イベント 0x1D</title></use>
@@ -203,7 +203,7 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 <use href="#svg-asset-event" x="1856" y="1720"><title>(232, 215): イベント 0x54</title></use>
 </a>
 <a href="#event-236-23">
-<use href="#svg-asset-event" x="1888" y="184"><title>(236, 23): イベント 0x56</title></use>
+<use href="#svg-asset-event" x="1888" y="184"><title>(236, 23): イベント 0x56: アドニスの町の船小屋 (エウロン西地方 スカン島 (229, 93) へ)</title></use>
 </a>
 <a href="#event-236-59">
 <use href="#svg-asset-event" x="1888" y="472"><title>(236, 59): イベント 0x49</title></use>
@@ -392,7 +392,7 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 
 ### (68, 219): イベント 0x54:  {#event-68-219}
 
-### (72, 27): イベント 0x56:  {#event-72-27}
+### (72, 27): イベント 0x56: ブルガの町の船小屋 ([ユース地方](@/map/map-00/_index.md) バフィン島 [(221, 50)](@/map/map-00/_index.md#dst-221-50) へ) {#event-72-27}
 
 ### (72, 55): イベント 0x1D:  {#event-72-55}
 
@@ -470,7 +470,7 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 
 ### (232, 215): イベント 0x54:  {#event-232-215}
 
-### (236, 23): イベント 0x56:  {#event-236-23}
+### (236, 23): イベント 0x56: アドニスの町の船小屋 ([エウロン西地方](@/map/map-01/_index.md) スカン島 [(229, 93)](@/map/map-01/_index.md#dst-229-93) へ) {#event-236-23}
 
 ### (236, 59): イベント 0x49:  {#event-236-59}
 
