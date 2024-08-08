@@ -14,22 +14,22 @@ title = "町セット B (ステラ+バンス+リカルド)"
 <use href="#svg-asset-event" x="528" y="936"><title>(66, 117): イベント 0x12: ステラの町: ボルネー島 (201, 98) へ</title></use>
 </a>
 <a href="#event-72-103">
-<use href="#svg-asset-event" x="576" y="824"><title>(72, 103): イベント 0x3F</title></use>
+<use href="#svg-asset-event" x="576" y="824"><title>(72, 103): イベント 0x3F: ステラの町の近接武器屋入口</title></use>
 </a>
 <a href="#event-84-87">
 <use href="#svg-asset-event" x="672" y="696"><title>(84, 87): イベント 0x56: ステラの町の船小屋 (キネラシア辺境 (74, 58) へ)</title></use>
 </a>
 <a href="#event-88-23">
-<use href="#svg-asset-event" x="704" y="184"><title>(88, 23): イベント 0x57</title></use>
+<use href="#svg-asset-event" x="704" y="184"><title>(88, 23): イベント 0x57: ステラの町の惑いの宿入口</title></use>
 </a>
 <a href="#event-92-103">
-<use href="#svg-asset-event" x="736" y="824"><title>(92, 103): イベント 0x54</title></use>
+<use href="#svg-asset-event" x="736" y="824"><title>(92, 103): イベント 0x54: ステラの町の初心の館入口</title></use>
 </a>
 <a href="#event-104-59">
-<use href="#svg-asset-event" x="832" y="472"><title>(104, 59): イベント 0x54</title></use>
+<use href="#svg-asset-event" x="832" y="472"><title>(104, 59): イベント 0x54: ステラの町の初心の館入口</title></use>
 </a>
 <a href="#event-104-87">
-<use href="#svg-asset-event" x="832" y="696"><title>(104, 87): イベント 0x3D</title></use>
+<use href="#svg-asset-event" x="832" y="696"><title>(104, 87): イベント 0x3D: ステラの町の遠隔武器屋入口</title></use>
 </a>
 <a href="#event-156-31">
 <use href="#svg-asset-event" x="1248" y="248"><title>(156, 31): イベント 0x56: バンスの町の船小屋 (ボルネー島 (36, 242) へ)</title></use>
@@ -86,10 +86,10 @@ title = "町セット B (ステラ+バンス+リカルド)"
 <use href="#svg-asset-destination" x="1624" y="272"><title>(203, 34): ワープ先 0x3C</title></use>
 </a>
 <a href="#dst-103-90">
-<use href="#svg-asset-destination" x="824" y="720"><title>(103, 90): ワープ先 0x3E</title></use>
+<use href="#svg-asset-destination" x="824" y="720"><title>(103, 90): ワープ先 0x3E: ステラの町の遠隔武器屋手前</title></use>
 </a>
 <a href="#dst-71-106">
-<use href="#svg-asset-destination" x="568" y="848"><title>(71, 106): ワープ先 0x40</title></use>
+<use href="#svg-asset-destination" x="568" y="848"><title>(71, 106): ワープ先 0x40: ステラの町の近接武器屋手前</title></use>
 </a>
 <a href="#dst-239-98">
 <use href="#svg-asset-destination" x="1912" y="784"><title>(239, 98): ワープ先 0x44</title></use>
@@ -111,17 +111,17 @@ title = "町セット B (ステラ+バンス+リカルド)"
 
 ### (66, 117): イベント 0x12: ステラの町: [ボルネー島](@/map/map-07/_index.md) [(201, 98)](@/map/map-07/_index.md#dst-201-98) へ {#event-66-117}
 
-### (72, 103): イベント 0x3F:  {#event-72-103}
+### (72, 103): イベント 0x3F: [ステラの町の近接武器屋](@/map/map-13b/_index.md#dst-79-147)入口 {#event-72-103}
 
 ### (84, 87): イベント 0x56: ステラの町の船小屋 ([キネラシア辺境](@/map/map-07/_index.md) [(74, 58)](@/map/map-07/_index.md#dst-74-58) へ) {#event-84-87}
 
-### (88, 23): イベント 0x57:  {#event-88-23}
+### (88, 23): イベント 0x57: ステラの町の[惑いの宿](@/map/map-13b/_index.md#dst-239-147)入口 {#event-88-23}
 
-### (92, 103): イベント 0x54:  {#event-92-103}
+### (92, 103): イベント 0x54: ステラの町の[初心の館](@/map/map-13b/_index.md#dst-111-211)入口 {#event-92-103}
 
-### (104, 59): イベント 0x54:  {#event-104-59}
+### (104, 59): イベント 0x54: ステラの町の[初心の館](@/map/map-13b/_index.md#dst-111-211)入口 {#event-104-59}
 
-### (104, 87): イベント 0x3D:  {#event-104-87}
+### (104, 87): イベント 0x3D: [ステラの町の遠隔武器屋](@/map/map-13b/_index.md#dst-239-243)入口 {#event-104-87}
 
 ### (156, 31): イベント 0x56: バンスの町の船小屋 ([ボルネー島](@/map/map-07/_index.md) [(36, 242)](@/map/map-07/_index.md#dst-36-242) へ) {#event-156-31}
 
@@ -158,9 +158,13 @@ title = "町セット B (ステラ+バンス+リカルド)"
 
 ワープ元: [ボルネー島](@/map/map-07/_index.md) [(202, 95)](@/map/map-07/_index.md#event-202-95)。
 
-### (71, 106): ワープ先 0x40:  {#dst-71-106}
+### (71, 106): ワープ先 0x40: [ステラの町の近接武器屋](@/map/map-13b/_index.md#dst-79-147)手前 {#dst-71-106}
 
-### (103, 90): ワープ先 0x3E:  {#dst-103-90}
+ワープ元: [ステラの町の近接武器屋 (80, 150)](@/map/map-13b/_index.md#event-80-150)。
+
+### (103, 90): ワープ先 0x3E: [ステラの町の遠隔武器屋](@/map/map-13b/_index.md#dst-239-243)手前 {#dst-103-90}
+
+ワープ元: [ステラの町の遠隔武器屋 (240, 246)](@/map/map-13b/_index.md#event-240-246)。
 
 ### (185, 114): ワープ先 0x0D: リカルドの町の入口 {#dst-185-114}
 

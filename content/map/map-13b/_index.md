@@ -68,7 +68,7 @@ title = "店セット"
 <use href="#svg-asset-event" x="640" y="1152"><title>(80, 144): イベント 0xC8</title></use>
 </a>
 <a href="#event-80-150">
-<use href="#svg-asset-event" x="640" y="1200"><title>(80, 150): イベント 0x40</title></use>
+<use href="#svg-asset-event" x="640" y="1200"><title>(80, 150): イベント 0x40: ステラの町の近接武器屋: ステラの町 (71, 106) へ</title></use>
 </a>
 <a href="#event-80-176">
 <use href="#svg-asset-event" x="640" y="1408"><title>(80, 176): イベント 0xD0</title></use>
@@ -206,7 +206,7 @@ title = "店セット"
 <use href="#svg-asset-event" x="1920" y="1920"><title>(240, 240): イベント 0xE5</title></use>
 </a>
 <a href="#event-240-246">
-<use href="#svg-asset-event" x="1920" y="1968"><title>(240, 246): イベント 0x3E</title></use>
+<use href="#svg-asset-event" x="1920" y="1968"><title>(240, 246): イベント 0x3E: ステラの町の遠隔武器屋: ステラの町 (103, 90) へ</title></use>
 </a>
 <a href="#dst-15-147">
 <use href="#svg-asset-destination" x="120" y="1176"><title>(15, 147): ワープ先 0x19: ブルガの町の近接武器屋</title></use>
@@ -263,10 +263,10 @@ title = "店セット"
 <use href="#svg-asset-destination" x="1400" y="1176"><title>(175, 147): ワープ先 0x3B</title></use>
 </a>
 <a href="#dst-239-243">
-<use href="#svg-asset-destination" x="1912" y="1944"><title>(239, 243): ワープ先 0x3D</title></use>
+<use href="#svg-asset-destination" x="1912" y="1944"><title>(239, 243): ワープ先 0x3D: ステラの町の遠隔武器屋</title></use>
 </a>
 <a href="#dst-79-147">
-<use href="#svg-asset-destination" x="632" y="1176"><title>(79, 147): ワープ先 0x3F</title></use>
+<use href="#svg-asset-destination" x="632" y="1176"><title>(79, 147): ワープ先 0x3F: ステラの町の近接武器屋</title></use>
 </a>
 <a href="#dst-239-179">
 <use href="#svg-asset-destination" x="1912" y="1432"><title>(239, 179): ワープ先 0x41: ラモッサの町のギルド</title></use>
@@ -348,7 +348,7 @@ title = "店セット"
 
 ### (80, 144): イベント 0xC8:  {#event-80-144}
 
-### (80, 150): イベント 0x40:  {#event-80-150}
+### (80, 150): イベント 0x40: ステラの町の近接武器屋: [ステラの町 (71, 106)](@/map/map-13a/_index.md#dst-71-106) へ {#event-80-150}
 
 ### (80, 176): イベント 0xD0:  {#event-80-176}
 
@@ -440,7 +440,7 @@ title = "店セット"
 
 ### (240, 240): イベント 0xE5:  {#event-240-240}
 
-### (240, 246): イベント 0x3E:  {#event-240-246}
+### (240, 246): イベント 0x3E: ステラの町の遠隔武器屋: [ステラの町 (103, 90)](@/map/map-13a/_index.md#dst-103-90) へ {#event-240-246}
 
 
 ## ワープ先
@@ -477,7 +477,9 @@ title = "店セット"
 
 ワープ元: [パタンの町 (44, 215)](@/map/map-12/_index.md#event-44-215)。
 
-### (79, 147): ワープ先 0x3F:  {#dst-79-147}
+### (79, 147): ワープ先 0x3F: ステラの町の近接武器屋 {#dst-79-147}
+
+ワープ元: [ステラの町 (72, 103)](@/map/map-13a/_index.md#event-72-103)。
 
 ### (79, 179): ワープ先 0x51: ペイチンの町の薬屋 {#dst-79-179}
 
@@ -553,6 +555,6 @@ title = "店セット"
 
 ワープ元: [ブルガの町 (56, 55)](@/map/map-12/_index.md#event-56-55)。
 
-### (239, 243): ワープ先 0x3D:  {#dst-239-243}
+### (239, 243): ワープ先 0x3D: ステラの町の遠隔武器屋 {#dst-239-243}
 
-
+ワープ元: [ステラの町 (104, 87)](@/map/map-13a/_index.md#event-104-87)。
