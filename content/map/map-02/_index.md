@@ -12,6 +12,20 @@ title = "エウロン東地方+キネラシア北西地方"
 <image id="svg-asset-destination" width="16" height="16" href="icon-destination.png" />
 </defs>
 <use href="#svg-asset-bg" x="0" y="0"></use>
+<text class="caption-24" x="620" y="104" fill="yellow">石</text>
+<text class="caption-24" x="268" y="224" fill="yellow">石</text>
+<text class="caption-48" x="388" y="828" fill="yellow">エウロン城</text>
+<text class="caption-32" x="76" y="1240" fill="yellow">関</text>
+<text class="caption-24" x="696" y="1008" fill="yellow">手形</text>
+<text class="caption-24" x="1036" y="1408" fill="yellow">黒真珠</text>
+<text class="caption-32" x="1108" y="1624" fill="yellow">関</text>
+<text class="caption-32" x="156" y="2032" fill="yellow">関</text>
+<text class="caption-24" x="1728" y="368" fill="yellow">骨</text>
+<text class="caption-32" x="1568" y="960" fill="yellow">キネラシア城</text>
+<text class="caption-24" x="1464" y="1520" fill="yellow">手形</text>
+<text class="caption-32" x="1228" y="1624" fill="yellow">関</text>
+<text class="caption-24" x="1568" y="1760" fill="yellow">切株</text>
+<text class="caption-32" x="2004" y="1880" fill="yellow">関</text>
 <a href="#event-16-153">
 <use href="#svg-asset-event" x="128" y="1224"><title>(16, 153): イベント 0xA3: 関所 (エウロン西地方 (243, 153) へ)</title></use>
 </a>
