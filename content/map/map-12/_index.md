@@ -149,7 +149,7 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 <use href="#svg-asset-event" x="1248" y="984"><title>(156, 123): イベント 0x4F</title></use>
 </a>
 <a href="#event-157-237">
-<use href="#svg-asset-event" x="1256" y="1896"><title>(157, 237): イベント 0xEC</title></use>
+<use href="#svg-asset-event" x="1256" y="1896"><title>(157, 237): イベント 0xEC: ザイドタウンの墓: 探索するとラモンの町の洞窟への扉が開く</title></use>
 </a>
 <a href="#event-166-245">
 <use href="#svg-asset-event" x="1328" y="1960"><title>(166, 245): イベント 0x08</title></use>
@@ -209,7 +209,7 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 <use href="#svg-asset-event" x="1888" y="472"><title>(236, 59): イベント 0x49</title></use>
 </a>
 <a href="#event-238-199">
-<use href="#svg-asset-event" x="1904" y="1592"><title>(238, 199): イベント 0xBE</title></use>
+<use href="#svg-asset-event" x="1904" y="1592"><title>(238, 199): イベント 0xBE: ラモンの町の洞窟への扉</title></use>
 </a>
 <a href="#event-239-30">
 <use href="#svg-asset-event" x="1912" y="240"><title>(239, 30): イベント 0x5E: アドニスの町の船小屋への通路出口側への階段</title></use>
@@ -332,7 +332,7 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 <use href="#svg-asset-destination" x="1584" y="432"><title>(198, 54): ワープ先 0x67: アドニスの町の近接武器屋への通路入口手前</title></use>
 </a>
 <a href="#dst-237-202">
-<use href="#svg-asset-destination" x="1896" y="1616"><title>(237, 202): ワープ先 0x68</title></use>
+<use href="#svg-asset-destination" x="1896" y="1616"><title>(237, 202): ワープ先 0x68: ラモンの町の洞窟への扉手前</title></use>
 </a>
 <a href="#dst-41-170">
 <use href="#svg-asset-destination" x="328" y="1360"><title>(41, 170): ワープ先 0x6B</title></use>
@@ -432,7 +432,7 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 
 ### (156, 123): イベント 0x4F:  {#event-156-123}
 
-### (157, 237): イベント 0xEC:  {#event-157-237}
+### (157, 237): イベント 0xEC: ザイドタウンの墓: 探索すると[ラモンの町の洞窟への扉](#event-238-199)が開く {#event-157-237}
 
 ### (166, 245): イベント 0x08:  {#event-166-245}
 
@@ -472,7 +472,9 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 
 ### (236, 59): イベント 0x49:  {#event-236-59}
 
-### (238, 199): イベント 0xBE:  {#event-238-199}
+### (238, 199): イベント 0xBE: [ラモンの町の洞窟](@/map/map-14/_index.md#dst-68-181)への扉 {#event-238-199}
+
+[ザイドタウンの墓](#event-157-237)で探索すると開く。
 
 ### (239, 30): イベント 0x5E: [アドニスの町の船小屋への通路出口側](@/map/map-14/_index.md#dst-220-117)への階段 {#event-239-30}
 
@@ -591,6 +593,6 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 
 ### (235, 62): ワープ先 0x4A:  {#dst-235-62}
 
-### (237, 202): ワープ先 0x68:  {#dst-237-202}
+### (237, 202): ワープ先 0x68: ラモンの町の洞窟への扉手前 {#dst-237-202}
 
-
+ワープ元: [ラモンの町の洞窟 (72, 183)](@/map/map-14/_index.md#event-72-183)。
