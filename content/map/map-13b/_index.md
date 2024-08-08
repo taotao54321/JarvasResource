@@ -26,7 +26,7 @@ title = "店セット"
 <use href="#svg-asset-event" x="128" y="1664"><title>(16, 208): イベント 0xD6</title></use>
 </a>
 <a href="#event-16-214">
-<use href="#svg-asset-event" x="128" y="1712"><title>(16, 214): イベント 0x46</title></use>
+<use href="#svg-asset-event" x="128" y="1712"><title>(16, 214): イベント 0x46: アドニスの町のギルド: アドニスの町 (115, 26) へ</title></use>
 </a>
 <a href="#event-16-231">
 <use href="#svg-asset-event" x="128" y="1848"><title>(16, 231): イベント 0x53</title></use>
@@ -89,7 +89,7 @@ title = "店セット"
 <use href="#svg-asset-event" x="896" y="1152"><title>(112, 144): イベント 0xC9</title></use>
 </a>
 <a href="#event-112-150">
-<use href="#svg-asset-event" x="896" y="1200"><title>(112, 150): イベント 0x4A</title></use>
+<use href="#svg-asset-event" x="896" y="1200"><title>(112, 150): イベント 0x4A: アドニスの町の近接武器屋: アドニスの町 (235, 62) へ</title></use>
 </a>
 <a href="#event-112-176">
 <use href="#svg-asset-event" x="896" y="1408"><title>(112, 176): イベント 0xD1</title></use>
@@ -134,7 +134,7 @@ title = "店セット"
 <use href="#svg-asset-event" x="1152" y="1920"><title>(144, 240): イベント 0xE2</title></use>
 </a>
 <a href="#event-144-246">
-<use href="#svg-asset-event" x="1152" y="1968"><title>(144, 246): イベント 0x48</title></use>
+<use href="#svg-asset-event" x="1152" y="1968"><title>(144, 246): イベント 0x48: アドニスの町のクエスト屋: アドニスの町 (115, 62) へ</title></use>
 </a>
 <a href="#event-176-144">
 <use href="#svg-asset-event" x="1408" y="1152"><title>(176, 144): イベント 0xCB</title></use>
@@ -275,13 +275,13 @@ title = "店セット"
 <use href="#svg-asset-destination" x="888" y="1944"><title>(111, 243): ワープ先 0x43</title></use>
 </a>
 <a href="#dst-15-211">
-<use href="#svg-asset-destination" x="120" y="1688"><title>(15, 211): ワープ先 0x45</title></use>
+<use href="#svg-asset-destination" x="120" y="1688"><title>(15, 211): ワープ先 0x45: アドニスの町のギルド</title></use>
 </a>
 <a href="#dst-143-243">
-<use href="#svg-asset-destination" x="1144" y="1944"><title>(143, 243): ワープ先 0x47</title></use>
+<use href="#svg-asset-destination" x="1144" y="1944"><title>(143, 243): ワープ先 0x47: アドニスの町のクエスト屋</title></use>
 </a>
 <a href="#dst-111-147">
-<use href="#svg-asset-destination" x="888" y="1176"><title>(111, 147): ワープ先 0x49</title></use>
+<use href="#svg-asset-destination" x="888" y="1176"><title>(111, 147): ワープ先 0x49: アドニスの町の近接武器屋</title></use>
 </a>
 <a href="#dst-47-211">
 <use href="#svg-asset-destination" x="376" y="1688"><title>(47, 211): ワープ先 0x4B</title></use>
@@ -320,7 +320,7 @@ title = "店セット"
 
 ### (16, 208): イベント 0xD6:  {#event-16-208}
 
-### (16, 214): イベント 0x46:  {#event-16-214}
+### (16, 214): イベント 0x46: アドニスの町のギルド: [アドニスの町 (115, 26)](@/map/map-12/_index.md#dst-115-26) へ {#event-16-214}
 
 ### (16, 231): イベント 0x53:  {#event-16-231}
 
@@ -362,7 +362,7 @@ title = "店セット"
 
 ### (112, 144): イベント 0xC9:  {#event-112-144}
 
-### (112, 150): イベント 0x4A:  {#event-112-150}
+### (112, 150): イベント 0x4A: アドニスの町の近接武器屋: [アドニスの町 (235, 62)](@/map/map-12/_index.md#dst-235-62) へ {#event-112-150}
 
 ### (112, 176): イベント 0xD1:  {#event-112-176}
 
@@ -392,7 +392,7 @@ title = "店セット"
 
 ### (144, 240): イベント 0xE2:  {#event-144-240}
 
-### (144, 246): イベント 0x48:  {#event-144-246}
+### (144, 246): イベント 0x48: アドニスの町のクエスト屋: [アドニスの町 (115, 62)](@/map/map-12/_index.md#dst-115-62) へ {#event-144-246}
 
 ### (176, 144): イベント 0xCB:  {#event-176-144}
 
@@ -453,7 +453,9 @@ title = "店セット"
 
 ワープ元: [ブルガの町 (72, 55)](@/map/map-12/_index.md#event-72-55)。
 
-### (15, 211): ワープ先 0x45:  {#dst-15-211}
+### (15, 211): ワープ先 0x45: アドニスの町のギルド {#dst-15-211}
+
+ワープ元: [アドニスの町 (116, 23)](@/map/map-12/_index.md#event-116-23)。
 
 ### (15, 243): ワープ先 0x27:  {#dst-15-243}
 
@@ -473,7 +475,9 @@ title = "店セット"
 
 ### (79, 243): ワープ先 0x39:  {#dst-79-243}
 
-### (111, 147): ワープ先 0x49:  {#dst-111-147}
+### (111, 147): ワープ先 0x49: アドニスの町の近接武器屋 {#dst-111-147}
+
+ワープ元: [アドニスの町 (236, 59)](@/map/map-12/_index.md#event-236-59)。
 
 ### (111, 179): ワープ先 0x1F: ブルガの町のギルド {#dst-111-179}
 
@@ -491,7 +495,9 @@ title = "店セット"
 
 ### (143, 211): ワープ先 0x2B:  {#dst-143-211}
 
-### (143, 243): ワープ先 0x47:  {#dst-143-243}
+### (143, 243): ワープ先 0x47: アドニスの町のクエスト屋 {#dst-143-243}
+
+ワープ元: [アドニスの町 (116, 59)](@/map/map-12/_index.md#event-116-59)。
 
 ### (175, 147): ワープ先 0x3B:  {#dst-175-147}
 

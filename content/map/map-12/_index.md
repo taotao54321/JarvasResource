@@ -104,10 +104,10 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 <use href="#svg-asset-event" x="912" y="320"><title>(114, 40): イベント 0x5C: アドニスの町の船小屋への通路入口側への階段</title></use>
 </a>
 <a href="#event-116-23">
-<use href="#svg-asset-event" x="928" y="184"><title>(116, 23): イベント 0x45</title></use>
+<use href="#svg-asset-event" x="928" y="184"><title>(116, 23): イベント 0x45: アドニスの町のギルド入口</title></use>
 </a>
 <a href="#event-116-59">
-<use href="#svg-asset-event" x="928" y="472"><title>(116, 59): イベント 0x47</title></use>
+<use href="#svg-asset-event" x="928" y="472"><title>(116, 59): イベント 0x47: アドニスの町のクエスト屋入口</title></use>
 </a>
 <a href="#event-117-49">
 <use href="#svg-asset-event" x="936" y="392"><title>(117, 49): イベント 0x62: アドニスの町のクエスト屋への通路出口側への階段</title></use>
@@ -206,7 +206,7 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 <use href="#svg-asset-event" x="1888" y="184"><title>(236, 23): イベント 0x56: アドニスの町の船小屋 (エウロン西地方 スカン島 (229, 93) へ)</title></use>
 </a>
 <a href="#event-236-59">
-<use href="#svg-asset-event" x="1888" y="472"><title>(236, 59): イベント 0x49</title></use>
+<use href="#svg-asset-event" x="1888" y="472"><title>(236, 59): イベント 0x49: アドニスの町の近接武器屋入口</title></use>
 </a>
 <a href="#event-238-199">
 <use href="#svg-asset-event" x="1904" y="1592"><title>(238, 199): イベント 0xBE: ラモンの町の洞窟への扉</title></use>
@@ -290,13 +290,13 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 <use href="#svg-asset-destination" x="984" y="1424"><title>(123, 178): ワープ先 0x42</title></use>
 </a>
 <a href="#dst-115-26">
-<use href="#svg-asset-destination" x="920" y="208"><title>(115, 26): ワープ先 0x46</title></use>
+<use href="#svg-asset-destination" x="920" y="208"><title>(115, 26): ワープ先 0x46: アドニスの町のギルド手前</title></use>
 </a>
 <a href="#dst-115-62">
-<use href="#svg-asset-destination" x="920" y="496"><title>(115, 62): ワープ先 0x48</title></use>
+<use href="#svg-asset-destination" x="920" y="496"><title>(115, 62): ワープ先 0x48: アドニスの町のクエスト屋手前</title></use>
 </a>
 <a href="#dst-235-62">
-<use href="#svg-asset-destination" x="1880" y="496"><title>(235, 62): ワープ先 0x4A</title></use>
+<use href="#svg-asset-destination" x="1880" y="496"><title>(235, 62): ワープ先 0x4A: アドニスの町の近接武器屋手前</title></use>
 </a>
 <a href="#dst-147-98">
 <use href="#svg-asset-destination" x="1176" y="784"><title>(147, 98): ワープ先 0x4C</title></use>
@@ -404,9 +404,9 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 
 ### (114, 40): イベント 0x5C: [アドニスの町の船小屋への通路入口側](@/map/map-14/_index.md#dst-153-117)への階段 {#event-114-40}
 
-### (116, 23): イベント 0x45:  {#event-116-23}
+### (116, 23): イベント 0x45: [アドニスの町のギルド](@/map/map-13b/_index.md#dst-15-211)入口 {#event-116-23}
 
-### (116, 59): イベント 0x47:  {#event-116-59}
+### (116, 59): イベント 0x47: [アドニスの町のクエスト屋](@/map/map-13b/_index.md#dst-143-243)入口 {#event-116-59}
 
 ### (117, 49): イベント 0x62: [アドニスの町のクエスト屋への通路出口側](@/map/map-14/_index.md#dst-100-149)への階段 {#event-117-49}
 
@@ -474,7 +474,7 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 
 ### (236, 23): イベント 0x56: アドニスの町の船小屋 ([エウロン西地方](@/map/map-01/_index.md) スカン島 [(229, 93)](@/map/map-01/_index.md#dst-229-93) へ) {#event-236-23}
 
-### (236, 59): イベント 0x49:  {#event-236-59}
+### (236, 59): イベント 0x49: [アドニスの町の近接武器屋](@/map/map-13b/_index.md#dst-111-147)入口 {#event-236-59}
 
 ### (238, 199): イベント 0xBE: [ラモンの町の洞窟](@/map/map-14/_index.md#dst-68-181)への扉 {#event-238-199}
 
@@ -543,9 +543,13 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 
 ワープ元: [アドニスの町の船小屋への通路 (148, 119)](@/map/map-14/_index.md#event-148-119)。
 
-### (115, 26): ワープ先 0x46:  {#dst-115-26}
+### (115, 26): ワープ先 0x46: [アドニスの町のギルド](@/map/map-13b/_index.md#dst-15-211)手前 {#dst-115-26}
 
-### (115, 62): ワープ先 0x48:  {#dst-115-62}
+ワープ元: [アドニスの町のギルド (16, 214)](@/map/map-13b/_index.md#event-16-214)。
+
+### (115, 62): ワープ先 0x48: [アドニスの町のクエスト屋](@/map/map-13b/_index.md#dst-143-243)手前 {#dst-115-62}
+
+ワープ元: [アドニスの町のクエスト屋 (144, 246)](@/map/map-13b/_index.md#event-144-246)。
 
 ### (117, 242): ワープ先 0x0F: ラモッサの町の入口 {#dst-117-242}
 
@@ -607,7 +611,9 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 
 ワープ元: [アドニスの町の船小屋への通路 (233, 119)](@/map/map-14/_index.md#event-233-119)。
 
-### (235, 62): ワープ先 0x4A:  {#dst-235-62}
+### (235, 62): ワープ先 0x4A: [アドニスの町の近接武器屋](@/map/map-13b/_index.md#dst-111-147)手前 {#dst-235-62}
+
+ワープ元: [アドニスの町の近接武器屋 (112, 150)](@/map/map-13b/_index.md#event-112-150)。
 
 ### (237, 202): ワープ先 0x68: ラモンの町の洞窟への扉手前 {#dst-237-202}
 
