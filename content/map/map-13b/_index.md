@@ -299,7 +299,7 @@ title = "店セット"
 <use href="#svg-asset-destination" x="888" y="1688"><title>(111, 211): ワープ先 0x54: 初心の館</title></use>
 </a>
 <a href="#dst-79-211">
-<use href="#svg-asset-destination" x="632" y="1688"><title>(79, 211): ワープ先 0x56</title></use>
+<use href="#svg-asset-destination" x="632" y="1688"><title>(79, 211): ワープ先 0x56: 船小屋</title></use>
 </a>
 <a href="#dst-239-147">
 <use href="#svg-asset-destination" x="1912" y="1176"><title>(239, 147): ワープ先 0x57: 惑いの宿</title></use>
@@ -501,7 +501,7 @@ title = "店セット"
 
 ワープ元: [ペイチンの町 (140, 135)](@/map/map-12/_index.md#event-140-135)。
 
-### (79, 211): ワープ先 0x56:  {#dst-79-211}
+### (79, 211): ワープ先 0x56: 船小屋 {#dst-79-211}
 
 ### (79, 243): ワープ先 0x39: バンスの町のクエスト屋 {#dst-79-243}
 
