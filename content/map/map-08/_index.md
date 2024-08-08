@@ -44,10 +44,10 @@ title = "ラタニア南地方"
 <use href="#svg-asset-destination" x="1184" y="632"><title>(148, 79): ワープ先 0xC7</title></use>
 </a>
 <a href="#dst-81-61">
-<use href="#svg-asset-destination" x="648" y="488"><title>(81, 61): ワープ先 0xD1</title></use>
+<use href="#svg-asset-destination" x="648" y="488"><title>(81, 61): ワープ先 0xD1: 惑いの宿出口の行き先候補</title></use>
 </a>
 <a href="#dst-167-59">
-<use href="#svg-asset-destination" x="1336" y="472"><title>(167, 59): ワープ先 0xD2</title></use>
+<use href="#svg-asset-destination" x="1336" y="472"><title>(167, 59): ワープ先 0xD2: 惑いの宿出口の行き先候補</title></use>
 </a>
 </svg>
 <!-- }}} -->
@@ -80,11 +80,11 @@ title = "ラタニア南地方"
 
 ### (53, 20): ワープ先 0xAA: [ラタニア北地方](@/map/map-04/_index.md)への関所手前 {#dst-53-20}
 
-### (81, 61): ワープ先 0xD1:  {#dst-81-61}
+### (81, 61): ワープ先 0xD1: [惑いの宿出口](@/map/map-13b/_index.md#event-240-150)の行き先候補 {#dst-81-61}
 
 ### (148, 79): ワープ先 0xC7:  {#dst-148-79}
 
-### (167, 59): ワープ先 0xD2:  {#dst-167-59}
+### (167, 59): ワープ先 0xD2: [惑いの宿出口](@/map/map-13b/_index.md#event-240-150)の行き先候補 {#dst-167-59}
 
 ### (213, 50): ワープ先 0x14: [アネイデアの町](@/map/map-12/_index.md#dst-41-144)手前 {#dst-213-50}
 

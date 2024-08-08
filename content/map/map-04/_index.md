@@ -61,7 +61,7 @@ title = "ラタニア北地方"
 <use href="#svg-asset-destination" x="456" y="1944"><title>(57, 243): ワープ先 0xAB: ラタニア南地方への関所手前</title></use>
 </a>
 <a href="#dst-19-169">
-<use href="#svg-asset-destination" x="152" y="1352"><title>(19, 169): ワープ先 0xCF</title></use>
+<use href="#svg-asset-destination" x="152" y="1352"><title>(19, 169): ワープ先 0xCF: 惑いの宿出口の行き先候補</title></use>
 </a>
 <a href="#dst-188-124">
 <use href="#svg-asset-destination" x="1504" y="992"><title>(188, 124): ワープ先 0xD0</title></use>
@@ -109,7 +109,7 @@ title = "ラタニア北地方"
 
 ## ワープ先
 
-### (19, 169): ワープ先 0xCF:  {#dst-19-169}
+### (19, 169): ワープ先 0xCF: [惑いの宿出口](@/map/map-13b/_index.md#event-240-150)の行き先候補 {#dst-19-169}
 
 ### (57, 243): ワープ先 0xAB: [ラタニア南地方](@/map/map-08/_index.md)への関所手前 {#dst-57-243}
 
@@ -121,7 +121,7 @@ title = "ラタニア北地方"
 
 ### (166, 165): ワープ先 0xE8: [ラモンの町の船小屋](@/map/map-12/_index.md#event-220-207)の行き先 {#dst-166-165}
 
-### (188, 124): ワープ先 0xD0:  {#dst-188-124}
+### (188, 124): ワープ先 0xD0: [惑いの宿出口](@/map/map-13b/_index.md#event-240-150)の行き先候補 {#dst-188-124}
 
 ### (192, 146): ワープ先 0xE7: [ザイドタウンの町の船小屋](@/map/map-12/_index.md#event-180-179)の行き先 {#dst-192-146}
 

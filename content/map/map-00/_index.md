@@ -73,10 +73,10 @@ title = "ユース地方"
 <use href="#svg-asset-destination" x="712" y="1384"><title>(89, 173): ワープ先 0xC6</title></use>
 </a>
 <a href="#dst-25-233">
-<use href="#svg-asset-destination" x="200" y="1864"><title>(25, 233): ワープ先 0xCD</title></use>
+<use href="#svg-asset-destination" x="200" y="1864"><title>(25, 233): ワープ先 0xCD: 惑いの宿出口の行き先候補</title></use>
 </a>
 <a href="#dst-119-89">
-<use href="#svg-asset-destination" x="952" y="712"><title>(119, 89): ワープ先 0xCE</title></use>
+<use href="#svg-asset-destination" x="952" y="712"><title>(119, 89): ワープ先 0xCE: 惑いの宿出口の行き先候補</title></use>
 </a>
 <a href="#dst-186-61">
 <use href="#svg-asset-destination" x="1488" y="488"><title>(186, 61): ワープ先 0xD8: バフィン島の船小屋の行き先</title></use>
@@ -131,7 +131,7 @@ title = "ユース地方"
 
 ### (20, 155): ワープ先 0x94: [キネラシア北東地方](@/map/map-03/_index.md) [(157, 153)](@/map/map-03/_index.md#event-157-153) の木ワープ先 {#dst-20-155}
 
-### (25, 233): ワープ先 0xCD:  {#dst-25-233}
+### (25, 233): ワープ先 0xCD: [惑いの宿出口](@/map/map-13b/_index.md#event-240-150)の行き先候補 {#dst-25-233}
 
 ### (39, 43): ワープ先 0x9B: [キネラシア北東地方](@/map/map-03/_index.md) [(202, 47)](@/map/map-03/_index.md#event-202-47) の切り株ワープ先 {#dst-39-43}
 
@@ -143,7 +143,7 @@ title = "ユース地方"
 
 ワープ元: [ラタニア北地方](@/map/map-04/_index.md) [(86, 15)](@/map/map-04/_index.md#event-86-15) の関所。
 
-### (119, 89): ワープ先 0xCE:  {#dst-119-89}
+### (119, 89): ワープ先 0xCE: [惑いの宿出口](@/map/map-13b/_index.md#event-240-150)の行き先候補 {#dst-119-89}
 
 ### (148, 216): ワープ先 0x8B: [ラタニア北地方](@/map/map-04/_index.md) [(237, 26)](@/map/map-04/_index.md#event-237-26) の骨ワープ先 {#dst-148-216}
 

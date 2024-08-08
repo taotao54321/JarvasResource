@@ -188,7 +188,7 @@ title = "店セット"
 <use href="#svg-asset-event" x="1920" y="1152"><title>(240, 144): イベント 0xCD</title></use>
 </a>
 <a href="#event-240-150">
-<use href="#svg-asset-event" x="1920" y="1200"><title>(240, 150): イベント 0xB0</title></use>
+<use href="#svg-asset-event" x="1920" y="1200"><title>(240, 150): イベント 0xB0: 惑いの宿出口: 7 つのワープ先のいずれかへワープ</title></use>
 </a>
 <a href="#event-240-176">
 <use href="#svg-asset-event" x="1920" y="1408"><title>(240, 176): イベント 0xD5</title></use>
@@ -430,7 +430,21 @@ title = "店セット"
 
 ### (240, 144): イベント 0xCD:  {#event-240-144}
 
-### (240, 150): イベント 0xB0:  {#event-240-150}
+### (240, 150): イベント 0xB0: 惑いの宿出口: 7 つのワープ先のいずれかへワープ {#event-240-150}
+
+ワープ先候補は以下の通り:
+
+* 0xCD: [ユース地方](@/map/map-00/_index.md) [(25, 233)](@/map/map-00/_index.md#dst-25-233)。
+* 0xCE: [ユース地方](@/map/map-00/_index.md) [(119, 89)](@/map/map-00/_index.md#dst-119-89)。
+* 0xCF: [ラタニア北地方](@/map/map-04/_index.md) [(19, 169)](@/map/map-04/_index.md#dst-19-169)。
+* 0xD0: [ラタニア北地方](@/map/map-04/_index.md) イスパ島 [(188, 124)](@/map/map-04/_index.md#dst-188-124)。
+* 0xD1: [ラタニア南地方](@/map/map-08/_index.md) [(81, 61)](@/map/map-08/_index.md#dst-81-61)。
+* 0xD2: [ラタニア南地方](@/map/map-08/_index.md) [(167, 59)](@/map/map-08/_index.md#dst-167-59)。
+* 0xD3: [タクテカ地方](@/map/map-09/_index.md) [(200, 39)](@/map/map-09/_index.md#dst-200-39)。
+
+なお、内部的には NMI カウンタおよびゼロページの内容を用いて `1..=7` の乱数を生成し、それに 0xCC を加えてワープ先IDとしている。TAS ならばコントローラー入力などで容易に調整可能と思われる。
+
+また、この乱数は「`0..=7` の乱数を生成し、0 なら振り直す」ことで生成されているため、場合によっては数フレームのラグが生じると思われる (該当コード: `$FCD4`)。
 
 ### (240, 176): イベント 0xD5:  {#event-240-176}
 
