@@ -62,10 +62,10 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 <use href="#svg-asset-event" x="432" y="1960"><title>(54, 245): イベント 0x0C: パタンの町: リカントス地方 (169, 194) へ</title></use>
 </a>
 <a href="#event-56-27">
-<use href="#svg-asset-event" x="448" y="216"><title>(56, 27): イベント 0x1F</title></use>
+<use href="#svg-asset-event" x="448" y="216"><title>(56, 27): イベント 0x1F: ブルガの町のギルド入口</title></use>
 </a>
 <a href="#event-56-55">
-<use href="#svg-asset-event" x="448" y="440"><title>(56, 55): イベント 0x21</title></use>
+<use href="#svg-asset-event" x="448" y="440"><title>(56, 55): イベント 0x21: ブルガの町のクエスト屋入口</title></use>
 </a>
 <a href="#event-56-111">
 <use href="#svg-asset-event" x="448" y="888"><title>(56, 111): イベント 0x56: アネイデアの町の船小屋 (リカントス地方 (172, 221) へ)</title></use>
@@ -89,7 +89,7 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 <use href="#svg-asset-event" x="576" y="216"><title>(72, 27): イベント 0x56: ブルガの町の船小屋 (ユース地方 バフィン島 (221, 50) へ)</title></use>
 </a>
 <a href="#event-72-55">
-<use href="#svg-asset-event" x="576" y="440"><title>(72, 55): イベント 0x1D</title></use>
+<use href="#svg-asset-event" x="576" y="440"><title>(72, 55): イベント 0x1D: ブルガの町の薬屋入口</title></use>
 </a>
 <a href="#event-84-123">
 <use href="#svg-asset-event" x="672" y="984"><title>(84, 123): イベント 0x27</title></use>
@@ -248,13 +248,13 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 <use href="#svg-asset-destination" x="536" y="592"><title>(67, 74): ワープ先 0x1C: ブルガの町の防具屋手前</title></use>
 </a>
 <a href="#dst-71-58">
-<use href="#svg-asset-destination" x="568" y="464"><title>(71, 58): ワープ先 0x1E</title></use>
+<use href="#svg-asset-destination" x="568" y="464"><title>(71, 58): ワープ先 0x1E: ブルガの町の薬屋手前</title></use>
 </a>
 <a href="#dst-55-30">
-<use href="#svg-asset-destination" x="440" y="240"><title>(55, 30): ワープ先 0x20</title></use>
+<use href="#svg-asset-destination" x="440" y="240"><title>(55, 30): ワープ先 0x20: ブルガの町のギルド手前</title></use>
 </a>
 <a href="#dst-54-58">
-<use href="#svg-asset-destination" x="432" y="464"><title>(54, 58): ワープ先 0x22</title></use>
+<use href="#svg-asset-destination" x="432" y="464"><title>(54, 58): ワープ先 0x22: ブルガの町のクエスト屋手前</title></use>
 </a>
 <a href="#dst-171-222">
 <use href="#svg-asset-destination" x="1368" y="1776"><title>(171, 222): ワープ先 0x24</title></use>
@@ -376,9 +376,9 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 
 ### (54, 245): イベント 0x0C: パタンの町: [リカントス地方](@/map/map-05/_index.md) [(169, 194)](@/map/map-05/_index.md#dst-169-194) へ {#event-54-245}
 
-### (56, 27): イベント 0x1F:  {#event-56-27}
+### (56, 27): イベント 0x1F: [ブルガの町のギルド](@/map/map-13b/_index.md#dst-111-179)入口 {#event-56-27}
 
-### (56, 55): イベント 0x21:  {#event-56-55}
+### (56, 55): イベント 0x21: [ブルガの町のクエスト屋](@/map/map-13b/_index.md#dst-239-211)入口 {#event-56-55}
 
 ### (56, 111): イベント 0x56: アネイデアの町の船小屋 ([リカントス地方](@/map/map-05/_index.md) [(172, 221)](@/map/map-05/_index.md#dst-172-221) へ) {#event-56-111}
 
@@ -394,7 +394,7 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 
 ### (72, 27): イベント 0x56: ブルガの町の船小屋 ([ユース地方](@/map/map-00/_index.md) バフィン島 [(221, 50)](@/map/map-00/_index.md#dst-221-50) へ) {#event-72-27}
 
-### (72, 55): イベント 0x1D:  {#event-72-55}
+### (72, 55): イベント 0x1D: [ブルガの町の薬屋](@/map/map-13b/_index.md#dst-15-179)入口 {#event-72-55}
 
 ### (84, 123): イベント 0x27:  {#event-84-123}
 
@@ -509,9 +509,13 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 
 ワープ元: [リカントス地方](@/map/map-05/_index.md) [(170, 191)](@/map/map-05/_index.md#event-170-191)。
 
-### (54, 58): ワープ先 0x22:  {#dst-54-58}
+### (54, 58): ワープ先 0x22: [ブルガの町のクエスト屋](@/map/map-13b/_index.md#dst-239-211)手前 {#dst-54-58}
 
-### (55, 30): ワープ先 0x20:  {#dst-55-30}
+ワープ元: [ブルガの町のクエスト屋 (240, 214)](@/map/map-13b/_index.md#event-240-214)。
+
+### (55, 30): ワープ先 0x20: [ブルガの町のギルド](@/map/map-13b/_index.md#dst-111-179)手前 {#dst-55-30}
+
+ワープ元: [ブルガの町のギルド (112, 182)](@/map/map-13b/_index.md#event-112-182)。
 
 ### (57, 82): ワープ先 0x01: ブルガの町の入口 {#dst-57-82}
 
@@ -525,7 +529,9 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 
 ワープ元: [ブルガの町の防具屋 (144, 150)](@/map/map-13b/_index.md#event-144-150)。
 
-### (71, 58): ワープ先 0x1E:  {#dst-71-58}
+### (71, 58): ワープ先 0x1E: [ブルガの町の薬屋](@/map/map-13b/_index.md#dst-15-179)手前 {#dst-71-58}
+
+ワープ元: [ブルガの町の薬屋 (16, 182)](@/map/map-13b/_index.md#event-16-182)。
 
 ### (83, 126): ワープ先 0x28:  {#dst-83-126}
 

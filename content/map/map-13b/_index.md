@@ -20,7 +20,7 @@ title = "店セット"
 <use href="#svg-asset-event" x="128" y="1408"><title>(16, 176): イベント 0xCE</title></use>
 </a>
 <a href="#event-16-182">
-<use href="#svg-asset-event" x="128" y="1456"><title>(16, 182): イベント 0x1E</title></use>
+<use href="#svg-asset-event" x="128" y="1456"><title>(16, 182): イベント 0x1E: ブルガの町の薬屋: ブルガの町 (71, 58) へ</title></use>
 </a>
 <a href="#event-16-208">
 <use href="#svg-asset-event" x="128" y="1664"><title>(16, 208): イベント 0xD6</title></use>
@@ -95,7 +95,7 @@ title = "店セット"
 <use href="#svg-asset-event" x="896" y="1408"><title>(112, 176): イベント 0xD1</title></use>
 </a>
 <a href="#event-112-182">
-<use href="#svg-asset-event" x="896" y="1456"><title>(112, 182): イベント 0x20</title></use>
+<use href="#svg-asset-event" x="896" y="1456"><title>(112, 182): イベント 0x20: ブルガの町のギルド: ブルガの町 (55, 30) へ</title></use>
 </a>
 <a href="#event-112-208">
 <use href="#svg-asset-event" x="896" y="1664"><title>(112, 208): イベント 0xD9</title></use>
@@ -200,7 +200,7 @@ title = "店セット"
 <use href="#svg-asset-event" x="1920" y="1664"><title>(240, 208): イベント 0xDD</title></use>
 </a>
 <a href="#event-240-214">
-<use href="#svg-asset-event" x="1920" y="1712"><title>(240, 214): イベント 0x22</title></use>
+<use href="#svg-asset-event" x="1920" y="1712"><title>(240, 214): イベント 0x22: ブルガの町のクエスト屋: ブルガの町 (54, 58) へ</title></use>
 </a>
 <a href="#event-240-240">
 <use href="#svg-asset-event" x="1920" y="1920"><title>(240, 240): イベント 0xE5</title></use>
@@ -215,13 +215,13 @@ title = "店セット"
 <use href="#svg-asset-destination" x="1144" y="1176"><title>(143, 147): ワープ先 0x1B: ブルガの町の防具屋</title></use>
 </a>
 <a href="#dst-15-179">
-<use href="#svg-asset-destination" x="120" y="1432"><title>(15, 179): ワープ先 0x1D</title></use>
+<use href="#svg-asset-destination" x="120" y="1432"><title>(15, 179): ワープ先 0x1D: ブルガの町の薬屋</title></use>
 </a>
 <a href="#dst-111-179">
-<use href="#svg-asset-destination" x="888" y="1432"><title>(111, 179): ワープ先 0x1F</title></use>
+<use href="#svg-asset-destination" x="888" y="1432"><title>(111, 179): ワープ先 0x1F: ブルガの町のギルド</title></use>
 </a>
 <a href="#dst-239-211">
-<use href="#svg-asset-destination" x="1912" y="1688"><title>(239, 211): ワープ先 0x21</title></use>
+<use href="#svg-asset-destination" x="1912" y="1688"><title>(239, 211): ワープ先 0x21: ブルガの町のクエスト屋</title></use>
 </a>
 <a href="#dst-207-243">
 <use href="#svg-asset-destination" x="1656" y="1944"><title>(207, 243): ワープ先 0x23</title></use>
@@ -316,7 +316,7 @@ title = "店セット"
 
 ### (16, 176): イベント 0xCE:  {#event-16-176}
 
-### (16, 182): イベント 0x1E:  {#event-16-182}
+### (16, 182): イベント 0x1E: ブルガの町の薬屋: [ブルガの町 (71, 58)](@/map/map-12/_index.md#dst-71-58) へ {#event-16-182}
 
 ### (16, 208): イベント 0xD6:  {#event-16-208}
 
@@ -366,7 +366,7 @@ title = "店セット"
 
 ### (112, 176): イベント 0xD1:  {#event-112-176}
 
-### (112, 182): イベント 0x20:  {#event-112-182}
+### (112, 182): イベント 0x20: ブルガの町のギルド: [ブルガの町 (55, 30)](@/map/map-12/_index.md#dst-55-30) へ {#event-112-182}
 
 ### (112, 208): イベント 0xD9:  {#event-112-208}
 
@@ -436,7 +436,7 @@ title = "店セット"
 
 ### (240, 208): イベント 0xDD:  {#event-240-208}
 
-### (240, 214): イベント 0x22:  {#event-240-214}
+### (240, 214): イベント 0x22: ブルガの町のクエスト屋: [ブルガの町 (54, 58)](@/map/map-12/_index.md#dst-54-58) へ {#event-240-214}
 
 ### (240, 240): イベント 0xE5:  {#event-240-240}
 
@@ -449,7 +449,9 @@ title = "店セット"
 
 ワープ元: [ブルガの町 (52, 71)](@/map/map-12/_index.md#event-52-71)。
 
-### (15, 179): ワープ先 0x1D:  {#dst-15-179}
+### (15, 179): ワープ先 0x1D: ブルガの町の薬屋 {#dst-15-179}
+
+ワープ元: [ブルガの町 (72, 55)](@/map/map-12/_index.md#event-72-55)。
 
 ### (15, 211): ワープ先 0x45:  {#dst-15-211}
 
@@ -473,7 +475,9 @@ title = "店セット"
 
 ### (111, 147): ワープ先 0x49:  {#dst-111-147}
 
-### (111, 179): ワープ先 0x1F:  {#dst-111-179}
+### (111, 179): ワープ先 0x1F: ブルガの町のギルド {#dst-111-179}
+
+ワープ元: [ブルガの町 (56, 27)](@/map/map-12/_index.md#event-56-27)。
 
 ### (111, 211): ワープ先 0x54:  {#dst-111-211}
 
@@ -509,7 +513,9 @@ title = "店セット"
 
 ### (239, 179): ワープ先 0x41:  {#dst-239-179}
 
-### (239, 211): ワープ先 0x21:  {#dst-239-211}
+### (239, 211): ワープ先 0x21: ブルガの町のクエスト屋 {#dst-239-211}
+
+ワープ元: [ブルガの町 (56, 55)](@/map/map-12/_index.md#event-56-55)。
 
 ### (239, 243): ワープ先 0x3D:  {#dst-239-243}
 
