@@ -13,6 +13,21 @@ title = "キネラシア北東地方"
 <image id="svg-asset-destination" width="16" height="16" href="icon-destination.png" />
 </defs>
 <use href="#svg-asset-bg" x="0" y="0"></use>
+<text class="caption-48" x="1368" y="1952" fill="pink">ホッカ島</text>
+<text class="caption-48" x="1328" y="1192" fill="pink">カラフ島</text>
+<text class="caption-32" x="76" y="1880" fill="yellow">関</text>
+<text class="caption-32" x="256" y="1728" fill="yellow">ペイチン</text>
+<text class="caption-32" x="976" y="1440" fill="yellow">船</text>
+<text class="caption-24" x="1108" y="1824" fill="yellow">船</text>
+<text class="caption-32" x="1168" y="1824" fill="yellow">船</text>
+<text class="caption-24" x="1304" y="1816" fill="yellow">手形</text>
+<text class="caption-24" x="1860" y="1672" fill="yellow">骨</text>
+<text class="caption-24" x="1324" y="1472" fill="yellow">船</text>
+<text class="caption-24" x="1252" y="1264" fill="yellow">木</text>
+<text class="caption-24" x="260" y="700" fill="yellow">骨</text>
+<text class="caption-24" x="1596" y="736" fill="yellow">木</text>
+<text class="caption-24" x="1600" y="416" fill="yellow">切株</text>
+<text class="caption-24" x="1884" y="164" fill="yellow">象牙</text>
 <a href="#event-16-233">
 <use href="#svg-asset-event" x="128" y="1864"><title>(16, 233): イベント 0xA9: 関所 (キネラシア北西地方 (240, 232) へ)</title></use>
 </a>
