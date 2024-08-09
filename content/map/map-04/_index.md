@@ -12,6 +12,23 @@ title = "ラタニア北地方"
 <image id="svg-asset-destination" width="16" height="16" href="icon-destination.png" />
 </defs>
 <use href="#svg-asset-bg" x="0" y="0"></use>
+<text class="caption-48" x="1736" y="1304" fill="pink">イスパ島</text>
+<text class="caption-32" x="708" y="120" fill="yellow">関</text>
+<text class="caption-24" x="148" y="1344" fill="yellow">惑</text>
+<text class="caption-32" x="416" y="2032" fill="yellow">関</text>
+<text class="caption-24" x="760" y="1952" fill="yellow">手形</text>
+<text class="caption-24" x="1040" y="1940" fill="yellow">どくろばな</text>
+<text class="caption-24" x="1348" y="1312" fill="yellow">船</text>
+<text class="caption-32" x="1504" y="1472" fill="yellow">ザイドタウン</text>
+<text class="caption-24" x="1532" y="1212" fill="yellow">船</text>
+<text class="caption-32" x="1680" y="1088" fill="yellow">ラモン</text>
+<text class="caption-24" x="1504" y="984" fill="yellow">惑</text>
+<text class="caption-24" x="1756" y="824" fill="yellow">石</text>
+<text class="caption-24" x="1892" y="760" fill="yellow">骨</text>
+<text class="caption-24" x="1500" y="704" fill="yellow">石</text>
+<text class="caption-24" x="1284" y="632" fill="yellow">石</text>
+<text class="caption-24" x="1936" y="272" fill="yellow">骨</text>
+<text class="caption-24" x="1868" y="236" fill="yellow">骨</text>
 <a href="#event-58-248">
 <use href="#svg-asset-event" x="464" y="1984"><title>(58, 248): イベント 0xAA: 関所 (ラタニア南地方 (53, 20) へ)</title></use>
 </a>
@@ -64,7 +81,7 @@ title = "ラタニア北地方"
 <use href="#svg-asset-destination" x="152" y="1352"><title>(19, 169): ワープ先 0xCF: 惑いの宿出口の行き先候補</title></use>
 </a>
 <a href="#dst-188-124">
-<use href="#svg-asset-destination" x="1504" y="992"><title>(188, 124): ワープ先 0xD0</title></use>
+<use href="#svg-asset-destination" x="1504" y="992"><title>(188, 124): ワープ先 0xD0: 惑いの宿出口の行き先候補</title></use>
 </a>
 <a href="#dst-192-146">
 <use href="#svg-asset-destination" x="1536" y="1168"><title>(192, 146): ワープ先 0xE7: ザイドタウンの町の船小屋の行き先</title></use>
