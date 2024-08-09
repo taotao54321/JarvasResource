@@ -103,7 +103,7 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 <use href="#svg-asset-event" x="152" y="1384"><title>(19, 173): イベント 0xEF: パタンの町の墓: 曼荼羅を使うとパタンの町の洞窟への扉が開く</title></use>
 </a>
 <a href="#event-20-202">
-<use href="#svg-asset-event" x="160" y="1616"><title>(20, 202): イベント 0xB5: パタンの町の十字岩: 星のかけらを持って探索するとキネラシア城の第 2 フロアへワープ</title></use>
+<use href="#svg-asset-event" x="160" y="1616"><title>(20, 202): イベント 0xB5: パタンの町の十字岩: 星のかけらを持って探索するとキネラシア城の第 3 フロアへワープ</title></use>
 </a>
 <a href="#event-20-231">
 <use href="#svg-asset-event" x="160" y="1848"><title>(20, 231): イベント 0x57: パタンの町の惑いの宿入口</title></use>
