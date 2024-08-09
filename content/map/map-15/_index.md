@@ -75,19 +75,19 @@ title = "サイドビュー B"
 <use href="#svg-asset-destination" x="1888" y="1960"><title>(236, 245): ワープ先 0x75: キネラシア城ボスフロア</title></use>
 </a>
 <a href="#dst-20-245">
-<use href="#svg-asset-destination" x="160" y="1960"><title>(20, 245): ワープ先 0x74, 0xB5: キネラシア城 第 3 フロア</title></use>
+<use href="#svg-asset-destination" x="160" y="1960"><title>(20, 245): ワープ先 0x74, 0xB5: キネラシア城第 3 フロア</title></use>
 </a>
 <a href="#dst-20-117">
-<use href="#svg-asset-destination" x="160" y="936"><title>(20, 117): ワープ先 0xB7: エウロン城 第 1 フロア</title></use>
+<use href="#svg-asset-destination" x="160" y="936"><title>(20, 117): ワープ先 0xB7: エウロン城第 1 フロア</title></use>
 </a>
 <a href="#dst-20-181">
-<use href="#svg-asset-destination" x="160" y="1448"><title>(20, 181): ワープ先 0xB8: キネラシア城 第 1 フロア</title></use>
+<use href="#svg-asset-destination" x="160" y="1448"><title>(20, 181): ワープ先 0xB8: キネラシア城第 1 フロア</title></use>
 </a>
 <a href="#dst-20-21">
-<use href="#svg-asset-destination" x="160" y="168"><title>(20, 21): ワープ先 0xBB: タクテカ城 第 1 フロア</title></use>
+<use href="#svg-asset-destination" x="160" y="168"><title>(20, 21): ワープ先 0xBB: タクテカ城第 1 フロア</title></use>
 </a>
 <a href="#dst-148-53">
-<use href="#svg-asset-destination" x="1184" y="424"><title>(148, 53): ワープ先 0xBC: オシーランド城 第 1 フロア </title></use>
+<use href="#svg-asset-destination" x="1184" y="424"><title>(148, 53): ワープ先 0xBC: オシーランド城第 1 フロア </title></use>
 </a>
 </svg>
 <!-- }}} -->
@@ -116,7 +116,7 @@ title = "サイドビュー B"
 
 ## ワープ先
 
-### (20, 21): ワープ先 0xBB: タクテカ城 第 1 フロア {#dst-20-21}
+### (20, 21): ワープ先 0xBB: タクテカ城第 1 フロア {#dst-20-21}
 
 ワープ元: [タクテカ地方](@/map/map-09/_index.md) [(130, 175)](@/map/map-09/_index.md#event-130-175) のタクテカ城入口。
 
@@ -128,7 +128,7 @@ title = "サイドビュー B"
 
 ワープ元: [タクテカ城第 2 フロア出口](#event-67-55)。
 
-### (148, 53): ワープ先 0xBC: オシーランド城 第 1 フロア {#dst-148-53}
+### (148, 53): ワープ先 0xBC: オシーランド城第 1 フロア {#dst-148-53}
 
 ワープ元: [オシーランド地方](@/map/map-11/_index.md) [(50, 223)](@/map/map-11/_index.md#event-50-223) のオシーランド城入口。
 
@@ -140,7 +140,7 @@ title = "サイドビュー B"
 
 ワープ元: [オシーランド城第 2 フロア出口](#event-195-87)。
 
-### (20, 117): ワープ先 0xB7: エウロン城 第 1 フロア {#dst-20-117}
+### (20, 117): ワープ先 0xB7: エウロン城第 1 フロア {#dst-20-117}
 
 ワープ元: [エウロン東地方](@/map/map-02/_index.md) [(66, 111)](@/map/map-02/_index.md#event-66-111) のエウロン城入口。
 
@@ -152,7 +152,7 @@ title = "サイドビュー B"
 
 ワープ元: [エウロン城第 2 フロア出口](#event-195-151)。
 
-### (20, 181): ワープ先 0xB8: キネラシア城 第 1 フロア {#dst-20-181}
+### (20, 181): ワープ先 0xB8: キネラシア城第 1 フロア {#dst-20-181}
 
 ワープ元: [キネラシア北西地方](@/map/map-02/_index.md) [(210, 127)](@/map/map-02/_index.md#event-210-127) のキネラシア城入口。
 
@@ -160,7 +160,7 @@ title = "サイドビュー B"
 
 ワープ元: [キネラシア城第 1 フロア出口](#event-227-183)。
 
-### (20, 245): ワープ先 0x74, 0xB5: キネラシア城 第 3 フロア {#dst-20-245}
+### (20, 245): ワープ先 0x74, 0xB5: キネラシア城第 3 フロア {#dst-20-245}
 
 ワープ元:
 
