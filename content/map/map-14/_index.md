@@ -10,6 +10,23 @@ title = "サイドビュー A"
 <image id="svg-asset-destination" width="16" height="16" href="icon-destination.png" />
 </defs>
 <use href="#svg-asset-bg" x="0" y="0"></use>
+<text class="caption-32" x="136" y="120" fill="lime">ユース城-1</text>
+<text class="caption-32" x="1808" y="120" fill="lime">ユース城-ボス</text>
+<text class="caption-32" x="136" y="376" fill="lime">ラタニア城-1</text>
+<text class="caption-32" x="1792" y="376" fill="lime">ラタニア城-ボス</text>
+<text class="caption-32" x="136" y="632" fill="lime">リカントス城-1</text>
+<text class="caption-32" x="136" y="888" fill="lime">リカントス城-2</text>
+<text class="caption-32" x="720" y="888" fill="lime">リカントス城-ボス</text>
+<text class="caption-32" x="1160" y="888" fill="lime">アドニス通路-船</text>
+<text class="caption-32" x="136" y="1144" fill="lime">アドニス通路-ク</text>
+<text class="caption-32" x="1160" y="1144" fill="lime">アドニス通路-武</text>
+<text class="caption-32" x="136" y="1400" fill="lime">ラモン洞</text>
+<text class="caption-32" x="912" y="1400" fill="lime">バンス洞</text>
+<text class="caption-32" x="136" y="1656" fill="lime">リカルド洞</text>
+<text class="caption-32" x="136" y="1912" fill="lime">パタン洞</text>
+<text class="caption-32" x="1588" y="1424" fill="lime">バトル-剣</text>
+<text class="caption-32" x="1844" y="1424" fill="lime">バトル-格</text>
+<text class="caption-32" x="1076" y="1680" fill="lime">バトル-魔</text>
 <a href="#event-21-151">
 <use href="#svg-asset-event" x="168" y="1208"><title>(21, 151): イベント 0x61: アドニスの町のクエスト屋への通路: アドニスの町 (210, 43) へ</title></use>
 </a>

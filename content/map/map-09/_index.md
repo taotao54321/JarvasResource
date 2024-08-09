@@ -10,11 +10,20 @@ title = "タクテカ地方"
 <image id="svg-asset-destination" width="16" height="16" href="icon-destination.png" />
 </defs>
 <use href="#svg-asset-bg" x="0" y="0"></use>
+<text class="caption-32" x="1604" y="120" fill="yellow">関</text>
+<text class="caption-24" x="1572" y="328" fill="yellow">惑</text>
+<text class="caption-32" x="1872" y="284" fill="yellow">船</text>
+<text class="caption-24" x="1896" y="400" fill="yellow">手形</text>
+<text class="caption-24" x="1800" y="840" fill="yellow">船</text>
+<text class="caption-24" x="1716" y="1396" fill="yellow">スコープ</text>
+<text class="caption-48" x="900" y="1340" fill="yellow">タクテカ城</text>
+<text class="caption-24" x="368" y="1016" fill="yellow">財布</text>
+<text class="caption-32" x="464" y="1048" fill="yellow">船</text>
 <a href="#event-53-125">
 <use href="#svg-asset-event" x="424" y="1000"><title>(53, 125): イベント 0xF8: ベルトを使うと財布を入手</title></use>
 </a>
 <a href="#event-58-135">
-<use href="#svg-asset-event" x="464" y="1080"><title>(58, 135): イベント 0x56: タクテカ西の船小屋 (リングワールド地方 (12, 97) へ)</title></use>
+<use href="#svg-asset-event" x="464" y="1080"><title>(58, 135): イベント 0x56: タクテカ西の船小屋 (リングワールド地方 マダガス島 (12, 97) へ)</title></use>
 </a>
 <a href="#event-130-175">
 <use href="#svg-asset-event" x="1040" y="1400"><title>(130, 175): イベント 0xBB: タクテカ城入口 (タクテカ城の第 1 フロアへ)</title></use>
@@ -51,7 +60,7 @@ title = "タクテカ地方"
 
 ### (53, 125): イベント 0xF8: ベルトを使うと財布を入手 {#event-53-125}
 
-### (58, 135): イベント 0x56: タクテカ西の船小屋 ([リングワールド地方](@/map/map-10/_index.md) [(12, 97)](@/map/map-10/_index.md#dst-12-97) へ) {#event-58-135}
+### (58, 135): イベント 0x56: タクテカ西の船小屋 ([リングワールド地方](@/map/map-10/_index.md) マダガス島 [(12, 97)](@/map/map-10/_index.md#dst-12-97) へ) {#event-58-135}
 
 ### (130, 175): イベント 0xBB: タクテカ城入口 ([タクテカ城の第 1 フロア](@/map/map-15/_index.md#dst-20-21) へ) {#event-130-175}
 

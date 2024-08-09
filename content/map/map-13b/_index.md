@@ -21,6 +21,38 @@ title = "店セット"
 <image id="svg-asset-destination" width="16" height="16" href="icon-destination.png" />
 </defs>
 <use href="#svg-asset-bg" x="0" y="0"></use>
+<text class="caption-24" x="72" y="1144" fill="blue">ブルガ:武</text>
+<text class="caption-24" x="328" y="1144" fill="blue">パタン:武</text>
+<text class="caption-24" x="584" y="1144" fill="blue">ステラ:武</text>
+<text class="caption-24" x="828" y="1144" fill="blue">アドニス:武</text>
+<text class="caption-24" x="1096" y="1144" fill="blue">ブルガ:防</text>
+<text class="caption-24" x="1352" y="1144" fill="blue">バンス:防</text>
+<text class="caption-24" x="1596" y="1144" fill="blue">ペイチン:防</text>
+<text class="caption-24" x="1872" y="1144" fill="blue">惑いの宿</text>
+<text class="caption-24" x="72" y="1400" fill="blue">ブルガ:薬</text>
+<text class="caption-24" x="304" y="1400" fill="blue">パントーン:薬</text>
+<text class="caption-24" x="572" y="1400" fill="blue">ペイチン:薬</text>
+<text class="caption-24" x="840" y="1400" fill="blue">ブルガ:ギ</text>
+<text class="caption-24" x="1072" y="1400" fill="blue">アネイデア:ギ</text>
+<text class="caption-24" x="1352" y="1400" fill="blue">パタン:ギ</text>
+<text class="caption-24" x="1608" y="1400" fill="blue">バンス:ギ</text>
+<text class="caption-24" x="1852" y="1400" fill="blue">ラモッサ:ギ</text>
+<text class="caption-24" x="60" y="1656" fill="blue">アドニス:ギ</text>
+<text class="caption-24" x="316" y="1656" fill="blue">ペイチン:ギ</text>
+<text class="caption-24" x="604" y="1656" fill="blue">船小屋</text>
+<text class="caption-24" x="848" y="1656" fill="blue">初心の館</text>
+<text class="caption-24" x="1096" y="1656" fill="blue">パタン:長</text>
+<text class="caption-24" x="1328" y="1656" fill="blue">アネイデア:占</text>
+<text class="caption-24" x="1584" y="1656" fill="blue">パントーン:占</text>
+<text class="caption-24" x="1864" y="1656" fill="blue">ブルガ:ク</text>
+<text class="caption-24" x="48" y="1912" fill="blue">アネイデア:ク</text>
+<text class="caption-24" x="328" y="1912" fill="blue">パタン:ク</text>
+<text class="caption-24" x="584" y="1912" fill="blue">バンス:ク</text>
+<text class="caption-24" x="828" y="1912" fill="blue">リカルド:ク</text>
+<text class="caption-24" x="1084" y="1912" fill="blue">アドニス:ク</text>
+<text class="caption-24" x="1340" y="1912" fill="blue">ペイチン:ク</text>
+<text class="caption-24" x="1572" y="1912" fill="blue">ザイドタウン:投</text>
+<text class="caption-24" x="1864" y="1912" fill="blue">ステラ:投</text>
 <a href="#event-16-144">
 <use href="#svg-asset-event" x="128" y="1152"><title>(16, 144): イベント 0xC6: ブルガの町の近接武器屋での対話</title></use>
 </a>

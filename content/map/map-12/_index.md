@@ -19,6 +19,71 @@ title = "町セット A (ブルガ+アドニス+アネイデア+ペイチン+パ
 <image id="svg-asset-destination" width="16" height="16" href="icon-destination.png" />
 </defs>
 <use href="#svg-asset-bg" x="0" y="0"></use>
+<text class="caption-48" x="312" y="80" fill="lime">ブルガ</text>
+<text class="caption-48" x="1312" y="80" fill="lime">アドニス</text>
+<text class="caption-48" x="264" y="784" fill="lime">アネイデア</text>
+<text class="caption-48" x="1064" y="656" fill="lime">ペイチン</text>
+<text class="caption-48" x="1672" y="656" fill="lime">パントーン</text>
+<text class="caption-48" x="256" y="1296" fill="lime">パタン</text>
+<text class="caption-48" x="804" y="1296" fill="lime">ラモッサ</text>
+<text class="caption-48" x="1200" y="1296" fill="lime">ザイドタウン</text>
+<text class="caption-48" x="1720" y="1552" fill="lime">ラモン</text>
+<text class="caption-32" x="432" y="192" fill="yellow">ギ</text>
+<text class="caption-32" x="560" y="192" fill="yellow">船</text>
+<text class="caption-32" x="432" y="416" fill="yellow">ク</text>
+<text class="caption-32" x="560" y="416" fill="yellow">薬</text>
+<text class="caption-32" x="400" y="544" fill="yellow">武</text>
+<text class="caption-32" x="528" y="544" fill="yellow">防</text>
+<text class="caption-32" x="912" y="160" fill="yellow">ギ</text>
+<text class="caption-32" x="1872" y="160" fill="yellow">船</text>
+<text class="caption-32" x="912" y="448" fill="yellow">ク</text>
+<text class="caption-32" x="1872" y="448" fill="yellow">武</text>
+<text class="caption-24" x="1564" y="448" fill="yellow">A</text>
+<text class="caption-24" x="1024" y="200" fill="yellow">A</text>
+<text class="caption-24" x="1668" y="376" fill="yellow">B</text>
+<text class="caption-24" x="952" y="392" fill="yellow">B</text>
+<text class="caption-24" x="932" y="336" fill="yellow">C</text>
+<text class="caption-24" x="1888" y="252" fill="yellow">C</text>
+<text class="caption-32" x="432" y="864" fill="yellow">船</text>
+<text class="caption-32" x="304" y="960" fill="yellow">占</text>
+<text class="caption-32" x="656" y="960" fill="yellow">ク</text>
+<text class="caption-32" x="528" y="1056" fill="yellow">ギ</text>
+<text class="caption-32" x="1168" y="736" fill="yellow">ギ</text>
+<text class="caption-32" x="1072" y="832" fill="yellow">ク</text>
+<text class="caption-32" x="1200" y="832" fill="yellow">初</text>
+<text class="caption-32" x="1104" y="960" fill="yellow">惑</text>
+<text class="caption-32" x="1232" y="960" fill="yellow">防</text>
+<text class="caption-32" x="1104" y="1056" fill="yellow">薬</text>
+<text class="caption-32" x="1200" y="1056" fill="yellow">惑</text>
+<text class="caption-32" x="1680" y="1088" fill="yellow">薬</text>
+<text class="caption-32" x="1616" y="1248" fill="yellow">占</text>
+<text class="caption-32" x="1808" y="1312" fill="yellow">初</text>
+<text class="caption-24" x="348" y="1376" fill="yellow">洞</text>
+<text class="caption-24" x="172" y="1400" fill="yellow">鍵</text>
+<text class="caption-32" x="304" y="1440" fill="yellow">長</text>
+<text class="caption-24" x="156" y="1656" fill="yellow">転</text>
+<text class="caption-32" x="272" y="1696" fill="yellow">初</text>
+<text class="caption-32" x="336" y="1696" fill="yellow">ク</text>
+<text class="caption-32" x="400" y="1696" fill="yellow">惑</text>
+<text class="caption-32" x="464" y="1728" fill="yellow">ギ</text>
+<text class="caption-32" x="528" y="1728" fill="yellow">初</text>
+<text class="caption-32" x="80" y="1824" fill="yellow">船</text>
+<text class="caption-32" x="144" y="1824" fill="yellow">惑</text>
+<text class="caption-32" x="208" y="1824" fill="yellow">武</text>
+<text class="caption-32" x="976" y="1376" fill="yellow">ギ</text>
+<text class="caption-32" x="720" y="1504" fill="yellow">初</text>
+<text class="caption-32" x="816" y="1824" fill="yellow">惑</text>
+<text class="caption-32" x="976" y="1856" fill="yellow">船</text>
+<text class="caption-32" x="1424" y="1408" fill="yellow">船</text>
+<text class="caption-32" x="1328" y="1504" fill="yellow">初</text>
+<text class="caption-32" x="1424" y="1632" fill="yellow">初</text>
+<text class="caption-32" x="1360" y="1728" fill="yellow">投</text>
+<text class="caption-24" x="1228" y="1912" fill="yellow">鍵</text>
+<text class="caption-24" x="1872" y="1608" fill="yellow">洞</text>
+<text class="caption-32" x="1744" y="1632" fill="yellow">船</text>
+<text class="caption-32" x="1840" y="1696" fill="yellow">初</text>
+<text class="caption-32" x="1808" y="1824" fill="yellow">初</text>
+<text class="caption-24" x="1652" y="1856" fill="yellow">ハマリ</text>
 <a href="#event-12-231">
 <use href="#svg-asset-event" x="96" y="1848"><title>(12, 231): イベント 0x56: パタンの町の船小屋 (リカントス地方 ヘレナ島 (106, 191) へ)</title></use>
 </a>

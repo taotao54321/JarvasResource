@@ -13,6 +13,29 @@ title = "エウロン西地方"
 <image id="svg-asset-destination" width="16" height="16" href="icon-destination.png" />
 </defs>
 <use href="#svg-asset-bg" x="0" y="0"></use>
+<text class="caption-48" x="256" y="64" fill="pink">グリーン島</text>
+<text class="caption-48" x="1760" y="96" fill="pink">スカン島</text>
+<text class="caption-32" x="720" y="160" fill="yellow">船</text>
+<text class="caption-24" x="840" y="288" fill="yellow">骨</text>
+<text class="caption-24" x="600" y="440" fill="yellow">船</text>
+<text class="caption-24" x="328" y="760" fill="yellow">風の粉</text>
+<text class="caption-32" x="1872" y="416" fill="yellow">船</text>
+<text class="caption-24" x="1708" y="524" fill="yellow">？</text>
+<text class="caption-24" x="1828" y="792" fill="yellow">船</text>
+<text class="caption-24" x="660" y="772" fill="yellow">石</text>
+<text class="caption-24" x="740" y="768" fill="yellow">骨</text>
+<text class="caption-24" x="892" y="968" fill="yellow">石</text>
+<text class="caption-24" x="1144" y="760" fill="yellow">切株</text>
+<text class="caption-24" x="672" y="1300" fill="yellow">船</text>
+<text class="caption-24" x="1168" y="1308" fill="yellow">切株</text>
+<text class="caption-24" x="440" y="2004" fill="yellow">手形</text>
+<text class="caption-24" x="1076" y="1524" fill="yellow">浮遊石</text>
+<text class="caption-24" x="1204" y="1604" fill="yellow">木</text>
+<text class="caption-24" x="1228" y="1836" fill="yellow">木</text>
+<text class="caption-24" x="1108" y="1816" fill="yellow">骨</text>
+<text class="caption-32" x="1408" y="1216" fill="yellow">アドニス</text>
+<text class="caption-24" x="1836" y="1160" fill="yellow">石</text>
+<text class="caption-32" x="2004" y="1240" fill="yellow">関</text>
 <a href="#event-41-89">
 <use href="#svg-asset-event" x="328" y="712"><title>(41, 89): イベント 0xFD: ハーモニカを使うと風の粉を入手</title></use>
 </a>

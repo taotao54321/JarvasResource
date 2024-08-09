@@ -13,6 +13,31 @@ title = "オシーランド地方"
 <image id="svg-asset-destination" width="16" height="16" href="icon-destination.png" />
 </defs>
 <use href="#svg-asset-bg" x="0" y="0"></use>
+<text class="caption-48" x="160" y="104" fill="pink">ジャバ島</text>
+<text class="caption-48" x="1564" y="2016" fill="pink">ニューの島</text>
+<text class="caption-24" x="96" y="248" fill="yellow">船</text>
+<text class="caption-24" x="164" y="344" fill="yellow">石</text>
+<text class="caption-24" x="352" y="212" fill="yellow">木</text>
+<text class="caption-24" x="1188" y="512" fill="yellow">石</text>
+<text class="caption-24" x="1168" y="124" fill="yellow">海の涙</text>
+<text class="caption-32" x="848" y="280" fill="yellow">船</text>
+<text class="caption-24" x="1740" y="352" fill="yellow">石</text>
+<text class="caption-24" x="884" y="880" fill="yellow">クリスタル</text>
+<text class="caption-24" x="1472" y="884" fill="yellow">転</text>
+<text class="caption-24" x="1380" y="936" fill="yellow">切株</text>
+<text class="caption-24" x="1152" y="1360" fill="yellow">骨</text>
+<text class="caption-24" x="932" y="1424" fill="yellow">骨</text>
+<text class="caption-24" x="1636" y="840" fill="yellow">石</text>
+<text class="caption-32" x="144" y="1088" fill="yellow">バンス</text>
+<text class="caption-48" x="216" y="1704" fill="yellow">オシーランド城</text>
+<text class="caption-24" x="372" y="1976" fill="yellow">転</text>
+<text class="caption-24" x="336" y="1896" fill="yellow">切株</text>
+<text class="caption-24" x="1140" y="1904" fill="yellow">骨</text>
+<text class="caption-24" x="1068" y="1912" fill="yellow">骨</text>
+<text class="caption-24" x="1068" y="2012" fill="yellow">鍵</text>
+<text class="caption-24" x="1992" y="1576" fill="yellow">船</text>
+<text class="caption-24" x="1820" y="1656" fill="yellow">石</text>
+<text class="caption-24" x="1844" y="1956" fill="yellow">切株</text>
 <a href="#event-21-38">
 <use href="#svg-asset-event" x="168" y="304"><title>(21, 38): イベント 0x82: 石ワープ ((149, 59) へ)</title></use>
 </a>

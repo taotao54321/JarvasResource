@@ -12,6 +12,26 @@ title = "町セット B (ステラ+バンス+リカルド)"
 <image id="svg-asset-destination" width="16" height="16" href="icon-destination.png" />
 </defs>
 <use href="#svg-asset-bg" x="0" y="0"></use>
+<text class="caption-48" x="448" y="80" fill="lime">ステラ</text>
+<text class="caption-48" x="1464" y="80" fill="lime">バンス</text>
+<text class="caption-48" x="1440" y="528" fill="lime">リカルド</text>
+<text class="caption-32" x="688" y="160" fill="yellow">惑</text>
+<text class="caption-32" x="816" y="448" fill="yellow">初</text>
+<text class="caption-32" x="656" y="672" fill="yellow">船</text>
+<text class="caption-32" x="816" y="672" fill="yellow">投</text>
+<text class="caption-32" x="560" y="800" fill="yellow">武</text>
+<text class="caption-32" x="720" y="800" fill="yellow">初</text>
+<text class="caption-24" x="1548" y="140" fill="yellow">洞</text>
+<text class="caption-32" x="1232" y="224" fill="yellow">船</text>
+<text class="caption-32" x="1488" y="224" fill="yellow">ク</text>
+<text class="caption-32" x="1616" y="224" fill="yellow">防</text>
+<text class="caption-32" x="1872" y="224" fill="yellow">ギ</text>
+<text class="caption-24" x="1488" y="584" fill="yellow">洞</text>
+<text class="caption-32" x="1424" y="672" fill="yellow">船</text>
+<text class="caption-32" x="1424" y="800" fill="yellow">初</text>
+<text class="caption-32" x="1904" y="736" fill="yellow">ク</text>
+<text class="caption-24" x="1888" y="680" fill="yellow">ハマリ</text>
+<text class="caption-24" x="1932" y="880" fill="yellow">鍵</text>
 <a href="#event-66-117">
 <use href="#svg-asset-event" x="528" y="936"><title>(66, 117): イベント 0x12: ステラの町: ボルネー島 (201, 98) へ</title></use>
 </a>

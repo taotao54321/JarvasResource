@@ -12,6 +12,26 @@ title = "ユース地方"
 <image id="svg-asset-destination" width="16" height="16" href="icon-destination.png" />
 </defs>
 <use href="#svg-asset-bg" x="0" y="0"></use>
+<text class="caption-48" x="1500" y="80" fill="pink">バフィン島</text>
+<text class="caption-24" x="24" y="32" fill="yellow">ハマリ</text>
+<text class="caption-24" x="300" y="328" fill="yellow">切株</text>
+<text class="caption-24" x="1208" y="120" fill="yellow">壺</text>
+<text class="caption-24" x="1744" y="272" fill="yellow">石</text>
+<text class="caption-32" x="1680" y="280" fill="yellow">船</text>
+<text class="caption-24" x="1764" y="444" fill="yellow">船</text>
+<text class="caption-24" x="1504" y="480" fill="yellow">船</text>
+<text class="caption-24" x="948" y="704" fill="yellow">惑</text>
+<text class="caption-48" x="544" y="816" fill="yellow">ユース城</text>
+<text class="caption-32" x="1680" y="704" fill="yellow">ブルガ</text>
+<text class="caption-24" x="1860" y="1120" fill="yellow">石</text>
+<text class="caption-24" x="1200" y="1144" fill="yellow">ベルト</text>
+<text class="caption-24" x="156" y="1284" fill="yellow">木</text>
+<text class="caption-24" x="148" y="1572" fill="yellow">木</text>
+<text class="caption-24" x="196" y="1856" fill="yellow">惑</text>
+<text class="caption-24" x="1380" y="1640" fill="yellow">初</text>
+<text class="caption-24" x="1180" y="1768" fill="yellow">骨</text>
+<text class="caption-24" x="952" y="1748" fill="yellow">手形</text>
+<text class="caption-32" x="664" y="2032" fill="yellow">関</text>
 <a href="#event-19-191">
 <use href="#svg-asset-event" x="152" y="1528"><title>(19, 191): イベント 0x92: 木ワープ (キネラシア北東地方 (200, 87) へ)</title></use>
 </a>

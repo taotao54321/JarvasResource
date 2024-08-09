@@ -12,6 +12,18 @@ title = "キネラシア辺境+ボルネー島"
 <image id="svg-asset-destination" width="16" height="16" href="icon-destination.png" />
 </defs>
 <use href="#svg-asset-bg" x="0" y="0"></use>
+<text class="caption-24" x="616" y="480" fill="yellow">船</text>
+<text class="caption-24" x="520" y="660" fill="yellow">ダイヤ</text>
+<text class="caption-24" x="932" y="664" fill="yellow">石</text>
+<text class="caption-32" x="128" y="704" fill="yellow">ラモッサ</text>
+<text class="caption-24" x="348" y="1208" fill="yellow">石</text>
+<text class="caption-24" x="356" y="1464" fill="yellow">石</text>
+<text class="caption-24" x="284" y="1984" fill="yellow">船</text>
+<text class="caption-24" x="144" y="1916" fill="yellow">金のリボン</text>
+<text class="caption-24" x="1780" y="1480" fill="yellow">石</text>
+<text class="caption-24" x="1828" y="1304" fill="yellow">石</text>
+<text class="caption-24" x="1112" y="1656" fill="yellow">木</text>
+<text class="caption-32" x="1552" y="704" fill="yellow">ステラ</text>
 <a href="#event-26-95">
 <use href="#svg-asset-event" x="208" y="760"><title>(26, 95): イベント 0x0F: ラモッサの町の入口へ</title></use>
 </a>

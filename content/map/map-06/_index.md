@@ -12,6 +12,23 @@ title = "キネラシア南地方"
 <image id="svg-asset-destination" width="16" height="16" href="icon-destination.png" />
 </defs>
 <use href="#svg-asset-bg" x="0" y="0"></use>
+<text class="caption-48" x="528" y="1148" fill="pink">エチオ島</text>
+<text class="caption-32" x="76" y="216" fill="yellow">関</text>
+<text class="caption-32" x="188" y="120" fill="yellow">関</text>
+<text class="caption-24" x="272" y="280" fill="yellow">手形</text>
+<text class="caption-24" x="192" y="408" fill="yellow">石</text>
+<text class="caption-24" x="732" y="248" fill="yellow">石</text>
+<text class="caption-24" x="164" y="808" fill="yellow">木</text>
+<text class="caption-24" x="412" y="880" fill="yellow">石</text>
+<text class="caption-24" x="584" y="928" fill="yellow">船</text>
+<text class="caption-24" x="80" y="1200" fill="yellow">金貨</text>
+<text class="caption-24" x="1092" y="376" fill="yellow">石</text>
+<text class="caption-24" x="1376" y="824" fill="yellow">石</text>
+<text class="caption-24" x="1472" y="640" fill="yellow">星のかけら</text>
+<text class="caption-24" x="1540" y="1016" fill="yellow">石</text>
+<text class="caption-24" x="1644" y="212" fill="yellow">切株</text>
+<text class="caption-32" x="1664" y="448" fill="yellow">リカルド</text>
+<text class="caption-24" x="1788" y="1088" fill="yellow">船</text>
 <a href="#event-16-25">
 <use href="#svg-asset-event" x="128" y="200"><title>(16, 25): イベント 0xAD: 関所 (リカントス地方 (243, 21) へ)</title></use>
 </a>
