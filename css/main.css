@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+header {
+    background-color: #B0B0B0;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid;
+}
+
+h1, h2, h3 {
+    background-color: #CCCCCC;
+}
+
+h1:target, h2:target, h3:target, h4:target, h5:target, h6:target {
+    background-color: #F0C800;
+}
+
+.has-tooltip {
+    text-decoration: underline dotted;
+    cursor: help;
+}
+
+.summary {
+    background-color: #FFFFA0;
+}
+
+.todo {
+    color: #808000;
+}
+
+.note {
+    font-weight: bold;
+}
+
+.xxx {
+    color: #FF0000;
+}
+
+text.caption-24 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+text.caption-32 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+text.caption-48 {
+    font-size: 48px;
+    font-weight: bold;
+}
