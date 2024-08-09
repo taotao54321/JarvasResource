@@ -10,6 +10,19 @@ title = "サイドビュー B"
 <image id="svg-asset-destination" width="16" height="16" href="icon-destination.png" />
 </defs>
 <use href="#svg-asset-bg" x="0" y="0"></use>
+<text class="caption-32" x="136" y="120" fill="lime">タクテカ城-1</text>
+<text class="caption-32" x="136" y="376" fill="lime">タクテカ城-2</text>
+<text class="caption-32" x="744" y="376" fill="lime">タクテカ城-ボス</text>
+<text class="caption-32" x="1160" y="376" fill="lime">オシーランド城-1</text>
+<text class="caption-32" x="136" y="632" fill="lime">オシーランド城-2</text>
+<text class="caption-32" x="1704" y="632" fill="lime">オシーランド城-ボス</text>
+<text class="caption-32" x="136" y="888" fill="lime">エウロン城-1</text>
+<text class="caption-32" x="136" y="1144" fill="lime">エウロン城-2</text>
+<text class="caption-32" x="1756" y="1144" fill="lime">エウロン城-ボス</text>
+<text class="caption-32" x="136" y="1400" fill="lime">キネラシア城-1</text>
+<text class="caption-32" x="136" y="1656" fill="lime">キネラシア城-2</text>
+<text class="caption-32" x="136" y="1912" fill="lime">キネラシア城-3</text>
+<text class="caption-32" x="1728" y="1912" fill="lime">キネラシア城-ボス</text>
 <a href="#event-67-55">
 <use href="#svg-asset-event" x="536" y="440"><title>(67, 55): イベント 0x6E: タクテカ城第 2 フロア出口 (タクテカ城ボスフロアへ)</title></use>
 </a>
