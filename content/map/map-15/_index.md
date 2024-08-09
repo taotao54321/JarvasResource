@@ -1,6 +1,13 @@
 +++
-title = "サイドビュー B"
+title = "サイドビュー B (タクテカ城+オシーランド城+エウロン城+キネラシア城)"
 +++
+
+各城の所在地:
+
+* タクテカ城: [タクテカ地方](@/map/map-09/_index.md) [(130, 175)](@/map/map-09/_index.md#event-130-175)。
+* オシーランド城: [オシーランド地方](@/map/map-11/_index.md) [(50, 223)](@/map/map-11/_index.md#event-50-223)。
+* エウロン城: [エウロン東地方](@/map/map-02/_index.md) [(66, 111)](@/map/map-02/_index.md#event-66-111)。
+* キネラシア城: [キネラシア北西地方](@/map/map-02/_index.md) [(210, 127)](@/map/map-02/_index.md#event-210-127)。
 
 <!-- SVG {{{ -->
 <svg width="1536" height="1536" viewbox="0 0 2048 2048">

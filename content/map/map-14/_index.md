@@ -1,6 +1,12 @@
 +++
-title = "サイドビュー A"
+title = "サイドビュー A (ユース城+ラタニア城+リカントス城+各種洞窟など)"
 +++
+
+各城の所在地:
+
+* ユース城: [ユース地方](@/map/map-00/_index.md) [(82, 111)](@/map/map-00/_index.md#event-82-111) (城門は [(86, 159)](@/map/map-00/_index.md#event-86-159))。
+* ラタニア城: [ラタニア南地方](@/map/map-08/_index.md) [(146, 79)](@/map/map-08/_index.md#event-146-79)。
+* リカントス城: [リカントス地方](@/map/map-05/_index.md) [(194, 63)](@/map/map-05/_index.md#event-194-63)。
 
 <!-- SVG {{{ -->
 <svg width="1536" height="1536" viewbox="0 0 2048 2048">
