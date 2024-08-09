@@ -12,6 +12,22 @@ title = "リカントス地方"
 <image id="svg-asset-destination" width="16" height="16" href="icon-destination.png" />
 </defs>
 <use href="#svg-asset-bg" x="0" y="0"></use>
+<text class="caption-48" x="680" y="1816" fill="pink">ヘレナ島</text>
+<text class="caption-24" x="572" y="152" fill="yellow">骨</text>
+<text class="caption-24" x="1212" y="776" fill="yellow">転</text>
+<text class="caption-48" x="1388" y="440" fill="yellow">リカントス城</text>
+<text class="caption-24" x="1588" y="236" fill="yellow">ひかりごけ</text>
+<text class="caption-24" x="1380" y="1020" fill="yellow">骨</text>
+<text class="caption-24" x="1796" y="752" fill="yellow">木</text>
+<text class="caption-32" x="2004" y="184" fill="yellow">関</text>
+<text class="caption-32" x="1296" y="1472" fill="yellow">パタン</text>
+<text class="caption-24" x="1560" y="1552" fill="yellow">手形</text>
+<text class="caption-24" x="1944" y="1268" fill="yellow">曼荼羅</text>
+<text class="caption-24" x="1344" y="1784" fill="yellow">船</text>
+<text class="caption-32" x="1568" y="2028" fill="yellow">関</text>
+<text class="caption-24" x="868" y="1544" fill="yellow">船</text>
+<text class="caption-24" x="616" y="1576" fill="yellow">ハーモニカ</text>
+<text class="caption-24" x="828" y="1664" fill="yellow">骨</text>
 <a href="#event-93-195">
 <use href="#svg-asset-event" x="744" y="1560"><title>(93, 195): イベント 0xE6: 探索するとハーモニカを入手</title></use>
 </a>
