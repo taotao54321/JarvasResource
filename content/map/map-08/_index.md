@@ -10,6 +10,16 @@ title = "ラタニア南地方"
 <image id="svg-asset-destination" width="16" height="16" href="icon-destination.png" />
 </defs>
 <use href="#svg-asset-bg" x="0" y="0"></use>
+<text class="caption-32" x="452" y="120" fill="yellow">関</text>
+<text class="caption-24" x="640" y="476" fill="yellow">惑</text>
+<text class="caption-24" x="200" y="1340" fill="yellow">骨</text>
+<text class="caption-24" x="188" y="1548" fill="yellow">なくしたハート</text>
+<text class="caption-24" x="180" y="1908" fill="yellow">切株</text>
+<text class="caption-24" x="476" y="1904" fill="yellow">骨</text>
+<text class="caption-48" x="1028" y="572" fill="yellow">ラタニア城</text>
+<text class="caption-24" x="960" y="684" fill="yellow">手形</text>
+<text class="caption-24" x="1348" y="512" fill="yellow">惑</text>
+<text class="caption-32" x="1672" y="320" fill="yellow">アネイデア</text>
 <a href="#event-33-188">
 <use href="#svg-asset-event" x="264" y="1504"><title>(33, 188): イベント 0xFB: ベルトを使うとなくしたハートを入手</title></use>
 </a>
