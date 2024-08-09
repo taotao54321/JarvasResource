@@ -12,6 +12,15 @@ title = "リングワールド地方"
 <image id="svg-asset-destination" width="16" height="16" href="icon-destination.png" />
 </defs>
 <use href="#svg-asset-bg" x="0" y="0"></use>
+<text class="caption-48" x="256" y="168" fill="pink">マダガス島</text>
+<text class="caption-24" x="64" y="792" fill="yellow">船</text>
+<text class="caption-32" x="464" y="536" fill="yellow">船</text>
+<text class="caption-24" x="736" y="820" fill="yellow">船</text>
+<text class="caption-24" x="1312" y="1972" fill="yellow">サイの足跡</text>
+<text class="caption-32" x="1260" y="1216" fill="yellow">パントーン</text>
+<text class="caption-24" x="1156" y="1300" fill="yellow">ハマリ</text>
+<text class="caption-24" x="1016" y="636" fill="yellow">悪魔の角</text>
+<text class="caption-32" x="1872" y="1048" fill="yellow">船</text>
 <a href="#event-58-71">
 <use href="#svg-asset-event" x="464" y="568"><title>(58, 71): イベント 0x56: マダガス島の船小屋 ((94, 105) へ)</title></use>
 </a>
