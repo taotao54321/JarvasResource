@@ -55,7 +55,7 @@ title = "ユース地方"
 <text class="caption-24" x="952" y="1748" fill="yellow">手形</text>
 <text class="caption-32" x="664" y="2032" fill="yellow">関</text>
 <rect x="1536" y="0" width="128" height="128" stroke="red" fill="none" />
-<use href="#svg-asset-actor-0x06" x="1592" y="52"><title>傭兵「ここは昔アメリカと呼ばれていた」(出現不可)</title></use>
+<use href="#svg-asset-actor-0x06" x="1592" y="52"><title>傭兵「ここは昔アメリカと呼ばれていた」(到達不能)</title></use>
 <rect x="896" y="512" width="128" height="128" stroke="red" fill="none" />
 <use href="#svg-asset-actor-0x06" x="952" y="564"><title>傭兵「ギルドに入らないと旅はできないよ」</title></use>
 <rect x="1280" y="512" width="128" height="128" stroke="red" fill="none" />

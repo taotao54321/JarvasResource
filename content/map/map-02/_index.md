@@ -49,7 +49,7 @@ title = "エウロン東地方+キネラシア北西地方"
 <text class="caption-24" x="1568" y="1760" fill="yellow">切株</text>
 <text class="caption-32" x="2004" y="1880" fill="yellow">関</text>
 <rect x="896" y="0" width="128" height="128" stroke="red" fill="none" />
-<use href="#svg-asset-actor-0x14" x="952" y="52"><title>志願兵「昔日本という国があった」(出現不可)</title></use>
+<use href="#svg-asset-actor-0x14" x="952" y="52"><title>志願兵「昔日本という国があった」(到達不能)</title></use>
 <rect x="128" y="128" width="128" height="128" stroke="red" fill="none" />
 <use href="#svg-asset-actor-0x14" x="184" y="180"><title>志願兵「道の途中の広場」</title></use>
 <rect x="1920" y="256" width="128" height="128" stroke="red" fill="none" />
@@ -61,7 +61,7 @@ title = "エウロン東地方+キネラシア北西地方"
 <rect x="896" y="768" width="128" height="128" stroke="red" fill="none" />
 <use href="#svg-asset-actor-0x14" x="952" y="820"><title>志願兵「関所の北の石」</title></use>
 <rect x="0" y="896" width="128" height="128" stroke="red" fill="none" />
-<use href="#svg-asset-actor-0x14" x="56" y="948"><title>志願兵「凍った土地の外れ」(出現不可)</title></use>
+<use href="#svg-asset-actor-0x14" x="56" y="948"><title>志願兵「凍った土地の外れ」(到達不能)</title></use>
 <rect x="1792" y="896" width="128" height="128" stroke="red" fill="none" />
 <use href="#svg-asset-actor-0x14" x="1848" y="948"><title>志願兵「砂漠の横の木」</title></use>
 <rect x="384" y="1024" width="128" height="128" stroke="red" fill="none" />
