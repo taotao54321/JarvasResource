@@ -21,12 +21,17 @@ title = "ユース地方"
 * [ラタニア北地方](@/map/map-04/_index.md) イスパ島 [ラモンの町の墓](@/map/map-12/_index.md#event-207-227)で風の粉を持って曼荼羅を使うと (0, 1) の海上へ (ハマリ)。
 * [リングワールド地方](@/map/map-10/_index.md) (154, 159) で風の粉を持って曼荼羅を使うと (0, 1) の海上へ (ハマリ)。
 
+出現NPC:
+
+* ![傭兵](actor-0x06.png) 傭兵
+
 <!-- SVG {{{ -->
 <svg width="1536" height="1536" viewbox="0 0 2048 2048">
 <defs>
 <image id="svg-asset-bg" width="2048" height="2048" href="map-00.webp" />
 <image id="svg-asset-event" width="16" height="16" href="icon-event.png" />
 <image id="svg-asset-destination" width="16" height="16" href="icon-destination.png" />
+<image id="svg-asset-actor-0x06" width="16" height="24" href="actor-0x06.png" />
 </defs>
 <use href="#svg-asset-bg" x="0" y="0"></use>
 <text class="caption-48" x="1500" y="80" fill="pink">バフィン島</text>
@@ -49,6 +54,24 @@ title = "ユース地方"
 <text class="caption-24" x="1180" y="1768" fill="yellow">骨</text>
 <text class="caption-24" x="952" y="1748" fill="yellow">手形</text>
 <text class="caption-32" x="664" y="2032" fill="yellow">関</text>
+<rect x="1536" y="0" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x06" x="1592" y="52"><title>傭兵「ここは昔アメリカと呼ばれていた」(出現不可)</title></use>
+<rect x="896" y="512" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x06" x="952" y="564"><title>傭兵「ギルドに入らないと旅はできないよ」</title></use>
+<rect x="1280" y="512" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x06" x="1336" y="564"><title>傭兵「いい天気ですね」</title></use>
+<rect x="1664" y="896" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x06" x="1720" y="948"><title>傭兵「試合に勝って名声を上げなさい」</title></use>
+<rect x="1024" y="1152" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x06" x="1080" y="1204"><title>傭兵「悪い王をやっつけてよ」</title></use>
+<rect x="0" y="1408" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x06" x="56" y="1460"><title>傭兵「気をつけて行きな」</title></use>
+<rect x="1792" y="1408" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x06" x="1848" y="1460"><title>傭兵「ありがとう」</title></use>
+<rect x="896" y="1536" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x06" x="952" y="1588"><title>傭兵「こっちに来るな」</title></use>
+<rect x="1408" y="1664" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x06" x="1464" y="1716"><title>傭兵「みんなの話を聞け」</title></use>
 <a href="#event-19-191">
 <use href="#svg-asset-event" x="152" y="1528"><title>(19, 191): イベント 0x92: 木ワープ (キネラシア北東地方 (200, 87) へ)</title></use>
 </a>
