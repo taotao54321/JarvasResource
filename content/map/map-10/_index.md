@@ -14,12 +14,17 @@ title = "リングワールド地方"
 
 * [タクテカ地方](@/map/map-09/_index.md) (234, 39) の船小屋からマダガス島 (12, 97) へ。
 
+出現NPC:
+
+* ![将軍](actor-0x42.png) 将軍
+
 <!-- SVG {{{ -->
 <svg width="1536" height="1536" viewbox="0 0 2048 2048">
 <defs>
 <image id="svg-asset-bg" width="2048" height="2048" href="map-10.webp" />
 <image id="svg-asset-event" width="16" height="16" href="icon-event.png" />
 <image id="svg-asset-destination" width="16" height="16" href="icon-destination.png" />
+<image id="svg-asset-actor-0x42" width="16" height="24" href="actor-0x42.png" />
 </defs>
 <use href="#svg-asset-bg" x="0" y="0"></use>
 <text class="caption-48" x="256" y="168" fill="pink">マダガス島</text>
@@ -31,6 +36,18 @@ title = "リングワールド地方"
 <text class="caption-24" x="1156" y="1300" fill="yellow">ハマリ</text>
 <text class="caption-24" x="1016" y="636" fill="yellow">悪魔の角</text>
 <text class="caption-32" x="1872" y="1048" fill="yellow">船</text>
+<rect x="256" y="256" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x42" x="312" y="308"><title>将軍「石の精霊の助けがないとオシーランドへは渡れない」</title></use>
+<rect x="1280" y="640" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x42" x="1336" y="692"><title>将軍「いい天気ですね」</title></use>
+<rect x="640" y="1152" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x42" x="696" y="1204"><title>将軍「石の精霊の助けがないとオシーランドへは渡れない」</title></use>
+<rect x="1792" y="1280" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x42" x="1848" y="1332"><title>将軍「ああ もうおしまいだ」</title></use>
+<rect x="1280" y="1536" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x42" x="1336" y="1588"><title>将軍「ここはリングワールドさ」</title></use>
+<rect x="1536" y="1792" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x42" x="1592" y="1844"><title>将軍「パントーンの占い師に全てを聞け」</title></use>
 <a href="#event-58-71">
 <use href="#svg-asset-event" x="464" y="568"><title>(58, 71): イベント 0x56: マダガス島の船小屋 ((94, 105) へ)</title></use>
 </a>
