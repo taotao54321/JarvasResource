@@ -8,7 +8,7 @@ title = "リカントス地方"
 
 * (202, 248) の関所から[タクテカ地方](@/map/map-09/_index.md) (197, 20) へ。
 * (247, 21) の関所から[キネラシア南地方](@/map/map-06/_index.md) (20, 25) へ。
-* [パタンの町](@/map/map-12/_index.md)の[初心の館出口](@/map/map-13b/_index.md#event-112-214)から[ユース地方](@/map/map-00/_index.md) (173, 206) へ。
+* [パタンの町](@/map/map-12/_index.md)の[初心の家出口](@/map/map-13b/_index.md#event-112-214)から[ユース地方](@/map/map-00/_index.md) (173, 206) へ。
 * [パタンの町](@/map/map-12/_index.md)の[惑いの宿出口](@/map/map-13b/_index.md#event-240-150)からランダムワープ。
 * [パタンの町の十字岩](@/map/map-12/_index.md#event-20-202)で星のかけらを持って探索すると[キネラシア北西地方](@/map/map-02/_index.md)の[キネラシア城第 3 フロア](@/map/map-15/_index.md#dst-20-245)へ。
 

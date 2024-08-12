@@ -40,7 +40,7 @@ title = "店セット"
 <text class="caption-24" x="60" y="1656" fill="blue">アドニス:ギ</text>
 <text class="caption-24" x="316" y="1656" fill="blue">ペイチン:ギ</text>
 <text class="caption-24" x="604" y="1656" fill="blue">船小屋</text>
-<text class="caption-24" x="848" y="1656" fill="blue">初心の館</text>
+<text class="caption-24" x="848" y="1656" fill="blue">初心の家</text>
 <text class="caption-24" x="1096" y="1656" fill="blue">パタン:長</text>
 <text class="caption-24" x="1328" y="1656" fill="blue">アネイデア:占</text>
 <text class="caption-24" x="1584" y="1656" fill="blue">パントーン:占</text>
@@ -141,10 +141,10 @@ title = "店セット"
 <use href="#svg-asset-event" x="896" y="1456"><title>(112, 182): イベント 0x20: ブルガの町のギルド: ブルガの町 (55, 30) へ</title></use>
 </a>
 <a href="#event-112-208">
-<use href="#svg-asset-event" x="896" y="1664"><title>(112, 208): イベント 0xD9: 初心の館での対話</title></use>
+<use href="#svg-asset-event" x="896" y="1664"><title>(112, 208): イベント 0xD9: 初心の家での対話</title></use>
 </a>
 <a href="#event-112-214">
-<use href="#svg-asset-event" x="896" y="1712"><title>(112, 214): イベント 0x55: 初心の館出口: ゲーム開始地点へワープ</title></use>
+<use href="#svg-asset-event" x="896" y="1712"><title>(112, 214): イベント 0x55: 初心の家出口: ゲーム開始地点へワープ</title></use>
 </a>
 <a href="#event-112-231">
 <use href="#svg-asset-event" x="896" y="1848"><title>(112, 231): イベント 0xC4: 悪魔の角を持っていればリカルドの町 (240, 86) へ (そしてハマる)</title></use>
@@ -339,7 +339,7 @@ title = "店セット"
 <use href="#svg-asset-destination" x="632" y="1432"><title>(79, 179): ワープ先 0x51: ペイチンの町の薬屋</title></use>
 </a>
 <a href="#dst-111-211">
-<use href="#svg-asset-destination" x="888" y="1688"><title>(111, 211): ワープ先 0x54: 初心の館</title></use>
+<use href="#svg-asset-destination" x="888" y="1688"><title>(111, 211): ワープ先 0x54: 初心の家</title></use>
 </a>
 <a href="#dst-79-211">
 <use href="#svg-asset-destination" x="632" y="1688"><title>(79, 211): ワープ先 0x56: 船小屋</title></use>
@@ -619,9 +619,9 @@ title = "店セット"
 
 ### (80, 208): イベント 0xD8: 船小屋での対話 {#event-80-208}
 
-### (112, 208): イベント 0xD9: 初心の館での対話 {#event-112-208}
+### (112, 208): イベント 0xD9: 初心の家での対話 {#event-112-208}
 
-### (112, 214): イベント 0x55: 初心の館出口: [ゲーム開始地点](@/map/map-00/_index.md#dst-173-206)へワープ {#event-112-214}
+### (112, 214): イベント 0x55: 初心の家出口: [ゲーム開始地点](@/map/map-00/_index.md#dst-173-206)へワープ {#event-112-214}
 
 ### (240, 144): イベント 0xCD: 惑いの宿での対話 {#event-240-144}
 
@@ -762,7 +762,7 @@ title = "店セット"
 
 ### (79, 211): ワープ先 0x56: 船小屋 {#dst-79-211}
 
-### (111, 211): ワープ先 0x54: 初心の館 {#dst-111-211}
+### (111, 211): ワープ先 0x54: 初心の家 {#dst-111-211}
 
 ### (239, 147): ワープ先 0x57: 惑いの宿 {#dst-239-147}
 

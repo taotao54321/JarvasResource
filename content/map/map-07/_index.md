@@ -8,9 +8,9 @@ title = "キネラシア辺境+ボルネー島"
 
 * (139, 202) の木ワープから[オシーランド地方](@/map/map-11/_index.md) ジャバ島 (44, 21) へ。
 * [ラモッサの町](@/map/map-12/_index.md)の船小屋から[キネラシア南地方](@/map/map-06/_index.md) (224, 130) へ。
-* [ラモッサの町](@/map/map-12/_index.md)の[初心の館出口](@/map/map-13b/_index.md#event-112-214)から[ユース地方](@/map/map-00/_index.md) (173, 206) へ。
+* [ラモッサの町](@/map/map-12/_index.md)の[初心の家出口](@/map/map-13b/_index.md#event-112-214)から[ユース地方](@/map/map-00/_index.md) (173, 206) へ。
 * [ラモッサの町](@/map/map-12/_index.md)の[惑いの宿出口](@/map/map-13b/_index.md#event-240-150)からランダムワープ。
-* [ステラの町](@/map/map-13a/_index.md)の[初心の館出口](@/map/map-13b/_index.md#event-112-214)から[ユース地方](@/map/map-00/_index.md) (173, 206) へ。
+* [ステラの町](@/map/map-13a/_index.md)の[初心の家出口](@/map/map-13b/_index.md#event-112-214)から[ユース地方](@/map/map-00/_index.md) (173, 206) へ。
 * [ステラの町](@/map/map-13a/_index.md)の[惑いの宿出口](@/map/map-13b/_index.md#event-240-150)からランダムワープ。
 
 他地域からのアクセス:

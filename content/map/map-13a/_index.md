@@ -51,10 +51,10 @@ title = "町セット B (ステラ+バンス+リカルド)"
 <use href="#svg-asset-event" x="704" y="184"><title>(88, 23): イベント 0x57: ステラの町の惑いの宿入口</title></use>
 </a>
 <a href="#event-92-103">
-<use href="#svg-asset-event" x="736" y="824"><title>(92, 103): イベント 0x54: ステラの町の初心の館入口</title></use>
+<use href="#svg-asset-event" x="736" y="824"><title>(92, 103): イベント 0x54: ステラの町の初心の家入口</title></use>
 </a>
 <a href="#event-104-59">
-<use href="#svg-asset-event" x="832" y="472"><title>(104, 59): イベント 0x54: ステラの町の初心の館入口</title></use>
+<use href="#svg-asset-event" x="832" y="472"><title>(104, 59): イベント 0x54: ステラの町の初心の家入口</title></use>
 </a>
 <a href="#event-104-87">
 <use href="#svg-asset-event" x="832" y="696"><title>(104, 87): イベント 0x3D: ステラの町の遠隔武器屋入口</title></use>
@@ -66,7 +66,7 @@ title = "町セット B (ステラ+バンス+リカルド)"
 <use href="#svg-asset-event" x="1440" y="696"><title>(180, 87): イベント 0x56: リカルドの町の船小屋 (キネラシア南地方 エチオ島 (70, 114) へ)</title></use>
 </a>
 <a href="#event-180-103">
-<use href="#svg-asset-event" x="1440" y="824"><title>(180, 103): イベント 0x54: リカルドの町の初心の館入口</title></use>
+<use href="#svg-asset-event" x="1440" y="824"><title>(180, 103): イベント 0x54: リカルドの町の初心の家入口</title></use>
 </a>
 <a href="#event-186-117">
 <use href="#svg-asset-event" x="1488" y="936"><title>(186, 117): イベント 0x0E: リカルドの町: キネラシア南地方 (217, 66) へ</title></use>
@@ -141,13 +141,13 @@ title = "町セット B (ステラ+バンス+リカルド)"
 
 ### (72, 103): イベント 0x3F: [ステラの町の近接武器屋](@/map/map-13b/_index.md#dst-79-147)入口 {#event-72-103}
 
-### (92, 103): イベント 0x54: ステラの町の[初心の館](@/map/map-13b/_index.md#dst-111-211)入口 {#event-92-103}
+### (92, 103): イベント 0x54: ステラの町の[初心の家](@/map/map-13b/_index.md#dst-111-211)入口 {#event-92-103}
 
 ### (84, 87): イベント 0x56: ステラの町の船小屋 ([キネラシア辺境](@/map/map-07/_index.md) [(74, 58)](@/map/map-07/_index.md#dst-74-58) へ) {#event-84-87}
 
 ### (104, 87): イベント 0x3D: [ステラの町の遠隔武器屋](@/map/map-13b/_index.md#dst-239-243)入口 {#event-104-87}
 
-### (104, 59): イベント 0x54: ステラの町の[初心の館](@/map/map-13b/_index.md#dst-111-211)入口 {#event-104-59}
+### (104, 59): イベント 0x54: ステラの町の[初心の家](@/map/map-13b/_index.md#dst-111-211)入口 {#event-104-59}
 
 ### (88, 23): イベント 0x57: ステラの町の[惑いの宿](@/map/map-13b/_index.md#dst-239-147)入口 {#event-88-23}
 
@@ -167,7 +167,7 @@ title = "町セット B (ステラ+バンス+リカルド)"
 
 ### (186, 117): イベント 0x0E: リカルドの町: [キネラシア南地方](@/map/map-06/_index.md) [(217, 66)](@/map/map-06/_index.md#dst-217-66) へ {#event-186-117}
 
-### (180, 103): イベント 0x54: リカルドの町の[初心の館](@/map/map-13b/_index.md#dst-111-211)入口 {#event-180-103}
+### (180, 103): イベント 0x54: リカルドの町の[初心の家](@/map/map-13b/_index.md#dst-111-211)入口 {#event-180-103}
 
 ### (180, 87): イベント 0x56: リカルドの町の船小屋 ([キネラシア南地方](@/map/map-06/_index.md) エチオ島 [(70, 114)](@/map/map-06/_index.md#dst-70-114) へ) {#event-180-87}
 
