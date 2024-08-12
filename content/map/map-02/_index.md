@@ -21,12 +21,17 @@ title = "エウロン東地方+キネラシア北西地方"
 * [キネラシア北東地方](@/map/map-03/_index.md) (16, 233) の関所からキネラシア北西地方 (240, 232) へ。
 * [リカントス地方](@/map/map-05/_index.md)の[パタンの町の十字岩](@/map/map-12/_index.md#event-20-202)で星のかけらを持って探索すると[キネラシア城第 3 フロア](@/map/map-15/_index.md#dst-20-245)へ。
 
+出現NPC:
+
+* ![志願兵](actor-0x14.png) 志願兵
+
 <!-- SVG {{{ -->
 <svg width="1536" height="1536" viewbox="0 0 2048 2048">
 <defs>
 <image id="svg-asset-bg" width="2048" height="2048" href="map-02.webp" />
 <image id="svg-asset-event" width="16" height="16" href="icon-event.png" />
 <image id="svg-asset-destination" width="16" height="16" href="icon-destination.png" />
+<image id="svg-asset-actor-0x14" width="16" height="24" href="actor-0x14.png" />
 </defs>
 <use href="#svg-asset-bg" x="0" y="0"></use>
 <text class="caption-24" x="620" y="104" fill="yellow">石</text>
@@ -43,6 +48,36 @@ title = "エウロン東地方+キネラシア北西地方"
 <text class="caption-32" x="1228" y="1624" fill="yellow">関</text>
 <text class="caption-24" x="1568" y="1760" fill="yellow">切株</text>
 <text class="caption-32" x="2004" y="1880" fill="yellow">関</text>
+<rect x="896" y="0" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x14" x="952" y="52"><title>志願兵「昔日本という国があった」(出現不可)</title></use>
+<rect x="128" y="128" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x14" x="184" y="180"><title>志願兵「道の途中の広場」</title></use>
+<rect x="1920" y="256" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x14" x="1976" y="308"><title>志願兵「試合に勝って名声を上げなさい」</title></use>
+<rect x="640" y="384" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x14" x="696" y="436"><title>志願兵「いい天気ですね」</title></use>
+<rect x="1408" y="512" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x14" x="1464" y="564"><title>志願兵「凍った土地の外れ」</title></use>
+<rect x="896" y="768" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x14" x="952" y="820"><title>志願兵「関所の北の石」</title></use>
+<rect x="0" y="896" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x14" x="56" y="948"><title>志願兵「凍った土地の外れ」(出現不可)</title></use>
+<rect x="1792" y="896" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x14" x="1848" y="948"><title>志願兵「砂漠の横の木」</title></use>
+<rect x="384" y="1024" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x14" x="440" y="1076"><title>志願兵「気をつけて行きな」</title></use>
+<rect x="640" y="1024" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x14" x="696" y="1076"><title>志願兵「ここはエウロンの国だよ」</title></use>
+<rect x="768" y="1280" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x14" x="824" y="1332"><title>志願兵「関所の北の石」</title></use>
+<rect x="1408" y="1280" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x14" x="1464" y="1332"><title>志願兵「悪い王をやっつけてよ」</title></use>
+<rect x="1536" y="1536" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x14" x="1592" y="1588"><title>志願兵「ここはキネラシアの国だよ」</title></use>
+<rect x="384" y="1792" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x14" x="440" y="1844"><title>志願兵「気をつけて行きな」</title></use>
+<rect x="896" y="1792" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x14" x="952" y="1844"><title>志願兵「いい天気ですね」</title></use>
 <a href="#event-16-153">
 <use href="#svg-asset-event" x="128" y="1224"><title>(16, 153): イベント 0xA3: 関所 (エウロン西地方 (243, 153) へ)</title></use>
 </a>
