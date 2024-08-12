@@ -18,12 +18,17 @@ title = "キネラシア辺境+ボルネー島"
 * [オシーランド地方](@/map/map-11/_index.md)の[バンスの町](@/map/map-13a/_index.md)の船小屋からボルネー島 (36, 242) へ。
 * [オシーランド地方](@/map/map-11/_index.md) (218, 39) の石ワープからボルネー島 (220, 182) へ (通常プレイでは到達不能と思われる)。
 
+出現NPC:
+
+* ![医師団](actor-0x34.png) 医師団
+
 <!-- SVG {{{ -->
 <svg width="1536" height="1536" viewbox="0 0 2048 2048">
 <defs>
 <image id="svg-asset-bg" width="2048" height="2048" href="map-07.webp" />
 <image id="svg-asset-event" width="16" height="16" href="icon-event.png" />
 <image id="svg-asset-destination" width="16" height="16" href="icon-destination.png" />
+<image id="svg-asset-actor-0x34" width="16" height="24" href="actor-0x34.png" />
 </defs>
 <use href="#svg-asset-bg" x="0" y="0"></use>
 <text class="caption-24" x="616" y="480" fill="yellow">船</text>
@@ -38,6 +43,26 @@ title = "キネラシア辺境+ボルネー島"
 <text class="caption-24" x="1828" y="1304" fill="yellow">石</text>
 <text class="caption-24" x="1112" y="1656" fill="yellow">木</text>
 <text class="caption-32" x="1552" y="704" fill="yellow">ステラ</text>
+<rect x="512" y="256" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x34" x="568" y="308"><title>医師団「ラモッサの東 山の下を探せ」</title></use>
+<rect x="256" y="384" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x34" x="312" y="436"><title>医師団「一番西の島に骨がある」</title></use>
+<rect x="896" y="384" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x34" x="952" y="436"><title>医師団「ラモッサの東 山の下を探せ」(到達不能)</title></use>
+<rect x="1664" y="896" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x34" x="1720" y="948"><title>医師団「いい天気ですね」</title></use>
+<rect x="1024" y="1024" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x34" x="1080" y="1076"><title>医師団「木の精霊の力を貸そう ワープの道を見出せ」(木ワープ習得)</title></use>
+<rect x="128" y="1280" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x34" x="184" y="1332"><title>医師団「いい天気ですね」(到達不能)</title></use>
+<rect x="768" y="1280" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x34" x="824" y="1332"><title>医師団「気をつけて行きな」</title></use>
+<rect x="1792" y="1280" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x34" x="1848" y="1332"><title>医師団「悪い王をやっつけてよ」</title></use>
+<rect x="1152" y="1408" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x34" x="1208" y="1460"><title>医師団「試合に勝って名声を上げなさい」</title></use>
+<rect x="1536" y="1664" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x34" x="1592" y="1716"><title>医師団「ありがとう」</title></use>
 <a href="#event-26-95">
 <use href="#svg-asset-event" x="208" y="760"><title>(26, 95): イベント 0x0F: ラモッサの町の入口へ</title></use>
 </a>
