@@ -20,12 +20,17 @@ title = "リカントス地方"
 * [キネラシア南地方](@/map/map-06/_index.md) (18, 99) の木ワープから (225, 89) へ。
 * [エウロン西地方](@/map/map-01/_index.md) (139, 222) の骨ワープから (72, 14) へ。
 
+出現NPC:
+
+* ![魔道士](actor-0x29.png) 魔道士 (リカントス城の西の魔道士と話すと石ワープ習得)
+
 <!-- SVG {{{ -->
 <svg width="1536" height="1536" viewbox="0 0 2048 2048">
 <defs>
 <image id="svg-asset-bg" width="2048" height="2048" href="map-05.webp" />
 <image id="svg-asset-event" width="16" height="16" href="icon-event.png" />
 <image id="svg-asset-destination" width="16" height="16" href="icon-destination.png" />
+<image id="svg-asset-actor-0x29" width="16" height="24" href="actor-0x29.png" />
 </defs>
 <use href="#svg-asset-bg" x="0" y="0"></use>
 <text class="caption-48" x="680" y="1816" fill="pink">ヘレナ島</text>
@@ -44,6 +49,22 @@ title = "リカントス地方"
 <text class="caption-24" x="868" y="1544" fill="yellow">船</text>
 <text class="caption-24" x="616" y="1576" fill="yellow">ハーモニカ</text>
 <text class="caption-24" x="828" y="1664" fill="yellow">骨</text>
+<rect x="768" y="384" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x29" x="824" y="436"><title>魔道士「精霊は4つ」</title></use>
+<rect x="1024" y="384" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x29" x="1080" y="436"><title>魔道士「汝に石の精霊の力を与えん」(石ワープ習得)</title></use>
+<rect x="1792" y="384" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x29" x="1848" y="436"><title>魔道士「精霊は4つ」</title></use>
+<rect x="512" y="768" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x29" x="568" y="820"><title>魔道士「東の木の下を探しなさい」</title></use>
+<rect x="1536" y="896" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x29" x="1592" y="948"><title>魔道士「ヘレナ島の十字山の北西に古代の楽器が埋まっている」</title></use>
+<rect x="1536" y="1152" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x29" x="1592" y="1204"><title>魔道士「賢者の都パタンには骨の精霊と親しい長老がいる」</title></use>
+<rect x="1536" y="1664" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x29" x="1592" y="1716"><title>魔道士「賢者の都パタンには骨の精霊と親しい長老がいる」</title></use>
+<rect x="1792" y="1792" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x29" x="1848" y="1844"><title>魔道士「スコープを持ってるかい まだなら北はきついぜ」</title></use>
 <a href="#event-93-195">
 <use href="#svg-asset-event" x="744" y="1560"><title>(93, 195): イベント 0xE6: 探索するとハーモニカを入手</title></use>
 </a>
