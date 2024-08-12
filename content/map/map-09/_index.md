@@ -12,12 +12,17 @@ title = "タクテカ地方"
 * [リカントス地方](@/map/map-05/_index.md) (202, 248) の関所から (197, 20) へ。
 * 各地の[惑いの宿出口](@/map/map-13b/_index.md#event-240-150)からランダムで (200, 39) へ。
 
+出現NPC:
+
+* ![グルカ兵](actor-0x3E.png) グルカ兵
+
 <!-- SVG {{{ -->
 <svg width="1536" height="1536" viewbox="0 0 2048 2048">
 <defs>
 <image id="svg-asset-bg" width="2048" height="2048" href="map-09.webp" />
 <image id="svg-asset-event" width="16" height="16" href="icon-event.png" />
 <image id="svg-asset-destination" width="16" height="16" href="icon-destination.png" />
+<image id="svg-asset-actor-0x3E" width="16" height="24" href="actor-0x3E.png" />
 </defs>
 <use href="#svg-asset-bg" x="0" y="0"></use>
 <text class="caption-32" x="1604" y="120" fill="yellow">関</text>
@@ -29,6 +34,28 @@ title = "タクテカ地方"
 <text class="caption-48" x="900" y="1340" fill="yellow">タクテカ城</text>
 <text class="caption-24" x="368" y="1016" fill="yellow">財布</text>
 <text class="caption-32" x="464" y="1048" fill="yellow">船</text>
+<rect x="1408" y="128" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x3E" x="1464" y="180"><title>グルカ兵「ハーモニカを持ってるかい」</title></use>
+<rect x="128" y="640" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x3E" x="184" y="692"><title>グルカ兵 (会話なし)</title></use>
+<rect x="1024" y="640" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x3E" x="1080" y="692"><title>グルカ兵「船小屋に近い海岸でベルトを使え」</title></use>
+<rect x="896" y="896" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x3E" x="952" y="948"><title>グルカ兵 (会話なし)</title></use>
+<rect x="1024" y="896" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x3E" x="1080" y="948"><title>グルカ兵「東の湖のほとりを探せ」</title></use>
+<rect x="1536" y="896" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x3E" x="1592" y="948"><title>グルカ兵 (会話なし)</title></use>
+<rect x="1408" y="1152" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x3E" x="1464" y="1204"><title>グルカ兵 (会話なし)</title></use>
+<rect x="256" y="1280" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x3E" x="312" y="1332"><title>グルカ兵 (会話なし)</title></use>
+<rect x="512" y="1280" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x3E" x="568" y="1332"><title>グルカ兵「入口で吹き鳴らせ」</title></use>
+<rect x="768" y="1280" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x3E" x="824" y="1332"><title>グルカ兵 (会話なし)</title></use>
+<rect x="768" y="1664" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x3E" x="824" y="1716"><title>グルカ兵 (会話なし)</title></use>
 <a href="#event-53-125">
 <use href="#svg-asset-event" x="424" y="1000"><title>(53, 125): イベント 0xF8: ベルトを使うと財布を入手</title></use>
 </a>
