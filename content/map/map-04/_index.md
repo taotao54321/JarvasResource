@@ -23,8 +23,8 @@ title = "ラタニア北地方"
 
 出現NPC:
 
-* ![アマゾネス](actor-0x1F.png) アマゾネス
-* ![占い師](actor-0x22.png) 占い師
+* ![アマゾネス](actor-0x1F-a.png) アマゾネス
+* ![占い師](actor-0x22-a.png) 占い師
 
 <!-- SVG {{{ -->
 <svg width="1536" height="1536" viewbox="0 0 2048 2048">
@@ -32,8 +32,8 @@ title = "ラタニア北地方"
 <image id="svg-asset-bg" width="2048" height="2048" href="map-04.webp" />
 <image id="svg-asset-event" width="16" height="16" href="icon-event.png" />
 <image id="svg-asset-destination" width="16" height="16" href="icon-destination.png" />
-<image id="svg-asset-actor-0x1F" width="16" height="24" href="actor-0x1F.png" />
-<image id="svg-asset-actor-0x22" width="16" height="24" href="actor-0x22.png" />
+<image id="svg-asset-actor-0x1F-a" width="16" height="24" href="actor-0x1F-a.png" />
+<image id="svg-asset-actor-0x22-a" width="16" height="24" href="actor-0x22-a.png" />
 </defs>
 <use href="#svg-asset-bg" x="0" y="0"></use>
 <text class="caption-48" x="1736" y="1304" fill="pink">イスパ島</text>
@@ -54,25 +54,25 @@ title = "ラタニア北地方"
 <text class="caption-24" x="1936" y="272" fill="yellow">骨</text>
 <text class="caption-24" x="1868" y="236" fill="yellow">骨</text>
 <rect x="1536" y="256" width="128" height="128" stroke="red" fill="none" />
-<use href="#svg-asset-actor-0x1F" x="1592" y="308"><title>アマゾネス「いい天気ですね」</title></use>
+<use href="#svg-asset-actor-0x1F-a" x="1592" y="308"><title>アマゾネス「いい天気ですね」</title></use>
 <rect x="640" y="384" width="128" height="128" stroke="red" fill="none" />
-<use href="#svg-asset-actor-0x1F" x="696" y="436"><title>アマゾネス「初心の家に入るとユースに戻されるよ」</title></use>
+<use href="#svg-asset-actor-0x1F-a" x="696" y="436"><title>アマゾネス「初心の家に入るとユースに戻されるよ」</title></use>
 <rect x="896" y="384" width="128" height="128" stroke="red" fill="none" />
-<use href="#svg-asset-actor-0x1F" x="952" y="436"><title>アマゾネス「1番目はアイテム屋 4番目は船小屋さ」</title></use>
+<use href="#svg-asset-actor-0x1F-a" x="952" y="436"><title>アマゾネス「1番目はアイテム屋 4番目は船小屋さ」</title></use>
 <rect x="1152" y="640" width="128" height="128" stroke="red" fill="none" />
-<use href="#svg-asset-actor-0x1F" x="1208" y="692"><title>アマゾネス「気をつけて行きな」(到達不能)</title></use>
+<use href="#svg-asset-actor-0x1F-a" x="1208" y="692"><title>アマゾネス「気をつけて行きな」(到達不能)</title></use>
 <rect x="1536" y="640" width="128" height="128" stroke="red" fill="none" />
-<use href="#svg-asset-actor-0x1F" x="1592" y="692"><title>アマゾネス「試合に勝って名声を上げなさい」(到達不能)</title></use>
+<use href="#svg-asset-actor-0x1F-a" x="1592" y="692"><title>アマゾネス「試合に勝って名声を上げなさい」(到達不能)</title></use>
 <rect x="1664" y="896" width="128" height="128" stroke="red" fill="none" />
-<use href="#svg-asset-actor-0x22" x="1720" y="948"><title>占い師「この世には二つ不思議な店がある 初心の家と惑いの宿じゃ」</title></use>
+<use href="#svg-asset-actor-0x22-a" x="1720" y="948"><title>占い師「この世には二つ不思議な店がある 初心の家と惑いの宿じゃ」</title></use>
 <rect x="640" y="1024" width="128" height="128" stroke="red" fill="none" />
-<use href="#svg-asset-actor-0x22" x="696" y="1076"><title>占い師「この世には二つ不思議な店がある 初心の家と惑いの宿じゃ」</title></use>
+<use href="#svg-asset-actor-0x22-a" x="696" y="1076"><title>占い師「この世には二つ不思議な店がある 初心の家と惑いの宿じゃ」</title></use>
 <rect x="1024" y="1152" width="128" height="128" stroke="red" fill="none" />
-<use href="#svg-asset-actor-0x22" x="1080" y="1204"><title>占い師「ザイドタウンには2つの初心の家がある」</title></use>
+<use href="#svg-asset-actor-0x22-a" x="1080" y="1204"><title>占い師「ザイドタウンには2つの初心の家がある」</title></use>
 <rect x="512" y="1408" width="128" height="128" stroke="red" fill="none" />
-<use href="#svg-asset-actor-0x22" x="568" y="1460"><title>占い師「旅の間に仲間は減るのだ」</title></use>
+<use href="#svg-asset-actor-0x22-a" x="568" y="1460"><title>占い師「旅の間に仲間は減るのだ」</title></use>
 <rect x="1408" y="1792" width="128" height="128" stroke="red" fill="none" />
-<use href="#svg-asset-actor-0x22" x="1464" y="1844"><title>占い師「ザイドでラモンの扉が開く」</title></use>
+<use href="#svg-asset-actor-0x22-a" x="1464" y="1844"><title>占い師「ザイドでラモンの扉が開く」</title></use>
 <a href="#event-58-248">
 <use href="#svg-asset-event" x="464" y="1984"><title>(58, 248): イベント 0xAA: 関所 (ラタニア南地方 (53, 20) へ)</title></use>
 </a>
