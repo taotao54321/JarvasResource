@@ -14,12 +14,19 @@ title = "ラタニア南地方"
 * 各地の[惑いの宿出口](@/map/map-13b/_index.md#event-240-150)からランダムで (81, 61) へ。
 * 各地の[惑いの宿出口](@/map/map-13b/_index.md#event-240-150)からランダムで (167, 59) へ。
 
+出現NPC:
+
+* ![アマゾネス](actor-0x1F-b.png) アマゾネス
+* ![占い師](actor-0x22-b.png) 占い師
+
 <!-- SVG {{{ -->
 <svg width="1536" height="1536" viewbox="0 0 2048 2048">
 <defs>
 <image id="svg-asset-bg" width="2048" height="2048" href="map-08.webp" />
 <image id="svg-asset-event" width="16" height="16" href="icon-event.png" />
 <image id="svg-asset-destination" width="16" height="16" href="icon-destination.png" />
+<image id="svg-asset-actor-0x1F-b" width="16" height="24" href="actor-0x1F-b.png" />
+<image id="svg-asset-actor-0x22-b" width="16" height="24" href="actor-0x22-b.png" />
 </defs>
 <use href="#svg-asset-bg" x="0" y="0"></use>
 <text class="caption-32" x="452" y="120" fill="yellow">関</text>
@@ -32,6 +39,24 @@ title = "ラタニア南地方"
 <text class="caption-24" x="960" y="684" fill="yellow">手形</text>
 <text class="caption-24" x="1348" y="512" fill="yellow">惑</text>
 <text class="caption-32" x="1672" y="320" fill="yellow">アネイデア</text>
+<rect x="1664" y="0" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x1F-b" x="1720" y="52"><title>アマゾネス「ここラタニアで私の仲間から精霊の力をもらいなさい」(到達不能)</title></use>
+<rect x="512" y="128" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x1F-b" x="568" y="180"><title>アマゾネス「惑いの宿から出ると見知らぬ場所にいるよ」</title></use>
+<rect x="1024" y="128" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x1F-b" x="1080" y="180"><title>アマゾネス「石、骨、木、切り株には精霊が宿っているのよ」</title></use>
+<rect x="1408" y="128" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x22-b" x="1464" y="180"><title>占い師「悪い王をやっつけてよ」</title></use>
+<rect x="1408" y="512" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x22-b" x="1464" y="564"><title>占い師「切り株の精霊はあなたを仲間と認めることにした」(切り株ワープ習得)</title></use>
+<rect x="256" y="1024" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x22-b" x="312" y="1076"><title>占い師「ここラタニアで私の仲間から精霊の力をもらいなさい」</title></use>
+<rect x="640" y="1024" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x22-b" x="696" y="1076"><title>占い師「試合に勝って名声を上げなさい」</title></use>
+<rect x="384" y="1280" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x1F-b" x="440" y="1332"><title>アマゾネス「西エウロンのアドニスの近くに浮遊石があるのさ」</title></use>
+<rect x="128" y="1664" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x22-b" x="184" y="1716"><title>占い師「精霊のネットワークを見つけるとワープができるのじゃ」</title></use>
 <a href="#event-33-188">
 <use href="#svg-asset-event" x="264" y="1504"><title>(33, 188): イベント 0xFB: ベルトを使うとなくしたハートを入手</title></use>
 </a>
