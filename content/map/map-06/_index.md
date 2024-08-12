@@ -65,7 +65,7 @@ title = "キネラシア南地方"
 <rect x="256" y="1280" width="128" height="128" stroke="red" fill="none" />
 <use href="#svg-asset-actor-0x30" x="312" y="1332"><title>隊長「北の海岸の近くに精霊ワープが2つある」</title></use>
 <rect x="1792" y="1536" width="128" height="128" stroke="red" fill="none" />
-<use href="#svg-asset-actor-0x30" x="1848" y="1588"><title>隊長「北の海岸の近くに精霊ワープが2つある」</title></use>
+<use href="#svg-asset-actor-0x30" x="1848" y="1588"><title>隊長「北の海岸の近くに精霊ワープが2つある」(到達不能)</title></use>
 <rect x="384" y="1664" width="128" height="128" stroke="red" fill="none" />
 <use href="#svg-asset-actor-0x30" x="440" y="1716"><title>隊長「北の海岸の近くに精霊ワープが2つある」</title></use>
 <a href="#event-16-25">
