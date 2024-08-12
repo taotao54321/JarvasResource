@@ -17,12 +17,17 @@ title = "オシーランド地方"
 * [ボルネー島](@/map/map-07/_index.md) (139, 202) の木ワープからジャバ島 (44, 21) へ。
 * [キネラシア北東地方](@/map/map-03/_index.md) (233, 204) の骨ワープから (140, 236) へ (通常プレイでは到達不能と思われる)。
 
+出現NPC:
+
+* ![志願兵](actor-0x49.png) 志願兵
+
 <!-- SVG {{{ -->
 <svg width="1536" height="1536" viewbox="0 0 2048 2048">
 <defs>
 <image id="svg-asset-bg" width="2048" height="2048" href="map-11.webp" />
 <image id="svg-asset-event" width="16" height="16" href="icon-event.png" />
 <image id="svg-asset-destination" width="16" height="16" href="icon-destination.png" />
+<image id="svg-asset-actor-0x49" width="16" height="24" href="actor-0x49.png" />
 </defs>
 <use href="#svg-asset-bg" x="0" y="0"></use>
 <text class="caption-48" x="160" y="104" fill="pink">ジャバ島</text>
@@ -50,6 +55,24 @@ title = "オシーランド地方"
 <text class="caption-24" x="1992" y="1576" fill="yellow">船</text>
 <text class="caption-24" x="1820" y="1656" fill="yellow">石</text>
 <text class="caption-24" x="1844" y="1956" fill="yellow">切株</text>
+<rect x="256" y="0" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x49" x="312" y="40"><title>志願兵「ありがとう」(到達不能)</title></use>
+<rect x="1536" y="128" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x49" x="1592" y="180"><title>志願兵「いい天気ですね」</title></use>
+<rect x="896" y="384" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x49" x="952" y="436"><title>志願兵「一番北でハーモニカを使え」</title></use>
+<rect x="768" y="512" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x49" x="824" y="564"><title>志願兵「南の島でバンスの扉を見つけろ」</title></use>
+<rect x="1152" y="896" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x49" x="1208" y="948"><title>志願兵「十字の地に城への入口がある」</title></use>
+<rect x="1792" y="896" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x49" x="1848" y="948"><title>志願兵「俺は砂漠の真ん中で光を見た」</title></use>
+<rect x="384" y="1152" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x49" x="440" y="1204"><title>志願兵「海の涙は北にある」</title></use>
+<rect x="1792" y="1408" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x49" x="1848" y="1460"><title>志願兵「試合に勝って名声を上げなさい」</title></use>
+<rect x="1024" y="1792" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x49" x="1080" y="1844"><title>志願兵「気をつけて行きな」</title></use>
 <a href="#event-21-38">
 <use href="#svg-asset-event" x="168" y="304"><title>(21, 38): イベント 0x82: 石ワープ ((149, 59) へ)</title></use>
 </a>
