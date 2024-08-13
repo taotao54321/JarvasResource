@@ -30,7 +30,13 @@ title = "リカントス地方"
 <image id="svg-asset-bg" width="2048" height="2048" href="map-05.webp" />
 <image id="svg-asset-event" width="16" height="16" href="icon-event.png" />
 <image id="svg-asset-destination" width="16" height="16" href="icon-destination.png" />
+<image id="svg-asset-actor-0x26" width="16" height="24" href="actor-0x26.png" />
+<image id="svg-asset-actor-0x27" width="16" height="24" href="actor-0x27.png" />
+<image id="svg-asset-actor-0x28" width="16" height="24" href="actor-0x28.png" />
 <image id="svg-asset-actor-0x29" width="16" height="24" href="actor-0x29.png" />
+<image id="svg-asset-actor-0x2A" width="16" height="24" href="actor-0x2A.png" />
+<image id="svg-asset-actor-0x2B" width="16" height="24" href="actor-0x2B.png" />
+<image id="svg-asset-actor-0x2C" width="16" height="24" href="actor-0x2C.png" />
 </defs>
 <use href="#svg-asset-bg" x="0" y="0"></use>
 <text class="caption-48" x="680" y="1816" fill="pink">ヘレナ島</text>
@@ -49,21 +55,75 @@ title = "リカントス地方"
 <text class="caption-24" x="868" y="1544" fill="yellow">船</text>
 <text class="caption-24" x="616" y="1576" fill="yellow">ハーモニカ</text>
 <text class="caption-24" x="828" y="1664" fill="yellow">骨</text>
-<rect x="768" y="384" width="128" height="128" stroke="red" fill="none" />
+<rect x="384" y="128" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x26" x="440" y="180"><title>敵 0x26</title></use>
+<rect x="640" y="128" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x2B" x="696" y="180"><title>敵 0x2B</title></use>
+<rect x="1152" y="128" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x26" x="1208" y="180"><title>敵 0x26</title></use>
+<rect x="256" y="256" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x28" x="312" y="308"><title>敵 0x28</title></use>
+<rect x="768" y="256" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x2C" x="824" y="308"><title>敵 0x2C</title></use>
+<rect x="1280" y="256" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x27" x="1336" y="308"><title>敵 0x27</title></use>
+<rect x="512" y="384" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x26" x="568" y="436"><title>敵 0x26</title></use>
+<rect x="256" y="512" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x2A" x="312" y="564"><title>敵 0x2A</title></use>
+<rect x="768" y="512" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x27" x="824" y="564"><title>敵 0x27</title></use>
+<rect x="128" y="640" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x2B" x="184" y="692"><title>敵 0x2B</title></use>
+<rect x="1024" y="640" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x2A" x="1080" y="692"><title>敵 0x2A</title></use>
+<rect x="1408" y="640" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x2A" x="1464" y="692"><title>敵 0x2A</title></use>
+<rect x="1664" y="640" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x26" x="1720" y="692"><title>敵 0x26</title></use>
+<rect x="1792" y="640" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x26" x="1848" y="692"><title>敵 0x26</title></use>
+<rect x="256" y="768" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x2C" x="312" y="820"><title>敵 0x2C</title></use>
+<rect x="896" y="768" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x2B" x="952" y="820"><title>敵 0x2B</title></use>
+<rect x="1152" y="896" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x2C" x="1208" y="948"><title>敵 0x2C</title></use>
+<rect x="1920" y="1024" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x28" x="1976" y="1076"><title>敵 0x28</title></use>
+<rect x="1408" y="1152" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x2A" x="1464" y="1204"><title>敵 0x2A</title></use>
+<rect x="640" y="1280" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x26" x="696" y="1332"><title>敵 0x26</title></use>
+<rect x="768" y="1280" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x2A" x="824" y="1332"><title>敵 0x2A</title></use>
+<rect x="1408" y="1280" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x27" x="1464" y="1332"><title>敵 0x27</title></use>
+<rect x="1792" y="1408" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x28" x="1848" y="1460"><title>敵 0x28</title></use>
+<rect x="1664" y="1536" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x26" x="1720" y="1588"><title>敵 0x26</title></use>
+<rect x="1920" y="1536" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x28" x="1976" y="1588"><title>敵 0x28</title></use>
+<rect x="640" y="1664" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x27" x="696" y="1716"><title>敵 0x27</title></use>
+<rect x="1408" y="1792" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x2B" x="1464" y="1844"><title>敵 0x2B</title></use>
+<rect x="768" y="384" width="128" height="128" stroke="cyan" fill="none" />
 <use href="#svg-asset-actor-0x29" x="824" y="436"><title>魔道士「精霊は4つ」</title></use>
-<rect x="1024" y="384" width="128" height="128" stroke="red" fill="none" />
+<rect x="1024" y="384" width="128" height="128" stroke="cyan" fill="none" />
 <use href="#svg-asset-actor-0x29" x="1080" y="436"><title>魔道士「汝に石の精霊の力を与えん」(石ワープ習得)</title></use>
-<rect x="1792" y="384" width="128" height="128" stroke="red" fill="none" />
+<rect x="1792" y="384" width="128" height="128" stroke="cyan" fill="none" />
 <use href="#svg-asset-actor-0x29" x="1848" y="436"><title>魔道士「精霊は4つ」</title></use>
-<rect x="512" y="768" width="128" height="128" stroke="red" fill="none" />
+<rect x="512" y="768" width="128" height="128" stroke="cyan" fill="none" />
 <use href="#svg-asset-actor-0x29" x="568" y="820"><title>魔道士「東の木の下を探しなさい」</title></use>
-<rect x="1536" y="896" width="128" height="128" stroke="red" fill="none" />
+<rect x="1536" y="896" width="128" height="128" stroke="cyan" fill="none" />
 <use href="#svg-asset-actor-0x29" x="1592" y="948"><title>魔道士「ヘレナ島の十字山の北西に古代の楽器が埋まっている」</title></use>
-<rect x="1536" y="1152" width="128" height="128" stroke="red" fill="none" />
+<rect x="1536" y="1152" width="128" height="128" stroke="cyan" fill="none" />
 <use href="#svg-asset-actor-0x29" x="1592" y="1204"><title>魔道士「賢者の都パタンには骨の精霊と親しい長老がいる」</title></use>
-<rect x="1536" y="1664" width="128" height="128" stroke="red" fill="none" />
+<rect x="1536" y="1664" width="128" height="128" stroke="cyan" fill="none" />
 <use href="#svg-asset-actor-0x29" x="1592" y="1716"><title>魔道士「賢者の都パタンには骨の精霊と親しい長老がいる」</title></use>
-<rect x="1792" y="1792" width="128" height="128" stroke="red" fill="none" />
+<rect x="1792" y="1792" width="128" height="128" stroke="cyan" fill="none" />
 <use href="#svg-asset-actor-0x29" x="1848" y="1844"><title>魔道士「スコープを持ってるかい まだなら北はきついぜ」</title></use>
 <a href="#event-93-195">
 <use href="#svg-asset-event" x="744" y="1560"><title>(93, 195): イベント 0xE6: 探索するとハーモニカを入手</title></use>
