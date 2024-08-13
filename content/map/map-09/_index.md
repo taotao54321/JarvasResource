@@ -22,7 +22,13 @@ title = "タクテカ地方"
 <image id="svg-asset-bg" width="2048" height="2048" href="map-09.webp" />
 <image id="svg-asset-event" width="16" height="16" href="icon-event.png" />
 <image id="svg-asset-destination" width="16" height="16" href="icon-destination.png" />
+<image id="svg-asset-actor-0x3B" width="16" height="24" href="actor-0x3B.png" />
+<image id="svg-asset-actor-0x3C" width="16" height="24" href="actor-0x3C.png" />
+<image id="svg-asset-actor-0x3D" width="16" height="24" href="actor-0x3D.png" />
 <image id="svg-asset-actor-0x3E" width="16" height="24" href="actor-0x3E.png" />
+<image id="svg-asset-actor-0x3F" width="16" height="24" href="actor-0x3F.png" />
+<image id="svg-asset-actor-0x40" width="16" height="24" href="actor-0x40.png" />
+<image id="svg-asset-actor-0x41" width="16" height="24" href="actor-0x41.png" />
 </defs>
 <use href="#svg-asset-bg" x="0" y="0"></use>
 <text class="caption-32" x="1604" y="120" fill="yellow">関</text>
@@ -34,27 +40,77 @@ title = "タクテカ地方"
 <text class="caption-48" x="900" y="1340" fill="yellow">タクテカ城</text>
 <text class="caption-24" x="368" y="1016" fill="yellow">財布</text>
 <text class="caption-32" x="464" y="1048" fill="yellow">船</text>
-<rect x="1408" y="128" width="128" height="128" stroke="red" fill="none" />
+<rect x="768" y="128" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x3C" x="824" y="180"><title>敵 0x3C</title></use>
+<rect x="1024" y="128" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x3D" x="1080" y="180"><title>敵 0x3D</title></use>
+<rect x="1664" y="128" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x40" x="1720" y="180"><title>敵 0x40</title></use>
+<rect x="896" y="256" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x3B" x="952" y="308"><title>敵 0x3B</title></use>
+<rect x="1664" y="256" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x3B" x="1720" y="308"><title>敵 0x3B</title></use>
+<rect x="1792" y="384" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x41" x="1848" y="436"><title>敵 0x41</title></use>
+<rect x="384" y="512" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x3B" x="440" y="564"><title>敵 0x3B</title></use>
+<rect x="768" y="512" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x3D" x="824" y="564"><title>敵 0x3D</title></use>
+<rect x="640" y="640" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x3C" x="696" y="692"><title>敵 0x3C</title></use>
+<rect x="768" y="640" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x3F" x="824" y="692"><title>敵 0x3F</title></use>
+<rect x="1280" y="768" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x3F" x="1336" y="820"><title>敵 0x3F</title></use>
+<rect x="128" y="1024" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x3B" x="184" y="1076"><title>敵 0x3B</title></use>
+<rect x="256" y="1024" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x3F" x="312" y="1076"><title>敵 0x3F</title></use>
+<rect x="640" y="1024" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x40" x="696" y="1076"><title>敵 0x40</title></use>
+<rect x="1280" y="1024" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x3F" x="1336" y="1076"><title>敵 0x3F</title></use>
+<rect x="1536" y="1024" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x40" x="1592" y="1076"><title>敵 0x40</title></use>
+<rect x="1664" y="1024" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x3B" x="1720" y="1076"><title>敵 0x3B</title></use>
+<rect x="1152" y="1152" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x3C" x="1208" y="1204"><title>敵 0x3C</title></use>
+<rect x="1792" y="1280" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x3C" x="1848" y="1332"><title>敵 0x3C</title></use>
+<rect x="128" y="1408" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x3D" x="184" y="1460"><title>敵 0x3D</title></use>
+<rect x="256" y="1536" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x41" x="312" y="1588"><title>敵 0x41</title></use>
+<rect x="1152" y="1536" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x3B" x="1208" y="1588"><title>敵 0x3B</title></use>
+<rect x="1408" y="1536" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x41" x="1464" y="1588"><title>敵 0x41</title></use>
+<rect x="384" y="1664" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x3F" x="440" y="1716"><title>敵 0x3F</title></use>
+<rect x="640" y="1792" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x40" x="696" y="1844"><title>敵 0x40</title></use>
+<rect x="1408" y="128" width="128" height="128" stroke="cyan" fill="none" />
 <use href="#svg-asset-actor-0x3E" x="1464" y="180"><title>グルカ兵「ハーモニカを持ってるかい」</title></use>
-<rect x="128" y="640" width="128" height="128" stroke="red" fill="none" />
+<rect x="128" y="640" width="128" height="128" stroke="cyan" fill="none" />
 <use href="#svg-asset-actor-0x3E" x="184" y="692"><title>グルカ兵 (会話なし)</title></use>
-<rect x="1024" y="640" width="128" height="128" stroke="red" fill="none" />
+<rect x="1024" y="640" width="128" height="128" stroke="cyan" fill="none" />
 <use href="#svg-asset-actor-0x3E" x="1080" y="692"><title>グルカ兵「船小屋に近い海岸でベルトを使え」</title></use>
-<rect x="896" y="896" width="128" height="128" stroke="red" fill="none" />
+<rect x="896" y="896" width="128" height="128" stroke="cyan" fill="none" />
 <use href="#svg-asset-actor-0x3E" x="952" y="948"><title>グルカ兵 (会話なし)</title></use>
-<rect x="1024" y="896" width="128" height="128" stroke="red" fill="none" />
+<rect x="1024" y="896" width="128" height="128" stroke="cyan" fill="none" />
 <use href="#svg-asset-actor-0x3E" x="1080" y="948"><title>グルカ兵「東の湖のほとりを探せ」</title></use>
-<rect x="1536" y="896" width="128" height="128" stroke="red" fill="none" />
+<rect x="1536" y="896" width="128" height="128" stroke="cyan" fill="none" />
 <use href="#svg-asset-actor-0x3E" x="1592" y="948"><title>グルカ兵 (会話なし)</title></use>
-<rect x="1408" y="1152" width="128" height="128" stroke="red" fill="none" />
+<rect x="1408" y="1152" width="128" height="128" stroke="cyan" fill="none" />
 <use href="#svg-asset-actor-0x3E" x="1464" y="1204"><title>グルカ兵 (会話なし)</title></use>
-<rect x="256" y="1280" width="128" height="128" stroke="red" fill="none" />
+<rect x="256" y="1280" width="128" height="128" stroke="cyan" fill="none" />
 <use href="#svg-asset-actor-0x3E" x="312" y="1332"><title>グルカ兵 (会話なし)</title></use>
-<rect x="512" y="1280" width="128" height="128" stroke="red" fill="none" />
+<rect x="512" y="1280" width="128" height="128" stroke="cyan" fill="none" />
 <use href="#svg-asset-actor-0x3E" x="568" y="1332"><title>グルカ兵「入口で吹き鳴らせ」</title></use>
-<rect x="768" y="1280" width="128" height="128" stroke="red" fill="none" />
+<rect x="768" y="1280" width="128" height="128" stroke="cyan" fill="none" />
 <use href="#svg-asset-actor-0x3E" x="824" y="1332"><title>グルカ兵 (会話なし)</title></use>
-<rect x="768" y="1664" width="128" height="128" stroke="red" fill="none" />
+<rect x="768" y="1664" width="128" height="128" stroke="cyan" fill="none" />
 <use href="#svg-asset-actor-0x3E" x="824" y="1716"><title>グルカ兵 (会話なし)</title></use>
 <a href="#event-53-125">
 <use href="#svg-asset-event" x="424" y="1000"><title>(53, 125): イベント 0xF8: ベルトを使うと財布を入手</title></use>
