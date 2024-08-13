@@ -28,7 +28,13 @@ title = "キネラシア南地方"
 <image id="svg-asset-bg" width="2048" height="2048" href="map-06.webp" />
 <image id="svg-asset-event" width="16" height="16" href="icon-event.png" />
 <image id="svg-asset-destination" width="16" height="16" href="icon-destination.png" />
+<image id="svg-asset-actor-0x2D" width="16" height="24" href="actor-0x2D.png" />
+<image id="svg-asset-actor-0x2E" width="16" height="24" href="actor-0x2E.png" />
+<image id="svg-asset-actor-0x2F" width="16" height="24" href="actor-0x2F.png" />
 <image id="svg-asset-actor-0x30" width="16" height="24" href="actor-0x30.png" />
+<image id="svg-asset-actor-0x31" width="16" height="24" href="actor-0x31.png" />
+<image id="svg-asset-actor-0x32" width="16" height="24" href="actor-0x32.png" />
+<image id="svg-asset-actor-0x33" width="16" height="24" href="actor-0x33.png" />
 </defs>
 <use href="#svg-asset-bg" x="0" y="0"></use>
 <text class="caption-48" x="528" y="1148" fill="pink">エチオ島</text>
@@ -48,25 +54,99 @@ title = "キネラシア南地方"
 <text class="caption-24" x="1644" y="212" fill="yellow">切株</text>
 <text class="caption-32" x="1664" y="448" fill="yellow">リカルド</text>
 <text class="caption-24" x="1788" y="1088" fill="yellow">船</text>
-<rect x="512" y="128" width="128" height="128" stroke="red" fill="none" />
+<rect x="256" y="128" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x2D" x="312" y="180"><title>敵 0x2D</title></use>
+<rect x="128" y="256" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x2E" x="184" y="308"><title>敵 0x2E</title></use>
+<rect x="384" y="256" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x2D" x="440" y="308"><title>敵 0x2D</title></use>
+<rect x="640" y="256" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x31" x="696" y="308"><title>敵 0x31</title></use>
+<rect x="1280" y="256" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x2F" x="1336" y="308"><title>敵 0x2F</title></use>
+<rect x="1408" y="256" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x32" x="1464" y="308"><title>敵 0x32</title></use>
+<rect x="1152" y="384" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x31" x="1208" y="436"><title>敵 0x31</title></use>
+<rect x="1792" y="384" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x2D" x="1848" y="436"><title>敵 0x2D</title></use>
+<rect x="512" y="512" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x32" x="568" y="564"><title>敵 0x32</title></use>
+<rect x="1280" y="512" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x2E" x="1336" y="564"><title>敵 0x2E</title></use>
+<rect x="128" y="640" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x31" x="184" y="692"><title>敵 0x31</title></use>
+<rect x="384" y="640" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x33" x="440" y="692"><title>敵 0x33</title></use>
+<rect x="1152" y="640" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x2F" x="1208" y="692"><title>敵 0x2F</title></use>
+<rect x="384" y="768" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x2D" x="440" y="820"><title>敵 0x2D</title></use>
+<rect x="1280" y="768" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x2D" x="1336" y="820"><title>敵 0x2D</title></use>
+<rect x="1792" y="768" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x31" x="1848" y="820"><title>敵 0x31</title></use>
+<rect x="128" y="896" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x2E" x="184" y="948"><title>敵 0x2E</title></use>
+<rect x="1792" y="896" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x2E" x="1848" y="948"><title>敵 0x2E</title></use>
+<rect x="128" y="1024" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x31" x="184" y="1076"><title>敵 0x31</title></use>
+<rect x="1536" y="1024" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x31" x="1592" y="1076"><title>敵 0x31</title></use>
+<rect x="384" y="1152" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x2F" x="440" y="1204"><title>敵 0x2F</title></use>
+<rect x="128" y="1408" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x32" x="184" y="1460"><title>敵 0x32</title></use>
+<rect x="896" y="1408" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x33" x="952" y="1460"><title>敵 0x33</title></use>
+<rect x="1024" y="1408" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x2D" x="1080" y="1460"><title>敵 0x2D</title></use>
+<rect x="1152" y="1408" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x2E" x="1208" y="1460"><title>敵 0x2E</title></use>
+<rect x="1664" y="1408" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x32" x="1720" y="1460"><title>敵 0x32</title></use>
+<rect x="384" y="1536" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x2D" x="440" y="1588"><title>敵 0x2D</title></use>
+<rect x="128" y="1664" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x31" x="184" y="1716"><title>敵 0x31</title></use>
+<rect x="896" y="1664" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x2E" x="952" y="1716"><title>敵 0x2E</title></use>
+<rect x="1152" y="1664" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x31" x="1208" y="1716"><title>敵 0x31</title></use>
+<rect x="1280" y="1664" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x32" x="1336" y="1716"><title>敵 0x32</title></use>
+<rect x="1664" y="1664" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x2D" x="1720" y="1716"><title>敵 0x2D</title></use>
+<rect x="768" y="1792" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x33" x="824" y="1844"><title>敵 0x33</title></use>
+<rect x="1024" y="1792" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x32" x="1080" y="1844"><title>敵 0x32</title></use>
+<rect x="1280" y="1792" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x32" x="1336" y="1844"><title>敵 0x32</title></use>
+<rect x="1792" y="1792" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x31" x="1848" y="1844"><title>敵 0x31</title></use>
+<rect x="256" y="1920" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x33" x="312" y="1972"><title>敵 0x33</title></use>
+<rect x="512" y="128" width="128" height="128" stroke="cyan" fill="none" />
 <use href="#svg-asset-actor-0x30" x="568" y="180"><title>隊長「スコープを持ってるかい まだなら北はきついぜ」</title></use>
-<rect x="1152" y="128" width="128" height="128" stroke="red" fill="none" />
+<rect x="1152" y="128" width="128" height="128" stroke="cyan" fill="none" />
 <use href="#svg-asset-actor-0x30" x="1208" y="180"><title>隊長「リカントスから北へ行ったらスコープを使いなさい」</title></use>
-<rect x="1280" y="128" width="128" height="128" stroke="red" fill="none" />
+<rect x="1280" y="128" width="128" height="128" stroke="cyan" fill="none" />
 <use href="#svg-asset-actor-0x30" x="1336" y="180"><title>隊長「リカントスから北へ行ったらスコープを使いなさい」</title></use>
-<rect x="1664" y="256" width="128" height="128" stroke="red" fill="none" />
+<rect x="1664" y="256" width="128" height="128" stroke="cyan" fill="none" />
 <use href="#svg-asset-actor-0x30" x="1720" y="308"><title>隊長「スコープを持ってるかい まだなら北はきついぜ」</title></use>
-<rect x="256" y="640" width="128" height="128" stroke="red" fill="none" />
+<rect x="256" y="640" width="128" height="128" stroke="cyan" fill="none" />
 <use href="#svg-asset-actor-0x30" x="312" y="692"><title>隊長「北の海岸の近くに精霊ワープが2つある」</title></use>
-<rect x="1408" y="1024" width="128" height="128" stroke="red" fill="none" />
+<rect x="1408" y="1024" width="128" height="128" stroke="cyan" fill="none" />
 <use href="#svg-asset-actor-0x30" x="1464" y="1076"><title>隊長「北の海岸の近くに精霊ワープが2つある」(到達不能)</title></use>
-<rect x="1920" y="1024" width="128" height="128" stroke="red" fill="none" />
+<rect x="1920" y="1024" width="128" height="128" stroke="cyan" fill="none" />
 <use href="#svg-asset-actor-0x30" x="1976" y="1076"><title>隊長「北の海岸の近くに精霊ワープが2つある」</title></use>
-<rect x="256" y="1280" width="128" height="128" stroke="red" fill="none" />
+<rect x="256" y="1280" width="128" height="128" stroke="cyan" fill="none" />
 <use href="#svg-asset-actor-0x30" x="312" y="1332"><title>隊長「北の海岸の近くに精霊ワープが2つある」</title></use>
-<rect x="1792" y="1536" width="128" height="128" stroke="red" fill="none" />
+<rect x="1792" y="1536" width="128" height="128" stroke="cyan" fill="none" />
 <use href="#svg-asset-actor-0x30" x="1848" y="1588"><title>隊長「北の海岸の近くに精霊ワープが2つある」(到達不能)</title></use>
-<rect x="384" y="1664" width="128" height="128" stroke="red" fill="none" />
+<rect x="384" y="1664" width="128" height="128" stroke="cyan" fill="none" />
 <use href="#svg-asset-actor-0x30" x="440" y="1716"><title>隊長「北の海岸の近くに精霊ワープが2つある」</title></use>
 <a href="#event-16-25">
 <use href="#svg-asset-event" x="128" y="200"><title>(16, 25): イベント 0xAD: 関所 (リカントス地方 (243, 21) へ)</title></use>
