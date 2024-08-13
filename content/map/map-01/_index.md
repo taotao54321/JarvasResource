@@ -27,7 +27,13 @@ title = "エウロン西地方"
 <image id="svg-asset-bg" width="2048" height="2048" href="map-01.webp" />
 <image id="svg-asset-event" width="16" height="16" href="icon-event.png" />
 <image id="svg-asset-destination" width="16" height="16" href="icon-destination.png" />
+<image id="svg-asset-actor-0x0A" width="16" height="24" href="actor-0x0A.png" />
+<image id="svg-asset-actor-0x0B" width="16" height="24" href="actor-0x0B.png" />
+<image id="svg-asset-actor-0x0C" width="16" height="24" href="actor-0x0C.png" />
 <image id="svg-asset-actor-0x0D" width="16" height="24" href="actor-0x0D.png" />
+<image id="svg-asset-actor-0x0E" width="16" height="24" href="actor-0x0E.png" />
+<image id="svg-asset-actor-0x0F" width="16" height="24" href="actor-0x0F.png" />
+<image id="svg-asset-actor-0x10" width="16" height="24" href="actor-0x10.png" />
 </defs>
 <use href="#svg-asset-bg" x="0" y="0"></use>
 <text class="caption-48" x="256" y="64" fill="pink">グリーン島</text>
@@ -53,29 +59,109 @@ title = "エウロン西地方"
 <text class="caption-32" x="1408" y="1216" fill="yellow">アドニス</text>
 <text class="caption-24" x="1836" y="1160" fill="yellow">石</text>
 <text class="caption-32" x="2004" y="1240" fill="yellow">関</text>
-<rect x="1152" y="256" width="128" height="128" stroke="red" fill="none" />
+<rect x="1920" y="0" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x0E" x="1976" y="52"><title>敵 0x0E</title></use>
+<rect x="128" y="128" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x0A" x="184" y="180"><title>敵 0x0A</title></use>
+<rect x="512" y="128" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x0E" x="568" y="180"><title>敵 0x0E</title></use>
+<rect x="768" y="128" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x0C" x="824" y="180"><title>敵 0x0C</title></use>
+<rect x="1152" y="128" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x0C" x="1208" y="180"><title>敵 0x0C</title></use>
+<rect x="1664" y="128" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x0E" x="1720" y="180"><title>敵 0x0E</title></use>
+<rect x="256" y="256" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x0B" x="312" y="308"><title>敵 0x0B</title></use>
+<rect x="1280" y="256" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x0B" x="1336" y="308"><title>敵 0x0B</title></use>
+<rect x="384" y="384" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x0F" x="440" y="436"><title>敵 0x0F</title></use>
+<rect x="1664" y="384" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x0C" x="1720" y="436"><title>敵 0x0C</title></use>
+<rect x="1792" y="384" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x0A" x="1848" y="436"><title>敵 0x0A</title></use>
+<rect x="128" y="512" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x10" x="184" y="564"><title>敵 0x10</title></use>
+<rect x="1536" y="512" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x0F" x="1592" y="564"><title>敵 0x0F</title></use>
+<rect x="512" y="640" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x0F" x="568" y="692"><title>敵 0x0F</title></use>
+<rect x="896" y="640" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x0A" x="952" y="692"><title>敵 0x0A</title></use>
+<rect x="768" y="768" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x0C" x="824" y="820"><title>敵 0x0C</title></use>
+<rect x="1024" y="896" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x0E" x="1080" y="948"><title>敵 0x0E</title></use>
+<rect x="768" y="1024" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x0F" x="824" y="1076"><title>敵 0x0F</title></use>
+<rect x="1024" y="1024" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x0C" x="1080" y="1076"><title>敵 0x0C</title></use>
+<rect x="1792" y="1024" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x0C" x="1848" y="1076"><title>敵 0x0C</title></use>
+<rect x="1152" y="1152" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x0A" x="1208" y="1204"><title>敵 0x0A</title></use>
+<rect x="1536" y="1152" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x0A" x="1592" y="1204"><title>敵 0x0A</title></use>
+<rect x="1664" y="1152" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x0B" x="1720" y="1204"><title>敵 0x0B</title></use>
+<rect x="1280" y="1280" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x0C" x="1336" y="1332"><title>敵 0x0C</title></use>
+<rect x="1792" y="1280" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x0C" x="1848" y="1332"><title>敵 0x0C</title></use>
+<rect x="1920" y="1280" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x0A" x="1976" y="1332"><title>敵 0x0A</title></use>
+<rect x="512" y="1408" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x10" x="568" y="1460"><title>敵 0x10</title></use>
+<rect x="640" y="1408" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x0C" x="696" y="1460"><title>敵 0x0C</title></use>
+<rect x="896" y="1408" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x10" x="952" y="1460"><title>敵 0x10</title></use>
+<rect x="1152" y="1408" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x0A" x="1208" y="1460"><title>敵 0x0A</title></use>
+<rect x="1408" y="1408" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x0F" x="1464" y="1460"><title>敵 0x0F</title></use>
+<rect x="1664" y="1408" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x0E" x="1720" y="1460"><title>敵 0x0E</title></use>
+<rect x="768" y="1536" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x0E" x="824" y="1588"><title>敵 0x0E</title></use>
+<rect x="1024" y="1536" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x0C" x="1080" y="1588"><title>敵 0x0C</title></use>
+<rect x="1280" y="1536" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x0F" x="1336" y="1588"><title>敵 0x0F</title></use>
+<rect x="1792" y="1536" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x0E" x="1848" y="1588"><title>敵 0x0E</title></use>
+<rect x="384" y="1664" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x0A" x="440" y="1716"><title>敵 0x0A</title></use>
+<rect x="1024" y="1664" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x0C" x="1080" y="1716"><title>敵 0x0C</title></use>
+<rect x="640" y="1792" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x0E" x="696" y="1844"><title>敵 0x0E</title></use>
+<rect x="1664" y="1920" width="128" height="128" stroke="red" fill="none" />
+<use href="#svg-asset-actor-0x0E" x="1720" y="1972"><title>敵 0x0E</title></use>
+<rect x="1152" y="256" width="128" height="128" stroke="cyan" fill="none" />
 <use href="#svg-asset-actor-0x0D" x="1208" y="308"><title>アマゾネス「いい天気ですね」(到達不能)</title></use>
-<rect x="384" y="512" width="128" height="128" stroke="red" fill="none" />
+<rect x="384" y="512" width="128" height="128" stroke="cyan" fill="none" />
 <use href="#svg-asset-actor-0x0D" x="440" y="564"><title>アマゾネス「いい天気ですね」</title></use>
-<rect x="640" y="640" width="128" height="128" stroke="red" fill="none" />
+<rect x="640" y="640" width="128" height="128" stroke="cyan" fill="none" />
 <use href="#svg-asset-actor-0x0D" x="696" y="692"><title>アマゾネス「気をつけて行きな」</title></use>
-<rect x="1664" y="640" width="128" height="128" stroke="red" fill="none" />
+<rect x="1664" y="640" width="128" height="128" stroke="cyan" fill="none" />
 <use href="#svg-asset-actor-0x0D" x="1720" y="692"><title>アマゾネス「いい天気ですね」</title></use>
-<rect x="1152" y="768" width="128" height="128" stroke="red" fill="none" />
+<rect x="1152" y="768" width="128" height="128" stroke="cyan" fill="none" />
 <use href="#svg-asset-actor-0x0D" x="1208" y="820"><title>アマゾネス「悪い王をやっつけてよ」</title></use>
-<rect x="1536" y="896" width="128" height="128" stroke="red" fill="none" />
+<rect x="1536" y="896" width="128" height="128" stroke="cyan" fill="none" />
 <use href="#svg-asset-actor-0x0D" x="1592" y="948"><title>アマゾネス「気をつけて行きな」</title></use>
-<rect x="1024" y="1152" width="128" height="128" stroke="red" fill="none" />
+<rect x="1024" y="1152" width="128" height="128" stroke="cyan" fill="none" />
 <use href="#svg-asset-actor-0x0D" x="1080" y="1204"><title>アマゾネス「湖のほとりには不思議がある」</title></use>
-<rect x="768" y="1280" width="128" height="128" stroke="red" fill="none" />
+<rect x="768" y="1280" width="128" height="128" stroke="cyan" fill="none" />
 <use href="#svg-asset-actor-0x0D" x="824" y="1332"><title>アマゾネス「7番目はキネラシア」</title></use>
-<rect x="1536" y="1408" width="128" height="128" stroke="red" fill="none" />
+<rect x="1536" y="1408" width="128" height="128" stroke="cyan" fill="none" />
 <use href="#svg-asset-actor-0x0D" x="1592" y="1460"><title>アマゾネス「グリーン島の湖で吹き鳴らせ」</title></use>
-<rect x="384" y="1792" width="128" height="128" stroke="red" fill="none" />
+<rect x="384" y="1792" width="128" height="128" stroke="cyan" fill="none" />
 <use href="#svg-asset-actor-0x0D" x="440" y="1844"><title>アマゾネス「試合に勝って名声を上げなさい」</title></use>
-<rect x="1024" y="1792" width="128" height="128" stroke="red" fill="none" />
+<rect x="1024" y="1792" width="128" height="128" stroke="cyan" fill="none" />
 <use href="#svg-asset-actor-0x0D" x="1080" y="1844"><title>アマゾネス「南西の端から3本目」</title></use>
-<rect x="1536" y="1792" width="128" height="128" stroke="red" fill="none" />
+<rect x="1536" y="1792" width="128" height="128" stroke="cyan" fill="none" />
 <use href="#svg-asset-actor-0x0D" x="1592" y="1844"><title>アマゾネス「悪い王をやっつけてよ」</title></use>
 <a href="#event-41-89">
 <use href="#svg-asset-event" x="328" y="712"><title>(41, 89): イベント 0xFD: ハーモニカを使うと風の粉を入手</title></use>
