@@ -146,7 +146,7 @@ title = "オシーランド地方"
 <rect x="256" y="0" width="128" height="128" stroke="cyan" fill="none" />
 <use href="#svg-asset-actor-0x49" x="312" y="40"><title>志願兵「ありがとう」(到達不能)</title></use>
 <rect x="1536" y="128" width="128" height="128" stroke="cyan" fill="none" />
-<use href="#svg-asset-actor-0x49" x="1592" y="180"><title>志願兵「いい天気ですね」</title></use>
+<use href="#svg-asset-actor-0x49" x="1592" y="180"><title>志願兵「いい天気ですね」(到達不能)</title></use>
 <rect x="896" y="384" width="128" height="128" stroke="cyan" fill="none" />
 <use href="#svg-asset-actor-0x49" x="952" y="436"><title>志願兵「一番北でハーモニカを使え」</title></use>
 <rect x="768" y="512" width="128" height="128" stroke="cyan" fill="none" />
