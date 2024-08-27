@@ -21,7 +21,7 @@ Encode: [part1](https://www.nicovideo.jp/watch/sm44003991), [part2](https://www.
 * [パタンの町からキネラシア城へのワープ](@/map/map-12/_index.md#event-20-202)の利用。
 * [兵力バグ](https://taotao54321.github.io/blog/nes-jarvas-force-glitch/)の利用。
 
-### [ユース地方](@/map/map-01/_index.md)
+### [ユース地方](@/map/map-00/_index.md)
 
 後ほど[アネイデアの町](@/map/map-12/_index.md)で[討伐クエスト](@/map/map-13b/_index.md#event-16-240)報酬の金 250 を得るため、それまでに討伐数を 50 稼いでおく。傭兵やアマゾネスなどのNPCもカウント対象であり、これらはレベル 0 初期武器でも一撃で倒せるので積極的に狙っていく。
 
@@ -250,7 +250,7 @@ HPに余裕がないので、無駄な被弾は避ける。[オシーランド�
 * ペイチンの町へ。
   - [惑いの宿](@/map/map-13b/_index.md#event-240-150)から[ユース地方](@/map/map-00/_index.md)の南西の島へワープ。
 
-### [ユース地方](@/map/map-01/_index.md)
+### [ユース地方](@/map/map-00/_index.md)
 
 * ユース城を制圧 (要: 傭兵 500)。
 * エンディング。
