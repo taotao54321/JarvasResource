@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <title>未来神話ジャーヴァス (FC) 攻略&#x2F;解析 -TAS (1:02:14.82)</title>
+
+    <link rel="stylesheet" href="https://taotao54321.github.io/JarvasResource/css/main.css">
+</head>
+<body><header><a href="https://taotao54321.github.io/JarvasResource/">未来神話ジャーヴァス (FC) 攻略&#x2F;解析</a>
+            
+            </header>
+
+    <h1>TAS (1:02:14.82)</h1>
+
+    <h2 id="mubi">ムービー</h2>
+<p><a href="https://taotao54321.github.io/JarvasResource/tas-20240816/Jarvas-tas-20240816.zip">Jarvas-tas-20240816.fm2</a> (FCEUX 2.6.6, 224458 frames)</p>
+<p>Encode: <a href="https://www.nicovideo.jp/watch/sm44003991">part1</a>, <a href="https://www.nicovideo.jp/watch/sm44004001">part2</a></p>
+<p>2コン技 (UUDDABAB でスタート地点へワープ) を使っている。これは説明書には載っていないが、通常プレイでは詰み防止のために事実上必須であり、またゲーム内で割とストレートなヒントが得られるので問題ないと判断した。
+しかし、TASVideos への投稿を考えるならば事前にフォーラムなどで確認すべきだろう。</p>
+<h2 id="tiyato">チャート</h2>
+<p>従来の TAS/RTA チャートからの主な改善点:</p>
+<ul>
+<li>名声値稼ぎを先に済ませることで、タクテカ〜オシーランドへの訪問回数を 1 回に抑えた (従来は 2 周していた)。</li>
+<li>各所に存在する手形の落とし物 (手形所持数が 0 の場合のみ 1 枚拾える) の活用。</li>
+<li><a href="https://taotao54321.github.io/JarvasResource/map/map-12/#event-20-202">パタンの町からキネラシア城へのワープ</a>の利用。</li>
+<li><a href="https://taotao54321.github.io/blog/nes-jarvas-force-glitch/">兵力バグ</a>の利用。</li>
+</ul>
+<h3 id="yusudi-fang"><a href="https://taotao54321.github.io/JarvasResource/map/map-00/">ユース地方</a></h3>
+<p>後ほど<a href="https://taotao54321.github.io/JarvasResource/map/map-12/">アネイデアの町</a>で<a href="https://taotao54321.github.io/JarvasResource/map/map-13b/#event-16-240">討伐クエスト</a>報酬の金 250 を得るため、それまでに討伐数を 50 稼いでおく。傭兵やアマゾネスなどのNPCもカウント対象であり、これらはレベル 0 初期武器でも一撃で倒せるので積極的に狙っていく。</p>
+<p>HPに余裕がないので、無駄な被弾は避ける。<a href="https://taotao54321.github.io/JarvasResource/map/map-11/">オシーランド地方</a>に到達するまではノーダメージで行く。</p>
+<ul>
+<li>手形を拾う。</li>
+<li>ベルトを入手。</li>
+<li>ブルガの町へ。
+<ul>
+<li>船小屋からバフィン島へ。</li>
+</ul>
+</li>
+<li>壺を入手。</li>
+<li>2コン技でスタート地点へ。</li>
+<li>ブルガの町へ。
+<ul>
+<li>クエスト屋で壺を売り、金 200 入手。初期所持金と合わせて金 280 となる。</li>
+<li>ギルドで格闘士になる。</li>
+<li>ギルドで手形を 1 枚買い、名声値を 3 上げる。名声値 3, 金 30, 手形 2 となる (後ほど関所で通行料を取られるので金は実質 0)。</li>
+</ul>
+</li>
+<li>2コン技でスタート地点へ。</li>
+<li>関所から<a href="https://taotao54321.github.io/JarvasResource/map/map-04/">ラタニア北地方</a>へ。手形 1 となる。</li>
+</ul>
+<p>ここでの壺クエストはおそらくカットできないと思われる。<a href="https://taotao54321.github.io/JarvasResource/map/map-04/">ラタニア北地方</a>にも手形は<a href="https://taotao54321.github.io/JarvasResource/map/map-04/#event-93-245">落ちている</a>が遠すぎる。また、ここで名声値 3 を稼いでおかないと後の金策が苦しい。</p>
+<p>職業はおそらく格闘士が最適だと思うが、そこまで厳密には検証していない。</p>
+<h3 id="rataniabei-di-fang"><a href="https://taotao54321.github.io/JarvasResource/map/map-04/">ラタニア北地方</a></h3>
+<ul>
+<li>関所から<a href="https://taotao54321.github.io/JarvasResource/map/map-08/">ラタニア南地方</a>へ (通行料 100)。金 0, 手形 0 となる。</li>
+</ul>
+<h3 id="ratanianan-di-fang"><a href="https://taotao54321.github.io/JarvasResource/map/map-08/">ラタニア南地方</a></h3>
+<ul>
+<li>関所を出てすぐのアマゾネス出現ポイントで討伐数を稼ぐ。</li>
+<li>なくしたハートを入手 (要: ベルト)。</li>
+<li>アネイデアの町の西で占い師から切り株ワープを習得。
+北回りで来て予めスクロール調整しておくとよい。</li>
+<li>アネイデアの町へ。ここまでに討伐数を 50 にしておく。
+<ul>
+<li>クエスト屋で<a href="https://taotao54321.github.io/JarvasResource/map/map-13b/#event-16-240">討伐クエスト</a>報酬の金 250 を得る。金 250 となる。</li>
+<li>クエスト屋の裏口を通る。右から行く方が少し早い(他の店の裏口も同様)。</li>
+<li>船小屋から<a href="https://taotao54321.github.io/JarvasResource/map/map-05/">リカントス地方</a>へ。</li>
+</ul>
+</li>
+</ul>
+<h3 id="rikantosudi-fang"><a href="https://taotao54321.github.io/JarvasResource/map/map-05/">リカントス地方</a></h3>
+<p>後ほど再度<a href="https://taotao54321.github.io/JarvasResource/map/map-12/">アネイデアの町</a>で<a href="https://taotao54321.github.io/JarvasResource/map/map-13b/#event-16-240">討伐クエスト</a>報酬の金 250 を得るため、それまでに討伐数を 50 稼いでおく。</p>
+<p>ここでパタンの町のギルドに行くまでに経験値を 100 以上稼ぎ、レベル 1 になれるようにしておく。</p>
+<ul>
+<li>曼荼羅を入手。</li>
+<li>手形を拾う。</li>
+<li>パタンの町へ。
+<ul>
+<li>近接武器屋の裏口を通って長老の家へ行き、骨ワープ習得 (要: なくしたハート)。</li>
+<li>北西の墓の前で曼荼羅を使い、パタンの洞窟への扉を開ける。</li>
+<li>パタンの洞窟へ。出口からリカントス地方の砂漠へ。</li>
+</ul>
+</li>
+<li>砂漠の北東に出現する魔道士から石ワープを習得。</li>
+<li>ひかりごけを入手。</li>
+<li>パタンの町へ。ここまでに経験値を 100 以上稼いでおく。
+<ul>
+<li>クエスト屋でひかりごけを売り、金 400 入手。金 650 となる。</li>
+<li>ギルドで手形を 2 枚買い、名声値を 9 上げる (このときレベルも上がる)。レベル 1, 名声値 12, 金 0, 手形 3 となる。</li>
+<li>船小屋からヘレナ島へ。</li>
+</ul>
+</li>
+<li>ハーモニカを入手。</li>
+<li>骨ワープで大陸へ戻る。</li>
+<li>北東の関所から<a href="https://taotao54321.github.io/JarvasResource/map/map-06/">キネラシア南地方</a>へ。手形 2 となる。</li>
+</ul>
+<p>ここでレベル 1 にしておかないと、後に<a href="https://taotao54321.github.io/JarvasResource/map/map-11/">オシーランド地方</a>へ渡った直後の敵の弾に耐えられずゴリ押し突破ができない。</p>
+<p>ここでの手形購入は必須ではないが、<a href="https://taotao54321.github.io/JarvasResource/map/map-06/">キネラシア南地方</a>、<a href="https://taotao54321.github.io/JarvasResource/map/map-02/">エウロン東地方</a>での手形拾い(特に後者はやや遠い)をカットできるので結果的に早くなる。</p>
+<h3 id="kinerasianan-di-fang"><a href="https://taotao54321.github.io/JarvasResource/map/map-06/">キネラシア南地方</a></h3>
+<ul>
+<li>北の関所から<a href="https://taotao54321.github.io/JarvasResource/map/map-02/">エウロン東地方</a>へ。手形 1 となる。</li>
+</ul>
+<h3 id="eurondong-di-fang"><a href="https://taotao54321.github.io/JarvasResource/map/map-02/">エウロン東地方</a></h3>
+<ul>
+<li>東の関所から<a href="https://taotao54321.github.io/JarvasResource/map/map-02/">キネラシア北西地方</a>へ。手形 0 となる。</li>
+</ul>
+<h3 id="kinerasiabei-xi-di-fang"><a href="https://taotao54321.github.io/JarvasResource/map/map-02/">キネラシア北西地方</a></h3>
+<ul>
+<li>手形を拾う。</li>
+<li>切り株ワープで<a href="https://taotao54321.github.io/JarvasResource/map/map-06/">キネラシア南地方</a>へ (外見は木だが、実際は切り株)。</li>
+</ul>
+<h3 id="kinerasianan-di-fang-1"><a href="https://taotao54321.github.io/JarvasResource/map/map-06/">キネラシア南地方</a></h3>
+<ul>
+<li>星のかけらを入手 (要: ハーモニカ)。</li>
+<li>石ワープで北西の半島へ。</li>
+<li>北の関所から<a href="https://taotao54321.github.io/JarvasResource/map/map-02/">エウロン東地方</a>へ。手形 0 となる。</li>
+</ul>
+<h3 id="eurondong-di-fang-1"><a href="https://taotao54321.github.io/JarvasResource/map/map-02/">エウロン東地方</a></h3>
+<ul>
+<li>手形を拾う。</li>
+<li>東の関所から<a href="https://taotao54321.github.io/JarvasResource/map/map-02/">キネラシア北西地方</a>へ。手形 0 となる。</li>
+</ul>
+<h3 id="kinerasiabei-xi-di-fang-1"><a href="https://taotao54321.github.io/JarvasResource/map/map-02/">キネラシア北西地方</a></h3>
+<ul>
+<li>手形を拾う。</li>
+<li>東の関所から<a href="https://taotao54321.github.io/JarvasResource/map/map-03/">キネラシア北東地方</a>へ。手形 0 となる。</li>
+</ul>
+<h3 id="kinerasiabei-dong-di-fang"><a href="https://taotao54321.github.io/JarvasResource/map/map-03/">キネラシア北東地方</a></h3>
+<ul>
+<li>ペイチンの町へ。
+<ul>
+<li>クエスト屋で星のかけらを売り、金 5000 入手。金 5000 となる。</li>
+<li>ギルドで手形を 1 枚買い、名声値を 98 上げる。名声値 110, 金 0, 手形 1 となる。</li>
+</ul>
+</li>
+<li>西の関所から<a href="https://taotao54321.github.io/JarvasResource/map/map-02/">キネラシア北西地方</a>へ。手形 0 となる。</li>
+</ul>
+<h3 id="kinerasiabei-xi-di-fang-2"><a href="https://taotao54321.github.io/JarvasResource/map/map-02/">キネラシア北西地方</a></h3>
+<ul>
+<li>切り株ワープで<a href="https://taotao54321.github.io/JarvasResource/map/map-06/">キネラシア南地方</a>へ。</li>
+</ul>
+<h3 id="kinerasianan-di-fang-2"><a href="https://taotao54321.github.io/JarvasResource/map/map-06/">キネラシア南地方</a></h3>
+<ul>
+<li>隊長を 200 加える。</li>
+<li>星のかけらを入手 (要: ハーモニカ)。</li>
+<li>石ワープで北西の半島へ。</li>
+<li>手形を拾う。</li>
+<li>西の関所から<a href="https://taotao54321.github.io/JarvasResource/map/map-05/">リカントス地方</a>へ。手形 0 となる。</li>
+</ul>
+<h3 id="rikantosudi-fang-1"><a href="https://taotao54321.github.io/JarvasResource/map/map-05/">リカントス地方</a></h3>
+<ul>
+<li>パタンの町へ。
+<ul>
+<li><a href="https://taotao54321.github.io/JarvasResource/map/map-13b/#event-240-150">惑いの宿</a>から<a href="https://taotao54321.github.io/JarvasResource/map/map-09/">タクテカ地方</a>へワープ。</li>
+</ul>
+</li>
+</ul>
+<p>手形を拾って関所から行くルートもあるが、惑いの宿を使う方が約 12 秒早い。</p>
+<h3 id="takutekadi-fang"><a href="https://taotao54321.github.io/JarvasResource/map/map-09/">タクテカ地方</a></h3>
+<ul>
+<li>手形を拾う。</li>
+<li>船小屋からタクテカ大陸へ。</li>
+<li>タクテカ城を制圧 (要: ハーモニカ)。隊長 100 となる。</li>
+<li>グルカ兵を 300 加える。</li>
+<li>船小屋から<a href="https://taotao54321.github.io/JarvasResource/map/map-10/">リングワールド地方</a>のマダガス島へ。</li>
+</ul>
+<h3 id="ringuwarudodi-fang"><a href="https://taotao54321.github.io/JarvasResource/map/map-10/">リングワールド地方</a></h3>
+<ul>
+<li>船小屋からリングワールド本島へ。</li>
+<li>将軍を 250 加える。</li>
+<li>船小屋から<a href="https://taotao54321.github.io/JarvasResource/map/map-11/">オシーランド地方</a>のジャバ島へ。</li>
+</ul>
+<h3 id="osirandodi-fang"><a href="https://taotao54321.github.io/JarvasResource/map/map-11/">オシーランド地方</a></h3>
+<ul>
+<li>石ワープでオシーランド大陸へ。
+このときの敵弾はロスなしに回避することはできないと思われる。レベル 1 格闘士の場合、26 ダメージ受ける (残HP 4)。</li>
+<li>海の涙を入手 (要: ハーモニカ)。</li>
+<li>十字氷からオシーランド城の島へワープ (要: 曼荼羅、海の涙)。</li>
+<li>オシーランド城を制圧 (要: 将軍 20, 隊長 100, グルカ兵 300)。将軍 125, グルカ兵 150 となる。</li>
+<li>切り株ワープで大陸へ戻る。</li>
+<li>クリスタルを入手。追尾型の敵が出現するため、飛び道具を食らいつつ適当に処理 (2 ダメージ受け、残HP 2)。</li>
+<li>志願兵を 50 加える。</li>
+<li>北の船小屋からニューの島へ。</li>
+<li>切り株ワープで<a href="https://taotao54321.github.io/JarvasResource/map/map-08/">ラタニア南地方</a>の南西の島へ。</li>
+</ul>
+<p>オシーランド城制圧後、隊長は不要となる。</p>
+<h3 id="ratanianan-di-fang-1"><a href="https://taotao54321.github.io/JarvasResource/map/map-08/">ラタニア南地方</a></h3>
+<ul>
+<li>骨ワープで大陸へ。</li>
+<li>アマゾネスを 800 加える。
+スクロール調整を行った上でラタニア城北の湧きブロックを利用する。ここは他の敵の湧きブロックと隣接しているが、TAS ならばアマゾネスだけを出すのは容易。</li>
+<li>ラタニア城を制圧 (要: 志願兵+傭兵+グルカ兵+アマゾネス 1000)。将軍 62, 志願兵 25, グルカ兵 75, アマゾネス 400 となる。</li>
+<li>アネイデアの町へ。ここまでに討伐数を 50 にしておく。
+<ul>
+<li>クエスト屋で<a href="https://taotao54321.github.io/JarvasResource/map/map-13b/#event-16-240">討伐クエスト</a>報酬の金 250 を得る。金 250 となる。</li>
+<li>ギルドで手形を 2 枚買い、兵力バグを 1 回行う。金 0, 手形 3 となる。
+兵力バグにより志願兵 1542, グルカ兵 4626 (, 傭兵 257) となる。</li>
+<li>クエスト屋の裏口を通り、船小屋から<a href="https://taotao54321.github.io/JarvasResource/map/map-05/">リカントス地方</a>へ。</li>
+</ul>
+</li>
+</ul>
+<p>ここでの手形購入は以前と同様に<a href="https://taotao54321.github.io/JarvasResource/map/map-06/">キネラシア南地方</a>、<a href="https://taotao54321.github.io/JarvasResource/map/map-02/">エウロン東地方</a>での手形拾いをカットするため。</p>
+<p>この後兵力バグをもう 1 回行うので、それまでは傭兵の兵力について考える必要はない (消耗により傭兵の兵力は 8bit に収まるが、<a href="https://taotao54321.github.io/blog/nes-jarvas-force-glitch/">兵力バグの計算式</a>において傭兵の兵力の下位バイトは無視されるため)。</p>
+<h3 id="rikantosudi-fang-2"><a href="https://taotao54321.github.io/JarvasResource/map/map-05/">リカントス地方</a></h3>
+<ul>
+<li>リカントス城を制圧 (要: グルカ兵 400, アマゾネス 400)。将軍 31, 志願兵 771 となる。</li>
+<li>魔道士を 250 集める。</li>
+<li>北東の関所から<a href="https://taotao54321.github.io/JarvasResource/map/map-06/">キネラシア南地方</a>へ。手形 2, 志願兵 675 となる。</li>
+</ul>
+<p>リカントス城制圧後、グルカ兵およびアマゾネスは不要となる。</p>
+<h3 id="kinerasianan-di-fang-3"><a href="https://taotao54321.github.io/JarvasResource/map/map-06/">キネラシア南地方</a></h3>
+<ul>
+<li>北の関所から<a href="https://taotao54321.github.io/JarvasResource/map/map-02/">エウロン東地方</a>へ。手形 1, 志願兵 591 となる。</li>
+</ul>
+<h3 id="eurondong-di-fang-2"><a href="https://taotao54321.github.io/JarvasResource/map/map-02/">エウロン東地方</a></h3>
+<ul>
+<li>東の関所から<a href="https://taotao54321.github.io/JarvasResource/map/map-02/">キネラシア北西地方</a>へ。手形 0, 志願兵 518 となる。</li>
+</ul>
+<h3 id="kinerasiabei-xi-di-fang-3"><a href="https://taotao54321.github.io/JarvasResource/map/map-02/">キネラシア北西地方</a></h3>
+<ul>
+<li>手形を拾う。</li>
+<li>東の関所から<a href="https://taotao54321.github.io/JarvasResource/map/map-03/">キネラシア北東地方</a>へ。手形 0, 志願兵 454 となる。</li>
+</ul>
+<h3 id="kinerasiabei-dong-di-fang-1"><a href="https://taotao54321.github.io/JarvasResource/map/map-03/">キネラシア北東地方</a></h3>
+<ul>
+<li>参謀を 250 加える。ペイチンの町から東の湧きブロックを利用する。ここは普通にやると地形的に効率が悪いが、スクロールさせてからセーブ-&gt;ロードすることで良い感じのスクロール調整ができる。</li>
+<li>ペイチンの町へ。
+<ul>
+<li>クエスト屋で海の涙を売り、金 5000 入手。金 5000 となる。</li>
+<li>ギルドで手形を 4 枚買い、兵力バグを 1 回行う。手形 4 となる。
+兵力バグにより傭兵 7196 となる。</li>
+<li>薬屋で薬を 1 個買う。</li>
+</ul>
+</li>
+<li>西の関所から<a href="https://taotao54321.github.io/JarvasResource/map/map-02/">キネラシア北西地方</a>へ。手形 3, 傭兵 6297 となる。</li>
+</ul>
+<p>ここで手形を多めに買うのは各所での手形拾いをカットするため (特に<a href="https://taotao54321.github.io/JarvasResource/map/map-06/">キネラシア南地方</a>での手形拾いは若干遠い)。</p>
+<p>これ以降は金は不要。また、志願兵も不要となる。</p>
+<h3 id="kinerasiabei-xi-di-fang-4"><a href="https://taotao54321.github.io/JarvasResource/map/map-02/">キネラシア北西地方</a></h3>
+<ul>
+<li>西の関所から<a href="https://taotao54321.github.io/JarvasResource/map/map-02/">エウロン東地方</a>へ。手形 2, 傭兵 5510 となる。</li>
+</ul>
+<h3 id="eurondong-di-fang-3"><a href="https://taotao54321.github.io/JarvasResource/map/map-02/">エウロン東地方</a></h3>
+<ul>
+<li>薬を使い、HPを 50 回復。以降、死なない範囲でゴリ押ししていく。</li>
+<li>エウロン城を制圧 (要: 将軍 30, 魔道士+参謀 500)。傭兵 2755 となる。</li>
+<li>南西の関所から<a href="https://taotao54321.github.io/JarvasResource/map/map-06/">キネラシア南地方</a>へ。手形 1, 傭兵 2411 となる。</li>
+</ul>
+<h3 id="kinerasianan-di-fang-4"><a href="https://taotao54321.github.io/JarvasResource/map/map-06/">キネラシア南地方</a></h3>
+<ul>
+<li>西の関所から<a href="https://taotao54321.github.io/JarvasResource/map/map-05/">リカントス地方</a>へ。手形 0, 傭兵 2110 となる。</li>
+</ul>
+<h3 id="rikantosudi-fang-3"><a href="https://taotao54321.github.io/JarvasResource/map/map-05/">リカントス地方</a></h3>
+<ul>
+<li>パタンの町へ。
+<ul>
+<li><a href="https://taotao54321.github.io/JarvasResource/map/map-12/#event-20-202">十字岩からキネラシア城へワープ</a> (要: 星のかけら)。</li>
+</ul>
+</li>
+</ul>
+<h3 id="kinerasiabei-xi-di-fang-5"><a href="https://taotao54321.github.io/JarvasResource/map/map-02/">キネラシア北西地方</a></h3>
+<ul>
+<li>キネラシア城を制圧 (要: クリスタル)。傭兵 1055 となる。</li>
+<li>手形を拾う。</li>
+<li>東の関所から<a href="https://taotao54321.github.io/JarvasResource/map/map-03/">キネラシア北東地方</a>へ。手形 0, 傭兵 924 となる。</li>
+</ul>
+<p>キネラシア城制圧後は2コン技で<a href="https://taotao54321.github.io/JarvasResource/map/map-00/">ユース地方</a>へ戻ることもできるが、ペイチンの町まで行って惑いの宿を使う方が約 6 秒早い。</p>
+<h3 id="kinerasiabei-dong-di-fang-2"><a href="https://taotao54321.github.io/JarvasResource/map/map-03/">キネラシア北東地方</a></h3>
+<ul>
+<li>ペイチンの町へ。
+<ul>
+<li><a href="https://taotao54321.github.io/JarvasResource/map/map-13b/#event-240-150">惑いの宿</a>から<a href="https://taotao54321.github.io/JarvasResource/map/map-00/">ユース地方</a>の南西の島へワープ。</li>
+</ul>
+</li>
+</ul>
+<h3 id="yusudi-fang-1"><a href="https://taotao54321.github.io/JarvasResource/map/map-00/">ユース地方</a></h3>
+<ul>
+<li>ユース城を制圧 (要: 傭兵 500)。</li>
+<li>エンディング。</li>
+</ul>
+</body>
+</html>

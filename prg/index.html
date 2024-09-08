@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <title>未来神話ジャーヴァス (FC) 攻略&#x2F;解析 -PRG-ROM</title>
+
+    <link rel="stylesheet" href="https://taotao54321.github.io/JarvasResource/css/main.css">
+</head>
+<body><header><a href="https://taotao54321.github.io/JarvasResource/">未来神話ジャーヴァス (FC) 攻略&#x2F;解析</a>
+            
+            </header>
+
+    <h1>PRG-ROM</h1>
+
+    <p>本作は<a href="https://www.nesdev.org/wiki/INES_Mapper_080">マッパー 80</a> である。
+このマッパーは機能的には 0x2000 バイト単位での PRG バンク切り替えが可能だが、本作では実質的に 0x4000 バイト単位で PRG バンクを切り替えている。よって、ここでも PRG バンクは 0x4000 バイト単位で扱う。</p>
+<p>CPU メモリマップは以下の通り:</p>
+<table><thead><tr><th>論理アドレス</th><th>内容</th></tr></thead><tbody>
+<tr><td><code>$8000-$BFFF</code></td><td>可変バンク領域</td></tr>
+<tr><td><code>$C000-$FFFF</code></td><td>固定バンク領域 (常に PRG 7 がマップされる)</td></tr>
+</tbody></table>
+<p>各 PRG バンクの概要は以下の通り (詳細はリンク先を参照):</p>
+<table><thead><tr><th>バンク</th><th>論理アドレス</th><th>内容</th></tr></thead><tbody>
+<tr><td><a href="https://taotao54321.github.io/JarvasResource/prg/prg-0/">PRG 0</a></td><td><code>$8000-$BFFF</code></td><td></td></tr>
+<tr><td><a href="https://taotao54321.github.io/JarvasResource/prg/prg-1/">PRG 1</a></td><td><code>$8000-$BFFF</code></td><td></td></tr>
+<tr><td><a href="https://taotao54321.github.io/JarvasResource/prg/prg-2/">PRG 2</a></td><td><code>$8000-$BFFF</code></td><td></td></tr>
+<tr><td><a href="https://taotao54321.github.io/JarvasResource/prg/prg-3/">PRG 3</a></td><td><code>$8000-$BFFF</code></td><td></td></tr>
+<tr><td><a href="https://taotao54321.github.io/JarvasResource/prg/prg-4/">PRG 4</a></td><td><code>$8000-$BFFF</code></td><td></td></tr>
+<tr><td><a href="https://taotao54321.github.io/JarvasResource/prg/prg-5/">PRG 5</a></td><td><code>$8000-$BFFF</code></td><td></td></tr>
+<tr><td><a href="https://taotao54321.github.io/JarvasResource/prg/prg-6/">PRG 6</a></td><td><code>$8000-$BFFF</code></td><td></td></tr>
+<tr><td><a href="https://taotao54321.github.io/JarvasResource/prg/prg-7/">PRG 7</a></td><td><code>$C000-$FFFF</code></td><td>汎用的なコード/データ</td></tr>
+</tbody></table>
+</body>
+</html>

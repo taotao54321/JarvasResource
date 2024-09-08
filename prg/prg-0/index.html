@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <title>未来神話ジャーヴァス (FC) 攻略&#x2F;解析 -PRG-ROM -PRG 0</title>
+
+    <link rel="stylesheet" href="https://taotao54321.github.io/JarvasResource/css/main.css">
+</head>
+<body><header><a href="https://taotao54321.github.io/JarvasResource/">未来神話ジャーヴァス (FC) 攻略&#x2F;解析</a>
+            
+                - 
+            <a href="https://taotao54321.github.io/JarvasResource/prg/">PRG-ROM</a>
+            
+            </header>
+
+    <h1>PRG 0</h1>
+
+    <p>論理アドレス <code>$8000-$BFFF</code> にマップされる PRG バンク。</p>
+<h2 id="memorimatupu">メモリマップ</h2>
+<table><thead><tr><th>アドレス</th><th>内容</th></tr></thead><tbody>
+<tr><td></td><td><span class="todo">TODO</span></td></tr>
+<tr><td><code>$B000-$B0EF</code></td><td>マップメタデータテーブル (マップIDをインデックスとする)</td></tr>
+<tr><td></td><td><span class="todo">TODO</span></td></tr>
+<tr><td><code>$B12C-$B13A</code></td><td>マップブロックデータテーブル</td></tr>
+<tr><td><code>$B13B-$B149</code></td><td>マップメタチップデータテーブル</td></tr>
+<tr><td><code>$B14A-$B15D</code></td><td><span class="todo">TODO</span>: スクロールマージンテーブル?</td></tr>
+<tr><td></td><td><span class="todo">TODO</span></td></tr>
+<tr><td><code>$B600</code></td><td>現在のマップに応じた CHR バンク切り替えを行うルーチン</td></tr>
+<tr><td><code>$B713</code></td><td>主人公のレベルアップ判定/処理ルーチン (レベル依存の値の再計算も行う)</td></tr>
+<tr><td><code>$B7B8</code></td><td>主人公の能力 (最大HP/力/耐久) を現在のレベルに応じて再計算するルーチン</td></tr>
+<tr><td><code>$B93C</code></td><td>主人公の習得魔法マスクを現在のレベルに応じて再計算するルーチン</td></tr>
+<tr><td><code>$B96B-$BFFF</code></td><td>(未使用)</td></tr>
+</tbody></table>
+</body>
+</html>

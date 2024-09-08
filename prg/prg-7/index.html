@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <title>未来神話ジャーヴァス (FC) 攻略&#x2F;解析 -PRG-ROM -PRG 7</title>
+
+    <link rel="stylesheet" href="https://taotao54321.github.io/JarvasResource/css/main.css">
+</head>
+<body><header><a href="https://taotao54321.github.io/JarvasResource/">未来神話ジャーヴァス (FC) 攻略&#x2F;解析</a>
+            
+                - 
+            <a href="https://taotao54321.github.io/JarvasResource/prg/">PRG-ROM</a>
+            
+            </header>
+
+    <h1>PRG 7</h1>
+
+    <p>論理アドレス <code>$C000-$FFFF</code> にマップされる PRG バンク。</p>
+<h2 id="memorimatupu">メモリマップ</h2>
+<table><thead><tr><th>アドレス</th><th>内容</th></tr></thead><tbody>
+<tr><td><code>$C000</code></td><td>タイトル画面の "CONTINUE" コマンドルーチン</td></tr>
+<tr><td><code>$C020</code></td><td>セーブデータへゲーム状態をセーブするルーチン</td></tr>
+<tr><td><code>$C10D</code></td><td>セーブデータが存在することを示す magic 文字列 (<code>"*INAGE*"</code>)</td></tr>
+<tr><td><code>$C114</code></td><td>セーブデータからゲーム状態をロードすることを試みるルーチン</td></tr>
+<tr><td><code>$C17C</code></td><td></td></tr>
+<tr><td><code>$C185</code></td><td></td></tr>
+<tr><td><code>$C195</code></td><td></td></tr>
+<tr><td><code>$C1DC</code></td><td>指定した標準コントローラーの生入力を読み取るルーチン (拡張ポートは無視される)<br><code>$C195</code> 下請け</td></tr>
+<tr><td><code>$C1FD</code></td><td></td></tr>
+<tr><td><code>$C23E</code></td><td>ゲームシーンルーチン</td></tr>
+<tr><td><code>$C2BB</code></td><td>NMI ハンドラ</td></tr>
+<tr><td><code>$C330</code></td><td>NMI: 1P生入力更新ルーチン (拡張ポート対応)</td></tr>
+<tr><td><code>$C34F</code></td><td>メインスレッド用の入力更新ルーチン (拡張ポート対応)</td></tr>
+<tr><td><code>$C375</code></td><td>メインスレッド用の1P生入力読み取りルーチン (拡張ポート対応)<br><code>$C34F</code> 下請け</td></tr>
+<tr><td><code>$C386</code></td><td>指定したネームテーブルを指定した値で埋めるルーチン<br><span class="xxx">バグ</span>: 実際には対象ネームテーブルから PPU アドレス <code>$3FFF</code> までの全領域が埋められてしまう</td></tr>
+<tr><td><code>$C39C</code></td><td>2コン技 (入力シーケンス UUDDABAB によりスタート地点へ戻る) の処理</td></tr>
+<tr><td><code>$C3D7</code></td><td>PPU アドレスインクリメントを +1 に設定する<br><code>$C386</code> 下請け</td></tr>
+<tr><td><code>$C3E4</code></td><td><code>$2006</code> (<code>PPU_ADDR</code>) に引数 <code>$F0</code> の値 (<code>u16le</code>) を設定する<br><code>$C386</code> 下請け</td></tr>
+<tr><td><code>$C3EF</code></td><td>(未使用ルーチン)</td></tr>
+<tr><td><code>$C3F5</code></td><td>ポーズ処理ルーチン</td></tr>
+<tr><td><code>$C41C</code></td><td></td></tr>
+<tr><td><code>$C434</code></td><td></td></tr>
+<tr><td><code>$C44E</code></td><td></td></tr>
+<tr><td><code>$C470</code></td><td>全スプライトを非表示にする (スプライトバッファ全体を 248 で埋める) ルーチン</td></tr>
+<tr><td><code>$C47B</code></td><td></td></tr>
+<tr><td></td><td><span class="todo">TODO</span></td></tr>
+<tr><td><code>$FE50</code></td><td>RESET ハンドラ</td></tr>
+<tr><td><code>$FE5D</code></td><td><code>$8000-$BFFF</code> の PRG バンクを切り替えるルーチン (バンクIDを引数 X で与える版)<br><span class="xxx">バグ</span>: PRG バンクID管理用変数 <code>$0442</code> には X でなく A の値が書き込まれる</td></tr>
+<tr><td><code>$FE6B</code></td><td><code>$8000-$BFFF</code> の PRG バンクを切り替えるルーチン (バンクIDを引数 A で与える版)</td></tr>
+<tr><td></td><td><span class="todo">TODO</span></td></tr>
+<tr><td><code>$FECC</code></td><td>簡易的な自己テストルーチン (失敗した場合、無限ループする)</td></tr>
+<tr><td><code>$FEFE</code></td><td>IRQ ハンドラ (単に <code>rti</code> するだけ)</td></tr>
+<tr><td></td><td><span class="todo">TODO</span></td></tr>
+<tr><td><code>$FFFA</code></td><td>割り込みベクタ</td></tr>
+</tbody></table>
+</body>
+</html>

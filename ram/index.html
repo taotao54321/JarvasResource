@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <title>未来神話ジャーヴァス (FC) 攻略&#x2F;解析 -RAM</title>
+
+    <link rel="stylesheet" href="https://taotao54321.github.io/JarvasResource/css/main.css">
+</head>
+<body><header><a href="https://taotao54321.github.io/JarvasResource/">未来神話ジャーヴァス (FC) 攻略&#x2F;解析</a>
+            
+            </header>
+
+    <h1>RAM</h1>
+
+    <p>本体内蔵 RAM に加え、カートリッジ側に Save RAM (<code>$7F80-$7FFF</code>) が存在する。
+Save RAM はセーブ/ロード時のみ有効化される。</p>
+<h2 id="memorimatupu">メモリマップ</h2>
+<table><thead><tr><th>アドレス</th><th>型</th><th>内容</th></tr></thead><tbody>
+<tr><td><code>$00</code></td><td><code>u8</code></td><td>現在のマップデータインデックス (<code>0..=15</code>)<br>マップIDとは異なる<br>SRAM テストルーチン内では雑用変数として使われる</td></tr>
+<tr><td><code>$01-$07</code></td><td></td><td>雑用</td></tr>
+<tr><td><code>$08</code></td><td><code>u8</code></td><td></td></tr>
+<tr><td><code>$09</code></td><td><code>ptr</code></td><td></td></tr>
+<tr><td><code>$0B</code></td><td><code>u8</code></td><td></td></tr>
+<tr><td><code>$0C</code></td><td><code>ptr</code></td><td></td></tr>
+<tr><td><code>$0E</code></td><td><code>u16le</code></td><td></td></tr>
+<tr><td><code>$10</code></td><td><code>u16le</code></td><td></td></tr>
+<tr><td><code>$12</code></td><td><code>u8</code></td><td></td></tr>
+<tr><td><code>$13</code></td><td><code>u8</code></td><td></td></tr>
+<tr><td><code>$14</code></td><td><code>u8</code></td><td><code>$2000</code> (<code>PPU_CTRL</code>) 管理用</td></tr>
+<tr><td><code>$15</code></td><td><code>u8</code></td><td><code>$2001</code> (<code>PPU_MASK</code>) 管理用</td></tr>
+<tr><td><code>$16</code></td><td><code>u8</code></td><td>NMI スレッドで読み取った1P生入力 (ABSTUDLR, 拡張ポート対応)<br>NMI ハンドラ内で毎回更新される</td></tr>
+<tr><td><code>$17</code></td><td><code>u8</code></td><td>メインスレッドで読み取った2P生入力 (ABSTUDLR, 拡張ポート対応)</td></tr>
+<tr><td><code>$18</code></td><td><code>u8</code></td><td>(<em>write-only</em>) 前回 NMI スレッドで読み取った1P生入力 (ABSTUDLR, 拡張ポート対応)</td></tr>
+<tr><td><code>$19</code></td><td><code>u8</code></td><td>前回メインスレッドで読み取った2P生入力 (ABSTUDLR, 拡張ポート対応)</td></tr>
+<tr><td><code>$1A</code></td><td><code>u8</code></td><td></td></tr>
+<tr><td><code>$1B</code></td><td><code>u8</code></td><td></td></tr>
+<tr><td><code>$1C-1D</code></td><td></td><td>(未使用)</td></tr>
+<tr><td><code>$1E</code></td><td><code>u8</code></td><td><code>$2005</code> (<code>PPU_SCROLL</code>) x 管理用</td></tr>
+<tr><td><code>$1F</code></td><td></td><td>(未使用)</td></tr>
+<tr><td><code>$20</code></td><td><code>u8</code></td><td><code>$2005</code> (<code>PPU_SCROLL</code>) y 管理用</td></tr>
+<tr><td><code>$21-$3B</code></td><td><code>u8[3][9]</code></td><td>現在のイベントリスト</td></tr>
+<tr><td><code>$3C</code></td><td><code>u8</code></td><td><span class="todo">TODO</span>: 入力関連</td></tr>
+<tr><td><code>$3D</code></td><td><code>u8</code></td><td><span class="todo">TODO</span>: 入力関連</td></tr>
+<tr><td><code>$3E-$53</code></td><td></td><td><span class="todo">TODO</span>: オーディオドライバ関連</td></tr>
+<tr><td><code>$54</code></td><td></td><td><span class="todo">TODO</span>: オーディオドライバ関連</td></tr>
+<tr><td><code>$55-$5D</code></td><td></td><td>(未使用)</td></tr>
+<tr><td><code>$5E</code></td><td><code>u8</code></td><td>NMI ハンドラ内で各種タスクを行うかどうか (0:false, 非0:true)<br>通常は常に true</td></tr>
+<tr><td><code>$5F-$62</code></td><td></td><td><span class="todo">TODO</span>: スクロールマージン関連</td></tr>
+<tr><td><code>$63</code></td><td></td><td>雑用</td></tr>
+<tr><td><code>$64</code></td><td><code>u8</code></td><td>スロットル処理において NMI 待ち中であるフラグ (0:false, 1:true)<br>NMI ハンドラが実行されると true になる</td></tr>
+<tr><td><code>$65</code></td><td><code>u8</code></td><td>ゲームシーンを 20fps で動かすためのスロットルカウンタ<br>NMI ハンドラ内で毎回インクリメントされ、メインスレッド側では mod 3 で扱われる</td></tr>
+<tr><td><code>$66-$6B</code></td><td></td><td>雑用</td></tr>
+<tr><td><code>$6C</code></td><td><code>u8</code></td><td>現在のイベントIDまたはワープ先ID</td></tr>
+<tr><td><code>$6D</code></td><td><code>u8</code></td><td><span class="todo">TODO</span>: イベント関連</td></tr>
+<tr><td><code>$6E</code></td><td><code>u8</code></td><td>メインスレッドで読み取った1P生入力 (ABSTUDLR, 拡張ポート対応)</td></tr>
+<tr><td><code>$6F</code></td><td><code>u8</code></td><td>前回メインスレッドで読み取った1P生入力 (ABSTUDLR, 拡張ポート対応)</td></tr>
+<tr><td><code>$70</code></td><td><code>u8</code></td><td></td></tr>
+<tr><td><code>$71</code></td><td><code>u8</code></td><td></td></tr>
+<tr><td><code>$72</code></td><td></td><td></td></tr>
+<tr><td><code>$73</code></td><td></td><td></td></tr>
+<tr><td><code>$74-$93</code></td><td><code>u8[0x20]</code></td><td>現在見ているアクター共用体をロードして操作するためのバッファ</td></tr>
+<tr><td><code>$94-$DF</code></td><td></td><td>(未使用)</td></tr>
+<tr><td><code>$E0</code></td><td><code>u8</code></td><td></td></tr>
+<tr><td><code>$E1</code></td><td><code>u8</code></td><td></td></tr>
+<tr><td><code>$E2-$E3</code></td><td></td><td></td></tr>
+<tr><td><code>$E4</code></td><td><code>u16le</code></td><td></td></tr>
+<tr><td><code>$E6-$E9</code></td><td></td><td>雑用</td></tr>
+<tr><td><code>$EA</code></td><td><code>u8</code></td><td>2 つのアトリビュートバッファのうちどちらを転送するか (0:A, 1:B)<br>転送を行うたびにトグルされる</td></tr>
+<tr><td><code>$EB</code></td><td><code>u8</code></td><td><code>$7EF6</code> (<a href="https://www.nesdev.org/wiki/INES_Mapper_080">マッパー 80</a> VRAM ミラーリング) 管理用</td></tr>
+<tr><td><code>$EC</code></td><td><code>u8</code></td><td>NMI を指定回数待つためのカウンタ<br>NMI ハンドラが PPU タスクを処理するたびにインクリメントされる<br>メインスレッド側では、たとえばこの変数を -2 (0xFE) に設定し、0 になるまで待つことで NMI を 2 回待てる</td></tr>
+<tr><td><code>$ED</code></td><td><code>u8</code></td><td><a href="https://taotao54321.github.io/JarvasResource/ram/#nmi-ppu-request">NMI スレッドに対する PPU タスク要求</a></td></tr>
+<tr><td><code>$EE</code></td><td></td><td></td></tr>
+<tr><td><code>$EF</code></td><td></td><td></td></tr>
+<tr><td><code>$F0-$FF</code></td><td></td><td>雑用</td></tr>
+<tr><td><code>$0100-$013F</code></td><td><code>u8[0x40]</code></td><td>アトリビュートバッファ A<br>転送先は常に <code>$23C0</code></td></tr>
+<tr><td><code>$0140-$017F</code></td><td><code>u8[0x40]</code></td><td>アトリビュートバッファ B<br>転送先は H ミラーなら <code>$2BC0</code>, V ミラーなら <code>$27C0</code></td></tr>
+<tr><td><code>$0180</code></td><td><code>u8</code></td><td><code>$1E</code> 退避用</td></tr>
+<tr><td><code>$0181</code></td><td><code>u8</code></td><td><code>$20</code> 退避用</td></tr>
+<tr><td><code>$0182</code></td><td><code>u8</code></td><td><code>$14</code> 退避用</td></tr>
+<tr><td><code>$0183-$01FF</code></td><td></td><td>スタック領域</td></tr>
+<tr><td><code>$0200-$02FF</code></td><td><code>Sprite[64]</code></td><td>スプライトバッファ</td></tr>
+<tr><td><code>$0300-$031F</code></td><td><code>u8[0x20]</code></td><td>主人公アクター構造体</td></tr>
+<tr><td><code>$0320-$03FF</code></td><td></td><td><span class="todo">TODO</span>: アクター共用体たち</td></tr>
+<tr><td><code>$0400</code></td><td><code>u8</code></td><td>主人公の現在HP</td></tr>
+<tr><td><code>$0401</code></td><td><code>u8</code></td><td>主人公の最大HP</td></tr>
+<tr><td><code>$0402</code></td><td><code>u8</code></td><td>主人公の力 (作戦画面での表記は「こうげき」)</td></tr>
+<tr><td><code>$0403</code></td><td><code>u8</code></td><td>主人公の耐久 (作戦画面での表記は「ぼうぎょ」)</td></tr>
+<tr><td><code>$0404</code></td><td><code>u16le</code></td><td>主人公の経験値</td></tr>
+<tr><td><code>$0406</code></td><td><code>u8</code></td><td>主人公のレベル</td></tr>
+<tr><td><code>$0407</code></td><td><code>u8</code></td><td>主人公の名声値</td></tr>
+<tr><td><code>$0408</code></td><td><code>u16le</code></td><td>所持金</td></tr>
+<tr><td><code>$040A</code></td><td><code>u8</code></td><td>薬所持数</td></tr>
+<tr><td><code>$040B</code></td><td><code>u8</code></td><td>手形所持数</td></tr>
+<tr><td><code>$040C</code></td><td><code>u8</code></td><td>兵力: 将軍</td></tr>
+<tr><td><code>$040D</code></td><td><code>u8</code></td><td>兵力: 隊長</td></tr>
+<tr><td><code>$040E</code></td><td><code>u8</code></td><td>兵力: 魔道士</td></tr>
+<tr><td><code>$040F</code></td><td><code>u8</code></td><td>兵力: 参謀</td></tr>
+<tr><td><code>$0410</code></td><td><code>u8</code></td><td>兵力: 医師団</td></tr>
+<tr><td><code>$0411</code></td><td><code>u16le</code></td><td>兵力: 志願兵</td></tr>
+<tr><td><code>$0413</code></td><td><code>u16le</code></td><td>兵力: 傭兵</td></tr>
+<tr><td><code>$0415</code></td><td><code>u16le</code></td><td>兵力: グルカ兵</td></tr>
+<tr><td><code>$0417</code></td><td><code>u16le</code></td><td>兵力: アマゾネス</td></tr>
+<tr><td><code>$0419</code></td><td><code>u8</code></td><td>主人公の職業 (0:無職, 1:剣術士, 2:格闘士, 3:魔術師)</td></tr>
+<tr><td><code>$041A</code></td><td><code>u8</code></td><td>主人公の近接武器</td></tr>
+<tr><td><code>$041B</code></td><td><code>u8</code></td><td>主人公の防具</td></tr>
+<tr><td><code>$041C</code></td><td><code>u8</code></td><td>主人公の遠隔武器</td></tr>
+<tr><td><code>$041D</code></td><td><code>u8</code></td><td>ゲームシーンにおける B キーの機能 (0:コマンドメニュー, 1:遠隔攻撃)</td></tr>
+<tr><td><code>$041E</code></td><td><code>u8</code></td><td></td></tr>
+<tr><td><code>$041F</code></td><td><code>u8</code></td><td>所持道具マスク (bit0:ハーモニカ, bit1:曼荼羅, bit2:スコープ, bit3:クリスタル, bit4:ベルト)</td></tr>
+<tr><td><code>$0420</code></td><td><code>u8</code></td><td>主人公の習得魔法マスク (bit0:でほると, bit1:まんぴー, bit2:とらんじ, bit3:すらっぷ, bit4:へりおん, bit5:くるすく)<br>魔法は職業が魔術師でないと使えないが、この値の計算自体は職業によらず行われる</td></tr>
+<tr><td><code>$0421</code></td><td><code>u8</code></td><td>占領地マスク (bit0:ユース, bit1:ラタニア, bit2:リカントス, bit3:タクテカ, bit4:オシーランド, bit5:エウロン, bit6:キネラシア)</td></tr>
+<tr><td><code>$0422</code></td><td><code>u8</code></td><td>精霊ワープ習得マスク (bit0:石, bit1:骨, bit2:木, bit3:切り株)</td></tr>
+<tr><td><code>$0423</code></td><td><code>u8</code></td><td>各種洞窟の解錠マスク (bit0:ラモン洞, bit1:バンス洞, bit2:リカルド洞, bit3:パタン洞)</td></tr>
+<tr><td><code>$0424</code></td><td><code>u8</code></td><td></td></tr>
+<tr><td><code>$0425</code></td><td><code>u8</code></td><td><a href="https://taotao54321.github.io/JarvasResource/ram/#quest">クエスト</a>: 壺</td></tr>
+<tr><td><code>$0426</code></td><td><code>u8</code></td><td><a href="https://taotao54321.github.io/JarvasResource/ram/#quest">クエスト</a>: どくろばな</td></tr>
+<tr><td><code>$0427</code></td><td><code>u8</code></td><td><a href="https://taotao54321.github.io/JarvasResource/ram/#quest">クエスト</a>: モンスター 50 体討伐 (アネイデアの町のクエスト屋)</td></tr>
+<tr><td><code>$0428</code></td><td><code>u8</code></td><td><a href="https://taotao54321.github.io/JarvasResource/ram/#quest">クエスト</a>: ひかりごけ</td></tr>
+<tr><td><code>$0429</code></td><td><code>u8</code></td><td><a href="https://taotao54321.github.io/JarvasResource/ram/#quest">クエスト</a>: 金貨</td></tr>
+<tr><td><code>$042A</code></td><td><code>u8</code></td><td><a href="https://taotao54321.github.io/JarvasResource/ram/#quest">クエスト</a>: ダイヤ</td></tr>
+<tr><td><code>$042B</code></td><td><code>u8</code></td><td><a href="https://taotao54321.github.io/JarvasResource/ram/#quest">クエスト</a>: 浮遊石</td></tr>
+<tr><td><code>$042C</code></td><td><code>u8</code></td><td><a href="https://taotao54321.github.io/JarvasResource/ram/#quest">クエスト</a>: 黒真珠</td></tr>
+<tr><td><code>$042D</code></td><td><code>u8</code></td><td><a href="https://taotao54321.github.io/JarvasResource/ram/#quest">クエスト</a>: 象牙</td></tr>
+<tr><td><code>$042E</code></td><td><code>u8</code></td><td><a href="https://taotao54321.github.io/JarvasResource/ram/#quest">クエスト</a>: モンスター 100 体討伐 (リカルドの町のクエスト屋)</td></tr>
+<tr><td><code>$042F</code></td><td><code>u8</code></td><td><a href="https://taotao54321.github.io/JarvasResource/ram/#quest">クエスト</a>: 財布</td></tr>
+<tr><td><code>$0430</code></td><td><code>u8</code></td><td><a href="https://taotao54321.github.io/JarvasResource/ram/#quest">クエスト</a>: 悪魔の角</td></tr>
+<tr><td><code>$0431</code></td><td><code>u8</code></td><td><a href="https://taotao54321.github.io/JarvasResource/ram/#quest">クエスト</a>: サイの足跡</td></tr>
+<tr><td><code>$0432</code></td><td><code>u8</code></td><td><a href="https://taotao54321.github.io/JarvasResource/ram/#quest">クエスト</a>: なくしたハート</td></tr>
+<tr><td><code>$0433</code></td><td><code>u8</code></td><td><a href="https://taotao54321.github.io/JarvasResource/ram/#quest">クエスト</a>: 海の涙</td></tr>
+<tr><td><code>$0434</code></td><td><code>u8</code></td><td><a href="https://taotao54321.github.io/JarvasResource/ram/#quest">クエスト</a>: 風の粉</td></tr>
+<tr><td><code>$0435</code></td><td><code>u8</code></td><td><a href="https://taotao54321.github.io/JarvasResource/ram/#quest">クエスト</a>: 金のリボン</td></tr>
+<tr><td><code>$0436</code></td><td><code>u8</code></td><td><a href="https://taotao54321.github.io/JarvasResource/ram/#quest">クエスト</a>: 星のかけら</td></tr>
+<tr><td><code>$0437</code></td><td><code>u8</code></td><td>現在のマップID</td></tr>
+<tr><td><code>$0438-$043B</code></td><td><code>u8[4]</code></td><td><code>$0303-$0306</code> セーブ/ロード用中間バッファ</td></tr>
+<tr><td><code>$043C-$043F</code></td><td><code>u8[4]</code></td><td><code>$0E-$11</code> セーブ/ロード用中間バッファ</td></tr>
+<tr><td><code>$0440</code></td><td><code>u8</code></td><td><code>$00</code> セーブ/ロード用中間バッファ</td></tr>
+<tr><td><code>$0441</code></td><td><code>u8</code></td><td><code>$031B</code> セーブ/ロード用中間バッファ</td></tr>
+<tr><td><code>$0442</code></td><td><code>u8</code></td><td><a href="https://www.nesdev.org/wiki/INES_Mapper_080">マッパー 80</a> <code>$8000-$BFFF</code> の PRG バンクID (0x4000 バイト単位) 管理用</td></tr>
+<tr><td><code>$0443</code></td><td><code> </code></td><td></td></tr>
+<tr><td><code>$0444</code></td><td><code> </code></td><td></td></tr>
+<tr><td><code>$0445</code></td><td></td><td>(未使用)</td></tr>
+<tr><td><code>$0446-$0447</code></td><td></td><td></td></tr>
+<tr><td><code>$0448</code></td><td></td><td></td></tr>
+<tr><td><code>$0449</code></td><td><code>u8</code></td><td>NMI カウンタ (NMI ハンドラの呼び出しごとにインクリメントされる)</td></tr>
+<tr><td><code>$044A</code></td><td></td><td>雑用</td></tr>
+<tr><td><code>$044B</code></td><td><code>u8</code></td><td>現在発動中の持続魔法 (0:(なし), 1:まんぴー, 2:すらっぷ, 3:へりおん)</td></tr>
+<tr><td><code>$044C-$044D</code></td><td></td><td></td></tr>
+<tr><td><code>$044E</code></td><td><code>u8</code></td><td>魔法「へりおん」発動直前の主人公の元の力</td></tr>
+<tr><td><code>$044F</code></td><td><code>u8</code></td><td>魔法「すらっぷ」発動直前の主人公の元の耐久</td></tr>
+<tr><td><code>$0450</code></td><td><code>u8</code></td><td>スタート地点に戻る2コン技 (UUDDABAB) の現在の入力インデックス</td></tr>
+<tr><td><code>$0451</code></td><td><code>i16le</code></td><td>持続魔法の残り時間カウンタ<br>負数で初期化され、負のとき NMI ハンドラ内で毎回インクリメントされ、0 になると持続魔法の効果が切れる</td></tr>
+<tr><td><code>$0453-$0491</code></td><td></td><td>(未使用)</td></tr>
+<tr><td><code>$0492-$0496</code></td><td></td><td></td></tr>
+<tr><td><code>$0497</code></td><td><code>u8</code></td><td>戦力画面における助言内容選択用カウンタ (mod 4 で扱われる)<br>助言を聞くたびにインクリメントされる</td></tr>
+<tr><td><code>$0498-$049F</code></td><td></td><td>(未使用)</td></tr>
+<tr><td><code>$04A0-$04EB</code></td><td><code>code</code></td><td><span class="todo">TODO</span>: オーディオドライバ用 RAM コード領域<br><code>lda $????,x; rts</code> が 19 個並んでいる</td></tr>
+<tr><td><code>$04EC-$04FF</code></td><td></td><td>(未使用)</td></tr>
+<tr><td><code>$0500-$05EF</code></td><td></td><td><span class="todo">TODO</span>: 地形バッファ</td></tr>
+<tr><td><code>$05F0-$05FF</code></td><td></td><td>(未使用)</td></tr>
+<tr><td><code>$0600-$0603</code></td><td></td><td>雑用</td></tr>
+<tr><td><code>$0604</code></td><td><code>u8</code></td><td>次のテキスト出力位置のタイルテーブル内タイル座標x</td></tr>
+<tr><td><code>$0605</code></td><td><code>u8</code></td><td>次のテキスト出力位置のタイルテーブル内タイル座標y</td></tr>
+<tr><td><code>$0606</code></td><td><code>u8</code></td><td>次のテキスト出力位置のタイルテーブルID (<code>0..=1</code>, V ミラーを仮定)</td></tr>
+<tr><td><code>$0607</code></td><td></td><td>雑用</td></tr>
+<tr><td><code>$0608</code></td><td><code>u8</code></td><td>カーソルが最上段にあるときのカーソルスプライト座標y</td></tr>
+<tr><td><code>$0609</code></td><td><code>u8</code></td><td>現在のカーソルスプライトタイルID</td></tr>
+<tr><td><code>$060A-$060F</code></td><td></td><td>(未使用)</td></tr>
+<tr><td><code>$0610-$0611</code></td><td></td><td>雑用</td></tr>
+<tr><td><code>$0612</code></td><td><code>u8</code></td><td>メッセージウィンドウ内部左上隅のスクリーン内タイル座標x</td></tr>
+<tr><td><code>$0613</code></td><td><code>u8</code></td><td>メッセージウィンドウ内部左上隅のスクリーン内タイル座標y</td></tr>
+<tr><td><code>$0614</code></td><td><code>u8</code></td><td>メッセージウィンドウ幅 (外枠含む) のインデックス (1:8タイル, 2:16タイル, 3:24タイル)</td></tr>
+<tr><td><code>$0615</code></td><td></td><td>雑用</td></tr>
+<tr><td><code>$0616-$0635</code></td><td><code>u8[32]</code></td><td>BG上へ 1 行のタイル列を転送要求する際のバッファ</td></tr>
+<tr><td><code>$0636-$063D</code></td><td></td><td></td></tr>
+<tr><td><code>$063E</code></td><td></td><td>雑用</td></tr>
+<tr><td><code>$063F</code></td><td></td><td></td></tr>
+<tr><td><code>$0640</code></td><td></td><td>雑用</td></tr>
+<tr><td><code>$0641</code></td><td></td><td></td></tr>
+<tr><td><code>$0642</code></td><td></td><td>雑用</td></tr>
+<tr><td><code>$0643-$0648</code></td><td></td><td></td></tr>
+<tr><td><code>$0649-$064D</code></td><td></td><td>雑用</td></tr>
+<tr><td><code>$064E-$0653</code></td><td></td><td></td></tr>
+<tr><td><code>$0654</code></td><td><code>u8</code></td><td>メッセージウェイトタイマー (NMI ハンドラが呼ばれるたびにデクリメントされる)</td></tr>
+<tr><td><code>$0655-$0659</code></td><td></td><td></td></tr>
+<tr><td><code>$065A-$065E</code></td><td></td><td>雑用</td></tr>
+<tr><td><code>$065F</code></td><td></td><td>(未使用)</td></tr>
+<tr><td><code>$0660</code></td><td><code>u8</code></td><td>作戦画面/戦力画面へのテキスト出力位置のタイル座標x</td></tr>
+<tr><td><code>$0661</code></td><td><code>u8</code></td><td>作戦画面/戦力画面へのテキスト出力位置のタイル座標y</td></tr>
+<tr><td><code>$0662-$0663</code></td><td></td><td>雑用</td></tr>
+<tr><td><code>$0664</code></td><td></td><td>(<em>write-only</em>)</td></tr>
+<tr><td><code>$0665</code></td><td></td><td>(<em>write-only</em>)</td></tr>
+<tr><td><code>$0666-$0667</code></td><td></td><td>(未使用)</td></tr>
+<tr><td><code>$0668-$066C</code></td><td></td><td>雑用</td></tr>
+<tr><td><code>$066D-$0670</code></td><td></td><td></td></tr>
+<tr><td><code>$0671</code></td><td><code>u8</code></td><td>直前にコマンドメニューで決定したコマンド (0:(キャンセル), 1:はなす, 2:なかま, 3:まほう, 4:どうぐ, 5:たんさく, 6:ようす)</td></tr>
+<tr><td><code>$0672</code></td><td><code>u8</code></td><td>コマンドメニュー「まほう」「どうぐ」の引数 (対象となる魔法ID/道具ID)</td></tr>
+<tr><td><code>$0673</code></td><td></td><td>雑用</td></tr>
+<tr><td><code>$0674-$06AF</code></td><td></td><td>(未使用)</td></tr>
+<tr><td><code>$06B0-$06DF</code></td><td></td><td></td></tr>
+<tr><td><code>$06E0</code></td><td></td><td></td></tr>
+<tr><td><code>$06E1</code></td><td></td><td></td></tr>
+<tr><td><code>$06E2</code></td><td><code>u8</code></td><td></td></tr>
+<tr><td><code>$06E3-$06E5</code></td><td></td><td></td></tr>
+<tr><td><code>$06E6</code></td><td><code>u8</code></td><td>バトル開始直前の主人公の元のHP</td></tr>
+<tr><td><code>$06E7</code></td><td></td><td>(未使用)</td></tr>
+<tr><td><code>$06E8</code></td><td><code>u8</code></td><td>敵が不可視かどうか (0:false, 1:true)<br>特定のマップでのみ意味を持つ<br>魔法「とらんじ」または道具「すこーぷ」を使うと false になる</td></tr>
+<tr><td><code>$06E9-$06EF</code></td><td></td><td>(未使用)</td></tr>
+<tr><td><code>$06F0</code></td><td><code>u8</code></td><td></td></tr>
+<tr><td><code>$06F1-$06FF</code></td><td></td><td></td></tr>
+<tr><td><code>$0700-$073F</code></td><td><code>u8[0x40]</code></td><td>横方向 PPU データ転送キュー A</td></tr>
+<tr><td><code>$0740-$077F</code></td><td><code>u8[0x40]</code></td><td>横方向 PPU データ転送キュー B</td></tr>
+<tr><td><code>$0780-$07BF</code></td><td><code>u8[0x40]</code></td><td>縦方向 PPU データ転送キュー A</td></tr>
+<tr><td><code>$07C0-$07FF</code></td><td><code>u8[0x40]</code></td><td>縦方向 PPU データ転送キュー B</td></tr>
+<tr><td><code>$7F80</code></td><td><code>u8</code></td><td><span class="todo">TODO</span>: SRAM テスト関連</td></tr>
+<tr><td><code>$7F81-$7F87</code></td><td><code>u8[7]</code></td><td>セーブデータが存在することを示す magic 文字列 (<code>"*INAGE*"</code>) が書き込まれる</td></tr>
+<tr><td><code>$7F88-$7FC9</code></td><td><code>u8[66]</code></td><td>セーブデータ本体</td></tr>
+<tr><td><code>$7FCA</code></td><td><code>u8</code></td><td>セーブデータのチェックサム (セーブデータ本体 <code>$7F88-$7FC9</code> の <code>u8</code> 総和)</td></tr>
+<tr><td><code>$7FCB-$7FFE</code></td><td></td><td>(未使用)</td></tr>
+<tr><td><code>$7FFF</code></td><td><code>u8</code></td><td><span class="todo">TODO</span>: SRAM テスト関連</td></tr>
+</tbody></table>
+<h2 id="xiang-xi">詳細</h2>
+<h3 id="nmi-ppu-request"><code>$ED</code> - NMI スレッドに対する PPU タスク要求</h3>
+<ul>
+<li>0 の場合、アトリビュートバッファを転送 (2 つのアトリビュートバッファに対して交互に行われる)。</li>
+<li>bit1 が 1 の場合、縦方向 PPU データ転送キュー (<code>$0780</code>, <code>$07C0</code>) の内容を転送。
+転送終了後、この変数は 0 になる。</li>
+<li>bit0 が 1 の場合、横方向 PPU データ転送キュー (<code>$0700</code>, <code>$0740</code>) の内容を転送。
+転送終了後、この変数の bit0 が 0 になる。</li>
+</ul>
+<h3 id="quest"><code>$0425-$0436</code> - クエスト進行状況値</h3>
+<p>bit7 はクエストを請けているかどうかのフラグ (0:false, 1:true)。
+bit0-6 はクエストの内容により意味が異なる:</p>
+<ul>
+<li>アイテム探しクエストの場合、bit0 が対象アイテムを持っているかどうかのフラグ (0:false, 1:true)。bit1-6 は常に 0。</li>
+<li>モンスター討伐クエストの場合、bit0-6 が討伐数 (0x7F で飽和)。</li>
+</ul>
+</body>
+</html>
